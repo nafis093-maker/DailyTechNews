@@ -1,40 +1,40 @@
-Subject: THE BITSTREAM — IT Daily, Tue Jun 02, 2026 (205 stories)
+Subject: THE BITSTREAM — IT Daily, Tue Jun 02, 2026 (160 stories)
 
 Good morning,
 
-Today's IT briefing — 205 stories across 6 beats. Full edition (with working links) attached as PDF.
+Today's IT briefing — 160 stories across 6 beats. Full edition (with working links) attached as PDF.
 
-LEAD — Name That Toon Contest
-  (Dark Reading)
+LEAD — Frore System’s solid-state AirJet Mini cools Intel’s Wildcat Lake laptop reference design – 15W of sustained, fanless cooling helps MacBook Neo competitor reach a svelte 11.3 mm, remain silent
+Frore has worked with Intel to feature its AirJet solid-state cooling chip inside its much-hyped Wildcat Lake reference laptop. These laptops will need to stay slim, quiet, and affordable if they want to compete with the MacBook Neo, and the AirJet should help Intel fight Apple on at least two of those fronts.  (Tom's Hardware)
 
 AI & MACHINE LEARNING
-  • I tried replacing 30 minutes of scrolling with ChatGPT-generated real-world challenges — and it changed my evenings (TechRadar)
+  • AR glasses are here – and displays are defining their future (TechRadar)
+  • Michael Burry says neither SpaceX nor Anthropic is worth $1T (Hacker News)
   • Claude is down for many — here's what we know about the outage (TechRadar)
-  • How small businesses can leverage AI (MIT Tech Review)
 
 CYBERSECURITY
-  • [An RX Global Event] Infosecurity Europe (Dark Reading)
   • Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT (The Hacker News)
   • Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded (The Hacker News)
+  • Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks (BleepingComputer)
 
 HARDWARE & CHIPS
-  • Frore System’s solid-state AirJet Mini cools Intel’s Wildcat Lake laptop reference design – 15W of sustained, fanless cooling helps MacBook Neo competitor reach a svelte 11.3 mm, remain silent (Tom's Hardware)
-  • Teen’s Bluetooth speaker named ‘BOMB’ caused a 10-hour delay on flight from Newark to Spain — passenger reported concerns to flight attendant at 32,000 feet, forcing plane back to the US (Tom's Hardware)
+  • AMD ‘had to re-engineer’ the Ryzen 7 5800X3D for a re-release — 10th Anniversary Edition chip had ‘a whole body of engineering work’ put into it (Tom's Hardware)
+  • Intel Arc G3 interview transcript — Intel's Senior Product Director talks new handheld chips, Arrow Lake Refresh, and RTX Spark (Tom's Hardware)
   • Intel says 'something has to give' with memory prices — company says it 'will continue to make sure that there are products which can take care of older memory technologies' (Tom's Hardware)
 
 SOFTWARE & DEV
-  • Why Janet? (Hacker News)
+  • CSS-Native Parallax Effect (Hacker News)
+  • Adafruit Receives Demand Letter from Fenwick Legal Counsel on Behalf of Flux.ai (Hacker News)
   • Article: Why Vector Search Alone Isn't Enough: Hybrid Retrieval for RAG (InfoQ)
-  • Not Every Byte Gets a Vote (Hacker News)
 
 BUSINESS & BIG TECH
   • How to make the Startup Battlefield Top 20 — and what every company gets regardless (TechCrunch)
   • Defense tech darling Mach Industries hits $1.8B valuation, a 4x jump in a year (TechCrunch)
-  • Why cats prefer silver vine to catnip and other May highlights (Ars Technica)
+  • From the stage to the future: Where are Startup Battlefield’s alumni now? (TechCrunch)
 
 GADGETS & CONSUMER
-  • Thousands of compromised websites abused by DriveSurge in active ClickFix and FakeUpdates campaigns (TechRadar)
+  • Fitness trackers are back — hot on the heels of the Google Fitbit Air, Samsung is reportedly launching a new Galaxy Fit (TechRadar)
   • 'Nobody had dared try to solve it... until us!' — MQ Wang on how his company Zero Zero Robotics invented the world's first waterproof drone (TechRadar)
   • I was amazed by the performance of the Xiaomi 17T — and only a few drawbacks spoil this otherwise great-value Android phone (TechRadar)
 
-— THE BITSTREAM, auto-compiled 2026-06-02 10:16
+— THE BITSTREAM, auto-compiled 2026-06-02 10:50
