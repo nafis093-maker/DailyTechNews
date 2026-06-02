@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# local build output (the committed editions/ + index.html ARE tracked)
+public/
+*.log
+.DS_Store

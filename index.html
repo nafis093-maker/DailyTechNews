@@ -1,0 +1,363 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE BITSTREAM — Monday, June 1, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4efe3; --paper-2:#ece5d4; --panel:#f9f5ec;
+  --ink:#1b1714; --ink-2:#5a5147; --ink-3:#8a7f70;
+  --accent:#bf3b1c; --accent-2:#16433b;
+  --rule:#d8cdb6; --rule-strong:#1b1714;
+  --backdrop:#26221d;
+  --serif:"Newsreader",Georgia,serif;
+  --display:"Fraunces","Newsreader",Georgia,serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--backdrop);
+  font-family:var(--serif);color:var(--ink);
+  line-height:1.55;padding:28px 16px;
+  background-image:radial-gradient(circle at 20% 0,rgba(255,255,255,.04),transparent 60%);
+}
+.page{
+  max-width:1180px;margin:0 auto;background:var(--paper);
+  padding:clamp(22px,4vw,60px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.2);
+  position:relative;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(120,100,70,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(circle at 80% 10%,rgba(191,59,28,.04),transparent 45%);
+}
+a{color:inherit;text-decoration:none}
+
+/* ---- folio bar ---- */
+.folio{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-2);
+  border-bottom:1px solid var(--rule);padding-bottom:10px;flex-wrap:wrap;gap:6px;
+}
+.folio .dot{color:var(--accent)}
+
+/* ---- masthead ---- */
+.masthead{text-align:center;padding:30px 0 16px;border-bottom:3px double var(--rule-strong)}
+.masthead h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(44px,11vw,128px);line-height:.9;letter-spacing:-.02em;
+  font-optical-sizing:auto;
+}
+.masthead .tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:16px;
+}
+.dateline{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;
+}
+
+/* ---- kickers ---- */
+.kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;display:inline-block;
+}
+.section-head{
+  display:flex;align-items:center;gap:16px;margin:46px 0 22px;
+}
+.section-head h2{
+  font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;
+  white-space:nowrap;color:var(--ink);font-weight:700;
+}
+.section-head .line{flex:1;height:1px;background:var(--rule-strong)}
+.section-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+
+/* ---- lead ---- */
+.lead{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
+.lead .kicker{margin-bottom:14px}
+.lead h2{
+  font-family:var(--display);font-weight:800;letter-spacing:-.015em;
+  font-size:clamp(30px,5.4vw,62px);line-height:1.02;margin-bottom:18px;
+}
+.lead h2 a{background-image:linear-gradient(var(--accent),var(--accent));
+  background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.lead h2 a:hover{background-size:100% 2px}
+.lead .dek{font-size:clamp(17px,2.2vw,22px);color:var(--ink-2);
+  font-style:italic;max-width:60ch;margin-bottom:18px}
+.lead .body{columns:2;column-gap:42px;font-size:16px}
+.lead .body p{margin-bottom:12px;break-inside:avoid}
+.lead .body p:first-child::first-letter{
+  font-family:var(--display);font-weight:900;float:left;font-size:74px;
+  line-height:.72;padding:6px 10px 0 0;color:var(--accent)}
+.byline{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:14px}
+.byline a{border-bottom:1px solid var(--accent);color:var(--accent)}
+
+/* ---- grids ---- */
+.frontpage{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.frontpage .story{padding:20px;border-right:1px solid var(--rule)}
+.frontpage .story:last-child{border-right:none}
+.beat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 32px}
+
+.story .kicker{font-size:10px;margin-bottom:9px}
+.story h3{font-family:var(--display);font-weight:700;font-size:21px;
+  line-height:1.12;letter-spacing:-.01em;margin-bottom:8px}
+.story h3 a{background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.story h3 a:hover{background-size:100% 1px}
+.story p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.story .src{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3)}
+.story .src b{color:var(--accent);font-weight:700}
+
+/* a few editorial 2-col beats get a leading wide story */
+.beat-grid.lead-left{grid-template-columns:1.6fr 1fr 1fr}
+
+/* ---- colophon ---- */
+.colophon{margin-top:54px;border-top:3px double var(--rule-strong);padding-top:20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  line-height:1.7}
+.colophon b{color:var(--ink)}
+.sources-list{margin-top:8px;color:var(--ink-2)}
+
+/* ---- entrance animation ---- */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .frontpage{grid-template-columns:repeat(2,1fr)}
+  .frontpage .story:nth-child(2n){border-right:none}
+  .beat-grid,.beat-grid.lead-left{grid-template-columns:1fr 1fr}
+  .lead .body{columns:1}
+}
+@media(max-width:560px){
+  .frontpage,.beat-grid,.beat-grid.lead-left{grid-template-columns:1fr}
+  .frontpage .story{border-right:none;border-bottom:1px solid var(--rule)}
+}
+</style></head><body><main class="page"><div class="folio">
+      <span>Monday, June 1, 2026</span>
+      <span>Vol. I <span class="dot">·</span> No. 001</span>
+      <span>24 stories <span class="dot">·</span> 17 sources</span>
+    </div><header class="masthead reveal">
+      <h1>THE BITSTREAM</h1>
+      <div class="tag">An IT &amp; Technology Daily — automatically compiled</div>
+      <div class="dateline">
+        <span>Auto-compiled edition</span><span>Tech wire</span>
+        <span>Monday, June 1, 2026</span>
+      </div>
+    </header><section class="lead reveal" style="animation-delay:.05s">
+  <span class="kicker">Lead Story &nbsp;·&nbsp; Hardware &amp; Chips</span>
+  <h2><a href="https://www.tomsguide.com/news/live/computex-2026" target="_blank" rel="noopener">Nvidia Steps Onto the Taipei Stage, Chasing &#x27;a New Era of PC&#x27;</a></h2>
+  <div class="body"><p>Jensen Huang opened Nvidia&#x27;s Computex 2026 keynote at the Taipei Music Center on Monday, where the company, Microsoft and Arm have spent a week teasing &#x27;a new era of PC.&#x27; The long-rumored payoff is the N1X, an Arm-based laptop processor co-developed with MediaTek that folds in Nvidia&#x27;s Blackwell graphics. Leaks describe a roughly 20-core design with about 6,144 CUDA cores and a 45 to 80-watt envelope, alongside a</p><p>leaner N1 for thin-and-light machines. Dell, Lenovo and ASUS are expected to ship the first N1X notebooks, with analysts bracing for premium pricing north of 1,400 dollars. If it delivers, it would be Nvidia&#x27;s first consumer CPU since the Tegra era and a direct shot at Qualcomm&#x27;s hold on Windows on Arm. Microsoft Build, running June 2 to 3, should fill in the software half of the story.</p></div>
+  <div class="byline">Filed by <a href="https://www.tomsguide.com/news/live/computex-2026" target="_blank" rel="noopener">Tom&#x27;s Guide</a>
+     &nbsp;·&nbsp; 2h ago &nbsp;·&nbsp; tomsguide.com</div>
+</section><section class="reveal">
+          <div class="section-head"><h2>The Front Page</h2><span class="line"></span></div>
+          <div class="frontpage"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/" target="_blank" rel="noopener">AMD Revives the 5800X3D and Adds a 7700X3D for Budget Gamers</a></h3>
+  <p>Facing rising component prices, AMD is rereleasing its popular 3D V-Cache gaming chips and adding a new eight-core part aimed at the midrange, while confirming that the AM5 socket will be supported through 2029.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 22h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.nbcnews.com/tech/tech-news" target="_blank" rel="noopener">Illinois Passes First US Law Mandating Annual Audits of Frontier AI Labs</a></h3>
+  <p>The state House approved the AI Safety Measures Act in a 110 to 0 vote, the first US statute to require annual third-party audits of companies building frontier models. The governor is expected to sign it.</p>
+  <div class="src"><b>NBC News</b> &nbsp;·&nbsp; 1d ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://arstechnica.com/security/" target="_blank" rel="noopener">&#x27;BadHost&#x27; Auth-Bypass Threatens Millions of AI Agents</a></h3>
+  <p>A critical Starlette flaw, tracked as CVE-2026-48710, cascades through FastAPI, vLLM, LiteLLM and effectively every MCP server, opening an authentication-bypass path across a huge swath of AI infrastructure.</p>
+  <div class="src"><b>Ars Technica</b> &nbsp;·&nbsp; 1d ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.reddit.com/r/LocalLLaMA/" target="_blank" rel="noopener">Community Benchmark Pits Four Apple-Silicon Inference Engines</a></h3>
+  <p>A neutral, community-built leaderboard scores the major Apple-Silicon MLX inference engines across hundreds of questions, giving local-LLM users a like-for-like comparison.</p>
+  <div class="src"><b>r/LocalLLaMA</b> &nbsp;·&nbsp; 5h ago</div>
+</article></div>
+        </section><section class="reveal">
+  <div class="section-head">
+    <h2>Hardware &amp; Chips</h2><span class="line"></span>
+    <span class="count">04 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/" target="_blank" rel="noopener">AMD Revives the 5800X3D and Adds a 7700X3D for Budget Gamers</a></h3>
+  <p>Facing rising component prices, AMD is rereleasing its popular 3D V-Cache gaming chips and adding a new eight-core part aimed at the midrange, while confirming that the AM5 socket will be supported through 2029.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 22h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/" target="_blank" rel="noopener">Dell&#x27;s $699 XPS 13 Takes Aim at the MacBook Neo</a></h3>
+  <p>The refreshed ultraportable undercuts Apple&#x27;s budget laptop on price while packing Intel&#x27;s new Wildcat Lake silicon and a few higher specs.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1d ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/" target="_blank" rel="noopener">Qualcomm&#x27;s Snapdragon C Brings Arm Laptops Down to $300</a></h3>
+  <p>A new entry-level platform pushes Windows-on-Arm machines into genuinely budget territory, landing just as Nvidia readies its own laptop push.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1d ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/" target="_blank" rel="noopener">SoftBank to Pour Up to $87B Into French AI Data Centers</a></h3>
+  <p>The commitment underscores how aggressively capital is chasing AI compute capacity across Europe.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 18h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>AI &amp; Machine Learning</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.nbcnews.com/tech/tech-news" target="_blank" rel="noopener">Illinois Passes First US Law Mandating Annual Audits of Frontier AI Labs</a></h3>
+  <p>The state House approved the AI Safety Measures Act in a 110 to 0 vote, the first US statute to require annual third-party audits of companies building frontier models. The governor is expected to sign it.</p>
+  <div class="src"><b>NBC News</b> &nbsp;·&nbsp; 1d ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://techcrunch.com/category/artificial-intelligence/" target="_blank" rel="noopener">Cognition Raises $1B at a $25B Valuation as Devin&#x27;s Revenue Climbs</a></h3>
+  <p>The maker of the Devin coding agent closed a billion-dollar round at a 25-billion-dollar pre-money valuation, with annual recurring revenue for Devin reported at about 73 million dollars.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 1d ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.axios.com/technology" target="_blank" rel="noopener">Hassabis Pulls His AGI Timeline Forward to 2029</a></h3>
+  <p>DeepMind&#x27;s chief now describes human-level AI arriving by 2029 as a real possibility, moving up estimates he had previously placed further out.</p>
+  <div class="src"><b>Axios</b> &nbsp;·&nbsp; 1d ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://aimagazine.com/" target="_blank" rel="noopener">Anthropic&#x27;s $65B Round Pushes It Toward a Trillion-Dollar Valuation</a></h3>
+  <p>A reported Series H vaults the lab past its closest rival on paper, with profitability targeted around 2028 as both leading labs are said to be eyeing 2026 IPOs.</p>
+  <div class="src"><b>AI Magazine</b> &nbsp;·&nbsp; 20h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/" target="_blank" rel="noopener">NASA Tests an AI Space Chip to Let Spacecraft Think for Themselves</a></h3>
+  <p>A radiation-hardened processor in testing is showing performance far beyond current flight hardware, with the goal of giving deep-space craft far more autonomy.</p>
+  <div class="src"><b>ScienceDaily</b> &nbsp;·&nbsp; 16h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Cybersecurity</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://arstechnica.com/security/" target="_blank" rel="noopener">&#x27;BadHost&#x27; Auth-Bypass Threatens Millions of AI Agents</a></h3>
+  <p>A critical Starlette flaw, tracked as CVE-2026-48710, cascades through FastAPI, vLLM, LiteLLM and effectively every MCP server, opening an authentication-bypass path across a huge swath of AI infrastructure.</p>
+  <div class="src"><b>Ars Technica</b> &nbsp;·&nbsp; 1d ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener">Palo Alto: GlobalProtect Bypass Now Under Active Attack</a></h3>
+  <p>Attackers are exploiting a PAN-OS GlobalProtect authentication-bypass flaw, CVE-2026-0257, in attempts to break into corporate networks, the vendor warns.</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 10h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener">&#x27;CIFSwitch&#x27; Linux Kernel Bug Hands Attackers Root</a></h3>
+  <p>A newly disclosed local privilege-escalation flaw lets an attacker forge CIFS authentication key descriptions and abuse the kernel&#x27;s key-request mechanism to gain root.</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 12h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener">ShinyHunters Gang Makes Off With Data on 4.9M Accounts</a></h3>
+  <p>The extortion crew exfiltrated personal information from nearly five million accounts in its latest reported campaign.</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 14h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/" target="_blank" rel="noopener">&#x27;ChatGPhish&#x27; Turns ChatGPT&#x27;s Link Rendering Into a Phishing Vector</a></h3>
+  <p>Researchers showed how the assistant&#x27;s trust in Markdown links and images can be abused for prompt injection and quiet data leakage when it summarizes a poisoned web page.</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 20h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Software &amp; Dev</h2><span class="line"></span>
+    <span class="count">03 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.reddit.com/r/LocalLLaMA/" target="_blank" rel="noopener">Community Benchmark Pits Four Apple-Silicon Inference Engines</a></h3>
+  <p>A neutral, community-built leaderboard scores the major Apple-Silicon MLX inference engines across hundreds of questions, giving local-LLM users a like-for-like comparison.</p>
+  <div class="src"><b>r/LocalLLaMA</b> &nbsp;·&nbsp; 5h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.cybersecuritydive.com/" target="_blank" rel="noopener">IBM Commits $5B to Help Enterprises Patch Open-Source Flaws Fast</a></h3>
+  <p>A new initiative is aimed at helping organizations remediate open-source vulnerabilities far more quickly than today&#x27;s typical timelines.</p>
+  <div class="src"><b>Cybersecurity Dive</b> &nbsp;·&nbsp; 16h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.cybersecuritydive.com/" target="_blank" rel="noopener">Compromised Coding Tool Used to Breach Thousands of GitHub Repos</a></h3>
+  <p>Attackers leveraged a tainted developer tool to compromise repositories at scale, renewing focus on software-supply-chain hygiene.</p>
+  <div class="src"><b>Cybersecurity Dive</b> &nbsp;·&nbsp; 22h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Business &amp; Big Tech</h2><span class="line"></span>
+    <span class="count">03 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://aimagazine.com/" target="_blank" rel="noopener">The AI Memory Boom Is Driving a Broad RAM Shortage</a></h3>
+  <p>Surging demand for high-bandwidth memory is lifting suppliers like Micron and rippling outward into price hikes and supply delays for the rest of the market.</p>
+  <div class="src"><b>AI Magazine</b> &nbsp;·&nbsp; 1d ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://abcnews.go.com/Technology" target="_blank" rel="noopener">Google Engineer Charged in First Prediction-Market Insider Case</a></h3>
+  <p>Prosecutors allege the employee used confidential search data to win 1.2 million dollars on a prediction market, in what they describe as a first-of-its-kind insider-trading charge.</p>
+  <div class="src"><b>ABC News</b> &nbsp;·&nbsp; 1d ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.tomshardware.com/" target="_blank" rel="noopener">Meta&#x27;s Graviton Deal Spotlights an AI-Era CPU Crunch</a></h3>
+  <p>A multibillion-dollar agreement underscores intensifying processor shortages across AI infrastructure as data-center buildouts accelerate.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 20h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Gadgets &amp; Consumer</h2><span class="line"></span>
+    <span class="count">03 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.tomsguide.com/" target="_blank" rel="noopener">Nvidia&#x27;s Push Reshapes the Back-to-School Laptop Race</a></h3>
+  <p>With N1X, Qualcomm&#x27;s Snapdragon C and a 699-dollar XPS all arriving at once, budget Windows laptops are suddenly the most interesting corner of the market.</p>
+  <div class="src"><b>Tom&#x27;s Guide</b> &nbsp;·&nbsp; 3h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://en.gamegpu.com/" target="_blank" rel="noopener">PlayStation Portal OLED Tipped for an Imminent Reveal</a></h3>
+  <p>An OLED refresh of Sony&#x27;s remote-play handheld is expected at an upcoming showcase, according to pre-event chatter.</p>
+  <div class="src"><b>GameGPU</b> &nbsp;·&nbsp; 16h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://en.gamegpu.com/" target="_blank" rel="noopener">Samsung Shows the First 4K QD-OLED Panel at 360Hz</a></h3>
+  <p>The new display sets a fresh bar for high-refresh 4K monitors, pairing QD-OLED color with esports-grade speed.</p>
+  <div class="src"><b>GameGPU</b> &nbsp;·&nbsp; 18h ago</div>
+</article></div>
+</section><footer class="colophon">
+      <b>THE BITSTREAM</b> is compiled automatically by an RSS-crawling agent.
+      Every headline links to its original publisher; summaries are condensed from
+      each outlet's own feed. Built 2026-06-01 03:59.
+      <div class="sources-list"><b>Wire sources &nbsp;·&nbsp;</b> AnandTech, Ars Technica, BleepingComputer, Dark Reading, Engadget, GitHub Blog, Hacker News, InfoQ, Krebs on Security, MIT Tech Review, TechCrunch, TechCrunch AI, TechRadar, The Hacker News, The Verge, Tom&#x27;s Hardware, VentureBeat AI</div>
+    </footer></main></body></html>

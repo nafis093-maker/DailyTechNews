@@ -1,0 +1,126 @@
+"""Edition content for THE BITSTREAM sample (paraphrased, attributed).
+Importing this has no side effects; call get_edition()."""
+import datetime as dt
+import it_news_agent as m
+
+
+def get_edition():
+    now = dt.datetime.utcnow()
+    def ago(h): return now - dt.timedelta(hours=h)
+    def A(title, link, summary, source, beat, h):
+        return m.Article(title=title, link=link, summary=summary, source=source, beat=beat, published=ago(h))
+
+    data = {
+    "Hardware & Chips": [
+      A("Nvidia Steps Onto the Taipei Stage, Chasing 'a New Era of PC'",
+        "https://www.tomsguide.com/news/live/computex-2026",
+        "Jensen Huang opened Nvidia's Computex 2026 keynote at the Taipei Music Center on Monday, where the company, Microsoft and Arm have spent a week teasing 'a new era of PC.' The long-rumored payoff is the N1X, an Arm-based laptop processor co-developed with MediaTek that folds in Nvidia's Blackwell graphics. Leaks describe a roughly 20-core design with about 6,144 CUDA cores and a 45 to 80-watt envelope, alongside a leaner N1 for thin-and-light machines. Dell, Lenovo and ASUS are expected to ship the first N1X notebooks, with analysts bracing for premium pricing north of 1,400 dollars. If it delivers, it would be Nvidia's first consumer CPU since the Tegra era and a direct shot at Qualcomm's hold on Windows on Arm. Microsoft Build, running June 2 to 3, should fill in the software half of the story.",
+        "Tom's Guide", "Hardware & Chips", 2),
+      A("AMD Revives the 5800X3D and Adds a 7700X3D for Budget Gamers",
+        "https://www.tomshardware.com/",
+        "Facing rising component prices, AMD is rereleasing its popular 3D V-Cache gaming chips and adding a new eight-core part aimed at the midrange, while confirming that the AM5 socket will be supported through 2029.",
+        "Tom's Hardware", "Hardware & Chips", 22),
+      A("Dell's $699 XPS 13 Takes Aim at the MacBook Neo",
+        "https://www.tomshardware.com/",
+        "The refreshed ultraportable undercuts Apple's budget laptop on price while packing Intel's new Wildcat Lake silicon and a few higher specs.",
+        "Tom's Hardware", "Hardware & Chips", 24),
+      A("Qualcomm's Snapdragon C Brings Arm Laptops Down to $300",
+        "https://www.tomshardware.com/",
+        "A new entry-level platform pushes Windows-on-Arm machines into genuinely budget territory, landing just as Nvidia readies its own laptop push.",
+        "Tom's Hardware", "Hardware & Chips", 26),
+      A("SoftBank to Pour Up to $87B Into French AI Data Centers",
+        "https://www.tomshardware.com/",
+        "The commitment underscores how aggressively capital is chasing AI compute capacity across Europe.",
+        "Tom's Hardware", "Hardware & Chips", 18),
+    ],
+    "AI & Machine Learning": [
+      A("Illinois Passes First US Law Mandating Annual Audits of Frontier AI Labs",
+        "https://www.nbcnews.com/tech/tech-news",
+        "The state House approved the AI Safety Measures Act in a 110 to 0 vote, the first US statute to require annual third-party audits of companies building frontier models. The governor is expected to sign it.",
+        "NBC News", "AI & Machine Learning", 30),
+      A("Cognition Raises $1B at a $25B Valuation as Devin's Revenue Climbs",
+        "https://techcrunch.com/category/artificial-intelligence/",
+        "The maker of the Devin coding agent closed a billion-dollar round at a 25-billion-dollar pre-money valuation, with annual recurring revenue for Devin reported at about 73 million dollars.",
+        "TechCrunch", "AI & Machine Learning", 28),
+      A("Hassabis Pulls His AGI Timeline Forward to 2029",
+        "https://www.axios.com/technology",
+        "DeepMind's chief now describes human-level AI arriving by 2029 as a real possibility, moving up estimates he had previously placed further out.",
+        "Axios", "AI & Machine Learning", 26),
+      A("Anthropic's $65B Round Pushes It Toward a Trillion-Dollar Valuation",
+        "https://aimagazine.com/",
+        "A reported Series H vaults the lab past its closest rival on paper, with profitability targeted around 2028 as both leading labs are said to be eyeing 2026 IPOs.",
+        "AI Magazine", "AI & Machine Learning", 20),
+      A("NASA Tests an AI Space Chip to Let Spacecraft Think for Themselves",
+        "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+        "A radiation-hardened processor in testing is showing performance far beyond current flight hardware, with the goal of giving deep-space craft far more autonomy.",
+        "ScienceDaily", "AI & Machine Learning", 16),
+    ],
+    "Cybersecurity": [
+      A("'BadHost' Auth-Bypass Threatens Millions of AI Agents",
+        "https://arstechnica.com/security/",
+        "A critical Starlette flaw, tracked as CVE-2026-48710, cascades through FastAPI, vLLM, LiteLLM and effectively every MCP server, opening an authentication-bypass path across a huge swath of AI infrastructure.",
+        "Ars Technica", "Cybersecurity", 28),
+      A("Palo Alto: GlobalProtect Bypass Now Under Active Attack",
+        "https://www.bleepingcomputer.com/",
+        "Attackers are exploiting a PAN-OS GlobalProtect authentication-bypass flaw, CVE-2026-0257, in attempts to break into corporate networks, the vendor warns.",
+        "BleepingComputer", "Cybersecurity", 10),
+      A("'CIFSwitch' Linux Kernel Bug Hands Attackers Root",
+        "https://www.bleepingcomputer.com/",
+        "A newly disclosed local privilege-escalation flaw lets an attacker forge CIFS authentication key descriptions and abuse the kernel's key-request mechanism to gain root.",
+        "BleepingComputer", "Cybersecurity", 12),
+      A("ShinyHunters Gang Makes Off With Data on 4.9M Accounts",
+        "https://www.bleepingcomputer.com/",
+        "The extortion crew exfiltrated personal information from nearly five million accounts in its latest reported campaign.",
+        "BleepingComputer", "Cybersecurity", 14),
+      A("'ChatGPhish' Turns ChatGPT's Link Rendering Into a Phishing Vector",
+        "https://thehackernews.com/",
+        "Researchers showed how the assistant's trust in Markdown links and images can be abused for prompt injection and quiet data leakage when it summarizes a poisoned web page.",
+        "The Hacker News", "Cybersecurity", 20),
+    ],
+    "Software & Dev": [
+      A("Community Benchmark Pits Four Apple-Silicon Inference Engines",
+        "https://www.reddit.com/r/LocalLLaMA/",
+        "A neutral, community-built leaderboard scores the major Apple-Silicon MLX inference engines across hundreds of questions, giving local-LLM users a like-for-like comparison.",
+        "r/LocalLLaMA", "Software & Dev", 5),
+      A("IBM Commits $5B to Help Enterprises Patch Open-Source Flaws Fast",
+        "https://www.cybersecuritydive.com/",
+        "A new initiative is aimed at helping organizations remediate open-source vulnerabilities far more quickly than today's typical timelines.",
+        "Cybersecurity Dive", "Software & Dev", 16),
+      A("Compromised Coding Tool Used to Breach Thousands of GitHub Repos",
+        "https://www.cybersecuritydive.com/",
+        "Attackers leveraged a tainted developer tool to compromise repositories at scale, renewing focus on software-supply-chain hygiene.",
+        "Cybersecurity Dive", "Software & Dev", 22),
+    ],
+    "Business & Big Tech": [
+      A("The AI Memory Boom Is Driving a Broad RAM Shortage",
+        "https://aimagazine.com/",
+        "Surging demand for high-bandwidth memory is lifting suppliers like Micron and rippling outward into price hikes and supply delays for the rest of the market.",
+        "AI Magazine", "Business & Big Tech", 30),
+      A("Google Engineer Charged in First Prediction-Market Insider Case",
+        "https://abcnews.go.com/Technology",
+        "Prosecutors allege the employee used confidential search data to win 1.2 million dollars on a prediction market, in what they describe as a first-of-its-kind insider-trading charge.",
+        "ABC News", "Business & Big Tech", 30),
+      A("Meta's Graviton Deal Spotlights an AI-Era CPU Crunch",
+        "https://www.tomshardware.com/",
+        "A multibillion-dollar agreement underscores intensifying processor shortages across AI infrastructure as data-center buildouts accelerate.",
+        "Tom's Hardware", "Business & Big Tech", 20),
+    ],
+    "Gadgets & Consumer": [
+      A("Nvidia's Push Reshapes the Back-to-School Laptop Race",
+        "https://www.tomsguide.com/",
+        "With N1X, Qualcomm's Snapdragon C and a 699-dollar XPS all arriving at once, budget Windows laptops are suddenly the most interesting corner of the market.",
+        "Tom's Guide", "Gadgets & Consumer", 3),
+      A("PlayStation Portal OLED Tipped for an Imminent Reveal",
+        "https://en.gamegpu.com/",
+        "An OLED refresh of Sony's remote-play handheld is expected at an upcoming showcase, according to pre-event chatter.",
+        "GameGPU", "Gadgets & Consumer", 16),
+      A("Samsung Shows the First 4K QD-OLED Panel at 360Hz",
+        "https://en.gamegpu.com/",
+        "The new display sets a fresh bar for high-refresh 4K monitors, pairing QD-OLED color with esports-grade speed.",
+        "GameGPU", "Gadgets & Consumer", 18),
+    ],
+    }
+    lead = data["Hardware & Chips"][0]
+    total = sum(len(v) for v in data.values())
+    src_count = sum(len(v) for v in m.FEEDS.values())
+    return data, lead, total, src_count
