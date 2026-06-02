@@ -1,8 +1,8 @@
-Subject: THE BITSTREAM — IT Daily, Tue Jun 02, 2026 (204 stories)
+Subject: THE BITSTREAM — IT Daily, Tue Jun 02, 2026 (205 stories)
 
 Good morning,
 
-Today's IT briefing — 204 stories across 6 beats. Full edition (with working links) attached as PDF.
+Today's IT briefing — 205 stories across 6 beats. Full edition (with working links) attached as PDF.
 
 LEAD — Name That Toon Contest
   (Dark Reading)
@@ -18,9 +18,9 @@ CYBERSECURITY
   • Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded (The Hacker News)
 
 HARDWARE & CHIPS
+  • Frore System’s solid-state AirJet Mini cools Intel’s Wildcat Lake laptop reference design – 15W of sustained, fanless cooling helps MacBook Neo competitor reach a svelte 11.3 mm, remain silent (Tom's Hardware)
   • Teen’s Bluetooth speaker named ‘BOMB’ caused a 10-hour delay on flight from Newark to Spain — passenger reported concerns to flight attendant at 32,000 feet, forcing plane back to the US (Tom's Hardware)
   • Intel says 'something has to give' with memory prices — company says it 'will continue to make sure that there are products which can take care of older memory technologies' (Tom's Hardware)
-  • 'Expect all-day battery life' — Nvidia is confident RTX Spark laptops will go the distance (TechRadar)
 
 SOFTWARE & DEV
   • Why Janet? (Hacker News)
@@ -33,8 +33,8 @@ BUSINESS & BIG TECH
   • Why cats prefer silver vine to catnip and other May highlights (Ars Technica)
 
 GADGETS & CONSUMER
+  • Thousands of compromised websites abused by DriveSurge in active ClickFix and FakeUpdates campaigns (TechRadar)
   • 'Nobody had dared try to solve it... until us!' — MQ Wang on how his company Zero Zero Robotics invented the world's first waterproof drone (TechRadar)
   • I was amazed by the performance of the Xiaomi 17T — and only a few drawbacks spoil this otherwise great-value Android phone (TechRadar)
-  • The cyber risk framework protecting your organization wasn't built for this adversary (TechRadar)
 
-— THE BITSTREAM, auto-compiled 2026-06-02 10:02
+— THE BITSTREAM, auto-compiled 2026-06-02 10:16
