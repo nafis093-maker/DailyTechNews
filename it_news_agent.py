@@ -79,9 +79,10 @@ FEEDS: dict[str, list[tuple[str, str]]] = {
         ("AnandTech",      "https://www.anandtech.com/rss/"),
     ],
     "Software & Dev": [
-        ("Hacker News",  "https://hnrss.org/frontpage"),
+        ("The Register", "https://www.theregister.com/headlines.atom"),
         ("InfoQ",        "https://feed.infoq.com/"),
         ("GitHub Blog",  "https://github.blog/feed/"),
+        ("Ars Technica Tech", "https://feeds.arstechnica.com/arstechnica/technology-lab"),
     ],
     "Business & Big Tech": [
         ("TechCrunch",   "https://techcrunch.com/feed/"),
@@ -172,8 +173,23 @@ TECH_TERMS = [
 # (they still go through the junk + off-topic filters).
 TRUSTED_TECH_SOURCES = {
     "The Hacker News", "BleepingComputer", "Krebs on Security", "Dark Reading",
-    "Tom's Hardware", "AnandTech", "Hacker News", "InfoQ", "GitHub Blog",
-    "TechCrunch", "TechCrunch AI", "VentureBeat AI", "MIT Tech Review",
+    "Tom's Hardware", "AnandTech", "The Register", "InfoQ", "GitHub Blog",
+    "Ars Technica Tech", "TechCrunch", "TechCrunch AI", "VentureBeat AI",
+    "MIT Tech Review",
+}
+
+# POPULAR-NEWS-SITES ALLOWLIST. A story is only kept if its link points to one
+# of these established publishers. This blocks personal blogs and aggregator
+# spill-over (e.g. Hacker News linking out to someone's hobby site). To trust a
+# new outlet, add its bare domain here.
+NEWS_DOMAINS = {
+    "techcrunch.com", "venturebeat.com", "technologyreview.com",
+    "thehackernews.com", "bleepingcomputer.com", "krebsonsecurity.com",
+    "darkreading.com", "tomshardware.com", "anandtech.com", "theregister.com",
+    "infoq.com", "github.blog", "arstechnica.com", "theverge.com",
+    "engadget.com", "techradar.com", "wired.com", "zdnet.com", "cnet.com",
+    "reuters.com", "bloomberg.com", "theinformation.com", "axios.com",
+    "nytimes.com", "wsj.com", "ft.com", "cnbc.com", "apnews.com", "bbc.com",
 }
 
 # Cryptic/low-context titles (e.g. bare Hacker News post names) get a small
@@ -306,6 +322,10 @@ def quality_filter(articles: list[Article]) -> list[Article]:
         url = a.link.lower()
         text = f"{a.title.lower()} {a.summary.lower()}"
 
+        # Popular-news-sites gate: link must be on an approved publisher domain.
+        dom = a.domain
+        if not any(dom == d or dom.endswith("." + d) for d in NEWS_DOMAINS):
+            continue
         if any(p in url for p in JUNK_URL_PARTS):
             continue
         if any(p in text for p in JUNK_TEXT):
