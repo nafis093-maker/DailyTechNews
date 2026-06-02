@@ -121,6 +121,66 @@ SUMMARY_CHARS = 320         # truncate summaries to roughly this length
 REQUEST_TIMEOUT = 12        # seconds per feed
 
 # --------------------------------------------------------------------------- #
+#  QUALITY FILTER (strict mode)                                               #
+# --------------------------------------------------------------------------- #
+
+# URL fragments that mark non-articles: events, contests, sponsor/marketing.
+JUNK_URL_PARTS = ["/events/", "/event/", "/webinar", "/contest", "/sponsored",
+                  "/sponsor", "/whitepaper", "/awards", "/advertise", "/promo",
+                  "/subscribe", "/newsletter", "/podcast", "/deals/"]
+
+# Title/summary phrases that mark non-news (events, housekeeping, listicles-of-deals).
+JUNK_TEXT = ["name that toon", "infosecurity europe", "rsa conference",
+             "register now", "watch the keynote here", "how to watch",
+             "[an rx global event]", "win a ", "giveaway", "sweepstakes",
+             "best deals", "deal of the day", "discount code", "coupon",
+             "save up to", "% off", "prime day deals"]
+
+# Off-topic subject matter to drop in strict mode (science/health/lifestyle that
+# rides in on general-tech feeds like Ars Technica's main feed).
+OFFTOPIC_TEXT = ["catnip", "octopus", "ebola", "vaccine", "dinosaur", "asteroid",
+                 "comet", "telescope", "fossil", "archaeolog", "espresso",
+                 "recipe", "wine ", "cocktail", "horoscope", "celebrity",
+                 "royal family", "nfl", "nba ", "premier league", " recipe",
+                 "bluetooth speaker named", "caused a 10-hour delay", "flight from",
+                 "deplaning", "tsa rescreening", "scuba diving", "weight loss",
+                 "skincare", "mattress", "best mattress"]
+
+# A story must contain at least one of these to count as IT/tech (strict gate).
+TECH_TERMS = [
+    "ai", "artificial intelligence", "machine learning", "llm", "model", "gpt",
+    "chatbot", "agent", "neural", "openai", "anthropic", "gemini", "nvidia",
+    "intel", "amd", "qualcomm", "arm", "tsmc", "chip", "semiconductor", "gpu",
+    "cpu", "processor", "silicon", "wafer", "foundry", "ram", "memory", "ssd",
+    "software", "hardware", "app", "operating system", "windows", "linux",
+    "macos", "android", "ios", "kernel", "api", "sdk", "developer", "code",
+    "programming", "open-source", "open source", "github", "cloud", "server",
+    "data center", "datacenter", "cyber", "security", "vulnerab", "exploit",
+    "malware", "ransomware", "phishing", "breach", "patch", "cve", "encryption",
+    "laptop", "smartphone", "iphone", "pixel", "galaxy", "tablet", "wearable",
+    "router", "gpu", "startup", "saas", "database", "quantum", "robot",
+    "drone", "vr", "ar ", "chipmaker", "compute", "inference", "data breach",
+    "tech", "technology", "computing", "internet", "browser", "network",
+    "password", "vault", "brute-force", "brute force", "credential", "login",
+    "authentication", "auth", "firewall", "vpn", "trojan", "rat", "botnet",
+    "spyware", "ddos", "zero-day", "zero day", "infostealer", "spear-phishing",
+    "spear phishing", "data leak", "hacker", "hacked", "hijack", "rce",
+    "privilege escalation", "supply chain", "mfa", "passkey", "data center",
+]
+
+# Feeds that are tech by definition — stories from these skip the keyword gate
+# (they still go through the junk + off-topic filters).
+TRUSTED_TECH_SOURCES = {
+    "The Hacker News", "BleepingComputer", "Krebs on Security", "Dark Reading",
+    "Tom's Hardware", "AnandTech", "Hacker News", "InfoQ", "GitHub Blog",
+    "TechCrunch", "TechCrunch AI", "VentureBeat AI", "MIT Tech Review",
+}
+
+# Cryptic/low-context titles (e.g. bare Hacker News post names) get a small
+# penalty so a meatier story wins the lead and the front page.
+MIN_TITLE_WORDS = 3
+
+# --------------------------------------------------------------------------- #
 #  DATA MODEL                                                                  #
 # --------------------------------------------------------------------------- #
 
@@ -233,6 +293,36 @@ def reclassify(articles: list[Article]) -> None:
                 break
 
 
+def _is_tech(text: str) -> bool:
+    # word-ish match so "ai" doesn't fire inside "said"/"campaign"
+    return any(re.search(rf"(?<![a-z]){re.escape(t)}", text) for t in TECH_TERMS)
+
+
+def quality_filter(articles: list[Article]) -> list[Article]:
+    """Strict mode: drop events/contests/marketing, off-topic items, and
+    anything that doesn't clearly read as IT/technology news."""
+    kept: list[Article] = []
+    for a in articles:
+        url = a.link.lower()
+        text = f"{a.title.lower()} {a.summary.lower()}"
+
+        if any(p in url for p in JUNK_URL_PARTS):
+            continue
+        if any(p in text for p in JUNK_TEXT):
+            continue
+        if any(p in text for p in OFFTOPIC_TEXT):
+            continue
+        # Title must be a real headline, not a one-word post name.
+        if len(re.findall(r"\w+", a.title)) < MIN_TITLE_WORDS:
+            continue
+        # Strict relevance gate: must look like tech, UNLESS it comes from a
+        # feed that is tech by definition (those only face junk/off-topic checks).
+        if a.source not in TRUSTED_TECH_SOURCES and not _is_tech(f" {text} "):
+            continue
+        kept.append(a)
+    return kept
+
+
 def _norm(title: str) -> str:
     return re.sub(r"[^a-z0-9 ]", "", title.lower())
 
@@ -258,17 +348,33 @@ def recent_only(articles: list[Article], hours: int) -> list[Article]:
     return kept or articles
 
 
+def _lead_score(a: Article) -> float:
+    """Prefer substantive, clearly-newsy stories for the lead."""
+    score = 0.0
+    summary_len = len(a.summary)
+    score += min(summary_len, 240) / 60          # rewards a real summary
+    score += min(len(re.findall(r"\w+", a.title)), 12) / 4  # rewards a full headline
+    if a.published:                               # mild recency nudge
+        h = (dt.datetime.utcnow() - a.published).total_seconds() / 3600
+        score += max(0, 3 - h / 8)
+    # Bare aggregator posts (no summary) shouldn't lead.
+    if summary_len < 40:
+        score -= 3
+    # Reviews / first-person opinion make weak leads.
+    if re.search(r"\b(i tried|i was|review|hands-on|opinion)\b", a.title.lower()):
+        score -= 2
+    return score
+
+
 def pick_lead(by_beat: dict[str, list[Article]]) -> Article | None:
-    candidates: list[Article] = []
+    pool: list[Article] = []
     for beat in LEAD_ELIGIBLE:
-        if by_beat.get(beat):
-            candidates.append(by_beat[beat][0])
-    if not candidates:
-        flat = [a for arts in by_beat.values() for a in arts]
-        candidates = flat
-    if not candidates:
+        pool.extend(by_beat.get(beat, [])[:3])    # top few from each major beat
+    if not pool:
+        pool = [a for arts in by_beat.values() for a in arts]
+    if not pool:
         return None
-    return max(candidates, key=lambda a: a.published or dt.datetime.min)
+    return max(pool, key=_lead_score)
 
 
 # --------------------------------------------------------------------------- #
@@ -554,7 +660,9 @@ def build_edition(out_dir: Path, hours: int, per_section: int,
     reclassify(articles)
     articles = dedupe(articles)
     articles = recent_only(articles, hours)
-    print(f"  {len(articles)} after dedupe + recency filter")
+    before = len(articles)
+    articles = quality_filter(articles)
+    print(f"  {before} after dedupe+recency -> {len(articles)} after quality filter")
 
     by_beat: dict[str, list[Article]] = {beat: [] for beat in FEEDS}
     for a in articles:
