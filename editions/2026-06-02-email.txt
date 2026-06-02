@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Jun 02, 2026 (204 stories)
+
+Good morning,
+
+Today's IT briefing — 204 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Name That Toon Contest
+  (Dark Reading)
+
+AI & MACHINE LEARNING
+  • I tried replacing 30 minutes of scrolling with ChatGPT-generated real-world challenges — and it changed my evenings (TechRadar)
+  • Claude is down for many — here's what we know about the outage (TechRadar)
+  • How small businesses can leverage AI (MIT Tech Review)
+
+CYBERSECURITY
+  • [An RX Global Event] Infosecurity Europe (Dark Reading)
+  • Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT (The Hacker News)
+  • Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded (The Hacker News)
+
+HARDWARE & CHIPS
+  • Teen’s Bluetooth speaker named ‘BOMB’ caused a 10-hour delay on flight from Newark to Spain — passenger reported concerns to flight attendant at 32,000 feet, forcing plane back to the US (Tom's Hardware)
+  • Intel says 'something has to give' with memory prices — company says it 'will continue to make sure that there are products which can take care of older memory technologies' (Tom's Hardware)
+  • 'Expect all-day battery life' — Nvidia is confident RTX Spark laptops will go the distance (TechRadar)
+
+SOFTWARE & DEV
+  • Why Janet? (Hacker News)
+  • Article: Why Vector Search Alone Isn't Enough: Hybrid Retrieval for RAG (InfoQ)
+  • Not Every Byte Gets a Vote (Hacker News)
+
+BUSINESS & BIG TECH
+  • How to make the Startup Battlefield Top 20 — and what every company gets regardless (TechCrunch)
+  • Defense tech darling Mach Industries hits $1.8B valuation, a 4x jump in a year (TechCrunch)
+  • Why cats prefer silver vine to catnip and other May highlights (Ars Technica)
+
+GADGETS & CONSUMER
+  • 'Nobody had dared try to solve it... until us!' — MQ Wang on how his company Zero Zero Robotics invented the world's first waterproof drone (TechRadar)
+  • I was amazed by the performance of the Xiaomi 17T — and only a few drawbacks spoil this otherwise great-value Android phone (TechRadar)
+  • The cyber risk framework protecting your organization wasn't built for this adversary (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-02 10:02
