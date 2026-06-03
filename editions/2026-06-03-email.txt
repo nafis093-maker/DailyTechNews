@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Jun 03, 2026 (216 stories)
+
+Good morning,
+
+Today's IT briefing — 216 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Substack’s new ‘Reply Rules’ feature lets creators control how people respond
+Substack's new Reply Rules feature is currently available for all English-language publications and is designed to give creators greater control over how their audiences respond.  (TechCrunch)
+
+AI & MACHINE LEARNING
+  • Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal (TechCrunch AI)
+  • Google’s Dreambeans, its weirdest-named AI tool to date, will turn your life into a cartoon (TechCrunch AI)
+  • A British MP is suing to see if xAI is legally responsible for the images Grok produces (Engadget)
+
+CYBERSECURITY
+  • Cyber Insurance Rates Are Dropping, but Exclusions Widen (Dark Reading)
+  • New 'HTTP/2 Bomb' DoS attack crashes web servers in under a minute (BleepingComputer)
+  • Ultrahuman says hackers accessed customers’ wellness data via internal tool (TechCrunch)
+
+HARDWARE & CHIPS
+  • MSI Claw 8 EX AI+ brings Intel Arc G3 Extreme to handhelds — 8-inch, 120 Hz display and new ergonomic grips (Tom's Hardware)
+  • Save $1,280 on this 4K-ready Alienware Aurora desktop PC with RTX 5080 — high-performance gaming at your fingertips for $2,919 (Tom's Hardware)
+  • Intel bit off more than it could chew with 18A process node (The Register)
+
+SOFTWARE & DEV
+  • Don’t repeat 5G mistakes with 6G, plead mobile operators (The Register)
+  • The tech that could make Marvell the next trillion dollar company (The Register)
+  • Listen up, England. The Health Secretary is going to be data controller for everyone's Single Patient Record (The Register)
+
+BUSINESS & BIG TECH
+  • Meta mercifully spun out VR fitness game Supernatural instead of just killing it (TechCrunch)
+  • Carvana ties up with Bezos-backed Slate Auto as it plans new car sales (TechCrunch)
+  • Supernatural isn’t dead after all (The Verge)
+
+GADGETS & CONSUMER
+  • Garmin's big software update is inbound, but these older watches will miss out — see if your Forerunner, Fenix, or Vivoactive is on the list (TechRadar)
+  • A PhD student has discovered new plant-inspired window glass that could 'simultaneously store solar energy and darken' a room when sunny to cool it down (TechRadar)
+  • Coding Gaffe Exposes Microsoft 365 Accounts to Widespread Takeover (Dark Reading)
+
+— THE BITSTREAM, auto-compiled 2026-06-03 20:00
