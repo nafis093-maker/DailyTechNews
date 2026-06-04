@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Jun 04, 2026 (213 stories)
+
+Good morning,
+
+Today's IT briefing — 213 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes
+TSMC says it does not have enough capacity to handle all the demand from AI hyperscalers, with CEO C.C. Wei saying that it will take a long time before it can match customer demand. This is an opportunity for Intel, though, as companies desperate to get their hands on advanced chips might be willing to use Intel 18A…  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Meta rolls out a new AI creator assistant on Facebook (TechCrunch AI)
+  • Qualcomm Roundtable Interview transcript — SVP of Compute and Gaming talks Snapdragon C, RTX Spark, and the agentic AI future (Tom's Hardware)
+  • GitHub Universe is back: All together now, in the agentic era (GitHub Blog)
+
+CYBERSECURITY
+  • UN food agency discloses breach affecting 600,000 Gaza households (BleepingComputer)
+  • Hackers could use poisoned WhatsApp and Slack notifications to take over your Google Gemini – and make it work on their behalf (TechRadar)
+  • New IronWorm malware hits 36 packages in npm supply-chain attack (BleepingComputer)
+
+HARDWARE & CHIPS
+  • What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates (TechCrunch AI)
+  • Nintendo Switch 2 with user-replaceable batteries coming to the EU — console maker confirms it will comply with regulations set to take effect from 2027 (Tom's Hardware)
+  • Is Silicon Valley ready to put robots in people’s homes? Hello Robot is. (TechCrunch AI)
+
+SOFTWARE & DEV
+  • 30+ Updates per Second per Account: Uber Scales Ledger Processing with Batching (InfoQ)
+  • Palantir wins £9M contract to run UK firearms licensing: CIA-backed biz to hold gun, bomb, and poison records (The Register)
+  • How a Culture of Data-Driven Conversations Can Support Platform Engineering (InfoQ)
+
+BUSINESS & BIG TECH
+  • A burglar used a Waymo to steal yoga clothes in San Francisco — and got away with it (TechCrunch)
+  • Cash App launches a wand for tap-and-pay (TechCrunch)
+  • Cash App made a magic wand for contactless payments (The Verge)
+
+GADGETS & CONSUMER
+  • 8GB of RAM is back on laptops — companies are lowering memory offerings to make affordable notebooks during component crisis (Tom's Hardware)
+  • Don't pay silly prices for desktop RAM — this 32GB G.SKILL Flare X5 DDR5-6000 kit is $70 off right now using a special code at Newegg (TechRadar)
+  • 'At least they're honest about it?' —Tomb Raider: Legacy of Atlantis is the latest game to come with an AI-generated content disclosure (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-04 16:40
