@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Jun 05, 2026 (201 stories)
+
+Good morning,
+
+Today's IT briefing — 201 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Intel will reportedly upgrade its Wildcat Lake refresh to an 8-core config next year, leak claims — top-end silicon tipped to feature 4 P-cores and 4 LP-E cores as part of 'Core 400' series
+Intel's Wildcat Lake refresh that's supposedly debuting next year will shift focus to a more upmarket audience, only refreshing its Core 5 and Core 7 tiers. The new silicon at the top-end would feature 8 cores, up from 6 cores on Wildcat Lake right now, with the 4 P-cores and 4 LP-E cores. The Core 3 parts are claimed…  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Seattle to pass one-year AI data center moratorium next week — will use window to study community impact of AI buildouts (Tom's Hardware)
+  • Nvidia is reportedly still planning fabled RTX 50 Super series for 2026, leak claims — lineup could now include a potential 'RTX 5060 Super' with 12GB of VRAM (Tom's Hardware)
+  • 'Nintendo products are fully compliant with these requirements' — A new Nintendo Switch 2 model featuring a removable battery will be released in the EU soon to meet regulations (TechRadar)
+
+CYBERSECURITY
+  • Google and FBI warn of ransomware group that sends fake IT workers to hack victims in person (TechCrunch)
+  • FIFA World Cup 2026 hype kicks off fraud, fake apps, and ransomware targeting fans and businesses (TechRadar)
+  • Russian hackers attack Europe for the Motherland in crypto fueled Great Patriotic Cyber War (TechRadar)
+
+HARDWARE & CHIPS
+  • Acer MA200 1TB SSD Review: Good enough, and that’s the point (Tom's Hardware)
+  • 'Not your usual business PC': Dell Pro Max Tower T2 workstation with a Core Ultra 9 CPU, RTX 2000 Ada graphics, 32GB RAM, and 1TB SSD delivers insanely powerful performance and professional reliability — and it's $900 off right now (TechRadar)
+  • Valve says Steam Machine and Steam Frame 'shipping this summer' — company confirms release window as it expands Verified program (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Microsoft allows BYOL for Amazon RDS. Repeat, Microsoft allows BYOL for Amazon RDS (The Register)
+  • How Netflix Maps Thousands of Microservices in Real-Time (InfoQ)
+  • Raspberry Pi's profits are up. So is its DRAM bill (The Register)
+
+BUSINESS & BIG TECH
+  • New York lawmakers pass one-year ban on new data centers (The Verge)
+  • NASA briefly sheltered space station astronauts in SpaceX’s Dragon due to leaks (TechCrunch)
+  • Safety officials finally have a good idea of what a big rocket explosion can do (Ars Technica)
+
+GADGETS & CONSUMER
+  • ISS astronauts had to shelter in place in the SpaceX Dragon capsule because of an air leak (Engadget)
+  • This $1.33 per month VPN is the most customizable option out there — perfect if you're after a secure connection tailored to your exact needs (TechRadar)
+  • The Future Game Show Summer Showcase airs tomorrow and will offer an extended look at Exodus, plus new trailers and big game announcements — here's when you can tune in (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-05 16:15
