@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Jun 06, 2026 (137 stories)
+
+Good morning,
+
+Today's IT briefing — 137 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Finland deploys new system to detect threats to undersea cables — distributed acoustic sensors measure vibrations from the seabed and informs the authorities and operators of suspicious activities
+Finnish companies and academic institutions, alongside the Finnish Navy and Border Guards, worked together to develop a system that used existing undersea cables to detect potential disturbances on the seabed. This system would allow the authorities to respond to any detected anomaly, potentially preventing critical…  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Google will pay SpaceX $920 million a month to use xAI's data centers (Engadget)
+  • Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI (The Hacker News)
+  • 'Elon Musk said he thinks humanoid robots will be in many homes in three years, and I agree with him.' I sat down with Jake Dyson to hear his predictions for AI and robotics in your home — and why you shouldn't throw out your stick vac just yet (TechRadar)
+
+CYBERSECURITY
+  • CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog (The Hacker News)
+  • AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs (The Hacker News)
+  • Oxford Uni student data pwned yet again - this time via career platform breach (The Register)
+
+HARDWARE & CHIPS
+  • Retro gaming enthusiast attempts loading games to Sega Genesis from a vinyl record player, recording game data as sound — Mega EverDrive Pro and Pi Pico 2 board not enough to overcome limitations of the turntable (Tom's Hardware)
+  • The Blueair Mini Restful Sunrise Alarm Clock and Air Purifier is the smartest thing I've put on my nightstand this year (TechRadar)
+  • Ex-Google CEO is key to Ukraine's most formidable drone weapon to date - $5000 Hornet can carry 5Kg of explosives on a 200Km, one-way trip (TechRadar)
+
+SOFTWARE & DEV
+  • Cloudflare Identifies Query Planning Bottleneck in ClickHouse (InfoQ)
+  • Start spreading the news: Datacenters may face one-year ban in NY (The Register)
+  • If you don't fall for these extortionists' calls, they'll show up with USB sticks (The Register)
+
+BUSINESS & BIG TECH
+  • Founders share VC horror stories, and some are naming names (TechCrunch)
+  • Control Resonant is a sequel — and also a starting point (The Verge)
+  • Small modular nuclear reactor reaches criticality in first test (Ars Technica)
+
+GADGETS & CONSUMER
+  • ‘It’s becoming more difficult finding stable VPNs’ – China increases crackdown on VPN usage (TechRadar)
+  • Star City's most intriguing character doesn't even have a name — as Apple TV star reveals role in new sci-fi series is like 'playing a living ghost' (TechRadar)
+  • EA's Star Wars Zero Company drops August 27 (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-06-06 11:12
