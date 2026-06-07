@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Jun 07, 2026 (72 stories)
+
+Good morning,
+
+Today's IT briefing — 72 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Russia’s new ‘Starlink‑Style’ Rassvet fleet loses its first satellite after weeks — Object 4 drops out of orbit but 15 others remain
+Object 4, one of 16 satellites in the first operational batch of Russia's Rassvet broadband network, re-entered Earth's atmosphere on approximately June 6th.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • School shooting survivor sues AI gun detection firm after system failed to spot weapon (Ars Technica)
+  • UK exam watchdog frets over smart specs turning GCSEs into Google searches (The Register)
+  • ‘The thought behind it was great, but the execution was proving difficult': Starbucks abandons AI inventory tool after only nine months following multiple errors — coffee giant says it needs to 'focus on consistency and execution at scale' (TechRadar)
+
+CYBERSECURITY
+  • Critical Everest Forms Pro flaw exploited to take over WordPress sites (BleepingComputer)
+  • CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog (The Hacker News)
+  • AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs (The Hacker News)
+
+HARDWARE & CHIPS
+  • Developer gets Half-Life running at 30 FPS on a Nokia N95 — proves 2007 phones can just about match 1998 PCs (Tom's Hardware)
+  • Elegoo Jupiter 2 Resin 3D Printer review: The giant returns for round two (Tom's Hardware)
+  • AMD reaches almost 45% CPU share in the latest Steam Hardware Survey for Windows gaming PCs — Ryzen is steadily gaining ground against Intel's legacy domination (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Brit maritime agency heralds fresh global rules for crewless cargo ships (The Register)
+  • Home Office ditches legacy asylum database, keeps the spreadsheets (The Register)
+  • ExtendDB: Open Source Amazon DynamoDB Compatible Adapter with Pluggable Storage Backends (InfoQ)
+
+BUSINESS & BIG TECH
+  • The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center (The Verge)
+  • Beyond Instagram: Introducing the next generation of social apps (TechCrunch)
+  • Benn Jordan longs for the days of tech that didn’t spy on you (The Verge)
+
+GADGETS & CONSUMER
+  • Forget Siri — these are the 5 things I actually want iOS 27 to fix on my iPhone at WWDC 2026 (TechRadar)
+  • The Dreame AirStyle Era is the Airwrap alternative that nearly has it all (TechRadar)
+  • 'Can't innovate anymore, my ass': 25 classic Apple photos that show the biggest WWDC moments in history, from Steve Jobs to Tim Cook (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-07 12:08
