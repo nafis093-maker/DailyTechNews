@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Jun 08, 2026 (133 stories)
+
+Good morning,
+
+Today's IT briefing — 133 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — WWDC 2026: Everything announced on Siri, iOS 27, Apple Intelligence and more
+Apple’s WWDC 2026 event kicked off this morning at 10 a.m. PT at Apple Park, starting a week full of expected announcements around Siri, iOS 27, Apple Intelligence and more, along with developer events and demos. This year’s event is particularly notable for a couple things. It marks CEO Tim Cook’s last with the…  (TechCrunch AI)
+
+AI & MACHINE LEARNING
+  • 'The time has come to reclaim what was stolen from us': Bernie Sanders wants the American public to own 50% stake in AI companies (TechRadar)
+  • Most new U.S. AI data centers are being built in drought zones — two-thirds of 809 planned projects set for areas with water shortages (Tom's Hardware)
+  • NotebookLM’s new update will help you build source repository from chat (TechCrunch)
+
+CYBERSECURITY
+  • Gogs patches critical zero-day enabling remote code execution (BleepingComputer)
+  • Critical UniFi OS bug lets hackers gain root without authentication (BleepingComputer)
+  • Ransomware sends Illinois high school on an early summer vacation (The Register)
+
+HARDWARE & CHIPS
+  • Farmer donates land for a park, city sells it for data center development — $10 gift became $10M for city government, with $30M tax expected over next decade (Tom's Hardware)
+  • Want your own private cloud? Ugreen NASync DH2300 is on sale in the company's own Prime Day event, with discounts on NAS devices across the site (TechRadar)
+  • WWDC 2026: What to expect, from Siri’s highly anticipated revamp to Apple Intelligence and iOS 27 (TechCrunch AI)
+
+SOFTWARE & DEV
+  • AWS Releases Next Generation of Amazon OpenSearch Serverless (InfoQ)
+  • GitHub for Beginners: Answers to some common questions (GitHub Blog)
+  • Amazon Leo's satellite homework is late, but FCC won't flunk it just yet (The Register)
+
+BUSINESS & BIG TECH
+  • Apple is tweaking its controversial Liquid Glass design (TechCrunch)
+  • WWDC protesters want Apple to ban Elon Musk’s apps (The Verge)
+  • WWDC 2026 live blog: On the ground at Apple’s keynote (The Verge)
+
+GADGETS & CONSUMER
+  • Apple's new OSes are getting a massive speed boost (Engadget)
+  • AirPods are finally getting a custom EQ in iOS 27, this is not a drill! (TechRadar)
+  • Everything announced at Apple's WWDC 2026 keynote (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-06-08 17:37
