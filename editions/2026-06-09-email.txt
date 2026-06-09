@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Jun 09, 2026 (198 stories)
+
+Good morning,
+
+Today's IT briefing — 198 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — XBOW tests Anthropic's Mythos Preview for offensive security
+Anthropic's Mythos Preview was highly effective at finding vulnerability candidates, especially when analyzing source code. XBOW explores how the model performed across exploit discovery, reverse engineering, and live-site validation. [...]  (BleepingComputer)
+
+AI & MACHINE LEARNING
+  • It’s not FAANG anymore. It’s MANGOS. (TechCrunch AI)
+  • Taiwan weighs criminal ban on AI chip exports to all of China — stricter measures beyond blacklisted firms would make smuggling servers a crime (Tom's Hardware)
+  • Meta wants to train Americans to build its data centers — and is offering a free 5-week program to teach you everything (TechRadar)
+
+CYBERSECURITY
+  • GitHub disables Microsoft repos pushing password-stealing malware (BleepingComputer)
+  • Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs (Dark Reading)
+  • The French government's internal messaging service was compromised in a security breach (Engadget)
+
+HARDWARE & CHIPS
+  • Neo4j plots Palantir alternative with GraphAware acquisition (The Register)
+  • Elon Musk's first-gen orbital data center craft spans wider than a Boeing 747 and runs an interchangeable chip payload — AI1 satellite compute payload is 120 kW, peaks at 150 kW (Tom's Hardware)
+  • The RAM crisis will last 'quite a few years' says Nvidia CEO Jensen Huang — so despite hiked prices, I think if you want a new laptop, now might be the time to buy (TechRadar)
+
+SOFTWARE & DEV
+  • From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI (GitHub Blog)
+  • LibreOffice brands Euro-Office a 'de facto ally' of Microsoft's lock-in strategy (The Register)
+  • Signal says UK plan to scan devices for nude images 'endangers us all' (The Register)
+
+BUSINESS & BIG TECH
+  • US military claims first drone boat rescue of downed helicopter crew (Ars Technica)
+  • Apple says it may remove some apps from the App Store if they don’t attract users (TechCrunch)
+  • Apple brings streaming-style subscription bundles to the App Store (TechCrunch)
+
+GADGETS & CONSUMER
+  • The working class are rallying to oppose data centers at 5 times the rate of wealthy neighborhoods – the great unifier is helping workers punch up, and it's super effective (TechRadar)
+  • Russia’s solution to its VPN crackdown breaking the internet? A state-owned VPN (TechRadar)
+  • Time to ditch your slow router: Amazon just dropped massive pre-Prime Day discounts on TP-Link Wi-Fi 7 setups — upgrade your home network from just $85 (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-09 16:20
