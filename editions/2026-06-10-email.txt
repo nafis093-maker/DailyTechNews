@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Jun 10, 2026 (195 stories)
+
+Good morning,
+
+Today's IT briefing — 195 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Google won’t just admit it’s feeding YouTube creators to its music AI
+If you've uploaded a song to YouTube, Google almost certainly considers your video fair game for training its Lyria music AI, it just won't admit it right now. A group of independent musicians is suing Google, claiming that it illegally used songs they uploaded to YouTube to train its Lyria 3 model. Google has filed…  (The Verge)
+
+AI & MACHINE LEARNING
+  • ‘AI-pilled’ firms spend $7,500 per employee each month on AI (TechCrunch AI)
+  • Microsoft restricts Claude Fable for employees over data retention concerns (The Verge)
+  • Google will save your Lens photos, Search Live recordings, and Translate audio for AI training (The Verge)
+
+CYBERSECURITY
+  • Nightmare-Eclipse Drops Yet Another Microsoft Exploit, RoguePlanet (Dark Reading)
+  • China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance (The Hacker News)
+  • Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities (The Hacker News)
+
+HARDWARE & CHIPS
+  • Intel's upcoming Z790 and Z990 flagship chipsets will reportedly consume up to 14W at peak load, courtesy of more PCIe 5.0 support — Nova Lake motherboards may feature a 22% smaller PCH than Z890 (Tom's Hardware)
+  • AMD fires back at Nvidia, claiming 256-core Zen 6 'Venice' CPU beats Vera by 3.3x in rack-level performance — company shares first estimated EPYC Venice benchmarks (Tom's Hardware)
+  • Give GitHub Copilot CLI real code intelligence with language servers (GitHub Blog)
+
+SOFTWARE & DEV
+  • Vercel escapes contempt rap after admitting it botched FBI warrant response (The Register)
+  • NASA names crew for Artemis III lunar lander rehearsal (The Register)
+  • Ivanti tells Sentry customers to patch now as critical bugs hit 10.0 and 9.9 (The Register)
+
+BUSINESS & BIG TECH
+  • Netflix expands revamped mobile app across Asia and doubles down on kids’ gaming (TechCrunch)
+  • The Indian government got cold feet on Starlink just before SpaceX’s IPO (TechCrunch)
+  • Boox’s quirky page-turning remote won me over (The Verge)
+
+GADGETS & CONSUMER
+  • Stop buying 8GB laptops for your sanity: The best $500 picks with 16GB RAM (TechRadar)
+  • I'm a certified TV calibrator, and I rate these 3 models as the best-value buys you can get for a World Cup upgrade, all based on our real-world testing (TechRadar)
+  • Honor Magic V6 review: A mechanical marvel (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-06-10 17:44
