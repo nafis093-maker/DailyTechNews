@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Jun 11, 2026 (184 stories)
+
+Good morning,
+
+Today's IT briefing — 184 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Roborock’s Q10 S5 Plus robovac is over half off, matching its best price to date
+Even at full price, the Roborock Q10 S5 Plus offers impressive value, boasting features typically reserved for pricier robovac models at a fraction of the price. That’s especially true today. It’s down to just $269.99 ($280 off) at Wellbots when you apply promo code NEW10, which matches its all-time low and is the…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Meta’s Edits app is getting an AI assistant and a desktop version (TechCrunch)
+  • Amazon’s data centers used 2.5 billion gallons of water last year (The Verge)
+  • Coinbase debuts AI agent that can trade and pay for premium research (TechCrunch)
+
+CYBERSECURITY
+  • The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm (The Hacker News)
+  • Hackers are using TikTok videos offering 'free Spotify Premium' to spread malware and steal passwords (TechRadar)
+  • 2.4M+ VRChat users’ data accessed following cloud breach (The Register)
+
+HARDWARE & CHIPS
+  • Memory famine compels GPU vendors to re-release 2020 graphics cards — GeForce RTX 3060 and GeForce RTX 3050 return to Asian market (Tom's Hardware)
+  • A warrantless wiretap law is about to expire — but surveillance networks aren’t actually ‘going dark’ (The Verge)
+  • Lyft Uses Mapping Intelligence to Reduce Friction in Gated Community Pickups (InfoQ)
+
+SOFTWARE & DEV
+  • Cost per sample? Try cost per attempt (The Register)
+  • Apple gives Mac devs a WSL-ish thing to call their own (The Register)
+  • Race against re-entry: Swift's would-be saviour straps itself to a rocket (The Register)
+
+BUSINESS & BIG TECH
+  • The bill that would let Jimmy Kimmel sue Brendan Carr is here (The Verge)
+  • Quantum Space’s military SPAC is trying to catch SpaceX’s IPO wave (TechCrunch)
+  • These are the countries moving to ban social media for children (TechCrunch)
+
+GADGETS & CONSUMER
+  • Norton VPN dropped its price just in time for the World Cup — secure your stream for less than $4 a month (TechRadar)
+  • Here are the price-matching policies for Best Buy, GameStop, and others (The Verge)
+  • Dave the Diver swims onto iOS and Android this August (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-06-11 17:58
