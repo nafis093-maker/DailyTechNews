@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Jun 12, 2026 (187 stories)
+
+Good morning,
+
+Today's IT briefing — 187 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Thrustmaster's new specialized T.Flight Hotas 5 Microsoft Flight Simulator Edition provides a plug-and-play flight sim setup for just $109 — featuring 5-axis control with 16-bit precision and dual-rudder system
+Rocking 16-bit precision, dual-rudder yaw, 5-axis control and a plug-and-play profile for Microsoft Flight Simulator 2024, the new T.Flight Hotas 5 is a solid entry point to flight sims. It works with PlayStation consoles and PC out of the box, with convenient features like a detachable throttle.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • SpaceX, Anthropic, and OpenAI’s hot IPO summer (TechCrunch AI)
+  • OpenAI's latest acquisition could see big changes on the way for its Codex coding assistant (TechRadar)
+  • KPMG's AI report becomes an accidental demo of AI hallucinations (The Register)
+
+CYBERSECURITY
+  • NordVPN’s next-gen antivirus aces independent testing with a 96% phishing block rate (TechRadar)
+  • Microsoft's bug-hunting nemesis extends vendetta with more zero-day attacks — Nightmare Eclipse publishes RoguePlanet and GreatXML local privilege escalation exploits (Tom's Hardware)
+  • Early Warning Signs of Supply-Chain Attacks Live in the Dark Web (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Nvidia preps to sell its Vera CPUs into China as its GPU sales stay frozen — customers encouraged to place orders for CPU shipments as early as August (Tom's Hardware)
+  • Amazon Prime Day (Tom's Hardware)
+  • Radeon RX 9070 XT finally appears in Steam Hardware Survey — RDNA 4 flagship surprisingly lands just behind RTX 5080 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Slack Eliminates SSH in EMR Pipelines, Migrates 700+ Jobs to Rest-Based Architecture (InfoQ)
+  • Novo Nordisk reports cyberattack as UK gives Wegovy pill the nod (The Register)
+  • Amazon owns up to using 2.5bn gallons of H2O in its bit barns last year (The Register)
+
+BUSINESS & BIG TECH
+  • Elon Musk becomes the world’s first trillionaire after SpaceX’s historic IPO (TechCrunch)
+  • SpaceX opens at $150, an 11% pop for the most anticipated debut in history (TechCrunch)
+  • I held the Trump phone (The Verge)
+
+GADGETS & CONSUMER
+  • Resident Evil Veronica producer says Capcom changed the title to fit the series' naming pattern which follows the individual themes attached to each entry — 'It's usually one word that is really iconic or connected to the concept of the game' (TechRadar)
+  • A spy in your pocket? How the UK’s proposed on-device nude image blocking could work in reality (TechRadar)
+  • Predictably, Sam Bankman-Fried's fraud conviction appeal has been denied (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-06-12 16:34
