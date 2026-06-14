@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Jun 14, 2026 (73 stories)
+
+Good morning,
+
+Today's IT briefing — 73 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — AMD taunts Apple's MacBook Neo for failing to run 75% of top PC games — Only 5 out of the 20 top PC games work on the Neo, while all run on AMD's budget offerings
+AMD is reminding folks not to buy a MacBook, even if it's as good of a deal as the Neo, if you primarily want to game on it. Instead, AMD's own budget laptops can run all the modern titles you want, with a small caveat.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • US government warned Anthropic that Chinese group had accessed model, but firm 'refused' to fix Fable 5 jailbreak before US export controls — Anthropic defended its decision by saying the jailbreak isn’t serious (Tom's Hardware)
+  • AI cryptomining network's 320,000 RTX 3090-class GPUs allegedly burn 112 megawatts of power on ‘zero useful AI computation’ — GPU rental costs jump 38%, but Pearl’s cards are doing random matrix math, study claims (Tom's Hardware)
+  • Ukrainian UAV expert warns US off-the-shelf drones will fail to survive EW, and 'every unit should have their own drone laboratory' (TechRadar)
+
+CYBERSECURITY
+  • Hardcore SpongeBob speedrunners smudged Xbox optical disks with sweat and grease to exploit 'lag clip' trick — filthy smeared disks cut gameplay times in ultimate pursuit of speed (Tom's Hardware)
+  • Ex-school district employee jailed for hacks on former employer (BleepingComputer)
+  • Chinese hackers hijack auth flow, spy on isolated network for a decade (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Razer Kiyo V2 X Review: Auto-focus for life (Tom's Hardware)
+  • Semiconductor stocks just had their worst week since 2020 — but it wasn't all their fault (TechRadar)
+  • Save $500 on this beastly gaming rig with an RTX 5060 Ti 16GB, Ryzen 7800X3D, and 32GB of RAM — Skytech's desktop gaming PC now just $1,499 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • EU sovereignty push gives tech buyers a new alphabet soup to swallow (The Register)
+  • Scientists pour cold water on claims phones are rewiring kids' brains (The Register)
+  • AWS Introduces Durable Storage Option for ElastiCache for Valkey (InfoQ)
+
+BUSINESS & BIG TECH
+  • Solid-state batteries still aren’t ready, but gels are (The Verge)
+  • Microsoft hasn’t ruled out spinning off Xbox (The Verge)
+  • Never Post’s Mike Rugnetta on the creative process and the value of reliable power (The Verge)
+
+GADGETS & CONSUMER
+  • Amazon signs multibillion-dollar Corning deal to build the next generation of fiber optic cables for data centers (TechRadar)
+  • 'You're designing for a dynamic range of sizes and aspect ratios': Apple keeps on dropping hints that an iPhone Fold is on the way (TechRadar)
+  • The macOS 27 beta is already a 'mind-blowing' revelation for some MacBook owners — here are 3 reasons why it isn't the lowkey release it seems (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-14 12:29
