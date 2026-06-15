@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Jun 15, 2026 (150 stories)
+
+Good morning,
+
+Today's IT briefing — 150 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Multiple small Tennessee counties pass temporary data center bans — Nashville also passed near-unanimous moratorium on first reading
+Two jurisdictions in Tennessee just passed a data center moratorium as three more a set to vote on bills that delay these projects. These temporary bans have gained widespread support, especially in rural regions where developers are increasingly looking to for building their massive projects.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Could data center growth halt by 2030? Report claims power demands may halt AI advances within the next few years (TechRadar)
+  • Accelerating researchers and developers building multilingual AI with a new open dataset (GitHub Blog)
+  • Chipmaker Nvidia seeks to raise over $25B in first bond deal since 2021 (Ars Technica)
+
+CYBERSECURITY
+  • North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels (The Hacker News)
+  • OptinMonster WordPress plugin hacked in CDN supply-chain attack (BleepingComputer)
+  • Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks (BleepingComputer)
+
+HARDWARE & CHIPS
+  • AMD takes over MEXT to 'address growing memory constraints' in the data center — memory tiering technology enables flash to appear as DRAM to applications (Tom's Hardware)
+  • Users cry foul after AMD stripped memory crypto from its consumer CPUs (Ars Technica Tech)
+  • MacBook Neo comes under fire in AMD's latest marketing campaign — but it's a poorly thought-out attack (TechRadar)
+
+SOFTWARE & DEV
+  • HPE offers VMware refugees a year off the meter (The Register)
+  • Council of Europe hacked in ShinyHunters' PeopleSoft heist (The Register)
+  • Java's Project Valhalla finally lands a preview in JDK 28 (The Register)
+
+BUSINESS & BIG TECH
+  • Fox’s $22B Roku acquisition aims to expand its reach into smart TVs, advertising (Ars Technica)
+  • These are the countries moving to ban social media for children (TechCrunch)
+  • Roblox exec says ticking a box for age verification is ‘not enough anymore’ (The Verge)
+
+GADGETS & CONSUMER
+  • Move over Samsung and Google — you can currently get the 'intentionally outlandish' Nothing Phone (3) for its lowest ever price at Amazon (TechRadar)
+  • Collapsing floorboards, vaulting over tables, and dodging arrows — Blood Message is a cinematic adventure that looks like it could have been developed by Naughty Dog (TechRadar)
+  • Brain experts tell the UK government there's 'very little' scientific evidence that phones are harming kids — but a social media ban is going ahead anyway (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-15 19:59
