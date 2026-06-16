@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Jun 16, 2026 (226 stories)
+
+Good morning,
+
+Today's IT briefing — 226 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Qualcomm wants to be the chip inside whatever replaces your smartphone, and it just announced two products toward that end
+Qualcomm CEO Cristiano Amon said Tuesday that the company is working on over 40 different AI wearable devices — including jewelry, earbuds with cameras, pins, and watches — a sign of how aggressively the chipmaker is betting that the next major computing platform won't be a phone.  (TechCrunch)
+
+AI & MACHINE LEARNING
+  • AI and brain-computer interface allow speechless ALS patient to work a full-time job (The Register)
+  • Pentagon boasts of using AI to write reports mandated by Congress (Ars Technica)
+  • Android 17 launches with new multitasking tools as Google expands Gemini features (TechCrunch AI)
+
+CYBERSECURITY
+  • SprySOCKS Windows Variant Abuses Kernel Drivers to Evade Detection (Dark Reading)
+  • Maine takes down its data breach notification portal after it is flooded by fake claims (TechRadar)
+  • Steam Workshop abused to spread malware via Wallpaper Engine app (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Dell's $699 XPS 13 laptop is now available with the MacBook Neo in its sights — entry-level XPS design comes with Wildcat Lake, 8GB of RAM, and a 512GB SSD (Tom's Hardware)
+  • Qualcomm’s latest chip hints that more powerful smart glasses could be on the way (The Verge)
+  • Qualcomm unveils its Snapdragon Reality Elite chip for next-gen AR headsets (Engadget)
+
+SOFTWARE & DEV
+  • Three critical Fortinet sandbox bugs splattered by unknown attackers (The Register)
+  • Commodore gets into the phone biz with Sailfish-powered retro 'Callback' (The Register)
+  • Firefox 152 understands 'Sssh!' (The Register)
+
+BUSINESS & BIG TECH
+  • Bug in FIFA World Cup internal system gave anyone ability to modify TV stream (TechCrunch)
+  • Mobileye’s US robotaxi launch will put it on both sides of the AV business (TechCrunch)
+  • Rivian cuts hundreds of workers after R2 deliveries start (TechCrunch)
+
+GADGETS & CONSUMER
+  • All the latest news on Android 17, Wear OS 7, and Android XR (The Verge)
+  • 10 underrated Apple Watch features you can set up in minutes (Engadget)
+  • Android 17 starts hitting Pixel phones and watches today (Ars Technica)
+
+— THE BITSTREAM, auto-compiled 2026-06-16 19:51
