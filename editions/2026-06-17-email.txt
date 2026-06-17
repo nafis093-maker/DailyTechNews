@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Jun 17, 2026 (220 stories)
+
+Good morning,
+
+Today's IT briefing — 220 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline
+A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials. Ordinary stuff, until one move near the end. Before his command-and-control server went dark, he installed OpenSSH and Tailscale on a victim's machine, building a way back in that did…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Two-thirds of Americans think AI is advancing too quickly (The Verge)
+  • The new Google Home Speaker is launching next week, and you can pre-order your new smart hub right now — but you’ll need Google Home Premium for the full Gemini package (TechRadar)
+  • Uncle Sam bets $500M that Alphabet spinoff's AI can dig up new semiconductor materials (The Register)
+
+CYBERSECURITY
+  • Gamers beware — experts flag Steam Workshop is being abused to spread malware via Wallpaper Engine app (TechRadar)
+  • Hundreds of Android banking and crypto apps hit by dangerous new Rokarolla malware (TechRadar)
+  • FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices. (BleepingComputer)
+
+HARDWARE & CHIPS
+  • PayPal Ventures shutters as company restructuring continues (TechCrunch)
+  • DeepSeek was set to be added to US Entity List for supporting China’s military and intelligence operations, report claims — White House holds off to avoid escalating tensions with China (Tom's Hardware)
+  • Nvidia releases RTX Remix 1.5 with new RTX IO compression reducing mod file sizes by up to 37% — update also adds Smooth Normals and 'RTX Remix Skills' Agents (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Cisco adds another SD-WAN box to max-severity bug advisory (The Register)
+  • Homebrew 6.0 released with new security mechanism, Linux sandbox and more (The Register)
+  • Windows devs rerolled old code to save precious bytes (The Register)
+
+BUSINESS & BIG TECH
+  • Can anyone look cool wearing Snap’s $2,000 glasses? (The Verge)
+  • SanDisk’s new PlayStation 5 SSD will cost you more than three PS5 Pros (The Verge)
+  • Paramount Plus is two dollars for two months of ad-free viewing (The Verge)
+
+GADGETS & CONSUMER
+  • SanDisk's new 8TB PS5 SSD costs more than three times as much as the PS5 Pro (Engadget)
+  • Two Stanford grads raise $11M to build a noninvasive wearable for hormone tracking (TechCrunch)
+  • This Google-backed ‘phone cluster computing’ project is turning retired Pixels into low-cost Linux data centers — as UCSD researchers say a 2,000-phone cluster will soon support 100 computer science classes (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-17 17:33
