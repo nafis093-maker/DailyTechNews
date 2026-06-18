@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Jun 18, 2026 (203 stories)
+
+Good morning,
+
+Today's IT briefing — 203 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — ‘Queer Eye’s’ life coach Karamo Brown launches Kē, a wellness app featuring his AI digital clone
+Karamo Brown, famous for his pep talks on Netflix’s “Queer Eye,” has jumped into the wellness and AI space with his new app, Kē. After spending a year and a half focusing on his own journey—from fitness and nutrition to meditation, sobriety, relationships, and personal growth—Brown wants to help others do the same. Kē…  (TechCrunch AI)
+
+AI & MACHINE LEARNING
+  • ExpressVPN gives its desktop apps a visual makeover and a bigger push into AI (TechRadar)
+  • 'Most organizations do not have an AI investment problem, they have a data problem': New study warns infrastructure demands could be what's really holding AI back (TechRadar)
+  • Canonical reveals Myna, its local speech-to-text app (The Register)
+
+CYBERSECURITY
+  • Texas government data breach allowed hackers to steal 3 million driver’s licenses and passports (TechCrunch)
+  • Salesforce Data Thefts Continue via Klue App Compromise (Dark Reading)
+  • USB worm spreads crypto-stealing malware via Windows shortcut files (BleepingComputer)
+
+HARDWARE & CHIPS
+  • ZTE and China Telecom Guangdong advance cross‑vendor IP network simulation pilots, paving the way for intelligent network operations (The Register)
+  • 'A spectacular spectacle in the mobile workstation world:' Lenovo's 5-star ThinkPad P16 Gen 3 gives engineering students desktop-class power and a brilliant screen for watching the FIFA World Cup (TechRadar)
+  • MSI's new Claw 8 EX AI+ handheld with an Intel Arc G3 Extreme and 32GB of RAM costs $1,799 — company says it'll be 'a tough year' with chances of 'another price hike' (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Citrix now lets you run virtual desktops like a cost-conscious private equityeer (The Register)
+  • How pull request limits are cutting down the noise (GitHub Blog)
+  • NASA payload to ride commercial Mars orbiter from rocket biz yet to reach orbit (The Register)
+
+BUSINESS & BIG TECH
+  • The Onion’s rebooted InfoWars is coming July 2nd (The Verge)
+  • Amazon employees say they’re facing termination for backing data center limits (The Verge)
+  • MapTap, a daily geography game, is my new Wordle (TechCrunch)
+
+GADGETS & CONSUMER
+  • ‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm (Krebs on Security)
+  • Apple TV will broadcast the Formula 1 Austrian Grand Prix for free (Engadget)
+  • The smartphone era created an attention crisis. Slowtech is fixing it (TechCrunch AI)
+
+— THE BITSTREAM, auto-compiled 2026-06-18 17:49
