@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Jun 20, 2026 (124 stories)
+
+Good morning,
+
+Today's IT briefing — 124 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Apple Launches Core AI for Apple-Silicon Optimized On-Device Generative AI
+At WWDC 26, Apple announced the Core AI framework, the official successor to Core ML. It is designed to allow developers to run large language models and generative AI entirely on-device, supporting both custom-converted PyTorch models and pre-optimized open-source models. By Sergio De Simone  (InfoQ)
+
+AI & MACHINE LEARNING
+  • China unveils man-portable anti-drone laser that can burn through a drone 1,600 feet away in four seconds — backpack-sized 2-kilowatt weapon uses AI for targeting, weighs 55 pounds, and can be carried by a single soldier (Tom's Hardware)
+  • ‘We need to think big, that’s why we are here’: I asked Formula 1 President and CEO Stefano Domenicali about the future of AI in the sport — here's what he told me (TechRadar)
+  • ‘We’re not just building AI - we are really building and leading the way’: Google Cloud VP explains why everyone from big businesses to start-ups can benefit from the AI age (TechRadar)
+
+CYBERSECURITY
+  • Apple has fixed a security flaw in Beats Studio Buds which let hackers spy on conversations (TechRadar)
+  • Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys (The Hacker News)
+  • Klue OAuth breach victim list grows as Icarus hackers claim attack (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Intel and AMD's new ACE CPU extensions bring an efficient AI-oriented instruction set to x86 — a new design makes matrix multiplication more power- and density-efficient (Tom's Hardware)
+  • Unlucky PC builder sent RTX 5070 from Amazon, gets DVD rewriter and a busted logic board from an early 2000's Kenwood AV receiver instead — $700 GPU turns out to be e-waste thanks to return scam (Tom's Hardware)
+  • Researcher turns wi-fi smart lightbulb into a Banned Book Library — open source project makes digital books available via a server and open Wi-Fi access point hacked into an ESP32-powered bulb (Tom's Hardware)
+
+SOFTWARE & DEV
+  • EU won't force publishers to grant dead video games an afterlife (The Register)
+  • AWS Adds Multi-Region Replication to Amazon Cognito Identity Service (InfoQ)
+  • Britain sending Ukraine an extra 30,000 drones – now 150,000 all up (The Register)
+
+BUSINESS & BIG TECH
+  • Toy Story has the right take on tech (The Verge)
+  • The UK will scan asylum-seekers’ faces for age checks—despite knowing the tech is flawed (Ars Technica)
+  • He made your free video player run smoothly. Now he’s doing that for robots. (TechCrunch)
+
+GADGETS & CONSUMER
+  • Nintendo confirms data stolen via third-party cyberattack — but sadly no big secrets were revealed (TechRadar)
+  • ‘We have to make eSIMs as simple as possible’: Saily says removing friction is the next big battle for democratizing travel eSIMs (TechRadar)
+  • ICYMI: the week's 7 biggest tech news stories, from Commodore flip-phone nostalgia to Tim Cook's Apple price-hike warning (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-20 12:16
