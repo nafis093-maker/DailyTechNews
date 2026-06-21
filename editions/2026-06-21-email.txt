@@ -1,0 +1,39 @@
+Subject: THE BITSTREAM — IT Daily, Sun Jun 21, 2026 (62 stories)
+
+Good morning,
+
+Today's IT briefing — 62 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Electric air taxis are stuck in the courtroom
+This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on aviation, air taxis, and Wi-Fi speeds at 30,000 feet, follow Andrew J. Hawkins. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Last year, […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • Microsoft acknowledges a Windows 11 bug affecting the Recycle Bin, and 'fed up' users think AI coding is to blame (TechRadar)
+  • Age of Empires II’s goats used as AI building blocks to build a neural network — goaty experiment mocks the idea of chatbot consciousness, Microsoft AI researcher’s project makes an absurdist point about AI consciousness (Tom's Hardware)
+  • ‘The defining divide in enterprise software over the next five years will be between companies that rent intelligence versus companies that own it’: Enterprise AI is becoming increasingly distributed (TechRadar)
+
+CYBERSECURITY
+  • New Prinz Eugen ransomware prioritizes recent files for encryption (BleepingComputer)
+  • Microsoft links Mastra AI supply chain attack to North Korean hackers (BleepingComputer)
+  • Apple has fixed a security flaw in Beats Studio Buds which let hackers spy on conversations (TechRadar)
+
+HARDWARE & CHIPS
+  • Telehealth doctor treats patients using Razer Naga gaming mouse — 12-button MMO thumb grid simplifies medical workflow, automates medical scripting (Tom's Hardware)
+  • Creality Falcon T1 Review: Modular laser engraving (Tom's Hardware)
+  • Get AMD's flagship Ryzen 7 9800X3D with 32GB of DDR5 memory and an MSI B850 Wi-Fi 7 motherboard at a discount — Micro Center bundles are now available on Amazon (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Inside Atlassian’s Forge Billing Architecture for Distributed Usage Tracking at Scale (InfoQ)
+  • AWS Adds Multi-Region Replication to Amazon Cognito Identity Service (InfoQ)
+
+BUSINESS & BIG TECH
+  • Founders Fund’s outlier bet on humanely killed fish (TechCrunch)
+  • Musician and YouTuber Hainbach on ‘Breath of the Wild’ and Swiss Army Knives (The Verge)
+  • Toy Story has the right take on tech (The Verge)
+
+GADGETS & CONSUMER
+  • Acoustic mapping app uses thousands of networked old Android phones to hunt Shahed drones — crowd-sourced microphone network spots small, low-RCS military targets (Tom's Hardware)
+  • The Ecovacs Deebot X12 OmniCyclone is an impressively inventive robot cleaner that mops very well, but struggles to sweep up the competition (TechRadar)
+  • 'Simply being aware is no longer sufficient protection' — Security experts warn of AI-boosted scam campaigns that can trick even the smartest victims (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-21 12:31
