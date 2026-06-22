@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Jun 22, 2026 (118 stories)
+
+Good morning,
+
+Today's IT briefing — 118 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The Steam Machine is the start of an even more expensive future for game consoles
+It's no secret that just about every aspect of video games is getting more expensive. Game consoles are getting regular price hikes, PC components are spiking in cost, and the golden age of affordable handhelds is over, all largely due to the global RAM shortage, which has had a similarly costly impact on PC gaming…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal (TechCrunch AI)
+  • Nvidia gets all agentic about supercomputing for scientific research (The Register)
+  • Anthropic says Claude may want to see your ID (TechCrunch)
+
+CYBERSECURITY
+  • A new unpatchable flaw in Apple chips opens the door to an iPhone jailbreak (TechCrunch)
+  • New lightweight, self-propagating crypto stealing malware delivered by USB spotted by Microsoft researchers – Crypto Clipper script-based stealer hunts for vulnerable wallets (TechRadar)
+  • ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack (The Hacker News)
+
+HARDWARE & CHIPS
+  • Valve engineers talk Steam Machine, pricing, and the benefits of massive heatsinks — explain why Valve hardware needs to be a 'self-sustained program' (Tom's Hardware)
+  • Get a half-price precision electric screwdriver set for PC builders and DIYers — ultimate Prime Day 71-in-1 set slashed to under $50 (Tom's Hardware)
+  • Valve is working with AMD to bring FSR 4 to the Steam Machine (The Verge)
+
+SOFTWARE & DEV
+  • The database that refused to die: How Postgres survived its own creators (The Register)
+  • From pledge to practice: Building a more inclusive open source ecosystem (GitHub Blog)
+  • Ukraine puts its Russian war trophies online for allies to pick apart (The Register)
+
+BUSINESS & BIG TECH
+  • The Apple Watch SE 3 is just $199 for Prime Day (The Verge)
+  • WhatsApp gets new chief as Meta taps India’s CRED founder Kunal Shah and invests $900M in startup (TechCrunch)
+  • Instagram looks to take on streaming services with longer-form, episodic and live formats for its TV app (TechCrunch)
+
+GADGETS & CONSUMER
+  • Too rainy or hot to run outdoors? Tired of missing your favorite shows? I've scoured the internet for some of the best Amazon Prime Day treadmill deals (TechRadar)
+  • This HP laptop is Amazon's best-selling Windows notebook but please don't buy it or you will sorely regret it (TechRadar)
+  • With GTA 6 pre-orders coming, here are some PS5 and Xbox gaming accessory upgrades that I'd recommend as someone who tests hardware for a living (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-22 18:58
