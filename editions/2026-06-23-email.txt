@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Jun 23, 2026 (180 stories)
+
+Good morning,
+
+Today's IT briefing — 180 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Netflix’s next TV gaming experiment will scare the hell out of you
+As part of the latest evolution of its gaming initiative, Netflix has made a big push into cloud-based games you can play on your TV, much in the same way you'd watch a movie or show on the service. So far, these games have been pretty tame. Things like trivia, party games, and a weirdly […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • Oracle admits it has cut 21,000 jobs, admits 'deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce' (TechRadar)
+  • Something’s off with Midjourney’s pivot to body scanners (The Verge)
+  • I asked ChatGPT, Gemini and Claude what discount tech to buy on Amazon Prime Day — here’s which AI gave the best advice (TechRadar)
+
+CYBERSECURITY
+  • Scattered Spider members plead guilty to hacking Transport for London (BleepingComputer)
+  • Password manager maker LastPass says hackers stole customer support case data during Klue breach (TechCrunch)
+  • GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns (The Hacker News)
+
+HARDWARE & CHIPS
+  • Grab this Creality 3D Printer tool kit for all-time low $25.49 for Prime Day — 74-piece set includes everything that you need for 3D printer maintenance and comes in a neat organizer for storage and transport (Tom's Hardware)
+  • Get a 4TB Samsung 9100 Pro SSD for just $459 in blockbuster Prime Day sale — remarkable deal shaves $900 off PCIe 5.0 NVMe drive to bring it below MSRP (Tom's Hardware)
+  • Save $250 on the cheapest RTX 5080 around this Prime Day — Gigabyte Gaming OC GeForce RTX 5080 at stellar pricing on Newegg (Tom's Hardware)
+
+SOFTWARE & DEV
+  • I automated my job (and it made me a better leader) (GitHub Blog)
+  • Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects (InfoQ)
+  • Bold move, Cotton: Trump administration tells US techies it expects American quantum computer by 2028 (The Register)
+
+BUSINESS & BIG TECH
+  • HaloBraid raises $7M from Seven Seven Six to end the six-hour hair salon appointment (TechCrunch)
+  • Meta debuts new, cheaper smart glasses under its own brand (TechCrunch)
+  • Ribbie turns real-time baseball stats into arcade-like, pixel-art broadcasts (TechCrunch)
+
+GADGETS & CONSUMER
+  • I almost bought the Amazon Fire Max 11 until I saw this much cheaper Lenovo tablet with better specs (TechRadar)
+  • Fans are selling fast — I'm an appliance expert, and I've found the best air quality and kitchen appliance deals still available to keep you cool in the UK's heatwave (TechRadar)
+  • The 3 top smart locks for easy installation and peace of mind, tested and trusted by home tech experts (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-23 16:12
