@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Jun 24, 2026 (128 stories)
+
+Good morning,
+
+Today's IT briefing — 128 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks
+Cybersecurity researchers have flagged a new class of CI/CD workflow weakness that allows attackers to hijack workflows and compromise open-source supply chains. The "critical exploitable pattern" has been codenamed Cordyceps by Novee Security. The issue can allow full attacker control of repositories at dozens of the…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • 'Way out of line': The US government is being sued for executive order restricting foreign access to Project Glasswing (TechRadar)
+  • Google Home Speaker review: A modest update for the Gemini era (Engadget)
+  • SK hynix files to raise up to $29 billion in historic Nasdaq listing — all proceeds going to advanced AI memory fabs and EUV tool orders (Tom's Hardware)
+
+CYBERSECURITY
+  • Apple's MacOS Gap Lets Users Disable Security Tools (Dark Reading)
+  • Stealthy Mistic backdoor linked to ransomware access broker KongTuke (BleepingComputer)
+  • LastPass confirms data breach after hacker compromises supply chain — here's what we know (TechRadar)
+
+HARDWARE & CHIPS
+  • TSMC is reportedly hiking prices for 'all advanced nodes,' accounting for 74% of the company’s wafer business — Nvidia, AMD, Apple, Qualcomm, and others will face higher wafer costs (Tom's Hardware)
+  • Get an all-AMD 4K gaming PC with Ryzen 7 9800X3D and Radeon RX 9070 XT for just $1,749 — Walmart has slashed $750 off this prebuilt desktop (Tom's Hardware)
+  • Valve Steam Machine price hike similar to Steam Deck's 45% increase, company confirms — was probably priced competitively against the PS5 Pro before the RAMpocalypse (Tom's Hardware)
+
+SOFTWARE & DEV
+  • White House drastically shortens deadline for dropping quantum-vulnerable crypto (Ars Technica Tech)
+  • I automated my job (and it made me a better leader) (GitHub Blog)
+  • Lucide Releases Version 1.0, Removing Brand Icons and Cutting Bundle Size for Millions of Projects (InfoQ)
+
+BUSINESS & BIG TECH
+  • Slate Auto’s radically simple electric truck starts at $24,950 (TechCrunch)
+  • Bob Iger’s Disney wanted Apple, Twitter, and 007 (The Verge)
+  • Odd police video shows drone removing knife from motionless suspect (Ars Technica)
+
+GADGETS & CONSUMER
+  • As the 2026 World Cup expands, so does the threat surface (TechRadar)
+  • I test gaming TVs every day and these are the models I'd trust to let GTA 6 look its best (TechRadar)
+  • Yes, the bad news on the RAM crisis has been relentless lately — but Asus and SK Hynix just gave us glimmers of hope that some relief could be on the horizon (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-24 13:55
