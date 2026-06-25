@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Jun 25, 2026 (172 stories)
+
+Good morning,
+
+Today's IT briefing — 172 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Anthropic claims that China's Alibaba used 25,000 fake accounts and 28.8 million exchanges to illicitly 'distill' its Claude model — violations occurred from April to June 2026
+AI tech giant Alibaba, often considered as the Amazon of China, is being accused by Anthropic for using Claude to train its AI models. The American AI startup claimed that it traced over 25,000 accounts to operators that were affiliated with Alibaba and Alibaba Qwen.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Amazon pours another $13B into India's AI and cloud infrastructure (The Register)
+  • Adobe acquires image and video enhancement tool maker Topaz Labs (TechCrunch AI)
+  • 'Bringing Claude Tag into Slack is about making AI multiplayer': You can now tag Claude directly in Slack (TechRadar)
+
+CYBERSECURITY
+  • ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories (The Hacker News)
+  • Multiple malicious OpenClaw skills found online - including two macOS infostealers (TechRadar)
+  • Surviving the Mythos Era: Richard Bejtlich on the Case for NDR (The Hacker News)
+
+HARDWARE & CHIPS
+  • The Download: Europe’s heat wave hits the grid, and IBM’s chip targets Moore’s Law (MIT Tech Review)
+  • HyperX Cloud Stinger 3 Wireless Headset Review: 80 hours and under $100 (Tom's Hardware)
+  • Micron inks long-term supply agreements worth $100 billion — says it has no idea when RAM crisis will end (Tom's Hardware)
+
+SOFTWARE & DEV
+  • European Commission lines up Amazon and Microsoft for cloud gatekeeper status (The Register)
+  • Collabora releases CODE 26.04 as rivalry between FOSS cloudy office suites heats up (The Register)
+  • Building a European Cloud Orchestration Platform within an Enterprise (InfoQ)
+
+BUSINESS & BIG TECH
+  • Apple raises prices on Macs, iPads, and more by hundreds of dollars (The Verge)
+  • Elon suffers another day short of trillionaire status (TechCrunch)
+  • New website names and shames companies that still don’t offer passkeys to users (TechCrunch)
+
+GADGETS & CONSUMER
+  • Don't delay that MacBook upgrade — Apple's laptop price hikes could be much worse than the iPhone 18 Pro, analysts predict (TechRadar)
+  • iPhone owners are blaming a ‘silent alarm’ problem for costing them jobs — but a fix is finally coming in iOS 27 (TechRadar)
+  • 'I deleted it and it came immediately back': White House staff are having an official app foisted on to their phones and they hate it (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-25 13:38
