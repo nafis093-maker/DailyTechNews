@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Jun 26, 2026 (182 stories)
+
+Good morning,
+
+Today's IT briefing — 182 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Solidigm VP talks PCIe 6.0 SSDs, next-gen floating gate NAND, liquid cooled storage and more — Avi Shetty, VP of AI, Solutions & Market Enablement discusses the future of enterprise storage tech
+In an interview with Tom’s Hardware Premium, Solidigm's Avi Shetty discusses the future of high-capacity SSDs, Floating-Gate NAND, PLC memory, PCIe 6.0 storage, liquid-cooled SSDs, Nvidia's Storage Next vision, and why the company believes AI will drive demand for even denser NAND flash-based storage technologies.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Notion kills its Gmail client after AI agents keep humans from troubling inbox (The Register)
+  • 'Humanity now stands on the eve of AGI': DeepSeek wants to "at least double the size of every department" as company pursues hiring spree in pursuit of AGI (TechRadar)
+  • Jiangsu's first AI-powered 10 Gbps all-optical campus network launched at Southeast University (The Register)
+
+CYBERSECURITY
+  • Meeting Trump's 2030 Quantum Deadline Will be Expensive, Complex (Dark Reading)
+  • Unnamed hackers steal stolen data from Icarus hackers responsible for Klue supply chain hack — and yes, it's as confusing as it sounds (TechRadar)
+  • New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries (The Hacker News)
+
+HARDWARE & CHIPS
+  • More MacBook misery? Apple’s rumored M-series chip roadmap could bring a frustrating delay for Pro users (TechRadar)
+  • AMD Ryzen 7 5800X3D vs Intel Core i7-14700K faceoff — A new battle for DDR4 supremacy in 2026 (Tom's Hardware)
+  • AMD's new 10th Anniversary Ryzen 7 5800X3D CPU is now in stock — Here's where to buy the revamped processor that's the fastest gaming chip available for AM4 platforms (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Miasma campaign poisons 20-plus npm packages, hunts for developer secrets (The Register)
+  • Argo CD 3.5 Tightens Supply Chain Security with Internal mTLS and Source Integrity (InfoQ)
+  • Transitioning as a hubber (GitHub Blog)
+
+BUSINESS & BIG TECH
+  • Robotaxis drive miles just to get cleaned and charged; this new startup wants to fix that (TechCrunch)
+  • Samsung will soon start charging to access its smart home API (The Verge)
+  • YouTube Shorts are getting even shorter with an update that lets you double the playback speed (TechCrunch)
+
+GADGETS & CONSUMER
+  • Need a new work bag? The anti-theft Scapade AirPack is the safest rucksack I’ve ever owned — and it’s on sale now (TechRadar)
+  • The Oura Ring 4 is now under £200 for Prime Day, and it's my pick of all the tech deals today (TechRadar)
+  • Dutton Ranch episode 8 recap: Carter critics will absolutely hate this part of the Yellowstone spinoff — but at least the death I was dreading didn't happened (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-26 13:34
