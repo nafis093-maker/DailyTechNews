@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Jun 27, 2026 (140 stories)
+
+Good morning,
+
+Today's IT briefing — 140 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The 17 best robot vacuum deals you can still get before Prime Day ends
+If you’ve been wanting to buy a robot vacuum but have been put off by how much it can cost to get a good one, now is not a bad time to start looking. We’re now on the final day of Prime Day, and Amazon, along with retailers like Best Buy and Walmart, is still […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • Apple executive in charge of Vision Pro is reportedly leaving for OpenAI (Engadget)
+  • It's looking like a hot, messy summer for security teams as AI finds countless previously hidden vulns (The Register)
+  • OpenAI launches a limited preview of GPT-5.6 for a 'small group of trusted partners' (Engadget)
+
+CYBERSECURITY
+  • FBI: Russian hackers now target Signal backup recovery keys (BleepingComputer)
+  • CISA sets urgent deadline to fix Cisco flaw exploited in attacks (BleepingComputer)
+  • FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys (The Hacker News)
+
+HARDWARE & CHIPS
+  • Incredible Ryzen 7 9800X3D prebuilt deal comes with an RX 9070 XT and 32GB of DDR5 for $750 off — get a prime iBuyPower 4K gaming rig for just $1,749 (Tom's Hardware)
+  • TP-Link's 8-port 2.5G unmanaged Ethernet switch is a smokin' bargain at $50 — upgrade your home network for half price (Tom's Hardware)
+  • This is what Tom's Hardware readers clicked the most during Prime Day — Portable displays, DVD burners, the Nintendo Switch 2, and two decent SSD deals, among others (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Even the Secret Service won't use company-issued phones (The Register)
+  • Trump-shuttered climate change site back online in nonprofit hands (The Register)
+  • GitHub and UNDP team up to advance development priorities in Ghana with open source (GitHub Blog)
+
+BUSINESS & BIG TECH
+  • FTC gives Musk the OK to acquire SpaceX alumni startup Mesh (TechCrunch)
+  • South Korea plans to train entire military as "drone warriors" (Ars Technica)
+  • Corgi, the buzzy Y Combinator-backed insurance tech startup, says it didn’t steal an open source product (TechCrunch)
+
+GADGETS & CONSUMER
+  • ICYMI: the 7 biggest tech stories of the week, from GTA 6 pre-orders to our Oura Ring 5 review (TechRadar)
+  • Prime Day is almost over, but these are still the best Apple deals I’ve seen (The Verge)
+  • Huawei promises up to 90:1 compression technology by using a proprietary dynamic algorithmic technique and a lot of SSDs (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-27 08:30
