@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Jun 28, 2026 (61 stories)
+
+Good morning,
+
+Today's IT briefing — 61 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Teenage Engineering adds lo-fi mode, USB audio, and more to its KO II sampler
+Teenage Engineering has already issued multiple substantial updates for its surprisingly capable $329 EP-133 KO II sampler. Its latest is one of the biggest yet. OS 2.5 adds audio over USB, selectable sample rates for lo-fi fun, sample reverse, an arpeggiator, equal-length autochopping, and it extends the maximum…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Indian payments chief thinks AI will be heavily involved in next era of digital payment growth (TechCrunch)
+  • ChatGPT has stopped taking your prompts so literally — and that’s a bigger deal than it sounds (TechRadar)
+  • SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype (TechCrunch AI)
+
+CYBERSECURITY
+  • GTA VI fans beware — experts warn 'a new wave of scam websites' is offering early access, but just stealing your bank details instead (TechRadar)
+  • Clean GitHub repo tricks AI coding agents into running malware (BleepingComputer)
+  • Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk (Dark Reading)
+
+HARDWARE & CHIPS
+  • Apple wants permission to buy memory from a blacklisted Chinese supplier (The Verge)
+  • Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials (The Hacker News)
+  • Get an RTX 5060 gaming laptop loaded with Ryzen 7 CPU and 32GB RAM for $1,099 — mobile gaming upgrade just got $300 cheaper (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Swift 6.4 Brings New Language Features and Swift Testing/XCTest Interop (InfoQ)
+  • AWS Previews FinOps Agent for Cost Analysis and Optimization (InfoQ)
+  • AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management (InfoQ)
+
+BUSINESS & BIG TECH
+  • Instagram is testing more ways to customize ‘Your Algorithm’ (TechCrunch)
+  • Indie developers got tired of waiting for a new Star Fox, so they’re making their own (The Verge)
+  • Inside the room where the smart home industry is still betting on Matter (The Verge)
+
+GADGETS & CONSUMER
+  • Sick of overheating mid-run? I tested a workout baselayer incorporating smart fiber, thermo-regulation technology originally developed for astronauts (TechRadar)
+  • Quote of the day by PayPal co-founder Peter Thiel: 'I no longer believe that freedom and democracy are compatible' — a foundational thesis of the new tech elite (TechRadar)
+  • Is your World Cup stream buffering or dropping out? Use your VPN’s IP rotation tool to jump servers without breaking your connection (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-28 08:45
