@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Jun 30, 2026 (146 stories)
+
+Good morning,
+
+Today's IT briefing — 146 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth
+A critical vulnerability in Progress Kemp LoadMaster can let an unauthenticated attacker execute arbitrary commands as root on the appliance by sending a crafted request to its API. The flaw, tracked as CVE-2026-8037, carries a CVSS score of 9.8 according to ZDI. A patch is available. If you run LoadMaster with the…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution (InfoQ)
+  • Crypto exchange OKX wants AI agents to hire and pay each other (TechCrunch AI)
+  • AI is starting to look a lot like the early days of cloud – and the real race is operational (TechRadar)
+
+CYBERSECURITY
+  • CISA: Windows BlueHammer flaw now exploited by ransomware gangs (BleepingComputer)
+  • Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs (The Hacker News)
+  • Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild (The Hacker News)
+
+HARDWARE & CHIPS
+  • One of AMD's most powerful CPUs gets a 60% price cut — 192-core EPYC 9965 CPU costs less than $6000 new and I can't explain why it's so cheap (TechRadar)
+  • IBM unveils new record-breaking chip with 100 billion transistors in less than 1 nanometer footprint — new NanoStack design is like "a 100-storey skyscraper" packed with highly efficient processing power (TechRadar)
+  • AMD EXPO ULL RAM drops at jaw-dropping $1,099 despite promises of it being 'effectively the same price' — DDR5-6000 C26 32GB kit sports 80% ULL tax (Tom's Hardware)
+
+SOFTWARE & DEV
+  • HS2's latest reset ditches autonomous train tech to get project back on track (The Register)
+  • Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design (InfoQ)
+  • Atlas shrugs: New UK asylum seeker IT system failed to help case workers learn from appeals (The Register)
+
+BUSINESS & BIG TECH
+  • T-Mobile is booting customers from its oldest plans (The Verge)
+  • After a great start, DC’s new cinematic universe is already slowing down (The Verge)
+  • Tidal won’t pay royalties on AI-generated music but isn’t banning it outright (The Verge)
+
+GADGETS & CONSUMER
+  • The fantastic and 4.5-star-rated Breville Barista Express drops to its lowest-ever price on Amazon (TechRadar)
+  • I found two EOFY gaming laptop deals worth checking today, whether you want RTX 5060 value or RTX 5090 power (TechRadar)
+  • JB Hi-Fi EOFY laptop deal: this lightweight Asus Zenbook A14 has a big discount (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-06-30 09:25
