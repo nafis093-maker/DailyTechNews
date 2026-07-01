@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Jul 01, 2026 (170 stories)
+
+Good morning,
+
+Today's IT briefing — 170 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls
+Anthropic is putting Claude Fable 5 back online worldwide. On June 30, the U.S. Commerce Department lifted the export controls it had imposed on Fable and its more tightly controlled sibling Mythos 5 about two and a half weeks earlier. Fable 5 returns to users on Wednesday, July 1, across Claude.ai, the Claude…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Easemate.ai review (TechRadar)
+  • Gemini Spark comes to Google's Gemini app for macOS (Engadget)
+  • The ‘Father of the Internet’ is finally retiring (TechCrunch AI)
+
+CYBERSECURITY
+  • Adobe patches seven max severity ColdFusion, Campaign flaws (BleepingComputer)
+  • Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware (The Hacker News)
+  • Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts (The Hacker News)
+
+HARDWARE & CHIPS
+  • 32GB Corsair Vengeance DDR5 is $314 in this Woot sale — the lowest standalone RAM price in months, thanks to $125 discount (Tom's Hardware)
+  • Private and community servers for Minecraft and COD are illegal and amount to piracy, ESA tells California Senate — Stop Killing Games-backed bill fails to pass committee (Tom's Hardware)
+  • xTool says its 01 Omni Printer can ‘print it all’ — firm steps into the world of UV printing for output on 'all surfaces' at up to 5mm thick (Tom's Hardware)
+
+SOFTWARE & DEV
+  • UK.gov vows to cut consultancy spending, then hands up to £350M to consultancies (The Register)
+  • Portuguese restaurant kiosk software gives Windows indigestion (The Register)
+  • Japan wants 10 million more robots by 2040, some providing medical care (The Register)
+
+BUSINESS & BIG TECH
+  • Startup Battlefield Australia application closes in days: Apply before July 6 (TechCrunch)
+  • Google kills Tenor GIF API, forcing changes at X, Discord, and more (Ars Technica)
+  • Apple takes Epic fight over app store fees to the Supreme Court (Ars Technica)
+
+GADGETS & CONSUMER
+  • Emergent no-code review (TechRadar)
+  • Meta puts rate limits on its smart glasses' Conversation Focus feature (Engadget)
+  • Playground Games says Fable uses the same engine as Forza Horizon with 'a ton of additional technology on top' — 'Using that base for Fable is just a match made in heaven' (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-01 09:37
