@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Jul 02, 2026 (163 stories)
+
+Good morning,
+
+Today's IT briefing — 163 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office (TechCrunch AI)
+  • 'I wouldn't even be able to afford the speaker stands' — two big-name audiophile brands just went head-to-head to release the best elite hi-fi tower speaker (TechRadar)
+  • Nvidia RTX 5090 GPUs are so expensive that Intel's Arc Pro B70 is now a genuine bargain for AI — 128GB 4-card configuration costs less than $3800 (TechRadar)
+
+CYBERSECURITY
+  • New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos (The Hacker News)
+  • Hackers shoveled snow for company, were rewarded with network admin access (The Register)
+  • Medtronic notifies customers impacted by ShinyHunters data breach (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Trouble keeps finding Supermicro as strange server shipments attract police attention in Taiwan and Singapore (The Register)
+  • Qualcomm High Bandwidth Compute aims to compete with High Bandwidth Flash and Memory by stacking LPDDR just above the CPU to 'eliminate HBM tax' (TechRadar)
+  • Xbox reportedly testing a way to digitize physical games in the wake of PlayStation killing game discs — feature said to go back to Xbox One-era games (Tom's Hardware)
+
+SOFTWARE & DEV
+  • UN warns of need for global governance to avoid an AI-pocalypse (The Register)
+  • New humanoid robots from China look like creepy pop star action figures – complete with slightly dodgy lip-synch (The Register)
+  • Claude Sonnet 5.0 heads straight down the middle of the road to dodge controversy (The Register)
+
+BUSINESS & BIG TECH
+  • Bending Spoons defies SaaS slump, surges 40% on first day of trading (TechCrunch)
+  • Apple’s entry-level MacBook Pro could be up for a redesign (The Verge)
+  • After $18B IPO, Bending Spoons founder says success comes from minimizing luck (TechCrunch)
+
+GADGETS & CONSUMER
+  • A Bluetooth tracker for just under AU$18 apiece? Show me the way! (TechRadar)
+  • Amazon Prime Day Apple deals 2026: the best early iPhone, iPad, AirPods and MacBook deals in Australia (TechRadar)
+  • ‘Technologies don’t usually die because consumers move on, they die because the inputs disappear’: I asked CRT TV experts if the technology could ever make a comeback — the biggest obstacle wasn’t what I expected (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-02 08:49
