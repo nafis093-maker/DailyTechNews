@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Jul 03, 2026 (161 stories)
+
+Good morning,
+
+Today's IT briefing — 161 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords
+Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The stealer, discovered by Jamf Threat Labs, is distributed as a compiled AppleScript (.scpt) file impersonating Maccy, a legitimate open-source…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Tesla's Model Y L finally comes to the US with six seats and a $62,000 price tag (Engadget)
+  • Google Releases A2UI v0.9: Portable, Framework-Agnostic Generative UI (InfoQ)
+  • Amazon’s Mechanical Turk to stop accepting new customers – and not even AI can save it (The Register)
+
+CYBERSECURITY
+  • User swore hacker called General Failure had invaded his PC (The Register)
+  • Claude Fable relaunch disappoints users with nerfed performance (BleepingComputer)
+  • Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs (Dark Reading)
+
+HARDWARE & CHIPS
+  • Nvidia floats double-dipping datacenter financing scheme (The Register)
+  • Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices (The Hacker News)
+  • SK hynix to invest $712.5 billion in South Korean operations — Cheongju NAND expansion, Yongin Semiconductor Cluster for DRAM detailed (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Databricks unifies OLTP and OLAP, depending on what counts as a copy (The Register)
+  • Failed blockchain project ends with big fine for fibs about it being on track (The Register)
+  • In a volatile world, a consistent sustainability policy is critical (The Register)
+
+BUSINESS & BIG TECH
+  • Politician who investigated spyware abuses had his phone hacked with Pegasus spyware (TechCrunch)
+  • Last chance to apply — Startup Battlefield Australia applications close July 6 (TechCrunch)
+  • Private space pilots are flying orbital missions for the US Space Force (TechCrunch)
+
+GADGETS & CONSUMER
+  • Faster and further reaching — NordVPN quietly brings its obfuscated servers to its in-house censorship-resistant protocol (TechRadar)
+  • Project Hail Mary is my favourite feel-good movie of the year — and it’s on Prime Video this weekend (TechRadar)
+  • UK government signs £30 million deal to build the world’s first prototype fusion power plant by 2040 (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-03 08:55
