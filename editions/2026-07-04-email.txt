@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Jul 04, 2026 (101 stories)
+
+Good morning,
+
+Today's IT briefing — 101 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
+A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • ‘You fix it by making the secure option just as fast and frictionless as the risky one’: Practical advice on addressing shadow AI (TechRadar)
+  • PC makers are chasing 'creatives'. But who are they? (TechRadar)
+  • The only AI glossary you’ll need this year (TechCrunch AI)
+
+CYBERSECURITY
+  • Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices (The Hacker News)
+  • New Avalon Malware Framework Packs CrownX Ransomware Capabilities (The Hacker News)
+  • Malaysia is cracking down on VPN misuse, but your VPN stays perfectly legal (TechRadar)
+
+HARDWARE & CHIPS
+  • Turtle Beach KP7 Review: The accessory that does everything (Tom's Hardware)
+  • iBuyPower's 4th of July sale offers up to $350 off gaming PCs — here's our top pick with a Ryzen 7 7800X3D, 32GB DDR5 6000MHz RAM, and an RX 9070 XT (TechRadar)
+  • Intel reportedly adding two new 22-core SKUs with game-boosting cache to Nova Lake-S lineup — 125W unlocked and 65W locked part rumored to be part of single-tile Core Ultra 5 tier (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Cycle Introduces EU Control Plane as Sovereignty Debate Continues (InfoQ)
+  • NASA says it will isolate volunteers from the outside world for a year (The Register)
+  • Amazon Leo constellation nears 400 satellites as broadband launch looms (The Register)
+
+BUSINESS & BIG TECH
+  • The Dune keypad device can be your meeting controller and more (TechCrunch)
+  • Chevy built an all-American EV truck — why is nobody buying it? (TechCrunch)
+  • Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone (Ars Technica)
+
+GADGETS & CONSUMER
+  • American soccer fans turn to VPNs to dodge the World Cup's hydration break ads (TechRadar)
+  • Small nuclear waste batteries could fuel drones for 30 years via trickle charging, making Spiderweb scenario a permanent nightmare (TechRadar)
+  • For a brand that made robot vacuums accessible, my faith in Ecovacs is shaken after using the Deebot T90 Pro Omni (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-04 08:30
