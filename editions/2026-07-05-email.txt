@@ -1,0 +1,37 @@
+Subject: THE BITSTREAM — IT Daily, Sun Jul 05, 2026 (57 stories)
+
+Good morning,
+
+Today's IT briefing — 57 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It
+Claude models reached GA on Microsoft Foundry with Azure-native billing and governance, but no European data zone exists. Anthropic's own documentation confirms data residency guarantees apply to Bedrock and Vertex AI but not Foundry. European practitioners from banking and healthcare report the offering is unapproved…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • OpenAI wants to give the US government a piece of the company — but don't assume you'll get a slice too (TechRadar)
+  • Chinese firm's fiber trial hits staggering 51.3 Tb/s over 128 miles without signal regeneration — could this be an end to bandwidth bottlenecks? (TechRadar)
+  • New Google commercial imagines a Declaration of Independence written with help from AI (TechCrunch AI)
+
+CYBERSECURITY
+  • 'Agentic coding tools have access to everything they need for this': Security experts warn Claude Code can be exploited simply by trying to be helpful (TechRadar)
+  • JadePuffer ransomware used AI agent to automate entire attack (BleepingComputer)
+  • U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case (The Hacker News)
+
+HARDWARE & CHIPS
+  • 50-feet-long fiber optic HDMI cable and Steam Controller 2 is enthusiasts' answer to the Steam Machine — dismisses Valve's new console for a DIY Bazzite setup with a controller (Tom's Hardware)
+  • Sony crammed an entire PS1 into a DualShock controller that connects to your TV, but killed the project — PlayStation Puga offered game studios a mere 10 cents per unit sold (Tom's Hardware)
+  • Chinese YMTC SSDs make their way into retail Lenovo laptops — media outlet slams YMTC PCIe 4.0 drive for 'below average for an SSD in an office laptop' in review (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Cycle Introduces EU Control Plane as Sovereignty Debate Continues (InfoQ)
+
+BUSINESS & BIG TECH
+  • NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth (The Verge)
+  • Matic’s robot vacuum is getting a $250 price hike in September (The Verge)
+
+GADGETS & CONSUMER
+  • The EZVIZ EP4 is a great home security camera for renters — but its facial recognition won't stop it from spamming you with alerts when you come home (TechRadar)
+  • D-Link G572 review: This SIM-ready 5G router is a valuable fallback for my weak home internet (TechRadar)
+  • I compared the AirPods Max 2 vs the Sony WH-1000XM6 for hours, and it's a really close contest with some clear differences — but there’s one winner for me (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-05 08:46
