@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Jul 06, 2026 (75 stories)
+
+Good morning,
+
+Today's IT briefing — 75 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
+Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • 'We’re seeing a clear divide': Many business leaders admit they only have a 'limited understanding' of AI budgets (TechRadar)
+  • How data governance builds true business resilience (TechRadar)
+  • AI Model Context Protocol Adds Centralised Auth for Enterprise (InfoQ)
+
+CYBERSECURITY
+  • New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS (The Hacker News)
+  • Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages (The Hacker News)
+  • SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing (The Hacker News)
+
+HARDWARE & CHIPS
+  • South Korea’s hottest new bachelors are chip workers (MIT Tech Review)
+  • SpaceX vaporizes 260 Starlink satellites in six months using Earth's atmosphere — new environmental concerns emerge over burning 2,700-pound orbital data centers, FCC seeks to exempt satellites from regulations (Tom's Hardware)
+  • RAMpocalyse pricing prompts maker to construct his own memory using ancient Apollo-era tech — USB drive resurrects hand-threaded magnetic core memory using salvaged Russian computer parts (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Secure Unix ancestor KSOS did type safety before Rust made it cool (The Register)
+  • Presentation: Practical Robustness: Going Beyond Memory Safety in Rust (InfoQ)
+  • Insert token to continue, says AI. Yeah, about that... (The Register)
+
+BUSINESS & BIG TECH
+  • Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent (TechCrunch)
+  • This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon (TechCrunch)
+  • Uber’s European expansion plans may have hit a speed bump (TechCrunch)
+
+GADGETS & CONSUMER
+  • Bigme introduces a color e-ink monitor that could reportedly hit 60 FPS — 25.3-inch display will come with a 3200 x 1800 resolution and support for 4096 colors (Tom's Hardware)
+  • Samsung's first ever clip-on earbuds look slated to launch, as odd new name drops in the Galaxy Wearable app (TechRadar)
+  • Apple's foldable iPhone may be in short supply after it launches (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-07-06 10:08
