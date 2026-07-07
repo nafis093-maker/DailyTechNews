@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Jul 07, 2026 (129 stories)
+
+Good morning,
+
+Today's IT briefing — 129 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Presentation: Designing AI Platforms for Reliability: Tools for Certainty, Agents for Discovery
+Aaron Erickson explains how NVIDIA designs and tests purpose-built AI agent hierarchies. For senior developers and architects, he outlines why balancing deterministic tools with agentic discovery is crucial. Discover how to leverage rare context, implement LLM-as-a-judge test pyramids, and avoid the paradox of choice…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • The first American autonomous ground vehicles are fighting in Ukraine (TechCrunch AI)
+  • Broadcom and Apple extend custom silicon pact to 2031 (The Register)
+  • Samsung’s profits jump 19x in a year and you don’t need AI to figure out why (The Register)
+
+CYBERSECURITY
+  • Quantum is already compromising your data, you just can’t see it yet (TechRadar)
+  • BeyondTrust warns of critical flaws in remote access software (BleepingComputer)
+  • Microsoft testing new Cloud Rebuild Windows 11 recovery feature (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Samsung chip division's single-year profits beat its past 40 years of profits, combined — Samsung passes Nvidia to become most profitable company in the world (Tom's Hardware)
+  • 'No single organisation can tackle it alone': VodafoneThree says its new security process blocked two million SMS fraud messages (TechRadar)
+  • Attention, Nvidia GPU users — you need to be wary of riser cable setups, especially when using an RTX 5090 (TechRadar)
+
+SOFTWARE & DEV
+  • Northern Ireland tries (again) to expel Capita from schools IT contract (The Register)
+  • UK guts planning red tape so datacenters can bypass the neighbors faster (The Register)
+  • Brussels shows how to remove friction from collaboration (The Register)
+
+BUSINESS & BIG TECH
+  • Netflix invented binge-watching. Now it may have outgrown it. (TechCrunch)
+  • Kremlin suspected of flying drones over Europe using Russian shadow fleet (Ars Technica)
+  • Hoto’s PixelDrive screwdriver is down to $60, matching its best price (The Verge)
+
+GADGETS & CONSUMER
+  • Five ways data centers can save water (TechRadar)
+  • The Ninja DoubleStack at a record-low price of AU$189.95 is my pick of the best Prime Day air fryer deal — but there's more where that came from (TechRadar)
+  • Google will now count all Android backup data toward your storage cap (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-07-07 09:32
