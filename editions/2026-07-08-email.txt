@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Jul 08, 2026 (159 stories)
+
+Good morning,
+
+Today's IT briefing — 159 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Samsung will launch its new wide foldable on July 22nd
+Samsung has announced that its next Galaxy Unpacked launch event will be held on July 22nd, with the tagline: "A new shape unfolds." It's long been rumored that Samsung is about to expand its foldable phone line to a third format, with a shorter and wider version of its big book-style foldables, to match Huawei's […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • Hot French startup ZML releases free product to speed inference across lots of AI chips (TechCrunch AI)
+  • AI's biggest challenge is not compute - it's data storage (The Register)
+  • Tomorrow’s AI networks need to adapt to stay ahead of the inference curve (TechRadar)
+
+CYBERSECURITY
+  • Ubiquiti warns of new max severity UniFi OS vulnerability (BleepingComputer)
+  • CISA orders feds to patch max severity ColdFusion flaw by Friday (BleepingComputer)
+  • Hackers can use 9 of the most popular AI tools to assemble massive botnets (Ars Technica Tech)
+
+HARDWARE & CHIPS
+  • Unannounced Nvidia RTX 50 Super GPUs appear in Seasonic PSU calculator — unreleased graphics cards shown with 10-17% higher TGP over original models (Tom's Hardware)
+  • South Korean chip startup FuriosaAI invades European datacenters (The Register)
+  • A 'small form factor dream': The Minisforum MS-01 tackles big workloads, and it's $544 off at Newegg right now (TechRadar)
+
+SOFTWARE & DEV
+  • Media Over QUIC can scale real-time streaming and carry the world's vids (The Register)
+  • Microsoft intros tech that rebuilds dead PCs without requiring local copies of Windows (The Register)
+  • Windows is watching: Anti-piracy tool fingers Scattered Spider suspect (The Register)
+
+BUSINESS & BIG TECH
+  • Final extension: Startup Battlefield Australia applications now close July 20 (TechCrunch)
+  • Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers (The Verge)
+  • Data centers’ energy demand threatens Trump’s “Made in America” plan (Ars Technica)
+
+GADGETS & CONSUMER
+  • We've tested the best fans of 2026 so far — these 5 models from Shark, Dyson, and Dreo are the ones we trust to actually keep us cool (TechRadar)
+  • I was skeptical about the necessity for home security cameras — a late-night scare has now changed my mind (TechRadar)
+  • The next Samsung Galaxy Unpacked launch is happening on July 22 (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-07-08 08:18
