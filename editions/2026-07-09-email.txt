@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Jul 09, 2026 (174 stories)
+
+Good morning,
+
+Today's IT briefing — 174 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference Inside the Database
+Google shipped AlloyDB AI functions GA with a proxy model architecture that trains a lightweight local model from LLM outputs, then runs queries at database speed without external calls. Smart batching delivers 2,400x throughput improvement. The proxy model reaches 100,000 rows per second in preview, but benchmark…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • Four nuclear reactors hit a big milestone in the US (MIT Tech Review)
+  • Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images (The Hacker News)
+  • The Kubernetes Approach to AI-Assisted Maintainership Prioritises Human Accountability (InfoQ)
+
+CYBERSECURITY
+  • Anthropic’s Mythos leak hands enterprises a timely warning (TechRadar)
+  • AssuranceAmerica data breach exposes records of 6.9 million drivers (BleepingComputer)
+  • Microsoft patches RoguePlanet Defender zero-day vulnerability (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Can't afford a high-powered graphics card? This DIY engineer made his own GPU out of 8,192 RISC-V chips (TechRadar)
+  • With EU backing, QuantumDiamonds aims to speed up chip manufacturing (TechCrunch)
+  • Rapidus fab roadmap examined — first new leading-edge chipmaker in decades has one Hokkaido fab, a 2027 deadline, and 60 potential customers (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Windows 95 detected installers by looking for magic words and hoping for the best (The Register)
+  • Scientist models way to make sure no one's violating the ban on nuclear weapons in space (The Register)
+  • Thief posed as Wi-Fi fixing hero, then stole priceless trophy (The Register)
+
+BUSINESS & BIG TECH
+  • Truecaller clashes with India’s telecom regulator over anti-spam rules (TechCrunch)
+  • Despite ‘misgivings,’ judge approves Elon Musk’s $1.5M SEC settlement (TechCrunch)
+  • Feds demand autonomous vehicle companies stop interfering with first responders (TechCrunch)
+
+GADGETS & CONSUMER
+  • Microsoft is moving to annual price adjustments for its commercial cloud services — could more bill shock be on the way? (TechRadar)
+  • Article: Beat-Aligned Mobile Audio Streaming with Virtual Chunks and Native Playback (InfoQ)
+  • Meaco's portable air conditioners are back in stock this morning, but hurry — they're sure to sell out again very soon (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-09 09:39
