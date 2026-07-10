@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Jul 10, 2026 (171 stories)
+
+Good morning,
+
+Today's IT briefing — 171 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets
+Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words that control the money. When that phrase is made with weak randomness, an attacker can work it out and take everything it…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • OpenAI unveils ChatGPT Work, an AI tool capable of handling workloads across finance, data analytics, engineering, and more (TechRadar)
+  • Enterprises are not building AI advantage. They are leasing it. (TechRadar)
+  • Sperm donors need limits, says a European fertility group (MIT Tech Review)
+
+CYBERSECURITY
+  • Former ransomware negotiator gets 4 years for BlackCat attacks (BleepingComputer)
+  • Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks (The Hacker News)
+  • Microsoft warns customers AI will mean busier Patch Tuesdays (The Register)
+
+HARDWARE & CHIPS
+  • NVIDIA decided now is the time to announce 'GeForce Trading Cards' (Engadget)
+  • TeamGroup G70 Pro 2TB SSD Review: Low latency meets affordable DRAM (Tom's Hardware)
+  • Nvidia is a victim of the compute marketplace it created (TechCrunch AI)
+
+SOFTWARE & DEV
+  • Article: Trade-Offs in Multi-Region Architectures: Latency vs. Cost (InfoQ)
+  • Datacenter MacGyver saved the biggest football match of the year (The Register)
+  • Red Hat offers RHEL support ‘forever’ for those who need to lock in to legacy tech (The Register)
+
+BUSINESS & BIG TECH
+  • Don’t want to invest in Elon Musk? Two new ETFs explicitly exclude him (TechCrunch)
+  • Humanoid robots controlled by surgeons did world-first operation on live pigs (Ars Technica)
+  • Charles Hudson shares the common mistakes he’s seen after investing in 500+ startups (TechCrunch)
+
+GADGETS & CONSUMER
+  • After Apple, India’s smartphone manufacturing boom enters new phase with Vivo JV (TechCrunch)
+  • Worried about Flock cameras? All new cars in the EU now need to have a camera aimed at the driver's face in the latest privacy nightmare (TechRadar)
+  • Asus ProArt GeForce RTX 5090 review: a slimmer SFF-ready RTX 5090 for creators who need flagship performance and 32GB of VRAM (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-10 09:26
