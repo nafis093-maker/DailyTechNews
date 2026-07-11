@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Jul 11, 2026 (155 stories)
+
+Good morning,
+
+Today's IT briefing — 155 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions
+Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • The more famous people tell me to use AI, the less I want to — it turns out I'm not alone (TechRadar)
+  • Meta deactivates feature that let you generate AI images of any public Instagram account (Engadget)
+  • Meta removes controversial AI feature on Instagram after backlash (TechCrunch AI)
+
+CYBERSECURITY
+  • Autonomous AI Russian 'Molniya' drone could be using the Nvidia Jetson Orin platform by exploiting a common COTS loophole (TechRadar)
+  • New U-Boot flaws could enable stealthy firmware attacks (BleepingComputer)
+  • Ransomware negotiator hired to represent victims was working for the attackers (Ars Technica)
+
+HARDWARE & CHIPS
+  • Tiny European chips power thousands of lethal Russian drones, and almost nobody can stop this (TechRadar)
+  • Quantum error correction can constantly recalibrate a processor (Ars Technica)
+  • Strava’s new Events tab helps you find local running groups and races, thanks to Runna’s huge database (TechRadar)
+
+SOFTWARE & DEV
+  • Slothful summer app lets you scroll simply by tilting your head (The Register)
+  • LisaFPGA brings Apple's magnificent misfire back in programmable logic (The Register)
+  • Orbital datacenter gold rush needs an environmental review, FCC told (The Register)
+
+BUSINESS & BIG TECH
+  • US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals (TechCrunch)
+  • Phia accused of ‘cookie stuffing,’ taking affiliate credit on purchases it didn’t earn (TechCrunch)
+  • No, Flock isn’t threatening people for debating surveillance (The Verge)
+
+GADGETS & CONSUMER
+  • Oukitel WP68 Air review: A rugged phone with good camera sensors, but limited performance and battery capacity (TechRadar)
+  • This Dreame X50 Ultra Prime Day deal drops a powerful premium robot vacuum to its lowest price yet, making it a compelling autonomous floor cleaner (TechRadar)
+  • Xiaomi has a NAS device, sitting alongside a supercar, a rice cooker, a nose hair trimmer, and smartphones, of course (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-11 07:47
