@@ -1,0 +1,38 @@
+Subject: THE BITSTREAM — IT Daily, Sun Jul 12, 2026 (65 stories)
+
+Good morning,
+
+Today's IT briefing — 65 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Reed Jobs would rather talk about curing cancer than his last name
+When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the venture outfit has a team of 17; a cluster of blockbuster drugs are all losing patent protection in roughly the same window, creating all…  (TechCrunch)
+
+AI & MACHINE LEARNING
+  • 'Quality decays exponentially following AI arrival': Research shows experts and contributors leaving online communities amidst silent 'knowledge reset' (TechRadar)
+  • 'The false attributions were the direct product of Koi’s unsupervised reliance': Startup sues Koi Security after AI tool hallucinates and links it to a Chinese spying scam (TechRadar)
+  • 'It's not really enjoyable to make music now': Quote of the day by CEO of AI music generator Suno, Mikey Shulman — a faux pas with serious ramifications (TechRadar)
+
+CYBERSECURITY
+  • Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install (The Hacker News)
+  • Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns (The Hacker News)
+  • Australia warns of global campaign targeting vulnerable CMS platforms (BleepingComputer)
+
+HARDWARE & CHIPS
+  • This 3D-printed electric motorbike folds into your luggage — creator warns it is 'super fast... way too fast' (Tom's Hardware)
+  • Hotspot temperature sensor on Nvidia's Blackwell gaming GPUs is still accessible if you have access to Nvidia's internal MODS tool — Nvidia RTX 5070 Ti caught throttling at 107°C over poor TIM application (Tom's Hardware)
+  • Newegg packs Ryzen 5 9600X and 16GB DDR5 into a $520 combo — bundles also include a B650 motherboard and 240mm AIO liquid cooler (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Cloudflare Identifies Race Condition in hyper’s HTTP/1 Implementation (InfoQ)
+
+BUSINESS & BIG TECH
+  • This slushie machine was a lifesaver during NYC’s heat wave (TechCrunch)
+  • After years of teasing, the viral Nopia synth is ‘basically finished’ (The Verge)
+  • Smart glasses without a camera? Even Realities bets productivity beats recording everyone (TechCrunch)
+
+GADGETS & CONSUMER
+  • Gambling, noir detectives, and urinating robots: Warframe's long-awaited Tau update is unlike anything I could possibly have predicted (TechRadar)
+  • Notorious Flipper Zero says it has 'decided to rethink our approach' to devices, but says development will continue thanks to community help (TechRadar)
+  • Security cameras are going cheap for Prime Day in Australia — here are 5 subscription-free options for a safer home (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-12 08:08
