@@ -1,0 +1,38 @@
+Subject: THE BITSTREAM — IT Daily, Mon Jul 13, 2026 (49 stories)
+
+Good morning,
+
+Today's IT briefing — 49 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Token maxxing is your AI program’s quiet failure mode (TechRadar)
+  • AI needs a home, not a hotel (The Register)
+  • Apple accuses OpenAI of stealing its core tech secrets (The Register)
+
+CYBERSECURITY
+  • Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365 (The Hacker News)
+  • RedHook Android malware now uses Wireless ADB for shell access (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Meta admits its first ‘superintelligence’ was too stupid to survive for three days (The Register)
+  • SanDisk has started sampling the tiny chip that will make 512TB SSDs possible in 2027, but don't expect them to cost under $300,000 (TechRadar)
+  • Ireland’s data centers consumed nearly as much electricity as every home in the country combined in 2025 — server farms gulped 23% of national power despite years of grid restrictions (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Microsoft is losing the battle to protect license lucre. It better get used to the feeling (The Register)
+  • How to Build More Resilient Local-First Applications With AT Protocol Infrastructure (InfoQ)
+  • User crippled a network while trying to learn Nmap (The Register)
+
+BUSINESS & BIG TECH
+  • Reed Jobs would rather talk about curing cancer than his last name (TechCrunch)
+  • This slushie machine was a lifesaver during NYC’s heat wave (TechCrunch)
+
+GADGETS & CONSUMER
+  • US bought 2000 F-Drones F10 attack UAVs from Ukraine as the Pentagon moves to the next phase of the billion-dollar 'drone dominance' program, with the legacy US military-industrial complex cautiously looking (TechRadar)
+  • The PlayStation physical games debacle is taking over everything Sony does — it’s the biggest tech PR disaster since Sonos’ app update, so will Sony learn the lessons that turned Sonos around? (TechRadar)
+  • Refreshed Apple Pencils may arrive next year with improved repairability (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-07-13 08:58
