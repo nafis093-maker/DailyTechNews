@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Jul 14, 2026 (148 stories)
+
+Good morning,
+
+Today's IT briefing — 148 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Microsoft Maps Year-Long ShinyHunters-Linked Salesforce Data Theft Across Three Paths
+Attackers whose methods line up with the data-extortion group ShinyHunters have spent the past year walking into corporate Salesforce environments without exploiting a single flaw in the platform. The way in has been the trust the organization had already extended, usually through the OAuth connections that tie…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Anthropic's extravagant tokenizer complicates AI pricing (The Register)
+  • Xiaomi unveils its first range-extender SUV and it looks like a private jet on wheels (TechRadar)
+  • Already rich, already successful, why the last wave of tech winners is grinding again (TechCrunch AI)
+
+CYBERSECURITY
+  • Weak Security Continues to Fuel Russian Cyberattacks (Dark Reading)
+  • The US government warns that Russia state hackers are coming after your router (Ars Technica Tech)
+  • Japan's largest taxi operator shuts systems after cyberattack (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Like photosynthesis in plants: This CPU uses solar power to 'run computations' without the need for batteries (TechRadar)
+  • Tesla's AI5 with 2nm-class node tapes out at Samsung Foundry — production starts soon, months after TSMC tape out (Tom's Hardware)
+  • Upcoming MSI Afterburner update adds heatmap to V/F curve editor to show your GPU's boosting behavior — new feature shoots for better overclocks with more data (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Big Blue thinks small, again, with POWER tower (The Register)
+  • Gobi X: Creating more energy for AI, not taking it from society (The Register)
+  • Zig creator calls Bun’s Claude Rust rewrite ‘unreviewed slop’ (The Register)
+
+BUSINESS & BIG TECH
+  • X just tweaked its algorithm to make it more friendly, less battleground (TechCrunch)
+  • Microsoft tests Windows Search without all the ads and fluff (The Verge)
+  • The Pixel colors might rule this year (The Verge)
+
+GADGETS & CONSUMER
+  • The American Dream is killing me — until I see Billie Joe Armstrong's new Marshall guitar amp (and then I'm as consumerist as they come) (TechRadar)
+  • Please let this hot pink Pixel 11 leak be real (Engadget)
+  • Quote of the day by Steve Jobs: 'The only problem with Microsoft is they just have no taste' — a potshot at a bitter rival (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-14 07:54
