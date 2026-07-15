@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Jul 15, 2026 (165 stories)
+
+Good morning,
+
+Today's IT briefing — 165 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Starlink’s V5 dish is now available — here’s how it compares
+SpaceX's latest residential dish - the Starlink V5 - is now available in "select areas." It's notably smaller and lighter than the V4 dish with improved power efficiency. It'll be available in more places as SpaceX ramps up production to meet global demand. The company notes that Starlink V5 is not intended for…  (The Verge)
+
+AI & MACHINE LEARNING
+  • The Star Wars cantina scene shows we need a new hope for the agentic web (The Register)
+  • At last, a good reason to buy an AI PC: Reining in runaway token bills (The Register)
+  • South Korea to launch universal basic AI chatbot (The Register)
+
+CYBERSECURITY
+  • US charges alleged operators of Russian bulletproof hosting service (BleepingComputer)
+  • How automation is easing IT’s patching pressure (TechRadar)
+  • Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands (The Hacker News)
+
+HARDWARE & CHIPS
+  • Quote of the day by Linux creator Linus Torvalds: 'Nvidia has been the single worst company we've ever dealt with' — airing frustrations at walled gardens (TechRadar)
+  • Bosgame’s P6 Ryzen 9 mini PC deal undercuts 8-core rivals as a powerful $520 desktop replacement (TechRadar)
+  • CEO of big memory chip maker says 2027 could be the 'worst year in the industry's history' — and other RAM crisis rumblings back up that dire prediction (TechRadar)
+
+SOFTWARE & DEV
+  • Google Cloud's VMware service loses resilience due to a dud update (The Register)
+  • Microsoft’s Secure Boot has been broken for a decade and no one noticed until now (Ars Technica Tech)
+  • Google Cloud Workbench Notebooks Extension Connects VS Code to Google Cloud's Jupyter Notebooks (InfoQ)
+
+BUSINESS & BIG TECH
+  • Lucid Motors denies report it’s considering bankruptcy (TechCrunch)
+  • US military sent explosive drone boats into combat for the first time (Ars Technica)
+  • Telegram’s shortlink domain is back online after day-long suspension (TechCrunch)
+
+GADGETS & CONSUMER
+  • UN Secretary General says 'Killer Robots' must be stopped, calls autonomous weapons "morally repugnant" (TechRadar)
+  • Google and Epic give up fighting — third-party Android app stores are coming next week (The Verge)
+  • Inside Samsung Display's secret labs, where it builds and stress-tests next-gen displays — and says it's ready for Apple to launch a foldable: 'We mean it, we love other companies to join this market' (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-15 07:58
