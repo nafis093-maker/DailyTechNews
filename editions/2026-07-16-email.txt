@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Jul 16, 2026 (170 stories)
+
+Good morning,
+
+Today's IT briefing — 170 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — HP’s OLED-equipped 2-in-1 laptop is a solid back-to-school deal
+With storage and memory prices still at an all-time high, we’re happy to tell you about a solid deal on a good laptop when we find one, rare as they are. Best Buy is selling the HP OmniBook X Flip 2 in 1 for $999.99 (usually $1,649.99) with an Intel Core 7 Ultra CPU, 16GB […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • Applied Computing wants to give oil and gas operators an AI model for the entire plant (TechCrunch AI)
+  • 5 amazing tools built with GPT-5.6 that people are showing off to Sam Altman — from a wardrobe assistant to Pokémon Go for cats (TechRadar)
+  • Former OpenAI CTO does what Altman won't: releases a frontier AI model that's actually open (The Register)
+
+CYBERSECURITY
+  • Police Disrupt a €140M Cyber Fraud Ring in Spain (Dark Reading)
+  • Tech support scam caused massive data breach at Australian airline Qantas (The Register)
+  • Dutch police bust investment fraud ring stealing over €100 million (BleepingComputer)
+
+HARDWARE & CHIPS
+  • 'This computer works almost like a guitar': Fingernail-sized quantum chip uses vibrations to store data (TechRadar)
+  • Nvidia's Huang vows to deliver 'giant amounts' of Vera Rubin — company says that 'our roadmap is intact' (Tom's Hardware)
+  • Guten Tag, Bonjour, Hola to Our European Cyber Defenders! (Dark Reading)
+
+SOFTWARE & DEV
+  • Law firm insisted on one password to rule them all (The Register)
+  • Even HP resellers thought the price of toner and ink was too high – so HP India facilitated an illegal cartel (The Register)
+  • Cyberattack threatens utterly critical infrastructure in Japan: KFC (The Register)
+
+BUSINESS & BIG TECH
+  • Lululemon backs nylon-recycling startup Syntetica in $30M Series A (TechCrunch)
+  • Why Greylock capped its new fund at $1.5B when it says it could have raised more (TechCrunch)
+  • Apple’s reportedly raising the price for AppleCare Plus on Macs and iPads (The Verge)
+
+GADGETS & CONSUMER
+  • AppleCare+ prices just went up for Macs and iPads (Engadget)
+  • Amazon flips the bird to Apple — drops iPad (A16) price back down to pre-hike level (TechRadar)
+  • The Onyx Boox Go 10.3 (Gen II) Lumi is a good Android-toting Kindle Scribe alternative, but it disappoints in a couple of key areas (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-16 08:04
