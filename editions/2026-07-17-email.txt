@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Jul 17, 2026 (172 stories)
+
+Good morning,
+
+Today's IT briefing — 172 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by July 19, 2026. The vulnerability…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • How Gartner can help turn your AI vision into business reality (The Register)
+  • Google takes aim at Canva and Adobe as its AI image editor Pics gets an official rollout date (TechRadar)
+  • South Korea making its own security-centric AI model (The Register)
+
+CYBERSECURITY
+  • Coca-Cola's dairy company fairlife hit with a ransomware attack (Engadget)
+  • CISA urges immediate action on actively exploited Fortinet flaws (BleepingComputer)
+  • New ClickLock macOS malware traps users into revealing login password (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Chinese memory ban would cut off RAMpocalypse relief (The Register)
+  • TSMC's $265B US fab pledge is the outline of a concept of a plan (The Register)
+  • The AMD Ryzen 7 7700X3D chip is now available for $329 (Engadget)
+
+SOFTWARE & DEV
+  • Tech support chap told angry customer to think inside the box – and solved the problem (The Register)
+  • NTP server that traveled back in time caused massive Aussie mobile outage (The Register)
+  • HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs (Ars Technica Tech)
+
+BUSINESS & BIG TECH
+  • San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco (TechCrunch)
+  • SpaceX suddenly aborts second Starship V3 launch after ignition (TechCrunch)
+  • Fear of humanoid robots spurs human workers to strike at Hyundai auto factory (Ars Technica)
+
+GADGETS & CONSUMER
+  • Heartstopper Forever is the best farewell that fans could have hoped for as new Netflix movie makes Nick and Charlies the most vulnerable — and adult — they've ever been (TechRadar)
+  • Prime Day might be over but these 21 deals under AU$50 prove you don't need a major sale to upgrade your tech (TechRadar)
+  • Missed Prime Day? Robot vacuum deals are still going strong on Amazon, with prices from just AU$299 (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-17 08:00
