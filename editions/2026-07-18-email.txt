@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Jul 18, 2026 (142 stories)
+
+Good morning,
+
+Today's IT briefing — 142 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Applications close in 48 hours — here’s everything Australian founders need to know about Stripe x Startup Battlefield
+The window is almost shut. On August 19, eight startups will take the stage at Stripe Tour Sydney in front of investors, global press, and the Australian tech community. One startup walks away with automatic entry into TechCrunch Disrupt in San Francisco — no application, no further competition, a guaranteed spot on…  (TechCrunch)
+
+AI & MACHINE LEARNING
+  • Shark makes some of the best vacuum cleaners — this convenient Clean & Empty model just got a tempting price cut on Amazon (TechRadar)
+  • Neil Rimer thinks the AI money is coming back out (TechCrunch AI)
+  • More and more US employees back forcing AI companies to transfer half of their stock into a public wealth fund (TechRadar)
+
+CYBERSECURITY
+  • New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code (The Hacker News)
+  • Abbott probes two cyber incidents amid extortion claims (BleepingComputer)
+  • OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests (The Hacker News)
+
+HARDWARE & CHIPS
+  • Nvidia RTX 5000 Super GPUs rumored to be ready — but they're on hold, and the reason why makes me nervous about pricing (TechRadar)
+  • ASML's planned Low-NA EUV machine price hikes reportedly frustrate TSMC — lithography machine maker comes knocking to make bank on TSMC's profitable fabs, potentially costing the Taiwanese chipmaker billions (Tom's Hardware)
+  • Ars is looking for a senior technology reporter, and you might be it! (Ars Technica)
+
+SOFTWARE & DEV
+  • Mozilla speeds Firefox release schedule to biweekly (The Register)
+  • Microsoft cuts OneDrive support for older Windows 10 versions next month (The Register)
+  • Billing software error sends billion-dollar AWS estimates (The Register)
+
+BUSINESS & BIG TECH
+  • Apple and Google ordered to purge ‘nudify’ apps from App Stores (TechCrunch)
+  • Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation (TechCrunch)
+  • Hegseth wants a "High-T" military; doctors call it a clinical minefield (Ars Technica)
+
+GADGETS & CONSUMER
+  • A mosquito-hunting killer drone is available for preorder – and I have questions (TechRadar)
+  • There's now an API for mainlining Trump's Truth Social posts (Engadget)
+  • 'Superb for most home uses in an emergency': Jackery HomePower 3000 combines a huge 3,072Wh battery with enough power to run almost every appliance — and it's on sale right now (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-18 07:40
