@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Jul 19, 2026 (72 stories)
+
+Good morning,
+
+Today's IT briefing — 72 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’
+Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Using AI makes people less likely to admit they don't know something (The Register)
+  • USAF's Autonomous AI fighter drone just fired a 'real' AMRAAM air-to-air missile in a world first (TechRadar)
+  • Kimi: Threat or menace? (TechCrunch AI)
+
+CYBERSECURITY
+  • Update now: 7-Zip fixes RCE flaw exploitable with malicious archives (BleepingComputer)
+  • WordPress Core "wp2shell" RCE flaws get public exploits, patch now (BleepingComputer)
+  • Microsoft warns of surge in ACR Stealer attacks on customers (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Google might not kneecap the Pixel 11a with an old processor (The Verge)
+  • GTA 3 and Vice City are now playable inside San Andreas — a mod lets you revisit Liberty City and Vice City without leaving San Andreas (Tom's Hardware)
+  • AMD’s new Ryzen 7 7700X3D plummets to $279 days after launch — the X3D chip rules the mid-range at its discounted price (Tom's Hardware)
+
+SOFTWARE & DEV
+  • AWS Introduces CloudFormation Express Mode for Faster Infrastructure Deployments (InfoQ)
+  • Java was a three-day hotfix away from dying horribly on stage (The Register)
+  • NextBSD returns to dollop Apple source on FreeBSD (The Register)
+
+BUSINESS & BIG TECH
+  • Waymo says San Francisco service has resumed after one-hour pause (TechCrunch)
+  • All the EVs that were discontinued or killed off in the U.S. this year (TechCrunch)
+  • Federal employees can download TikTok on their work phones again (TechCrunch)
+
+GADGETS & CONSUMER
+  • The Dimplex FlexBlade Multi-Directional Bladeless Fan looks like it's part of a plane, but despite its propeller-like design it may struggle to cool your aircraft hangar (TechRadar)
+  • I've used foldable phones for years — here's how the Galaxy Z Fold 8 and iPhone Ultra are fixing the form factor in 2026 (TechRadar)
+  • Quote of the day by Steve Jobs: 'I'm willing to go thermonuclear war on this' — giving a bitter rival both barrels (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-19 08:07
