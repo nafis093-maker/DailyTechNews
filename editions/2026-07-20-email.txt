@@ -1,0 +1,38 @@
+Subject: THE BITSTREAM — IT Daily, Mon Jul 20, 2026 (50 stories)
+
+Good morning,
+
+Today's IT briefing — 50 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent
+In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected and responded to the incident targeting its production infrastructure earlier last week. "We identified unauthorized…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • ‘The world of work is changing fast': Barely any workers think their job is safe as worries about AI refuse to go away (TechRadar)
+  • Netflix paid $587M for Ben Affleck’s AI filmmaking startup (TechCrunch)
+  • What to watch for after Jensen Huang’s Japan visit (TechCrunch AI)
+
+CYBERSECURITY
+  • SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines (The Hacker News)
+  • Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution (The Hacker News)
+  • 'The bypass is still six lines of JavaScript': Security experts warn that Claude for Chrome browser extension could be hijacked, despite it alerting Anthropic several times that something was wrong (TechRadar)
+
+HARDWARE & CHIPS
+  • Creality K2 SE 3D printer price slashed by 17%, now under $250 — grab a competitive entry-level high-speed multicolor device at a bargain price (Tom's Hardware)
+  • AMD's next-gen 10-core 'Medusa Point' APU shows up on Geekbench again, with its best score yet — leaked SKU outpaces every other x86 mobile chip in the single-core test (Tom's Hardware)
+  • Zilog Z80 turns 50 as an open-source replacement heads to drop-in DIP40 silicon — iconic 8-bit CPU launched in July 1976 and was discontinued in 2024 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • AWS Introduces CloudFormation Express Mode for Faster Infrastructure Deployments (InfoQ)
+
+BUSINESS & BIG TECH
+  • The FBI reportedly won’t investigate ICE anymore (The Verge)
+  • Orchid is a delightfully retro and approachable hipster synth (The Verge)
+  • The future of physical games is not looking great (The Verge)
+
+GADGETS & CONSUMER
+  • '6G is going to make all of us into walking cameras' — Quote of the day by Qualcomm CEO Cristiano Amon on the future of wearable tech (TechRadar)
+  • Finally, some good news for budget-conscious laptop fans — Lenovo Legion R9000P is the world's first laptop with inkjet-printed OLED (TechRadar)
+  • FAA and federal workers forced to install $1.4 million White House app containing Russian-built Elfsight code onto government-issued mobile devices (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-20 08:49
