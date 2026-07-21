@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Jul 21, 2026 (126 stories)
+
+Good morning,
+
+Today's IT briefing — 126 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — GitLab 19.2 Puts AI Agents to Work on the Security Backlog
+GitLab has released version 19.2 of its DevSecOps platform, adding agentic automation aimed at the security and review work that has piled up as AI coding tools generate more code than developers can check by hand. The release, announced on 16 July 2026, brings four features out of beta or into public beta: Dependency…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • Adobe Firefly AI video editor review (TechRadar)
+  • Watt a load of crap: UK start-up is turning number twos into number one with shockingly superior sewage battery tech (TechRadar)
+  • Anthropic’s landmark $1.5B copyright settlement is approved (TechCrunch AI)
+
+CYBERSECURITY
+  • Windows LegacyHive zero-day flaw gets free, unofficial patches (BleepingComputer)
+  • New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack (The Hacker News)
+  • Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution (The Hacker News)
+
+HARDWARE & CHIPS
+  • NATO is getting its own Starlink satellite constellation as HALO brings Europe and Canada together to improve resilience and high-speed comms (TechRadar)
+  • Taiwan indicts ex-TSMC manager for allegedly stealing chip secrets for China — first case of its kind links managers to Chinese semiconductor materials analysis company (Tom's Hardware)
+  • Judge pauses $110B Paramount-Warner Bros. merger (TechCrunch)
+
+SOFTWARE & DEV
+  • $100 million for open source: A milestone built by the community (GitHub Blog)
+  • DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability (InfoQ)
+  • Presentation: Platform Engineering for Everyone - Success Can’t Be Coded (InfoQ)
+
+BUSINESS & BIG TECH
+  • Colossal Biosciences reportedly in talks to raise new capital at $20B–$30B valuation (TechCrunch)
+  • The FCC is planning to retroactively ban disguised DJI gadgets (The Verge)
+  • Firefighting drones in the works as wildfires plague US nearly year-round (Ars Technica)
+
+GADGETS & CONSUMER
+  • US startup founded by former teenage drone racers just won one of the Pentagon's biggest small-drone deals — Neros has shipped tens of thousands of UAVs to Ukraine and inked a $500M contract (TechRadar)
+  • Garmin just accidentally revealed pricing for its own Fitbit Air rival — but leaked images look awfully dubious (TechRadar)
+  • DA: Cop covered bodycam to snap nude prisoners on his iPhone—but other cams caught him (Ars Technica)
+
+— THE BITSTREAM, auto-compiled 2026-07-21 08:17
