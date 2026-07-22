@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Jul 22, 2026 (169 stories)
+
+Good morning,
+
+Today's IT briefing — 169 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Synthesia’s AI training platform is moving beyond videos into live coaching
+Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.  (TechCrunch AI)
+
+AI & MACHINE LEARNING
+  • GKE Security Blueprint Joins Growing List of Cloud AI Frameworks (InfoQ)
+  • Wondershare Filmora AI video editor (2026) review (TechRadar)
+  • OpenAI says its AI models hacked Hugging Face during testing (BleepingComputer)
+
+CYBERSECURITY
+  • Chick-fil-A discloses data breach after credential stuffing attacks (BleepingComputer)
+  • Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA (The Hacker News)
+  • Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library (The Hacker News)
+
+HARDWARE & CHIPS
+  • Anyone with a shed, an extension cord, a couple of GPUs and an overdraft is building datacenters. Fujitsu just offloaded five (The Register)
+  • Leaving Apple, Intel, and Nvidia in the dust? Huawei could join Samsung as the only tech firms producing its own CPUs, SSDs, and DRAM (TechRadar)
+  • Bucking EV slowdown, Sila raises $300M to expand battery materials factory (TechCrunch)
+
+SOFTWARE & DEV
+  • China advances plans for national single-stack IPv6 network, and its own surveillance-friendly version of the protocol (The Register)
+  • AI's cheatin' heart will make you weep (The Register)
+  • Iran says it's struck offline AWS facility in Bahrain ... again (The Register)
+
+BUSINESS & BIG TECH
+  • Dimension Capital’s $800M third fund shows the intersection of science and compute is booming (TechCrunch)
+  • These are the countries moving to ban social media for children (TechCrunch)
+  • Einride bets $38M on EV charging as it scales electric trucking (TechCrunch)
+
+GADGETS & CONSUMER
+  • Your next laptop could hit new heights of brightness as Samsung introduces new OLED panels for Lenovo, Asus, MSI and Dell machines (TechRadar)
+  • 'Not sure if I should keep buying games and software from Microsoft': Xbox users are questioning account safety due to ongoing recovery issues, ahead of a disc-less console future (TechRadar)
+  • Samsung Galaxy Unpacked July 2026: Live updates from the Z Fold 8 and Flip 8 launch event (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-07-22 08:18
