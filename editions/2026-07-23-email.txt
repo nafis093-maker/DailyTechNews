@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Jul 23, 2026 (161 stories)
+
+Good morning,
+
+Today's IT briefing — 161 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Lego’s Donkey Kong arcade machine lets Mario jump endless barrels — Miyamoto is reportedly happy
+Carl Merriam has designed some of my favorite nostalgia-inducing Lego sets, including the Lego Nintendo Game Boy and Piranha Plant. He's assisted on the incredible Lion Knights' Castle, Galaxy Explorer, and Pirates of Barracuda Bay. Now, he's helped the company create a $200 Donkey Kong arcade machine set that managed…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Fliki AI video editor review (TechRadar)
+  • ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push (TechCrunch AI)
+  • Senior White House official claims China’s K3 model stolen from Anthropic (The Register)
+
+CYBERSECURITY
+  • Check Point warns of SmartConsole zero-day exploited in attacks (BleepingComputer)
+  • Brazilian Banking Trojan Actively Spreading in Portugal (Dark Reading)
+  • Forget passwords: ExpressVPN now lets you sign in with your face or fingerprint (TechRadar)
+
+HARDWARE & CHIPS
+  • Google is hoarding TPUs to chase artificial general intelligence (The Register)
+  • Science Corporation’s vision-restoring chip wins EU approval (TechCrunch)
+  • Fortinet becomes Intel 4's first foundry customer, following firewall ASIC deal — CEO Lip-Bu Tan's promised foundry wins begin to surface, but on a mature node (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Talking smack about a doctor got him access to private medical files (The Register)
+  • Meta Ports React Compiler to Rust for Faster Builds and Tighter Toolchain Integration (InfoQ)
+  • Google Cloud is killing it (The Register)
+
+BUSINESS & BIG TECH
+  • Orcas team up to ram sunfish until they explode (Ars Technica)
+  • Tesla spending skyrockets as Cybercab, Semi, Megapack production timeline slips (TechCrunch)
+  • Social media addiction lawsuit against Meta is dropped (TechCrunch)
+
+GADGETS & CONSUMER
+  • Now that's one way to block annoying online ads — developer uses a $5 dongle to squeeze in 537,000 domains into just 4MB of flash memory (TechRadar)
+  • Split in half from space: satellite images confirm Ukraine's 800km drone strike destroyed an irreplaceable Russian Tu-95 bomber (TechRadar)
+  • I’ve been gaming with 8BitDo's Xbox mobile controller grip and I’ve never used my Game Pass subscription more (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-23 08:21
