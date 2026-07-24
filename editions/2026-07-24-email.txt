@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Jul 24, 2026 (148 stories)
+
+Good morning,
+
+Today's IT briefing — 148 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks
+The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems. The activity has been attributed by the agency to a threat cluster it tracks as UAC-0099, a Russia-aligned group…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Europe's Multilingual Reality Exposes AI Security Gaps (Dark Reading)
+  • Google is expanding access to its Gemini Spark agentic AI assistant (Engadget)
+  • Nvidia's latest trick for cooling its data center hardware is... hot water? 'Hot liquid cooling' is warmer than a hot tub, but apparently does the job pretty well (TechRadar)
+
+CYBERSECURITY
+  • Clop ransomware targets Windchill, FlexPLM in data theft attacks (BleepingComputer)
+  • Bad news — paying a ransomware demand might cause hackers to come back and ask for more (TechRadar)
+  • How AI guardrails are impeding the work of offensive cybersecurity researchers (TechCrunch AI)
+
+HARDWARE & CHIPS
+  • Quote of the day by former Intel CEO Andy Grove: 'Success breeds complacency' — accidental foreshadowing of his company's own decline (TechRadar)
+  • Cutting through the noise — researchers may have cracked a key issue with developing next-gen 6G networks (TechRadar)
+  • Nvidia RTX 3090 and RTX 3050 team up to hit 144 FPS at 4K — Lossless Scaling turns old Ampere GPUs into a gaming powerhouse (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3 (InfoQ)
+  • The case for a cooldown: Why Dependabot now waits before issuing version updates (GitHub Blog)
+  • Achieving Compliance as a Platform Engineering Team by Helping Developers (InfoQ)
+
+BUSINESS & BIG TECH
+  • Meet the judges who will crown Australia’s next breakout startup (TechCrunch)
+  • Mobileye CEO Amnon Shashua to step aside as company pushes into robotaxis, robotics (TechCrunch)
+  • Patreon lays off 20% of its workforce (TechCrunch)
+
+GADGETS & CONSUMER
+  • Garmin’s TrainingPeaks acquisition and the Garmin Cirqa smart band could have a surprise connection — as the Cirqa puts access to its coaching software behind the Connect+ premium tier (TechRadar)
+  • 'Bigger, brighter and lighter': It was love at first use with the 3rd-generation Amazon Kindle Scribe (2025), but its height and price make it unwieldy (TechRadar)
+  • My favorite music streaming site just got a big update that makes me even happier I quit Spotify six months ago (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-24 08:16
