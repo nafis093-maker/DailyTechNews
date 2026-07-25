@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Jul 25, 2026 (152 stories)
+
+Good morning,
+
+Today's IT briefing — 152 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — After backlash, Meta pauses plan to ‘rate limit’ its smart glasses
+Remember when Meta was planning to charge a $20 monthly subscription fee for the smart glasses feature that lets people hear each other more clearly - even though that feature runs locally on your glasses and doesn't require the cloud? Meta has paused those plans, spokesperson Tyler Yee confirms to The Verge. The…  (The Verge)
+
+AI & MACHINE LEARNING
+  • I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else (TechCrunch AI)
+  • Anthropic debuts Opus 5 at half the price of its Fable sibling (The Register)
+  • Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M (TechCrunch AI)
+
+CYBERSECURITY
+  • CISOs vs. Boards: Myth or Misunderstanding? (Dark Reading)
+  • OnTrac notifies customers of data breach after network hack (BleepingComputer)
+  • Hermes AI agent used to automate attack on Thai Finance Ministry (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Nvidia reveals deep dive into what makes Vera CPU tick — with the super-powered Olympus core promising huge performance increases and more (TechRadar)
+  • Intel commits to 14A mass production in 2028 as its sales rise 25% year-over-year (Tom's Hardware)
+  • Dell 14S review: High-class design and 20+ hour battery life (Tom's Hardware)
+
+SOFTWARE & DEV
+  • BOFH: This printer engineer knows every trick in the book (The Register)
+  • How Zalando Built an In-Process Client-Side Load Balancer for One Million Requests per Second (InfoQ)
+  • Pope's official prayer app commits cardinal sin, leaks 700K+ users' info (The Register)
+
+BUSINESS & BIG TECH
+  • SpaceX launches new V3 Starlink satellites but suffers another booster failure (TechCrunch)
+  • Wildfire forces evacuation of NASA's Deep Space Network complex in Spain (Ars Technica)
+  • TechCrunch Disrupt 2026’s new Smart Money Stage explores fintech, payments, AI, and everything between (TechCrunch)
+
+GADGETS & CONSUMER
+  • 'The government has all but forgotten that most data centres require water to cool their systems': Industry trade board warns UK government over data center thirst for resources (TechRadar)
+  • Iran-linked group caught hiding surveillance tools in fake apps (TechRadar)
+  • Which DJI drone should I buy? Your simple guide to the different ranges and our top-rated flyers (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-25 07:59
