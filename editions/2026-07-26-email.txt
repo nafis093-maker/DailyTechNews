@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Jul 26, 2026 (87 stories)
+
+Good morning,
+
+Today's IT briefing — 87 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
+A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL. Confiant, which detailed the campaign on July 23, 2026, said it has operated since late 2024…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • 'That is the wrong model for the AI era': Employers now expect basic AI skills from all workers (TechRadar)
+  • Exclusive: 'We want to keep people away from doctors': Why Samsung has gone all-in on AI health, according to its executives — but do users trust it? (TechRadar)
+  • Monday.com is the latest tech company to blame AI for layoffs — here are 20 others (TechCrunch AI)
+
+CYBERSECURITY
+  • Steam forum ClickFix attacks infect gamers with XMRig cryptominers (BleepingComputer)
+  • The hacker who humiliated spyware makers and was never caught (TechCrunch)
+  • Malicious sites use JavaScript to build malware in browser memory (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Security flaw in Vatican’s ‘Click to Pray’ app leaves over 700,000 global users exposed — app has been leaking user data for over six months and still does (Tom's Hardware)
+  • Qualcomm is reportedly planning to raise processor prices by the end of the summer (Engadget)
+  • Grab an Nvidia RTX 5060 Ti gaming PC with Core Ultra 7 CPU and 32GB RAM for under $1,200 — Thermaltake's View u2660T-170 slashed by 33% (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade (InfoQ)
+  • Anti-AI open source has an enemy in common, but almost nothing else (The Register)
+  • BOFH: This printer engineer knows every trick in the book (The Register)
+
+BUSINESS & BIG TECH
+  • Warner Bros. lawsuit accuses Amazon of illegally poaching executives (TechCrunch)
+  • Elon Musk’s Boring Company reportedly raising funding at a $20 billion valuation (TechCrunch)
+  • Kalshi demands Netflix take down trailer for ‘Prediction Games’ documentary (TechCrunch)
+
+GADGETS & CONSUMER
+  • Someone polled 4K Blu-ray player owners about the reliability of different models over time, and there's a clear winner (TechRadar)
+  • I've hunted out the best Samsung Galaxy Z Flip 8 cases to keep your new slimline clamshell phone protected (TechRadar)
+  • Ukraine debuts 'Tsyklop' UAV that mimics the peregrine falcon — but explodes on target (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-26 08:17
