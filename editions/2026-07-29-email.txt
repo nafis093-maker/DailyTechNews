@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Jul 29, 2026 (178 stories)
+
+Good morning,
+
+Today's IT briefing — 178 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach
+OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Burnham's spanner in the works leaves UK government tech scattered across Whitehall (The Register)
+  • How cloud architecture is reinventing primary storage for the AI era (TechRadar)
+  • Can smartwatches and glasses get smarter? Inside Qualcomm and MediaTek’s new wearable AI play (TechRadar)
+
+CYBERSECURITY
+  • Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js (The Hacker News)
+  • Ariana Grande is suing the hackers who’ve been leaking her songs and videos for years (The Verge)
+  • We now have a better understanding how OpenAI hacked into Hugging Face (Ars Technica Tech)
+
+HARDWARE & CHIPS
+  • Nvidia paid $20 billion for SRAM decode - AMD just partnered for it instead (TechRadar)
+  • Bot-detection startup Spur nabs $200M from Insight (TechCrunch AI)
+  • Thousands of Data Center Controllers Open to Takeover (Dark Reading)
+
+SOFTWARE & DEV
+  • Airbus keeps an A350 flying for 24 hours (The Register)
+  • America bans imported robots due to supply chain and security risks (The Register)
+  • MCP gets an enterprise makeover (The Register)
+
+BUSINESS & BIG TECH
+  • The US is banning foreign robots (The Verge)
+  • eBay’s bizarre cyberstalking saga ends with a $56 million settlement (The Verge)
+  • Philly suburb: Sure, build that data center—but first meet our 43 demands (Ars Technica)
+
+GADGETS & CONSUMER
+  • .NET 11 Preview 6 Modernises MAUI CollectionView and Android Shell (InfoQ)
+  • Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates (The Hacker News)
+  • xAI is challenging a new Minnesota law banning 'nudify' apps (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-07-29 08:30
