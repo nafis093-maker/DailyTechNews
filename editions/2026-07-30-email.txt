@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Jul 30, 2026 (159 stories)
+
+Good morning,
+
+Today's IT briefing — 159 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation
+The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access (OWA), to target U.S. and European government entities, as well as the telecommunications, financial, hospitality, and…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Microsoft is openly competing with OpenAI, Anthropic more than ever (TechCrunch AI)
+  • Verizon scores $1 billion Google deal to connect its data centers to dark fiber - but is this only the beginning? (TechRadar)
+  • Mark Zuckerberg predicts that billions of people will have personal AI agents in five years (TechCrunch AI)
+
+CYBERSECURITY
+  • FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks (The Hacker News)
+  • Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet (The Hacker News)
+  • Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data (The Hacker News)
+
+HARDWARE & CHIPS
+  • Samsung's mobile division posts first-ever loss due to soaring memory prices (Engadget)
+  • Qualcomm is raising phone chip prices starting September 1st (The Verge)
+  • Microsoft says physical discs should not have stopped working during the Xbox outage — clarifies issue with entitlement checks that failed to read licenses correctly, update on the way (Tom's Hardware)
+
+SOFTWARE & DEV
+  • AWS Lambda's Self-Managed Code Storage Lifts the Account Quota, Not the Function Size Limit (InfoQ)
+  • Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission (Ars Technica Tech)
+  • Tame Dependabot: Group your updates, slow the cadence, keep security fast (GitHub Blog)
+
+BUSINESS & BIG TECH
+  • xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law (The Verge)
+  • Cyberpunk 2077 packs a lot of fun into its discounted $20 price (The Verge)
+  • Winamp aims for a comeback with a new music player powered by Deezer (TechCrunch)
+
+GADGETS & CONSUMER
+  • I'm sick of smart TV privacy worries, so I'm taking my TV off the internet for good — here's why you should too (TechRadar)
+  • I built a personal Netflix in three hours using the free Plex app — and I’m convinced it’s the future for Blu-ray and DVD fans (TechRadar)
+  • Google has a new way of talking about the latest cyber threats — so get ready for a whole load of crazy new names (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-07-30 08:15
