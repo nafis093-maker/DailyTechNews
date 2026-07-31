@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Jul 31, 2026 (172 stories)
+
+Good morning,
+
+Today's IT briefing — 172 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests
+One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendor. It was one of three incidents affecting real companies. [...]  (BleepingComputer)
+
+AI & MACHINE LEARNING
+  • Anthropic says its AI models also hacked three organizations on their own (Engadget)
+  • Stuart Fails to Save the Universe episode 2 has my favorite surprise Big Bang Theory cameo yet, and it's not the one you're thinking — and there's a hilarious hidden reason why it works (TechRadar)
+  • AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares (TechCrunch AI)
+
+CYBERSECURITY
+  • Anthropic’s Claude escaped test sandbox to attack three organizations (The Register)
+  • Anthropic says its own AI models breached three companies during security tests (TechCrunch AI)
+  • US Army backs giant surveillance balloons with $447m contract despite growing threat from drones (TechRadar)
+
+HARDWARE & CHIPS
+  • Experts claim the US wants to 'extract IP' from Ukraine's drone industry, mirroring China's tech transfers from Boeing (TechRadar)
+  • GPUs could explode to multiple TB with new storage-inspired memory tech (The Register)
+  • Read This Before You Buy That TV Streaming Stick (Krebs on Security)
+
+SOFTWARE & DEV
+  • Airport sign fails to boot, officers already on the scene (The Register)
+  • Techie lured out of retirement to support software only he remembered (The Register)
+  • Amazon's Q2 was great, but the earnings release is packed with baloney (The Register)
+
+BUSINESS & BIG TECH
+  • Apple stockpiles inventory as it braces for ‘significant supply constraints’ (TechCrunch)
+  • Samsung’s Galaxy Watch 9 is $40 off at Costco and comes with over $50 in freebies (The Verge)
+  • Florida plans to build air taxi pads using $200M intended for EV chargers (TechCrunch)
+
+GADGETS & CONSUMER
+  • Amazon's Zoox is the first steering wheel-free robotaxi to get regulatory approval for paid rides (Engadget)
+  • Tecno's new concept may be the first truly bezel-less smartphone (Engadget)
+  • Sony says it has secured enough ram for all the PS5s it expects to sell this year (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-07-31 08:41
