@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Aug 01, 2026 (142 stories)
+
+Good morning,
+
+Today's IT briefing — 142 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction
+Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system. It…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • New study reveals how AI is reshaping how people shop online — but they still don't really trust it enough (TechRadar)
+  • OpenAI reportedly finds evidence that more of its agents ran amok (TechCrunch AI)
+  • Silicon Valley loves young founders. Until it doesn’t. (TechCrunch)
+
+CYBERSECURITY
+  • Amgen says cloud data breach exposed patient health, proprietary info (BleepingComputer)
+  • Arch Linux disables AUR package adoption to stop malware flood (BleepingComputer)
+  • Online ad firm Adform’s script compromised to steal cryptocurrency (BleepingComputer)
+
+HARDWARE & CHIPS
+  • VC-backed startups commit more fraud, and researchers think they know why (TechCrunch)
+  • 30 years of CPUs at Tom’s Hardware — looking back on three decades of processors, from the Pentium II to Ryzen 9 9950X3D2 (Tom's Hardware)
+  • Tom’s Hardware’s 30th Anniversary — From Intel feuds and DIP switches to 30 years of unbiased testing (Tom's Hardware)
+
+SOFTWARE & DEV
+  • AWS Introduces Free Sandbox Environments for Workshops (InfoQ)
+  • Claude published malicious code to the Internet and attacked 3 real companies (Ars Technica Tech)
+  • Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework (InfoQ)
+
+BUSINESS & BIG TECH
+  • Rivian spinoff Also to start delivering e-bikes after months of delays (TechCrunch)
+  • Fresh off its Wiz payout, Index Ventures raises $2B across three funds (TechCrunch)
+  • Google might launch a ‘Pixel Tag’ (The Verge)
+
+GADGETS & CONSUMER
+  • I logged 250 miles testing Android Auto vs Apple CarPlay and there's one I'm going to stick with (TechRadar)
+  • I've started grading iPhone 17 Pro Max footage like cinema camera footage, and ProRes RAW is why (TechRadar)
+  • Zelensky confirms Ukraine's drones will reach 6,000 miles in 2027 — enough to cover the entirety of Russia and able to reach as far as San Francisco from Kyiv (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-01 08:11
