@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Aug 02, 2026 (92 stories)
+
+Good morning,
+
+Today's IT briefing — 92 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Half of adults admit they would publish work created mainly by AI and not say so — despite believing other people should do just that
+Survey reveals people expect AI-created work to be labeled as such, but aren’t so keen on doing the labeling when they’ve worked on the prompt themselves.  (TechRadar)
+
+AI & MACHINE LEARNING
+  • Startup swaps costly AI GPUs for Arm cores and up to 128TB of 'cheap' LPDDR6 RAM instead of expensive HBM to smash through the memory wall (TechRadar)
+  • $10 billion startup gets SK Hynix backing to build a transformer that does just one thing but exceedingly well (TechRadar)
+  • Quote of the day by investor Warren Buffett on AI capex: "That's real money... That kind of money wasn't even put in the railroad business" — outlining his bullish long-term thesis on AI (TechRadar)
+
+CYBERSECURITY
+  • Inside the London hacker house taking a stand against founder burnout (TechCrunch)
+  • Blank spaces could hold danger - Kaspersky report warns of the dangers of 'parked domains' and empty pages where hackers could be lurking (TechRadar)
+  • Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes (The Hacker News)
+
+HARDWARE & CHIPS
+  • China outs Nvidia-powered AS2-W quad-wheel 'robot wolf', just weeks after its armed version surfaced in joint military drills in Mongolia (TechRadar)
+  • Dell founder shows how a $100 billion empire started 42 years ago — CEO says ‘This one page changed my life’ (Tom's Hardware)
+  • Score the ultimate AMD AM4 starter pack with a six-core CPU and 16GB RAM for only $280 — kickstart your next PC build with $138 in savings (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Meet the 'internet radical' who helped Microsoft get email and AT&T get online (The Register)
+  • Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination (InfoQ)
+  • Unexpected item in the bagging area as Windows Activation error pops up at check-in (The Register)
+
+BUSINESS & BIG TECH
+  • Trump blames Tim Walz for water hacks even though it’s probably Iran (The Verge)
+  • Uber is building an autonomous vehicle empire, and here’s every company it’s using to do it (TechCrunch)
+  • Apps that help you break free from doomscrolling and get active (TechCrunch)
+
+GADGETS & CONSUMER
+  • I found the Apple Watch feature every busy pro needs — and I use it every workout (TechRadar)
+  • 'They’re closer to architecture than landscaping': inside Walt Disney World’s eight-month process to build EPCOT’s Flower & Garden Festival topiaries (TechRadar)
+  • Back to the '90s: I turned my Frankenstein’s monster of a gaming PC into a retro beige beauty in honor of a time when computers used to be fun (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-02 08:13
