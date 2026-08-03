@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Aug 03, 2026 (71 stories)
+
+Good morning,
+
+Today's IT briefing — 71 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Here’s why AI agents lie and cheat to reach their goals
+MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage—they were just…  (MIT Tech Review)
+
+AI & MACHINE LEARNING
+  • Why even the biggest brands have low AI readiness (TechRadar)
+  • Presentation: Architecting AI Systems for the Messy Reality of Enterprises: Why Agentic Compute is the Missing Layer (InfoQ)
+  • AI is 'both the weapon and the target' in latest wave of cyberattacks (The Register)
+
+CYBERSECURITY
+  • Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable (The Hacker News)
+  • N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete (The Hacker News)
+  • Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code (The Hacker News)
+
+HARDWARE & CHIPS
+  • The global memory shortage hits the MacBook Air (TechCrunch)
+  • Iran suspected of conducting cyberattacks on US water suppliers in 45 municipalities — small towns mostly targeted, with utilities switching to manual control (Tom's Hardware)
+  • Commemorative golden Doom floppy disks go up for pre-order — pair of limited edition dummy ‘imitation gold plating’ disks and a box are $30 at GameStop (Tom's Hardware)
+
+SOFTWARE & DEV
+  • As Larry Ellison bets the farm, Oracle says it loves AI-written code, just not in OpenJDK (The Register)
+  • IT boss left root session open for bring-your-kid-to-work day (The Register)
+  • Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds (InfoQ)
+
+BUSINESS & BIG TECH
+  • Malaysia is reportedly shutting down Balaji Srinivasan’s Network School (TechCrunch)
+  • Xbox prices are increasing by up to €200 or £170 (The Verge)
+  • Skylight’s smart calendars are up to $90 off during its back-to-school sale (The Verge)
+
+GADGETS & CONSUMER
+  • A stratospheric balloon could become a high-altitude drone carrier, capable of loitering for weeks and launching solar-powered UAVs (TechRadar)
+  • I love the Samsung Galaxy Watch 8 Classic so much I didn’t even take it off for my wedding — so where’s my Watch 9 Classic Samsung? (TechRadar)
+  • I defected to the PS5 after 30 years of PC gaming — here's why I have no regrets about swapping the RAM crisis for the disc crisis (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-03 09:33
