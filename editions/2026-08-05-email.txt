@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Aug 05, 2026 (147 stories)
+
+Good morning,
+
+Today's IT briefing — 147 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Ponytail Agent Skill Corrects Its Own Benchmark After Contributor Challenge
+A single-author repo of instruction files, not code, Ponytail passed 44,000 GitHub stars in nine days by making coding agents stop over-building. Its headline claim of 80-94% less code came from a flawed baseline; after a contributor said so, the maintainer rebuilt the benchmark as a real agentic run and published a…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • Why context engineering is AI’s next hiring challenge (TechRadar)
+  • We're building the most critical infrastructure of our lifetimes. We're leaving the front door unlocked (TechRadar)
+  • 'Patients are ready for this': New study reveals 90% of NHS staff use AI at work — and most patients are happy with it (TechRadar)
+
+CYBERSECURITY
+  • Angola's Largest Telco Breached Hours Before IPO (Dark Reading)
+  • QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer (The Hacker News)
+  • AI researchers let models off the leash – then watched as they tried to add malware to a FOSS project (The Register)
+
+HARDWARE & CHIPS
+  • Why is Intel sharing its Atom CPU technology with a start-up? The answer could be in low-power x86 design (TechRadar)
+  • AMD doubles data center revenue year over year, but gaming revenue plunged by 31% — CEO Lisa Su says prices have 'weighed on' consumer demand but is 'optimistic' about client market (Tom's Hardware)
+  • Steam survey shows GPUs with 16GB are now the most popular graphics cards — and that really doesn't bode well for gamers' wallets (TechRadar)
+
+SOFTWARE & DEV
+  • SkiaSharp 4.0 Establishes Milestone-Aligned Release Cadence (InfoQ)
+  • New Boeing finally gets going, 15 years after debut (The Register)
+  • Adding an API to networking hardware doesn’t solve management challenges (The Register)
+
+BUSINESS & BIG TECH
+  • Wispr Flow launches a Granola-styled meeting notetaker (TechCrunch)
+  • Ted Lasso returns at an important time for Apple TV (The Verge)
+  • SpaceX is coming for T-Mobile, AT&T and Verizon (The Verge)
+
+GADGETS & CONSUMER
+  • MasterCraft brings CarPlay and Android Auto to its pontoon boats (Engadget)
+  • Ted Lasso season 4 review: a match-winning display from the popular Apple TV show that proves an enforced break can be a good thing, even if it ships the odd own goal (TechRadar)
+  • Your living-room VPN just got faster: IPVanish rolls out WireGuard and OpenVPN on Apple TV (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-05 08:27
