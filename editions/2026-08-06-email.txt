@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Aug 06, 2026 (161 stories)
+
+Good morning,
+
+Today's IT briefing — 161 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People
+Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrusions reached at least 165 organizations and exposed records belonging to at least 100 million…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Minnesota showed why Harry and Meghan are right about Grok — ‘technology should not enable predators to target children’ (TechRadar)
+  • Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes (InfoQ)
+  • Workers are hitting back at employer plans to use AI to screen job applications (TechRadar)
+
+CYBERSECURITY
+  • Ransom Cartel ransomware creator sentenced to 16 years in prison (BleepingComputer)
+  • Thousands of servers can be backdoored by exploiting buggy motherboard controllers (Ars Technica Tech)
+  • Canadian pleads guilty to Snowflake cloud data-theft attacks (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Could Meta Ray-Bans be banned in Europe? EU regulators dial up the pressure on smart glasses — and the rest of the world is watching (TechRadar)
+  • Microsoft wants the next-gen Xbox Helix to play every Xbox game ever made as it urges publishers to opt in — New report also claims Xbox 360 games coming to PC soon (Tom's Hardware)
+  • $4,429 order for a ROG Astral RTX 5090 cancelled by Nvidia due to a 'late' price increase, with Asus blamed — marketplace buyer refunded after immediate $500 increase, with top-spec GPU now almost 2.5x higher than MSRP (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Meta wants to get inside your terminal with its new coding agent (The Register)
+  • Samsung and Mousterian move ahead with floating datacenter for Texas (The Register)
+  • Microsoft tells engineers to curb their token-burning enthusiasm (The Register)
+
+BUSINESS & BIG TECH
+  • Get up to $400 off your TechCrunch Disrupt 2026 pass until Friday (TechCrunch)
+  • Nikita Bier steps down as X’s head of product (TechCrunch)
+  • Travis Kalanick’s robotics startup Atoms taps former Uber finance chief as CFO (TechCrunch)
+
+GADGETS & CONSUMER
+  • Apple's Private Relay feature could reveal your IP address to websites and services (Engadget)
+  • On the hunt for a new Dell laptop? These are the best models we've tested recently (TechRadar)
+  • Forget Sidecar, someone just got the real macOS working on an iPad — and it proves it’d be a terrible idea (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-06 08:25
