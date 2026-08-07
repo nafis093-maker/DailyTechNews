@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Aug 07, 2026 (174 stories)
+
+Good morning,
+
+Today's IT briefing — 174 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools
+Microsoft released a dedicated AI Gateway tier of Azure API Management in public preview, with a control plane built around models, MCP servers and tools rather than APIs. It fronts Foundry, Bedrock, Vertex AI and OpenAI behind one endpoint, with policy cards instead of XML. Architects welcomed the consolidation while…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • UK SMBs are increasingly turning to AI for their ads — and many consider it their secret weapon for expansion (TechRadar)
+  • Keen to get Alexa+ but don’t have the necessary hardware? These are the 9 Amazon devices we recommend to get you up and running (TechRadar)
+  • Can ChatGPT really replace your apps? I tried using the chatbot for 12 everyday tasks on my phone — here’s what happened (TechRadar)
+
+CYBERSECURITY
+  • ClickFix attack pushes macOS infostealer for crypto theft attacks (BleepingComputer)
+  • The Coordination Gap: How Attackers Are Outpacing Law Enforcement (Dark Reading)
+  • Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group (BleepingComputer)
+
+HARDWARE & CHIPS
+  • China declares it is now the leading global chipmaking power — mainly because it just changed the definition of what a semiconductor is (TechRadar)
+  • Chuwi UniBook review: New Intel silicon makes it an affordable laptop, but it comes with a few caveats (TechRadar)
+  • SK Hynix and SanDisk reveal first specs for High Bandwidth Flash — but don't get too excited, you probably won't be able to buy it anytime soon (TechRadar)
+
+SOFTWARE & DEV
+  • Sysadmin summoned to explain italics – to a user with at least two degrees (The Register)
+  • npm Staged Publishing Available, Adding a Human Approval Step Before Packages Go Live (InfoQ)
+  • China launches mysterious probe into security of Palo Alto Networks' products (The Register)
+
+BUSINESS & BIG TECH
+  • Organ donation group accused of trying to take living man's organs faces shutdown (Ars Technica)
+  • Explosive drone found hovering near Ukrainian cargo aircraft at German airport (Ars Technica)
+  • Your table awaits: Exhibit at TechCrunch Disrupt 2026 to be seen by thousands (TechCrunch)
+
+GADGETS & CONSUMER
+  • This AU$502 discount makes Samsung’s pricey but premium Galaxy Tab S11 Ultra much easier to recommend (TechRadar)
+  • ‘You should only buy it when it’s on sale’ — the Samsung Galaxy S26 just dropped to an all-time low AU$992 (TechRadar)
+  • 'Enemy rags do not remain on Ukrainian soil for long': Ukrainian forces destroy Russian flag 30 seconds after it was dropped by a drone (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-07 07:06
