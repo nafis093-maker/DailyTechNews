@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Aug 08, 2026 (127 stories)
+
+Good morning,
+
+Today's IT briefing — 127 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — OpenAI says it slowed Astra model development over security concerns
+OpenAI said this model, which is still in development, reached its "critical cybersecurity threshold," meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.  (TechCrunch AI)
+
+AI & MACHINE LEARNING
+  • Denza claims its latest Z9S model boasts the world’s longest electric range — allowing owners to drive from New York to Detroit without a stop (TechRadar)
+  • After Rippling blew millions on AI in months, it built an employee ROI tool (TechCrunch AI)
+  • Could this be the end of BIOS-locked laptops? AI tweaker deploys Claude to unlock and change settings for good (TechRadar)
+
+CYBERSECURITY
+  • Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks (TechCrunch)
+  • Metabase SQLi zero-day exploited in customer data-theft attacks (BleepingComputer)
+  • Unlimited Technology Systems breach impacts 3.8 million people (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Quote of the day by US President Dwight D Eisenhower: 'Public policy could itself become the captive of a scientific-technological elite' — foreshadowing Silicon Valley's global domination (TechRadar)
+  • Our top-rated business PC is a multitasking powerhouse — save $530 on the Dell Tower Plus with Core Ultra 7 (TechRadar)
+  • We called the GMKtec K8 Plus an 'understated mini PC that delivers far more power than you'd expect for the price' — and now it's $130 off (TechRadar)
+
+SOFTWARE & DEV
+  • Article: InfoQ Culture and Methods Trends Report - 2026 (InfoQ)
+  • npm Staged Publishing Available, Adding a Human Approval Step Before Packages Go Live (InfoQ)
+  • A guide to slash commands in the GitHub Copilot app (GitHub Blog)
+
+BUSINESS & BIG TECH
+  • Europe's free satellite service just made it easier to track wildfires (Ars Technica)
+  • Disney Plus tries a new AI-powered search (The Verge)
+  • Today’s the last day to get up to $400 off your TechCrunch Disrupt 2026 ticket (TechCrunch)
+
+GADGETS & CONSUMER
+  • Kensington Expert Mouse Pro TB900 review: I swapped my mouse and trackpad for the new TB900 trackball, and ran a head-to-head video edit against my usual setup — the trackball won. (TechRadar)
+  • Russia is kickstarting its plans to dominate the space race once again — but it will have to depend on Chinese hardware to do so (TechRadar)
+  • Pentagon signs $500 million deal for unmanned counter-drone missile systems promising 'decisive advantage' (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-08 06:41
