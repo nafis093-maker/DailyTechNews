@@ -1,0 +1,39 @@
+Subject: THE BITSTREAM — IT Daily, Sun Aug 09, 2026 (74 stories)
+
+Good morning,
+
+Today's IT briefing — 74 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — An Amazon data center could have the worst polluting power plant in the country
+To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Planned Amazon data center could become the biggest climate polluter in the U.S. (TechCrunch AI)
+  • New drone system which could spot wildfires before they get out of control completes its first test — but is it too late for the summer blazes plaguing Europe? (TechRadar)
+  • OpenAI acquires presentation startup NextSlide (TechCrunch AI)
+
+CYBERSECURITY
+  • Google’s top hacker hunter explains why hacking groups get codenames (TechCrunch)
+  • Hackers breach TrueConf to trojanize client installers with backdoors (BleepingComputer)
+  • New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens (The Hacker News)
+
+HARDWARE & CHIPS
+  • The US Navy used a swarm of drone boats to seize $81 million worth of cocaine in the Caribbean (TechRadar)
+  • Nvidia RTX 5090 ships in bizarre 8-motherboard bundle — retailers hold GPUs hostage similar to the crypto boom (Tom's Hardware)
+  • Save $160 off AMD's ultimate gaming CPU combo, includes motherboard and chip cooler — $458 combo features Ryzen 7 9800X3D, B850 motherboard, and a 240mm liquid AIO (Tom's Hardware)
+
+SOFTWARE & DEV
+  • South Korean satellite spots SpaceX lunar impact (The Register)
+  • Water system controllers don't belong on the internet, says ex-NSA chief after suspected Iran attacks (The Register)
+
+BUSINESS & BIG TECH
+  • X replaces ‘misaligned’ revenue sharing program with Original Content Rewards (TechCrunch)
+  • The Kindle Scribe Colorsoft is a lot of fun, but it’s not a must-have (TechCrunch)
+  • Musician and entrepreneur Tom Vek is building a digital music player, but don’t call it retro (The Verge)
+
+GADGETS & CONSUMER
+  • TP-Link Roam 7 review: I tested this travel router at my local café, and it turned public Wi-Fi into a secure private network (TechRadar)
+  • ‘My Apple Watch is going to hate this’: Our wearables are making us anxious and obsessive — Here’s what we can all do about it (TechRadar)
+  • US Army is hunting for surface-to-air missiles able to take down small drones (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-09 06:45
