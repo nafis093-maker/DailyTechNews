@@ -1,0 +1,32 @@
+Subject: THE BITSTREAM — IT Daily, Mon Aug 10, 2026 (57 stories)
+
+Good morning,
+
+Today's IT briefing — 57 stories across 5 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Google Releases Angular v22 with Stable Signal Forms, OnPush by Default and Experimental WebMCP
+Angular v22, Google's TypeScript-first framework, has introduced API stabilizations, ergonomic templates, and tooling enhancements for AI integration. Key developments include the stabilization of Signal Forms, improved change detection strategies, and a new @Service() decorator for dependency injection. The release…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause (The Hacker News)
+  • Beyond Consensus: The Fragmentation of AI Policy Across the Linux Ecosystem (InfoQ)
+  • I've always disliked running, but here's how Gemini and Garmin made me actually enjoy it for the first time (TechRadar)
+
+HARDWARE & CHIPS
+  • Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry (TechCrunch AI)
+  • Turtle Beach Command Series KB5 Review: A touchscreen and a numberpad in one keyboard? (Tom's Hardware)
+  • Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy (TechCrunch AI)
+
+SOFTWARE & DEV
+  • Buildpacks Move the Container Hardening Control Point Away From the Dockerfile (InfoQ)
+  • Stripe Uses Graph Search and State Machines to Automate Database Remediation (InfoQ)
+
+BUSINESS & BIG TECH
+  • This ‘adversarial’ pattern can prevent surveillance cameras from detecting you (TechCrunch)
+
+GADGETS & CONSUMER
+  • The world's first diamond-powered portable quantum computer works at room temperature and can even be plugged into a regular wall outlet (TechRadar)
+  • Quote of the day by venture capitalist John Doerr on the Segway: 'It'll be bigger than the internet' — a wild miscalculation about the future of mobility (TechRadar)
+  • Samsung wants to bring a floating data center to Texas — huge waterborne facility could offer 50MW of capacity and even cool itself (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-10 07:20
