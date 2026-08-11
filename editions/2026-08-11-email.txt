@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Aug 11, 2026 (148 stories)
+
+Good morning,
+
+Today's IT briefing — 148 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins
+Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. "Unlike traditional software supply chain attacks, zero source code files were modified within…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Amazon reportedly uses 45-year-old rules to get around AI data center opposition - California residents left fuming after Gilroy facility begins construction (TechRadar)
+  • OpenAI reportedly completed a $7 billion employee tender offer (TechCrunch AI)
+  • As AI-led attacks multiply, OpenAI launches a new cyber model (TechCrunch AI)
+
+CYBERSECURITY
+  • Hackers breached a small Polish energy plant via private APN last year (BleepingComputer)
+  • Multistate Water System Attacks Widen, Iran Suspected (Dark Reading)
+  • BdThemes plugins supply-chain hack creates rogue WordPress admins (BleepingComputer)
+
+HARDWARE & CHIPS
+  • SpaceX is spending $16.8 billion on a Texas chip fab Musk says will be '50 times the size of the Pentagon' (TechRadar)
+  • TSMC reportedly has $1 billion of Apple chips awaiting delivery of DRAM — will this be what powers the iPhone 18 Pro? (TechRadar)
+  • Xbox PC and Game Pass titles are coming to Linux through 'Xodus' — Heroic Launcher devs embark on new open-source reverse-engineering project (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Using the GitHub Copilot SDK for Java (GitHub Blog)
+  • LexisNexis pulls three services offline after suspicious server activity (The Register)
+  • Project Valhalla's First Preview: JEP 401 Redefines == for Java Objects (InfoQ)
+
+BUSINESS & BIG TECH
+  • Jeff Bezos might finally get his hands on a sports team (TechCrunch)
+  • Now Rippling is counter-suing tiny startup Runlayer (TechCrunch)
+  • Developer Cold Iron Studios shuts down cloud version of $60 game with no refunds (Ars Technica)
+
+GADGETS & CONSUMER
+  • Better coffee — and now better NBN? Melburnians may have added another bragging right over Sydneysiders (TechRadar)
+  • 3D-printed drones built on a US Navy ship for the first time, potentially opening a whole new world of possibilities for future warfare (TechRadar)
+  • Apple may introduce a photo authentication tool in iOS 27 (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-08-11 06:57
