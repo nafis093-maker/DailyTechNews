@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Aug 12, 2026 (168 stories)
+
+Good morning,
+
+Today's IT briefing — 168 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Saber denies replacing Rideshare Stimulator’s writers with ChatGPT
+After a former lead writer claimed Saber "replaced me with ChatGPT," CEO Matthew Karch now claims, "Neither Saber nor Unigine have replaced any writers with AI," for the Rideshare "Stimulator" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that…  (The Verge)
+
+AI & MACHINE LEARNING
+  • India’s central bank wants AI to approve loans that humans would reject (The Register)
+  • Amazon's new Texas AI data center could become the biggest CO2 polluter in the US — 7.65GW facility gets permit to spread 33 million tons of annual greenhouse gases, despite Amazon's clean energy pledge (TechRadar)
+  • Quote of the day by musician Nick Cave on AI-generated lyrics: 'A grotesque mockery of what it is to be human' — dismissing the use of AI in the creative process (TechRadar)
+
+CYBERSECURITY
+  • DeadLock ransomware uses blockchain to resist infrastructure takedown (BleepingComputer)
+  • Microsoft's Patch Tuesday Deluge Continues With August Updates (Dark Reading)
+  • 421 bugs in Microsoft's Patch Tuesday release, and the Norks have already attacked one (The Register)
+
+HARDWARE & CHIPS
+  • Razer Naga V3 Pro Review: My new 23-button mouse (Tom's Hardware)
+  • SK hynix to expand production capacity in China as it mulls Solidigm IPO, report claims — second phase of fab could boost local production by 50% (Tom's Hardware)
+  • Intel upsizes stock sale to $20B with spending plans still fuzzy (The Register)
+
+SOFTWARE & DEV
+  • DEF CON crowd suspected in fake-hotspot attack on Delta flight (Ars Technica Tech)
+  • Modular's Mojo programming language hits 1.0 milestone (The Register)
+  • Signal adds an extra layer of security to make sure you're actually chatting with the right person (The Register)
+
+BUSINESS & BIG TECH
+  • India’s Yulu raises $93M as quick-commerce boom fuels e-bike demand (TechCrunch)
+  • Phoebe Gates and Sophia Kianni reportedly knew Phia was ‘cookie stuffing’ for months (TechCrunch)
+  • Russian drones found near vital European offshore gas site, get blown up (Ars Technica)
+
+GADGETS & CONSUMER
+  • Cybersecurity’s identity crisis: why trust can no longer begin and end at login (TechRadar)
+  • Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse (BleepingComputer)
+  • Boeing and US Air Force sign deal to build guided jet-powered bombs capable of traveling 300 nautical miles (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-12 07:16
