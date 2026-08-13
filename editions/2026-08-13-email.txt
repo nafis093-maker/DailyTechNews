@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Aug 13, 2026 (185 stories)
+
+Good morning,
+
+Today's IT briefing — 185 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Attackers Exploit SharePoint Authentication Bypass After Public PoC Release
+Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Tencent says it could make instant profits on $53bn hardware splurge by renting it for AI workloads (The Register)
+  • 11X cheaper than ChatGPT: Tiny 150M model just proved AI doesn't need to "think out loud" to be smart (TechRadar)
+  • OpenAI ad service can bill customers for up to one day after they pause campaigns (The Register)
+
+CYBERSECURITY
+  • Belgium's eID Authentication Opens Citizen Accounts to RCE (Dark Reading)
+  • "City-Forum" data-theft attacks target Salesforce, ServiceNow portals (BleepingComputer)
+  • Android malware combo takes out loans and relays victims' credit cards (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Chinese Loongson processors have leaky caches, researchers find (The Register)
+  • Redditor turns Android phone into a desktop PC in a stroke of genius, sandwiching it between two huge CPU coolers so it runs Witcher 3 at 1080p ultra (TechRadar)
+  • Russian startup claims it could produce silicon wafers in five minutes instead of two weeks, but trillion-dollar IMEC doesn't have to worry (TechRadar)
+
+SOFTWARE & DEV
+  • Passwords stored in public Google Doc then showed up in search results (The Register)
+  • Cisco thinks Mythos means instant death for unsupported networking kit (The Register)
+  • Astro 7: Rust Compiler, Rust Markdown Pipeline and Vite 8 for Builds Up to 61% Faster (InfoQ)
+
+BUSINESS & BIG TECH
+  • Northrop’s robot space mechanic is a new way to keep satellites at work longer (TechCrunch)
+  • Trump sued over "brazen" scheme to sell Truth Social API access for $100K a month (Ars Technica)
+  • US boosts drone surveillance as flesh-eating screwworms spread in Texas (Ars Technica)
+
+GADGETS & CONSUMER
+  • Most UK tech leaders say network outages are becoming a critical business problem (TechRadar)
+  • Pre-ordering the new Google Pixel 11 range? Score a free PS5 or a Fitbit Air from these telcos and retailers (TechRadar)
+  • A rare two-player Computer Space arcade machine is up for auction (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-08-13 07:18
