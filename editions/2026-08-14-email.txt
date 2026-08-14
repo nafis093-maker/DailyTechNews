@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Aug 14, 2026 (161 stories)
+
+Good morning,
+
+Today's IT briefing — 161 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Meta Open-Sources Muse Glimmer: A 30B Local Agentic Model Optimised for On-Device Execution
+Meta AI Research has introduced Muse Glimmer, a 30-billion-parameter open-weight model under the Apache 2.0 license, designed for local workflows. It enables autonomous agents and complex task execution on consumer GPUs without relying on cloud APIs. The model employs a multi-stage training approach for efficient…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • OpenAI ditches Recall-style screenshot surveillance for friendly keylogging (The Register)
+  • Experts warn ChatGPT isn't just predicting words anymore — It's now predicting human thoughts (TechRadar)
+  • Mico, Microsoft's weird lil' AI guy, has been demoted (Engadget)
+
+CYBERSECURITY
+  • Ukraine shuts down 94 fraudulent call centers, seize millions in cash (BleepingComputer)
+  • World-first autonomous ‘end-to-end’ AI attack against Taiwan tied to Chinese hackers — and the scariest part is that it was fully open source (TechRadar)
+  • Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt (BleepingComputer)
+
+HARDWARE & CHIPS
+  • New Zealand says China tried using space investments to spy on local affairs (The Register)
+  • PS5 emulation arrives on Steam Deck, Astro Playroom showcased running at 0.6 FPS — milestone SharpEmu development shows promise, despite unplayable performance (Tom's Hardware)
+  • Memory maker CXMT overtakes Tencent to become China's most valuable company 17 days after its IPO — now worth $524 billion (Tom's Hardware)
+
+SOFTWARE & DEV
+  • npm 12 Released: Install Scripts Off by Default as Registry Moves to Explicit Trust (InfoQ)
+  • Five years after quitting a job, developer’s former boss asked for rapid tech support (The Register)
+  • Give Google the boot by building your own search engine (The Register)
+
+BUSINESS & BIG TECH
+  • Apple and Epic argue over how much Apple should get from purchases made outside the App Store (The Verge)
+  • Investors sue Selena Gomez alleging fraud tied to her mental health startup (TechCrunch)
+  • Flock says its new tool will help identify police abuse, but hasn’t explained how it works (TechCrunch)
+
+GADGETS & CONSUMER
+  • Trump slaps a 100 percent tariff on heavy and 'sensitive' drones (Engadget)
+  • Apple sends out warnings to targets of mercenary spyware attacks (Engadget)
+  • Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks (BleepingComputer)
+
+— THE BITSTREAM, auto-compiled 2026-08-14 07:16
