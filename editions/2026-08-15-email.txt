@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Aug 15, 2026 (139 stories)
+
+Good morning,
+
+Today's IT briefing — 139 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — What we know about the alleged Iranian hacks on US water utilities
+Over the last couple of weeks, hackers have targeted and broken into the systems of several water plants in the United States. Here’s what we know and don’t know about this wave of attacks allegedly carried out by the Iranian government.  (TechCrunch)
+
+AI & MACHINE LEARNING
+  • India central bank head says AI can approve loans humans would have turned down, says the technology is, 'a capability to be responsibly harnessed and not merely as a risk to be contained' (TechRadar)
+  • I stopped writing careful ChatGPT prompts and rambled at it for 10 minutes instead — the results changed how I use AI (TechRadar)
+  • Anthropic says text watermarking scheme relies on inconsequential words (The Register)
+
+CYBERSECURITY
+  • Vulnerability giving attackers full control of Macs is under active exploitation (Ars Technica Tech)
+  • Hackers arrested over €30M bank fraud exploiting service provider flaw (BleepingComputer)
+  • Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI (Dark Reading)
+
+HARDWARE & CHIPS
+  • Quote of the day by roboticist Rodney Brooks: 'The visual appearance of a robot makes a promise about what it can do and how smart it is' — a warning about the misleading form of a humanoid robot (TechRadar)
+  • Kioxia, SanDisk show off the tiny chip which could go in world's first 1 PB SSD (TechRadar)
+  • The ultimate Mac dock? Ivanky unveils a 26-port Apple Silicon powerhouse that Windows users can't use (TechRadar)
+
+SOFTWARE & DEV
+  • 1.6M RingCentral accounts' data dumped after ShinyHunters extortion attack (The Register)
+  • PBS station fears losing 50TB of data after being ghosted by cloud storage provider (Ars Technica Tech)
+  • Trump sends the US Navy back to the steam age (The Register)
+
+BUSINESS & BIG TECH
+  • Talks to sell PayPal to Stripe and Advent are heating up (TechCrunch)
+  • Self-driving trucks are officially testing on California highways (TechCrunch)
+  • Read-it-later app Pocket shut down — here are the best alternatives (TechCrunch)
+
+GADGETS & CONSUMER
+  • Creality Sermoon P1 review: This ultraportable handheld 3D scanner let me scan almost any object I wanted (TechRadar)
+  • Ukrainian drones disabled US armor brigade in simulated warfare 'so quickly' that they had to respawn the equipment (TechRadar)
+  • 'I hope people say I was a good and decent man,' Tim Cook on his post-Apple legacy — and why for him I don't think any other answer was possible (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-15 06:27
