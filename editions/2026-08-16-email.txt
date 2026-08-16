@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Aug 16, 2026 (72 stories)
+
+Good morning,
+
+Today's IT briefing — 72 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Polaroid’s tiny instant camera is $72 and includes a free pack of film
+Smartphone cameras are convenient, but they lack the charm of analog instant cameras. If you’re trying to relive the nostalgia of waiting for an instant photo to develop, Amazon is selling the second-generation Polaroid Go instant camera with a 16-photo film pack for $71.99 (usually $109.99). That’s the lowest price…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Photoroom AI photo editor review: A one-click wonder for making product shots unmissable on your ecommerce store (TechRadar)
+  • Woman claims her stepfather used Grok to transform childhood photo into explicit imagery (TechCrunch AI)
+  • Have a laugh at AI’s expense by roleplaying as a chatbot (The Verge)
+
+CYBERSECURITY
+  • How to tell if your AI platforms’ accounts have been hacked (TechCrunch)
+  • New Evooo1Bot Linux botnet turns routers into traffic relay nodes (BleepingComputer)
+  • What we know about the alleged Iranian hacks on US water utilities (TechCrunch)
+
+HARDWARE & CHIPS
+  • Grab this RTX 5070 gaming PC for just $1,499, saving $600 off list price — Acer Nitro 85 prebuilt comes with 16GB of RAM, Core Ultra 7 265F, and a 1TB PCIe 4.0 SSD (Tom's Hardware)
+  • ‘The Qualcomm chipset offers very good performance for still image processing, but for video, it’s not good enough’: Honor explains why it created a dedicated imaging chipset for its gimbal-equipped Robot Phone (TechRadar)
+  • Peer-reviewed study of 443,000 Backblaze hard drives ranks HGST most reliable and Toshiba the least — Analysis of 1.66 million drive-years finds Seagate and Toshiba HDDs fail at roughly twice the rate of WD and HGST (Tom's Hardware)
+
+SOFTWARE & DEV
+  • How PGSimCity Turns PostgreSQL Complexity Into a Virtual City 3D Simulation (InfoQ)
+  • ChainDrop worm crawls into npm supply chain, evades standard defenses (The Register)
+  • Lego's supersized Hubble deserves a little more shine (The Register)
+
+BUSINESS & BIG TECH
+  • Don’t overlook Elektron’s budget electronic music instruments (The Verge)
+  • Every fusion startup that has raised over $100M (TechCrunch)
+  • Talks to sell PayPal to Stripe and Advent are heating up (TechCrunch)
+
+GADGETS & CONSUMER
+  • I'm an Apple Watch die-hard — here are my picks for the 10 best Apple Watch faces of 2026 so far (TechRadar)
+  • Ukraine's new secret drone weapon could be this 25g antenna, capable of transmitting over an incredible range (TechRadar)
+  • How Samsung's Galaxy Watch 8 measures your antioxidant levels (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-08-16 06:30
