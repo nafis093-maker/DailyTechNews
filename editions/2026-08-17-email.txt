@@ -1,0 +1,39 @@
+Subject: THE BITSTREAM — IT Daily, Mon Aug 17, 2026 (76 stories)
+
+Good morning,
+
+Today's IT briefing — 76 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — SafePal data breach impacts 39,798 customers, stolen info for sale
+Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]  (BleepingComputer)
+
+AI & MACHINE LEARNING
+  • Microsoft blames AI for delayed Exchange update, can’t say when it will arrive (The Register)
+  • US Air Force wants AI help to keep its Minuteman III nukes ticking until they're 66, or maybe 80 (TechRadar)
+  • Anthropic confirms Claude is down in major outage affecting multiple services (BleepingComputer)
+
+CYBERSECURITY
+  • Chinese AI company Zhipu claims its new is a better bug-finder than Anthropic, OpenAI (The Register)
+  • Large-scale DDoS attacks disrupted Threema secure messaging service (BleepingComputer)
+  • New AmnesiaStealer macOS malware hijacks browser sessions via remote control (BleepingComputer)
+
+HARDWARE & CHIPS
+  • You might want to skip Newegg's GPU trade-in program (Engadget)
+  • This portable, external CD/DVD drive comes with a 2.5-inch SATA and an SD Card slot for just $26 — Save 10% on a modern essential for keeping physical media alive (Tom's Hardware)
+  • Ukraine built a $48,000 long-range drone after covertly snapping Chinese factory photos, clone destroys Russian Tu-95 bomber — attack drone has 2,000 km range, country builds 6,000 flying-wing drones a year (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Part didn't fit so techie got out his screwdriver. Then something flew off the motherboard (The Register)
+  • Linux 7.2 debuts, Linus Torvalds says ‘new normal’ means he had to do it now ... or never? (The Register)
+  • Java News Roundup: Simple JSON API, GlassFish, Jakarta EE, JNoSQL, Open Liberty, LangChain4j (InfoQ)
+
+BUSINESS & BIG TECH
+  • TechCrunch Mobility: The shifting flight path of electric air taxis (TechCrunch)
+  • Wildfire smoke now bigger prenatal threat than human sources of air pollution (Ars Technica)
+
+GADGETS & CONSUMER
+  • A half-price Galaxy Watch 8 headlines Samsung's August Secret Sale, and there's tempting reductions on phones and TVs too (TechRadar)
+  • The US Army is opening up its training centers for private firms to test out new drones (TechRadar)
+  • Quote of the day by Elon Musk: '[The Tesla Bot] has the potential to be a generalized substitute for human labor over time' — a bold prediction on the future of work (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-17 06:42
