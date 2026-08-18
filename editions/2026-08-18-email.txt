@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Aug 18, 2026 (149 stories)
+
+Good morning,
+
+Today's IT briefing — 149 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Reddit’s AI is turning posts into podcasts and short videos
+Reddit is trying out a new way for people to take in content on Reddit: by turning text posts into audio / video content. As part of an experiment, some posts are being adapted into videos that use AI voices to read the text of the main post and some comments. The video highlights the […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • I’ve tested more than 60 Bluetooth speakers and this Marshall model may just be the most stylish of them all — but does it sound as good as it looks? Here’s my verdict (TechRadar)
+  • Anthropic’s annualized revenue surges to $65B (TechCrunch AI)
+  • China says new AI missile system can track US F-35s with 90% accuracy (TechRadar)
+
+CYBERSECURITY
+  • Video Call Exploit Chains Two Flaws in Unisoc Modems (Dark Reading)
+  • Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects (The Hacker News)
+  • 'Turf War' Between Claude Agents Leads to Self-Replicating Malware (Dark Reading)
+
+HARDWARE & CHIPS
+  • Xen Project gets serious about safety in push to possibly partition robot brains (The Register)
+  • German defense giant tests moving truck launcher carrying 18 kamikaze drones (TechRadar)
+  • PC gamers are asking 'what's next?' as RAM crisis sparks further rumors of GPU price hikes, and gaming monitors could get more expensive (TechRadar)
+
+SOFTWARE & DEV
+  • Microsoft MVP creates site to remind you of all the brands Redmond replaced (The Register)
+  • Almost nobody pays attention to web standards anymore (The Register)
+  • Mozilla adds ad blocking to Firefox for iOS (The Register)
+
+BUSINESS & BIG TECH
+  • US vaccination rates fall again as exemptions continue to rise, CDC data shows (Ars Technica)
+  • Former SpaceX engineers are building a robotic factory for making steel parts (Ars Technica)
+  • ABC’s livestreamed news show is powered by trending topics (The Verge)
+
+GADGETS & CONSUMER
+  • 6 fitness trackers under $100 — from the super-popular Google Fitbit Air to the 5-star Amazfit Active 2 (TechRadar)
+  • This new 16-inch laptop comes with a ridiculous 72GB of RAM — if you are willing to wait for the upgrade (TechRadar)
+  • 'There aren’t many keyboards offering better value for money': I tested a bargain mechanical keyboard from Keychron that will tempt gamers — just make sure you get yourself a wrist-rest (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-18 06:33
