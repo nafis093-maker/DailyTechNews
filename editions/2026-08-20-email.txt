@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Aug 20, 2026 (169 stories)
+
+Good morning,
+
+Today's IT briefing — 169 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code
+Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • AI vendor dependency is becoming a resilience risk (TechRadar)
+  • The Open-Sourcing of DeepSeek Harness Opens the Door to Modular, Unbundled AI Agent Infrastructure (InfoQ)
+  • NATO wants thousands of AI drones guarding its borders — but there’s one thing they won’t be allowed to do (TechRadar)
+
+CYBERSECURITY
+  • Rogue ransomware affiliate poses as recovery firm to steal payments (BleepingComputer)
+  • Sakura Internet hack exposes data of up to 1.36 million accounts (BleepingComputer)
+  • Healthtech firm CareCloud data breach impacts 3.7 million patients (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Framework responds to complaints that BIOS update bricks Ryzen 7040 laptops (Ars Technica)
+  • Watch Valve set up the Steam Frame in its own leaked videos (The Verge)
+  • Grab an iPad Air M4 for its lowest price since the June increase (The Verge)
+
+SOFTWARE & DEV
+  • Harper Argues Against the Multi-System Stack and Releases 5.2 (InfoQ)
+  • Microsoft ends one of the last ways to buy VMware without big bundles (The Register)
+  • 'Not a theoretical risk,' feds warn as attackers use AI-made code to hack critical infrastructure controllers (The Register)
+
+BUSINESS & BIG TECH
+  • Does giving a camera wings dodge the FCC’s drone ban? (The Verge)
+  • Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities (TechCrunch)
+  • Amazon aims for delivery drones to reach 500 US neighborhoods by end of 2026 (Ars Technica)
+
+GADGETS & CONSUMER
+  • Ditching my plastic air fryer for the non-toxic Ninja Crispi Pro was the best kitchen upgrade I made this year (TechRadar)
+  • Tesla’s Robotaxi gets caught crashing through bollards, just as it readies the purpose-built Cybercab for public roads (TechRadar)
+  • Apple TV 4K fans are begging for these 3 upgrades from the leaked Siri Remote — but one is already possible today (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-20 06:36
