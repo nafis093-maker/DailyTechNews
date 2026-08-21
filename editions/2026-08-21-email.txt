@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Aug 21, 2026 (190 stories)
+
+Good morning,
+
+Today's IT briefing — 190 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution
+Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Alibaba Cloud plans to use fewer Western chips, to boost its already huge AI margins (The Register)
+  • AI data startup Micro1 reaches $500M gross run rate amid AI training boom (TechCrunch AI)
+  • Google tethers Antigravity to enterprise controls amid AI shakeup (The Register)
+
+CYBERSECURITY
+  • Calling on Cyber Pros to Help Defend City Hall (Dark Reading)
+  • Massive supply-chain attack sees terabytes of data belonging to some of the world’s biggest and most sensitive organizations leaked online (TechRadar)
+  • Supermicro fired staff after probe into $2.5 billion GPUs-to-China smuggling operation (The Register)
+
+HARDWARE & CHIPS
+  • Waymo has designed a robocar chip to stay ahead of Tesla (The Register)
+  • Framework says it’s addressing a BIOS update that bricked some of its older laptops (The Verge)
+  • Cooler Master V Platinum 3000 power supply review: Verified Platinum efficiency for workstations, with a stellar 12-year warranty (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Developer given Mission:Impossible - fixing rubbish code that could crash a city - simply chose not to accept it (The Register)
+  • Cisco bug severity warning reads like Olympic gymnastics scores: 10, 10, 9.9, 9.6, and 7.5. (The Register)
+  • The August 17 outage, and the work ahead (GitHub Blog)
+
+BUSINESS & BIG TECH
+  • Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada (TechCrunch)
+  • Learn what VCs actually want, from a founder who’s raised $1B (TechCrunch)
+  • US distributor of China’s most popular humanoid robots pivots after US ban (Ars Technica)
+
+GADGETS & CONSUMER
+  • Father’s Day 2026 is fast approaching — here are 45 tech gift ideas to spoil him this year (TechRadar)
+  • Sennheiser gives its flagship true wireless earbuds a full revamp, complete with Bluetooth 6 and replaceable batteries (TechRadar)
+  • African defense tech startup reveals $52 million funding as it looks to take on Ukraine and US giants (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-21 06:36
