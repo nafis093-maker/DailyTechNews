@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Aug 22, 2026 (150 stories)
+
+Good morning,
+
+Today's IT briefing — 150 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — HoverAir’s transforming modular drone has already been halted in the US
+I am so sorry, fellow US gadget fans: the FCC's drone ban appears to have struck again. The HoverAir Versa - a baby steadycam with snap-on propeller wings that transform it into a drone - has already stopped taking US orders just three days after its Indiegogo debut, and may be forced to abandon shipping […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • Google and the UK government are looking to remove aircraft contrails using AI (TechRadar)
+  • Apple reportedly cut more than 200 jobs across Vision Pro and Siri software teams (Engadget)
+  • Anthropic’s Opus 4.6 is a smut-machine (TechCrunch AI)
+
+CYBERSECURITY
+  • The $225 Pebble Time 2 is a refreshingly fun smartwatch (TechCrunch)
+  • Even dead websites aren't safe — experts warn hackers are spending millions on expired domains to enable malware scams (TechRadar)
+  • New SynkLoader malware pushed in Microsoft Teams phishing campaign (BleepingComputer)
+
+HARDWARE & CHIPS
+  • 'Took me months to work this out': Redditor explains how Windows 11 can end up stripping out the GPU driver on your gaming laptop (TechRadar)
+  • We have more details on Apple's camera-equipped AirPods and they are pretty dang weird (Engadget)
+  • Smaller than a PS5 and our Best-in-Class gaming mini PC, the Asus ROG NUC drops to $3499 — but it's still an absolute fortune (TechRadar)
+
+SOFTWARE & DEV
+  • Musk fumbles the timetable for first Starship catch (The Register)
+  • 'We let you down': GitHub pledges to scale up before developers give up (The Register)
+  • Waymo doubles spending on lobbying in robotaxi battle with Uber (Ars Technica Tech)
+
+BUSINESS & BIG TECH
+  • Japanese space tech startup Letara expands beyond satellite thrusters with $16M (TechCrunch)
+  • Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams (TechCrunch)
+  • TikTok reaches $400M settlement over children’s privacy lawsuit (TechCrunch)
+
+GADGETS & CONSUMER
+  • Taiwan taps US startup Vatn for modular S12 undersea drones – Washington’s ally turns to cheaper underwater systems (TechRadar)
+  • ‘Better move would be to ban it’: Apple Music steps up plan for AI-generated song labels, but some users think it doesn’t go far enough (TechRadar)
+  • TikTok will pay $400 million to settle Justice Department lawsuit over child privacy (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-08-22 06:30
