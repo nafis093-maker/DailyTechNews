@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Aug 23, 2026 (92 stories)
+
+Good morning,
+
+Today's IT briefing — 92 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — DRAM Controller Register Manipulation Breaks CPU Memory Isolation
+Security researcher Christopher Domas developed skitter-creek-bath-salts, an open-source hardware security tool that disrupts CPU privilege boundaries by manipulating memory controller translation registers. This allows unprivileged software to access protected memory regions, revealing a vulnerability in modern…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • The US Army is training AI agents to work alongside human forces in 'work roles' (TechRadar)
+  • Harvard’s $699 startup bootcamp offers AI avatars of its instructors (TechCrunch AI)
+  • The oldest iPhone model you can trade-in with Apple is older than you'd think (Engadget)
+
+CYBERSECURITY
+  • TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit (The Hacker News)
+  • Hackers infect Android car head units with proxy botnet malware (BleepingComputer)
+  • US authorities say Siemens controllers used for water and other infrastructure are being targeted by hackers — agencies claim threat actors use AI tools to generate exploitation scripts (Tom's Hardware)
+
+HARDWARE & CHIPS
+  • How Trinnov's Altitude CI AV processor showed me the importance of flagship 3D room correction in elite home cinema setups (TechRadar)
+  • Microsoft blames RGB peripherals for crashing Windows 11 — RGB software is causing blue screens, crashes, and game freezes (Tom's Hardware)
+  • 25 years after the death of 3dfx, the Voodoo 3 gets a Linux driver update — classic Voodoo GPUs can now boot without a PC BIOS (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Cloudflare Announces Kitesurf, a Browser Engine for Agents (InfoQ)
+  • Skylab completists, clear some shelf space for 26 DVDs (The Register)
+  • Casio decides it's about time the simple digital watch got a little smarter (The Register)
+
+BUSINESS & BIG TECH
+  • Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders (TechCrunch)
+  • Will the DOJ’s investigation into a16z spook other VCs? (TechCrunch)
+  • Doodle generative compositions in your browser with Musical Spirograph (The Verge)
+
+GADGETS & CONSUMER
+  • The US Air Force wants its next generation of target drones to mimic stealth jets (TechRadar)
+  • Quote of the day by Palantir co-founder Peter Thiel: 'Anyone that has a monopoly will pretend that they're in incredible competition' — exposing how tech titans bend the market in their favour (TechRadar)
+  • The best Google Pixel 11 Pro Fold cases — high-quality covers to protect your new foldable handset (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-23 06:31
