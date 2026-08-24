@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Aug 24, 2026 (69 stories)
+
+Good morning,
+
+Today's IT briefing — 69 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Cloudflare OS: Cloudflare's Open-Source Corporate AI Platform Built on a Capability-Based Model
+Cloudflare recently open-sourced Cloudflare OS. It allows enterprise teams to output work artifacts grounded in enterprise knowledge, know-how, and provisioned connectors, automate repetitive workflows with optimized token cost (with AI assistance only where needed), and build personal, shareable, customizable work…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • The US is now home to 15 of the world's 20 biggest AI data centers — with one state housing 12 on its own (TechRadar)
+  • China is shifting its new data centers to rural Eastern locations as it looks for extra AI power (TechRadar)
+  • Who’s behind the new ‘stealth model’ Ox Alpha? (TechCrunch AI)
+
+CYBERSECURITY
+  • ToxicPanda Android malware uses VPN permissions to block Google Play (BleepingComputer)
+  • Self-driving Ford F-250 truck with shotgun-equipped drone-killing turret tested by US Army — autonomous system designed to blast fast-moving drones at between 10 and 100 meters range (Tom's Hardware)
+  • Fake GTA VI ISO circulates on the internet a few days after leak, internet sleuths claim 113GB download is padded malware — testers claim file is 99.99% empty zeroes with 50KB virus embedded (Tom's Hardware)
+
+HARDWARE & CHIPS
+  • TechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions (TechCrunch)
+  • Grab the Asus Prime Radeon RX 9070 OC for $629.99 — save $120 on this 16GB gaming GPU for reliable 1440p and 4K gaming (Tom's Hardware)
+  • Modular pocket gimbal camera that transforms into a self-flying drone retroactively banned by FCC, certification revoked — Agency closes foreign UAS loophole on 230g HoverAir Versa (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Batch file automated a clean-up job, then fouled itself by deleting the wrong directory (The Register)
+  • JDK 27 and JDK 28: What We Know So Far (InfoQ)
+  • Ancient ‘Who owns Linux?’ case now has one foot very deep in the grave (The Register)
+
+BUSINESS & BIG TECH
+  • Uber faces fine of nearly $1B over automated driver suspensions (TechCrunch)
+  • GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series (The Verge)
+  • Grand Theft Auto VI exists in its own universe (The Verge)
+
+GADGETS & CONSUMER
+  • President Trump wants the US to carry out more than 1,000 space launches a year by 2030 — and speed up sending robots and humans to Mars (TechRadar)
+  • What is a VESA mount and how to know what type your TV has (Engadget)
+  • How is Android Auto different from Android Automotive? (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-08-24 06:44
