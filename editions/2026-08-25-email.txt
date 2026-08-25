@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Aug 25, 2026 (150 stories)
+
+Good morning,
+
+Today's IT briefing — 150 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Samsung thinks Claude Code can help it boost chip design — but admits the AI still makes some worryingly big mistakes
+Samsung's chip division is finding out what agentic coding tools do when you leave them alone: when asked to deal with a stubborn error, Claude reclassified it as an informational notice to be 'rid' of the issue  (TechRadar)
+
+AI & MACHINE LEARNING
+  • Met Office finds most of us still won't trust an AI weather forecast (TechRadar)
+  • Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC (TechCrunch AI)
+  • Microsoft AI watermarks in Paint and Photos are linked to user IDs, researcher finds (The Register)
+
+CYBERSECURITY
+  • Exploited Zimbra Flaw Highlights Shrinking Window to Patch (Dark Reading)
+  • Unpatched Calix flaw lets hackers bypass NAT to expose internal devices (BleepingComputer)
+  • Foul Language: WordlistLoader Disguises Malware as Ordinary Text (Dark Reading)
+
+HARDWARE & CHIPS
+  • India’s Airbound bags $37M to take on trucks with rocket-like drones (TechCrunch)
+  • IBM announces chip that natively executes Arm and Z instructions concurrently (The Register)
+  • Hot Chips 2026: Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Beyond Embedded: How DuckDB v2.0 Shifts Architecture Toward Distributed Network Capabilities (InfoQ)
+  • You don't want this Sleepwalker backdoor on your Windows machine (The Register)
+  • Browser fingerprint tool shows how easy you are to track using the latest sneaky tricks (The Register)
+
+BUSINESS & BIG TECH
+  • Lenovo confirms Legion Go issues after gamers report bricked devices (The Verge)
+  • Oura is reportedly eyeing a September IPO that could value it at more than $16B (TechCrunch)
+  • Data centers become "killer application" for new power transformer tech (Ars Technica)
+
+GADGETS & CONSUMER
+  • The best Samsung Galaxy Z Fold 8 and Z Fold 8 Ultra plans in Australia for August 2026 (TechRadar)
+  • The best Google Pixel 11, Pixel 11 Pro and Pixel 11 Pro XL plans in Australia for August 2026 (TechRadar)
+  • Russian tech giant VK is suing Apple for blocking its apps — and wants $696,000 a day in compensation (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-25 06:36
