@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Aug 26, 2026 (169 stories)
+
+Good morning,
+
+Today's IT briefing — 169 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Commodore unveils striking Cyberpunk 2077 version of its C64U made in partnership with CD Projekt Red — Commodore 77 special edition uses more powerful AMD Artix XC7A100T processor
+A special edition of the Commodore 64 Ultimate made in collaboration with CD Projekt Red has been announced today. The new Commodore 77 takes its stylish inspiration from Cyberpunk 77, and is skillfully melded into the game's universe.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • New study finds bosses are far more comfortable sharing work documents with AI than their employees — despite the security risks (TechRadar)
+  • India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call (TechCrunch AI)
+  • Robotics startup Generalist reaches $3B valuation, sources say (TechCrunch AI)
+
+CYBERSECURITY
+  • LACMA data breach last year exposed social security and medical data (BleepingComputer)
+  • Hackers abuse npm mirrors to host phishing redirect pages (BleepingComputer)
+  • AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Xiaomi will now let you pre-order its first NAS — and at a surprisingly attractive price for customers everywhere (TechRadar)
+  • Intel's 256-core Xeon 7 CPUs are a Diamond in the rough (The Register)
+  • SpaceX to use NVIDIA GPUs for its Starmind project — Here's what they'll face in space (Engadget)
+
+SOFTWARE & DEV
+  • India’s crewed space program will fly this year, after missing 2022 and 2025 targets (The Register)
+  • Self-hosted email is in steep decline, Microsoft and Google are taking over (The Register)
+  • Apple defies memory shortage with new Mac minis (The Register)
+
+BUSINESS & BIG TECH
+  • The world's busiest spaceport is about to get a lot quieter, at least for now (Ars Technica)
+  • Trump is upping the price of Big Tech’s favorite visa (The Verge)
+  • World humanoid robot games show runners breaking records, bursting into flames (Ars Technica)
+
+GADGETS & CONSUMER
+  • IBM reveals plans for 'quantum fridges' — its next-gen cooling hardware, which could be the key to quantum computers finally reaching their potential (TechRadar)
+  • Check out this cool Cyberpunk 2077-edition Commodore 64 (Engadget)
+  • Even more Grand Theft Auto 6 footage has leaked, this time of Vice City beach showcasing impressive crowd tech — here's the full timeline of everything that has leaked so far (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-26 06:38
