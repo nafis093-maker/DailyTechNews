@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Aug 27, 2026 (230 stories)
+
+Good morning,
+
+Today's IT briefing — 230 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Jensen Huang says Nvidia achieved AGI, again — not that it matters
+On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had "achieved AGI," one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immediately, Huang dismissed the coveted milestone as "senseless." He's right. For the supposed finish line of…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Hoomanely’s building a smart feeding bowl and an AI platform to help owners spot when their pup is sick (TechCrunch)
+  • Want to own a .slop domain? You could soon be in luck, along with .therapy, and .hype (TechRadar)
+  • Samsung Galaxy S26 FE vs S25 FE: Why is the new model more expensive? (Engadget)
+
+CYBERSECURITY
+  • PaperCut warns of NG, MF flaw exploited in zero-day attacks (BleepingComputer)
+  • Manchester Airports Group says hackers stole travelers' data (BleepingComputer)
+  • ATF responds to 'major' cybersecurity incident after ransomware gang's claims (The Register)
+
+HARDWARE & CHIPS
+  • China's YMTC aims to become the world's largest NAND maker by the end of 2027, report says — company plans to overtake Samsung and SK hynix (Tom's Hardware)
+  • Trump administration weighs expanding chip tariffs to laptops, consoles, and servers, report claims — January's data center exemptions may be scrapped (Tom's Hardware)
+  • Glass substrate roadmaps examined — Absolics in final qualification and a first product that keeps slipping (Tom's Hardware)
+
+SOFTWARE & DEV
+  • OpenClaw went viral. Meet the maintainers building and securing it. (GitHub Blog)
+  • Spring News Roundup: First Milestone Releases for Boot, Framework, Data, Security, Modulith, Batch (InfoQ)
+  • Nitter might be no more, but Twitter is back (sort of) (The Register)
+
+BUSINESS & BIG TECH
+  • Google’s new Fitbit Air brings Pokémon Sleep to your wrist (TechCrunch)
+  • Fashion startup Atoire raises $9.5M to bring consumers luxury goods without the markup (TechCrunch)
+  • Why did 1,000 Swiss citizens bury their underpants? (Ars Technica)
+
+GADGETS & CONSUMER
+  • Forget Disney’s BDX Droid — the $399 Hugging Face Microduck robot is even more adorable and versatile thanks to Lidar, NFC and, yes, roller skates (TechRadar)
+  • Speedo launches its own smart swim wearable (Engadget)
+  • Home appliances giant Dreame has scrapped itsrocket-powered supercar, which we suspected was 'too fast and too wide-reaching' (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-27 17:13
