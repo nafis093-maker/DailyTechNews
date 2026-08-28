@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Aug 28, 2026 (213 stories)
+
+Good morning,
+
+Today's IT briefing — 213 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Save hundreds on a TCL mini-LED TV with quantum dots and high refresh rate
+Amazon and Best Buy have the TCL QM7L mini-LED TV on sale for as low as $797.99 for the 55-inch model, a $200 discount from the usual price. We spotted scaling discounts on larger sizes as well, although Amazon already listed low stock on the 65-inch version. While OLED televisions are great for deep black […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • X says it found and took down a Chinese bot farm posting anti-AI data center content to thousands of followers (TechRadar)
+  • Microsoft-backed AI data center has been accused of violating federal law (Engadget)
+  • New US export controls reportedly target Chinese access to remote AI servers — Trump admin's cut-down AI diffusion rule could be shared with industry as soon as September (Tom's Hardware)
+
+CYBERSECURITY
+  • 68-year-old imprisoned after making $1.3 million by pirating IPTV services (BleepingComputer)
+  • 19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code (The Hacker News)
+  • US government alcohol and firearms agency ATF declares ‘major incident’ after ransomware gang claims cyberattack (TechRadar)
+
+HARDWARE & CHIPS
+  • How to make your Android alarm ring at full volume even when your calls are muted (Engadget)
+  • Uber Builds GitFarm to Run Git Operations as a Service for Large-Scale Monorepos (InfoQ)
+  • Word 97's ghost in the machine: The crash that vanished the moment anyone looked at it (The Register)
+
+SOFTWARE & DEV
+  • Green Party wants to slam the brakes on UK datacenter construction until water and energy use are sorted (The Register)
+  • US government snitch-finder pleads guilty to leaking state secrets to foreign spies (The Register)
+  • Keepers of Noble Numbats to be offered a Resolute Racoon: Ubuntu 26.04.1 is coming (The Register)
+
+BUSINESS & BIG TECH
+  • How Sweden built one of Europe’s hottest startup ecosystems (TechCrunch)
+  • Trump’s EPA wants to let data centers hide their air pollution (The Verge)
+  • More Americans oppose police license plate cameras than support them: survey (TechCrunch)
+
+GADGETS & CONSUMER
+  • What's the difference between Dolby Atmos and lossless audio? (Engadget)
+  • Analysts say getting GTA 6 to run at 60fps is 'extremely unlikely on console hardware,' as Rockstar confirms 30fps limit (TechRadar)
+  • You can get an RTX 5070 gaming laptop with 32GB RAM for under $1,500 right now — finally, a deal that's not a complete rip-off (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-28 18:06
