@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Aug 29, 2026 (147 stories)
+
+Good morning,
+
+Today's IT briefing — 147 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Microsoft-backed AI data center faces backlash over 62 unpermitted gas turbines and 1.5M-gallon LNG tank — issues with $19.4B facility range from illegal construction to noise pollution
+The community surrounding the DataOne data center in Vineland, New Jersey, are complaining about the Microsoft-linked project. The company's deployment of several unpermitted gas turbines is just one of the issues that has been hounding the project, with potential water issues also surfacing in recent weeks.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • AWS is shutting down Mechanical Turk, which let humans beat AI at certain work tasks (TechRadar)
+  • Musicians-turned-detectives are hunting for AI grifters (The Verge)
+  • Presentation: Architecting the Data Layer for AI Agents: From Transactional Systems to MCP and Semantic Models (InfoQ)
+
+CYBERSECURITY
+  • McKesson discloses breach after ShinyHunters claims patient data theft (BleepingComputer)
+  • Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network (The Hacker News)
+  • Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable (The Hacker News)
+
+HARDWARE & CHIPS
+  • Site provides instructions to get up to $175 back for your pre-installed Windows 11 license — new portal provides legal forms, but warns buyers not to wipe storage first (Tom's Hardware)
+  • Grand Theft Auto 6 will run at only 30 FPS on consoles at launch, no performance mode promised — even the souped-up PS5 Pro might not get 60 FPS support (Tom's Hardware)
+  • GTA 6 leaker cashes out in $250,000 crypto rug pull just hours before Rockstar's official reveal — memecoin crashes as Cyberleek's 'anti-corporate' campaign ends in a payday (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Startup bags $7M to build drone-interceptor-in-a-backpack systems (The Register)
+  • Cloudflare Workers Accept Inbound TCP, with gRPC the First Protocol on Top (InfoQ)
+  • Xbox respawns IKEA furniture with gaming range (The Register)
+
+BUSINESS & BIG TECH
+  • Chinese automakers are following Tesla’s bet that robots are the next big profit machine (TechCrunch)
+  • Is the best way to watch a movie on a pair of sunglasses? (TechCrunch)
+  • Xbox CEO calls Project Helix a ‘family of devices’ (The Verge)
+
+GADGETS & CONSUMER
+  • Can All Android Phones Use Android Auto? (Engadget)
+  • I spent a month with the Xteink X4 Pro — and while I love this tiny $99 ereader, it won’t be replacing my ViWoods AiPaper Reader just yet (TechRadar)
+  • Deco Gear DG49OLED240 49-inch 32:9 OLED gaming monitor review: Two 27-inch QHD screens without the dividing line (Tom's Hardware)
+
+— THE BITSTREAM, auto-compiled 2026-08-29 12:08
