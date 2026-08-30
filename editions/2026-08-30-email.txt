@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Aug 30, 2026 (67 stories)
+
+Good morning,
+
+Today's IT briefing — 67 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Poor liquid metal application almost destroys Asus Zephyrus M16 laptop, eats through the processor lid — paste replacement triples framerates, drops temps, and eliminates hard crashes
+A user on Reddit shared their story about how the factory-applied liquid metal on their Asus Zephyrus M16 gaming laptop corroded the heatsink and lid of their CPU. It got so bad that the corrosion was about to eat away and seep onto the silicon itself, but thankfully a simple re-paste job averted catastrophe.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • AWS Open Sources Kiro Crew for Asynchronous Coding Agents (InfoQ)
+  • Anthropic is cutting Claude Code's current weekly limits by 17% (BleepingComputer)
+  • Quote of the day by tech pioneer Claude Shannon: 'I visualize a time when we will be to robots what dogs are to humans' — a warning about superintelligent AI (TechRadar)
+
+CYBERSECURITY
+  • TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor (The Hacker News)
+  • Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE (The Hacker News)
+  • Brave browser adds email aliases to help users evade tracking (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Modders solder power cables directly to RTX 5090 PCB to eliminate notorious melting 16-pin connector — bare-board Galax HOF card pulls 600W under chiller cooling (Tom's Hardware)
+  • US military uses high-energy lasers to shoot down three Mexican cartel drones over the southern border — narcos suspected of using UAVs for surveillance and reconnaissance to support illegal activities (Tom's Hardware)
+  • What's the difference between TPU vs. GPU? (Engadget)
+
+SOFTWARE & DEV
+  • Turns out Brits would quite like their private messages to stay private (The Register)
+  • AWS mumbles about its cost-busting networking tech when it should be shouting (The Register)
+  • Startup bags $7M to build drone-interceptor-in-a-backpack systems (The Register)
+
+BUSINESS & BIG TECH
+  • Vicariously hike the Appalachian in the gorgeous A Trail Tale (The Verge)
+  • Alt-right troll Milo Yiannopoulos has been deported (The Verge)
+  • Hollywood celebs are getting into microdrama apps (TechCrunch)
+
+GADGETS & CONSUMER
+  • Which member of The Beatles are you? Tell us your tech choices in this personality quiz and find out (TechRadar)
+  • Major sodium-ion battery milestone passed by California startup — Unigrid aces Hyundai’s safety tests down to -20C as experts call tech a 'compelling alternative' to lithium-ion (TechRadar)
+  • The first Labor Day laptop deals have arrived — here are my 10 top picks for HP, Acer, Dell, Gigabyte, and more (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-30 11:05
