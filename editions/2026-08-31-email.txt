@@ -1,0 +1,39 @@
+Subject: THE BITSTREAM — IT Daily, Mon Aug 31, 2026 (77 stories)
+
+Good morning,
+
+Today's IT briefing — 77 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Key Nvidia and Intel supplier raided over alleged China origin fraud — Unimicron faces probe over PCB origin washing, risk of 40% U.S. tariff penalty
+Taiwanese prosecutors are investigating Unimicron, one of the world’s largest PCB and chip substrate makers and a key supplier to Nvidia, Intel, Google, and Amazon, over allegations that it shipped China-made PCBs back to Taiwan and relabeled them as Taiwanese products.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser (InfoQ)
+  • The three forces reshaping the future of enterprise SaaS (TechRadar)
+  • Foundry Model Router Expands from Two Regions to 28, Refreshing Its Model Pool (InfoQ)
+
+CYBERSECURITY
+  • Microsoft says Windows 11 KB5120998 update resets mouse settings (BleepingComputer)
+  • Nigerians extradited to US for sextortion, deaths of two teens (BleepingComputer)
+  • Microsoft asks users to ignore 'Antivirus is turned off' errors (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Intel Arc G3 handhelds offer amazing performance, but good luck actually being able to afford them (TechRadar)
+  • China's CXMT beats Western chipmakers to announcement of LPDDR6 mass production — Xiaomi smartphones to debut industry’s first LPDDR6 chips (Tom's Hardware)
+  • Diehard Asus customer gets RMA denied for a cheap 2.4 GHz headset receiver despite spending more than $30,000 with the brand — firm refuses to send a cheap dongle, then relents after social media backlash (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Java News Roundup: GraalVM, Jakarta Data, JNoSQL, Azul Payara, WildFly, Quarkus, Atmosphere (InfoQ)
+  • Article: Eliminating Long-Lived Credentials in GCP with Workload Identity Federation (InfoQ)
+  • Who, me? Techie with three months' experience was sent in as the Cisco expert and proceeded to blow everything up (The Register)
+
+BUSINESS & BIG TECH
+  • Grindr wants to be the everything app for gay men; investors are still deciding whether it can pull it off (TechCrunch)
+  • Liux’s Big microcar bets on sustainability to take on Chinese rivals (TechCrunch)
+
+GADGETS & CONSUMER
+  • Microsoft is finally going to stop nagging you to back up your files to OneDrive in Windows 11 (TechRadar)
+  • How to solve agent sprawl (TechRadar)
+  • 'Beyond ridiculous': if you're seeing Lake Ontario renamed as Lake America on Google Maps, here's why (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-08-31 12:27
