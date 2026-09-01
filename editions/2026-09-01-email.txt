@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Sep 01, 2026 (140 stories)
+
+Good morning,
+
+Today's IT briefing — 140 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Sony argues ‘reasonable consumers would not be misled’ into believing they own digital games in class action motion — PlayStation Store ‘buy’ button lawsuit may never reach a courtroom
+Sony Interactive Entertainment asked a federal judge to push a proposed class action lawsuit over the PlayStation Store’s “buy” and “purchase” labels out of court and into individual arbitration.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • ChatGPT, Reddit and Roblox moved into EU regulatory section for 'very large platforms' — must defend rights, electoral ​processes and public ​security (TechRadar)
+  • Website performance is the new defining metric for AI search (TechRadar)
+  • Bank of England head warns AI threatens financial stability — cites investment concentration and AI model security risks (TechRadar)
+
+CYBERSECURITY
+  • New ClickFix campaign can deploy powerful multi-stage malware directly through Windows Terminal and PowerShell (TechRadar)
+  • Linux kernel nears record 2,000 vulnerabilities per release as AI bug hunters scour 40 million lines of code — maintainers say they are 'completely overwhelmed' by CVE finds (Tom's Hardware)
+  • Five Venezuelans plead guilty to ATM jackpotting attacks in US (BleepingComputer)
+
+HARDWARE & CHIPS
+  • CXMT reportedly begins risk production of HBM3E memory in breakthrough for Chinese DRAM production — company could be in mass production in 2027 (Tom's Hardware)
+  • Arm faces potential shareholder revolt over CEO's 'excessive' $800 million pay package — huge stock award would only be fully realised if chip designer hits $2 trillion valuation (Tom's Hardware)
+  • Nvidia is building an IP licensing empire on the back of NVLink (The Register)
+
+SOFTWARE & DEV
+  • Insider: Red Hat is capping devs' bot budgets (The Register)
+  • AWS: DuckDB will provide 'connective tissue' across the data estate (The Register)
+  • Next bus to Altrincham delayed by Windows Defender (The Register)
+
+BUSINESS & BIG TECH
+  • John Ternus is now the CEO of Apple (The Verge)
+  • If space data centers feel far-fetched, why not interstellar travel? (TechCrunch)
+  • Magna increases bet on battery swapping in India with $35M for Yuma (TechCrunch)
+
+GADGETS & CONSUMER
+  • TP-Link’s first Wi-Fi 8 router is almost here (The Verge)
+  • Roland's new digital piano has built-in Wi-Fi that integrates with a teaching app (Engadget)
+  • TP-Link announces its first consumer Wi-Fi 8 routers — Archer 8 Ultra preorder commences September 30, in select regions (Tom's Hardware)
+
+— THE BITSTREAM, auto-compiled 2026-09-01 10:57
