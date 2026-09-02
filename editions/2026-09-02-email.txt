@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Sep 02, 2026 (168 stories)
+
+Good morning,
+
+Today's IT briefing — 168 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands
+The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2016 and 2017. Searzhudin Tamirlanovich Aktulaev, 40, was arrested in Cyprus in…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Researchers easily trick Fortune-500 companies' AI agents into running arbitrary code — supply-chain attack via llms.txt guidance file illustrates how data has become code (Tom's Hardware)
+  • Why Zero Trust is the practical enterprise access and security model (TechRadar)
+  • UK cyber bill targets AI users, not the vendors building it (The Register)
+
+CYBERSECURITY
+  • GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends (The Hacker News)
+  • US charges Russian for infecting 80,000 freelancers with malware (BleepingComputer)
+  • Sality botnet infrastructure dismantled in joint global takedown (BleepingComputer)
+
+HARDWARE & CHIPS
+  • China's EUV technology 'at a similar stage to ASML in 2004,' analyst claims — Beijing's semiconductor industry remains well behind Western rivals (Tom's Hardware)
+  • Oklahoma City tries to charge farmer arrested at data center debate $17,000 for body cam footage of the incident — accused faces trespassing charge for going over allotted speaking time by 30 seconds at a public debate (Tom's Hardware)
+  • Russian Starlink rival flounders after entire batch of satellites fails to reach operational altitude — many of the 16 launched hit less than half their 870km target, and two are already falling back to Earth (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Northern Ireland adds £15M to Fujitsu education deal without competition (The Register)
+  • Cloudflare Adds Optional OAuth Scopes, Letting Developers Mark What Users May Decline (InfoQ)
+  • UK digital ID may be dead, but its legacy IT problem lives on (The Register)
+
+BUSINESS & BIG TECH
+  • Microsoft is enabling a Windows 11 security feature that can hurt gaming performance (The Verge)
+  • This new Roomba seals itself to your carpet (The Verge)
+  • Larry Page’s flying car company Pivotal loses its CEO (TechCrunch)
+
+GADGETS & CONSUMER
+  • Acer's Swift Blade 14 weighs just 1.76 pounds and uses Wildcat Lake — company introduces new sub-brand ahead of IFA tradeshow (Tom's Hardware)
+  • Acer launches seven new gaming monitors across Nitro and Predator families — tri-mode panels, QD-OLEDs, Mini LEDs, 1,000 Hz, and more (Tom's Hardware)
+  • Acer’s new MacBook Air rival is nearly a pound lighter than Apple’s laptop (The Verge)
+
+— THE BITSTREAM, auto-compiled 2026-09-02 10:26
