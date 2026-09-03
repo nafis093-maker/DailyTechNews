@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Sep 03, 2026 (178 stories)
+
+Good morning,
+
+Today's IT briefing — 178 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Presentation: Instrumentation at Scale: Having Your Performance Cake and Eating It Too
+Brian Martin discusses the real-world performance costs of metrics libraries and shares strategies for low-overhead, "fearless" instrumentation. Drawing from his work at IOP Systems, he explores atomic primitives, per-CPU sharding, lock-free histograms, and eBPF integration to help software architects and engineering…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • PSA: Don't rely on AI to plan anything that could put your life at risk... like a mountain climb (Engadget)
+  • Lords call for a 'kill switch' on powerful AI systems used in the United Kingdom (TechRadar)
+  • Chinese supercomputer manufacturer reveals the 'world's first' 64-thread mobile workstation for AI — domestic CPU paired with mystery GPU with 16GB of VRAM promises cloud-level performance (Tom's Hardware)
+
+CYBERSECURITY
+  • Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs (BleepingComputer)
+  • Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone (The Hacker News)
+  • CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners (The Hacker News)
+
+HARDWARE & CHIPS
+  • Security policy is critical infrastructure (TechRadar)
+  • Steve Wozniak-signed Apple 1 motherboard expected to achieve up to $800,000 at auction — fully working board also comes with a signed letter from Steve Jobs (Tom's Hardware)
+  • Anker’s Soundcore is bringing its incredible call quality to more headphones (The Verge)
+
+SOFTWARE & DEV
+  • Spurs boots VMware, cites 85% licensing saving (The Register)
+  • UK's Online Safety Act has made 'absolutely no difference,' kids say (The Register)
+  • British wind power to drive Maersk container ship (The Register)
+
+BUSINESS & BIG TECH
+  • Belkin introduces its first longer-lasting semi-solid-state power banks (The Verge)
+  • Anker announces its first over-the-counter hearing aids (The Verge)
+  • Google spared from ad-business breakup, but judge orders changes to how it operates (TechCrunch)
+
+GADGETS & CONSUMER
+  • How to launch a website in a day with just $13 (TechRadar)
+  • Utah becomes the first US state to target VPNs with a strict age verification law, but top providers refuse to budge (TechRadar)
+  • Why your business can't trust the data behind its own security decisions (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-03 10:33
