@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Sep 04, 2026 (165 stories)
+
+Good morning,
+
+Today's IT briefing — 165 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Data from drones in Ukraine is fueling a new Wild West marketplace
+Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight, increasingly…  (MIT Tech Review)
+
+AI & MACHINE LEARNING
+  • Will agentic commerce push more merchants into marketplaces? (TechRadar)
+  • US law firm accuses UK AI software firm of unwanted contract renewal when it tried to leave (The Register)
+  • Why industrial AI is adopting faster than it’s working (TechRadar)
+
+CYBERSECURITY
+  • Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws (The Hacker News)
+  • Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws (The Hacker News)
+  • Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day (The Hacker News)
+
+HARDWARE & CHIPS
+  • I just saw a lawnbot with a mechanical arm that reaches out to hand-trim your edges — and it was mesmerizing (TechRadar)
+  • Hugging Face is too important to fall into Nvidia's hands (The Register)
+  • Hugging Face CEO says 'planets aligned' for Nvidia deal, aims to reach 100M users (The Register)
+
+SOFTWARE & DEV
+  • Copilot Code Review Reaches Azure Repos, Billed Per Review with Reporting Two Days Behind (InfoQ)
+  • Enjoy the Windows 10 Update Experience at London's O2 (The Register)
+  • UK military wants lasers to stop drone swarms without running out of ammo (The Register)
+
+BUSINESS & BIG TECH
+  • This NAS company wants to run your local smart home (The Verge)
+  • Lexar’s Muse is an ultra-slim portable SSD that’s less than 4mm thick (The Verge)
+  • This rugged phone’s removable camera can survive and capture your extreme adventures (The Verge)
+
+GADGETS & CONSUMER
+  • Tottenham Hotspur ditches VMWare in favor of HPE — cuts licensing costs by 85 percent (TechRadar)
+  • This TeamGroup T-Force 64GB DDR5-6000 memory kit is built for serious pro workloads and content creation — and Newegg's promo code drops it to $820 (TechRadar)
+  • The highlight of JLab's IFA launch is super-cheap, super-small ANC earbuds with proprietary Apple tech to replace the AirTag on your keychain (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-04 10:24
