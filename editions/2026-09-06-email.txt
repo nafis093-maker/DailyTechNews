@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Sep 06, 2026 (78 stories)
+
+Good morning,
+
+Today's IT briefing — 78 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner
+Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • How Figma Uses AI Agents for Security (InfoQ)
+  • Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft (TechCrunch AI)
+  • OpenAI responds after report exposed another incident in which its AI agents went rogue (Engadget)
+
+CYBERSECURITY
+  • Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication (The Hacker News)
+  • Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores (The Hacker News)
+  • Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials (The Hacker News)
+
+HARDWARE & CHIPS
+  • This 246TB SSD media server is built for millionaire cinephiles —Kaleidescape's newest home theater vault supports 25 simultaneous 4K streams, stores up to 2,300 4K cinematic movies (Tom's Hardware)
+  • Clucky’s new alarm app wakes you up with a crowing rooster (TechCrunch)
+  • Gamescom apologizes after backlash over callous response to indie dev hardware thefts — pledges security overhaul and invites devs to the roundtable (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Time lords prepare to kick leap seconds into the next millennium (The Register)
+  • FreeCORE: TrueNAS Fork Maintaining Deeply Integrated Virtualization, Jails, and OpenZFS on FreeBSD (InfoQ)
+  • US troops can still be tracked by purchased location data, and Congress wants to know why (The Register)
+
+BUSINESS & BIG TECH
+  • Tesla’s Cybercab has been deployed, and it’s already under investigation (Ars Technica)
+  • Oura is going public, but these smart ring companies are coming for its crown (TechCrunch)
+  • Robotaxis enter their villain era (The Verge)
+
+GADGETS & CONSUMER
+  • Will the iPhone Ultra really be 'Ultra'? 5 features the foldable could surprisingly ditch, from Face ID to MagSafe (TechRadar)
+  • Why are iPhones more expensive than iPads? (Engadget)
+  • How to sideload apps onto Android Auto (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-09-06 10:07
