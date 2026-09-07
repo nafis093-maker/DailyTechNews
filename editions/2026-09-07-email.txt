@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Sep 07, 2026 (91 stories)
+
+Good morning,
+
+Today's IT briefing — 91 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Bentley’s Torcal EV tries to balance authenticity with fake V8 sounds
+Thanks to their ability to provide a smooth ride and quiet powertrain with ease, electric vehicles are a true shoo-in for the high-end luxury automotive segment. Rolls-Royce has the Spectre, Cadillac's Celestiq is taking bespoke to a whole new level, and Mercedes has given the EQS the full Maybach treatment. From…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Presentation: From AI Agent Demo to Production: Automated Testing and Evaluation (InfoQ)
+  • AI and the ghosts of tech booms past (TechRadar)
+  • ChatGPT can now connect to your personal apps to mimic writing style (BleepingComputer)
+
+CYBERSECURITY
+  • Hackers exploit new MikroTik RouterOS flaws to hijack routers (BleepingComputer)
+  • ConnectWise warns of new ScreenConnect flaw without patch (BleepingComputer)
+  • N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw (The Hacker News)
+
+HARDWARE & CHIPS
+  • Anycubic Photon P1 MAX review: bigger, better, and tech-packed (Tom's Hardware)
+  • This 10-inch 4:3 television hides your retro consoles in a secret rear compartment — Unico's Traveller ULW10 trades composite video for RGB SCART and HDMI (Tom's Hardware)
+  • RPCS3 emulator can now run PS3 games on PC directly from a disc drive in landmark development — unlocks 20 years of physical titles on Windows, Linux, and macOS (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Zone Redundancy Comes to API Management Standard v2 (InfoQ)
+  • Peers ask why UK cyber bill leaves execs off the personal liability hook (The Register)
+  • CERN Renounces RHEL in Favor of Debian for Its Accelerator Controls Infrastructure (InfoQ)
+
+BUSINESS & BIG TECH
+  • Huawei copies Samsung’s privacy display in its latest trifold (The Verge)
+  • Phil Schiller’s App Store exit reportedly driven by wariness over future plans (TechCrunch)
+  • An Amazon cargo plane crashed at Miami International Airport (The Verge)
+
+GADGETS & CONSUMER
+  • Taiwan is cracking down on tech companies hiding their illegal Chinese ownership (TechRadar)
+  • Garmin’s Cirqa Smart Ring could be ready to take on Oura and Samsung, with a fresh leak suggesting ten models are on the way (TechRadar)
+  • These Labor Day phone deals are so good, I'm tempted to ignore the iPhone 18 — get up to $450 off the Samsung Galaxy S26 and Google Pixel 11 (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-07 11:22
