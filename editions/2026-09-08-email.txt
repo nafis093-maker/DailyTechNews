@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Sep 08, 2026 (127 stories)
+
+Good morning,
+
+Today's IT briefing — 127 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Belgian-Chinese semiconductor researcher arrested over alleged GaN trade-secret theft — prosecutors suspect BelGaN insiders transferred chip IP to China before the company collapsed
+Belgian authorities have arrested a former BelGaN researcher on suspicion of industrial espionage, alleging that proprietary gallium nitride semiconductor technology was transferred to a Chinese rival as the Belgian chipmaker headed toward bankruptcy.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • The way we use and pay for AI is changing (TechRadar)
+  • One-slot, low-profile Nvidia RTX 3060 12 GB with two monitor outputs breaks cover at Newegg for $496 — bus-powered model looking for a use case in local LLM work (Tom's Hardware)
+  • Microsoft engineer claims 'typing code is absolutely over', with AI and GitHub Copilot set to transform coding as we know it (TechRadar)
+
+CYBERSECURITY
+  • Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell (The Hacker News)
+  • BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams (The Hacker News)
+  • Does ICANN Open the Door on Identity Theft by Dropping 3rd Level .name Domains Registrations? (InfoQ)
+
+HARDWARE & CHIPS
+  • Tech enthusiast finds $12,000 stack of RAM in their garage — work let them keep an old server stuffed with 1,920GB of DDR4 (Tom's Hardware)
+  • Intel surpasses one million High-NA EUV wafers processed, outpaces the rest of the industry combined — company also trailblazing giant 6×12 photomasks to speed production and lower costs (Tom's Hardware)
+  • Huawei proudly shows off an entirely un-American chip (The Register)
+
+SOFTWARE & DEV
+  • Whitehall's latest plan to get things done: Less Whitehall (The Register)
+  • Presentation: A Solopreneur's Journey: From Engineer to Puzzle Master and Storyteller (InfoQ)
+  • Britain reboots its space strategy with £7.8B already on the launchpad (The Register)
+
+BUSINESS & BIG TECH
+  • Xiaomi’s wide foldable promises more power than Samsung’s (The Verge)
+  • A secret new Elizabeth Holmes documentary stuns Telluride (TechCrunch)
+  • Bentley’s Torcal EV tries to balance authenticity with fake V8 sounds (The Verge)
+
+GADGETS & CONSUMER
+  • Half of Brits admit they still don't know what a data center is (TechRadar)
+  • Dyson just revived its Corrale straightener — and by shrinking it down and adding an ingenious cooling attachment, it's turned it into a tool I'm actually excited about (TechRadar)
+  • Xiaomi 18 Fold hands-on: An attractive 'mid-size' foldable with powerful specs (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-09-08 10:27
