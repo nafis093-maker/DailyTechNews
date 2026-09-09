@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Sep 09, 2026 (174 stories)
+
+Good morning,
+
+Today's IT briefing — 174 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox
+Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Google to invest $15 billion in AI infrastructure in Finland, its largest single investment in Europe (TechRadar)
+  • Google Chrome will now ship security updates every two weeks, thanks to AI (TechRadar)
+  • Big Tech eyes glacier-strewn Patagonia for building mega AI data centers — region offers 17,300 glaciers, coldness, and cheap energy, but fiber lines are scarce (Tom's Hardware)
+
+CYBERSECURITY
+  • Researcher reverse-engineers infamous Stuxnet malware source code, publishes it on Github for all — attack targeted Iranian nuclear facilities and was the first software of its type to cause physical damage (Tom's Hardware)
+  • Over 36,000 exposed Plex servers vulnerable to recent flaws (BleepingComputer)
+  • Man gets 15 years for extorting women with AI-generated porn videos (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Top chipmakers embrace ASML’s $400M machines, agree to crucial chipmaking change (Ars Technica)
+  • GPU prices may be on the rise again, according to a Japanese retailer — but I wouldn't resort to panic buying (TechRadar)
+  • Amazon ropes Qualcomm into something, something AI, networking chips (The Register)
+
+SOFTWARE & DEV
+  • Virgin Media offloads email services to third party provider (The Register)
+  • Switzerland tests a FOSS escape route from Microsoft 365 (The Register)
+  • Azure Virtual Desktop Hybrid Reaches GA with Licensing Details Unpublished (InfoQ)
+
+BUSINESS & BIG TECH
+  • Google DeepMind alumni are building tools to accelerate fusion power for the grid (TechCrunch)
+  • CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks (TechCrunch)
+  • White House takes down ‘Build the Wall’ game after the Tetris Company complains (TechCrunch)
+
+GADGETS & CONSUMER
+  • Apple event 2026 live: Will we see the foldable iPhone Ultra at the 'Surprise and shine' keynote today? (Engadget)
+  • AI’s storage challenge is really an operational one (TechRadar)
+  • Audio-Technica just launched its first wireless open-back headphones with an affordable price-tag and 'noise reduction', and I must try them (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-09 10:38
