@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Sep 10, 2026 (195 stories)
+
+Good morning,
+
+Today's IT briefing — 195 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Nintendo’s latest Switch 2 update adds VRR support in TV mode
+Nintendo always promised that the Switch 2 would support variable refresh rate (VRR) when docked, but the console launched without this key feature. A new 23.0.0 firmware update now adds VRR support to the Switch 2 when it's docked and in TV mode. VRR adjusts a display's refresh rate to match a game's frame rate, […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • Can the US battery market untangle from China? (MIT Tech Review)
+  • This new drip coffee maker mimics the movement of a skilled barista's hand, and uses AI to help you achieve a perfect brew every morning (TechRadar)
+  • 'The memory chip market is heading toward a severe shortage': analyst firm believes RAM crisis could get far worse in 2027 — and you can blame AI ramping up (TechRadar)
+
+CYBERSECURITY
+  • CISA: WatchGuard RCE flaw now exploited in ransomware attacks (BleepingComputer)
+  • Microsoft fixes bug that wiped Windows desktop settings (BleepingComputer)
+  • EU Cyber Resilience Act to Enforce New Reporting Requirements (Dark Reading)
+
+HARDWARE & CHIPS
+  • Self-taught tinkerer demos working room-sized Cold War-era supercomputer with vacuum tubes — takes 15 minutes to warm up and smells like burning dust, 8-bit design uses 460 recycled 1950s Soviet tubes (Tom's Hardware)
+  • Laptop-slinger Framework refunding customers who paid top dollar for RAM (The Register)
+  • Apple Watch Series 12 vs Series 11 — new Ceramic model, Health Sensing System, Audio Intelligence and all the key upgrades (TechRadar)
+
+SOFTWARE & DEV
+  • German optics giant ditches greenfield SAP migration (The Register)
+  • Presentation: Accelerating Performance by Incrementally Integrating Rust Into Existing Codebase (InfoQ)
+  • Digital sovereignty sounds great until you try ditching your suppliers (The Register)
+
+BUSINESS & BIG TECH
+  • Automattic’s board forces CEO Matt Mullenweg into leave of absence (TechCrunch)
+  • Apple Watch’s new feature listens to your chats and recaps them (TechCrunch)
+  • Apple debuts $129 AirPods 5 with better noise cancellation and transparency mode (Ars Technica)
+
+GADGETS & CONSUMER
+  • Apple gives older iPhone owners a free satellite connectivity bonus — but inexplicably locks them out of the iPhone 18 Pro’s new camera controls (TechRadar)
+  • Apple's big AirPods 5 launch event might be over, but its most anticipated headphones may well arrive later this month (TechRadar)
+  • The variable aperture isn’t the cool part of the iPhone 18 Pro’s camera (The Verge)
+
+— THE BITSTREAM, auto-compiled 2026-09-10 10:25
