@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Sep 11, 2026 (175 stories)
+
+Good morning,
+
+Today's IT briefing — 175 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — How LinkedIn Trains AI Job Search 8x Faster with Multi-Teacher Distillation
+LinkedIn has published details of the training infrastructure behind its AI-powered job search, describing a multi-teacher distillation pipeline that compresses knowledge from large teacher models into a compact 0.6B-parameter ranking model. By Claudio Masolo  (InfoQ)
+
+AI & MACHINE LEARNING
+  • Anthropic says Claude thwarted bioweapon research from state-sponsored actors — covert accounts used U.S. proxies to attempt to engineer deadlier viruses, tried to evade identification and regional blocks (Tom's Hardware)
+  • Storage infrastructure will underpin post-quantum security (TechRadar)
+  • OpenAI is launching special ChatGPT tools for bankers and financial services workers (TechRadar)
+
+CYBERSECURITY
+  • Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs (BleepingComputer)
+  • Trezor: 347,000 users targeted in phishing attacks after Brevo breach (BleepingComputer)
+  • Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors (The Hacker News)
+
+HARDWARE & CHIPS
+  • Russian plot to sabotage undersea cables with 'secret weapon' foiled by NATO — clandestine op uncovers training exercise simulating deployment against infrastructure in Norway (Tom's Hardware)
+  • Jensen Huang explains why Nvidia will grow an astounding 70% next year (TechCrunch AI)
+  • Furo’s founders left Silicon Valley — and it’s paying off (TechCrunch)
+
+SOFTWARE & DEV
+  • Digital Research's GEM opens a new window on Linux (The Register)
+  • BOFH: Oh no! The CMS ate 500 pages of corporate documentation (The Register)
+  • On Call: Boss wrongly claimed IT deleted his files, refused to learn the one-click fix (The Register)
+
+BUSINESS & BIG TECH
+  • Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play (TechCrunch)
+  • LinkedIn beats "BrowserGate" lawsuits over scanning users' Chrome extensions (Ars Technica)
+  • Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers (TechCrunch)
+
+GADGETS & CONSUMER
+  • Apple addresses iPhone Duo copycats (The Verge)
+  • Have a playlist that's full of memories? Qobuz and iFi want to hear it for World Alzheimer's Month, and you could win an elite 5-star DAC (TechRadar)
+  • Got a new iPhone 18 Pro? I've rounded up the best cases and covers in the UK, to keep it properly protected (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-11 10:27
