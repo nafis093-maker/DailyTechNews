@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Sep 12, 2026 (127 stories)
+
+Good morning,
+
+Today's IT briefing — 127 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers
+The "major malicious attack" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx. On May 12, Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, disclosed…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • ‘ChatGPT will glaze anyone regardless’: I tried 5 ways to make ChatGPT flatter and agree with me — here’s what happened (TechRadar)
+  • Teachers are worried AI is taking over the classroom faster than they can stop it (TechRadar)
+  • GMKtec EVO-X3 mini PC review: For local AI, the hardware is impressive, but the software still needs work (TechRadar)
+
+CYBERSECURITY
+  • Hackers abused Claude to extract secrets from 1.8M Android apps (BleepingComputer)
+  • Threat Actor Generates 1M Personalized Fraud Emails in 3 Days (Dark Reading)
+  • Florida confirms DMV database breached via stolen police account (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Intel says it has already passed a million High-NA EUV wafers - more than the rest of the industry combined (TechRadar)
+  • Lenovo's Googlebook 15 seems decidedly premium based on a new leak (Engadget)
+  • China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65% the cost of the original (Tom's Hardware)
+
+SOFTWARE & DEV
+  • The aircraft might not be flying, but the certificate has gone on vacation (The Register)
+  • One Decade of Rustls: Evolution, Benchmarks, and Future Roadmap (InfoQ)
+  • Marketing ops as code: Automating events from planning to follow-up on GitHub (GitHub Blog)
+
+BUSINESS & BIG TECH
+  • Some satellite companies still have an appetite for boutique launch services (Ars Technica)
+  • Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill Road (TechCrunch)
+  • Lawyer fined $5K over AI-hallucinated witnesses in a murder case (The Verge)
+
+GADGETS & CONSUMER
+  • ICYMI: the 7 biggest tech stories of the week, from Apple's iPhone Duo debut to Sonos' best compact speaker yet (TechRadar)
+  • I've rounded up the best iPhone Duo cases to keep Apple's debut foldable protected from scrapes and cracks (TechRadar)
+  • It's about time Apple got a Readiness score to compete with Fitbit and Garmin — but I'm disappointed it's not coming to the Series 11 (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-12 09:56
