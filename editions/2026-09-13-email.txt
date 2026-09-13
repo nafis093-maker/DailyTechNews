@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Sep 13, 2026 (82 stories)
+
+Good morning,
+
+Today's IT briefing — 82 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data
+Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments. The first campaign, per the tech giant, involved sending over a million scam…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Google Health's mistakes are a grave warning for Apple’s new AI-powered Health app (TechRadar)
+  • GitHub Copilot's Project HydraFusion Promises Frontier Level Performance Through Multi-Model Routing (InfoQ)
+  • OpenAI’s rogue AI tried to hack another company in May (The Verge)
+
+CYBERSECURITY
+  • CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV (The Hacker News)
+  • Revolut confirms customer data breach through fake government requests (TechCrunch)
+  • Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Ukraine triumphs in 'first-ever' drone-vs-drone boat battle — video shows Russian MBeK destroyed by Sargan 3000's 12.7mm automatic turret (Tom's Hardware)
+  • Transparent wall-mounted CD player raises over $540,000 on Kickstarter — $109 Syitren RM1's visible disc and mechanisms channel 90s B&O nostalgia with Bluetooth and battery power (Tom's Hardware)
+  • Build a high-end AMD gaming PC for less — Ryzen 7 9800X3D bundle includes an X870E motherboard, 32GB DDR5, AIO cooler and a game for $1,109.99 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Cloudflare Tests Cache Transcoding to Reduce Storage Requirements (InfoQ)
+  • How to make Xfce look like almost any desktop you want (The Register)
+  • Lambda SnapStart Comes to Container Images, Ending a Packaging Tradeoff (InfoQ)
+
+BUSINESS & BIG TECH
+  • Automattic confirms Mullenweg has returned as CEO after attempted ouster by board (TechCrunch)
+  • Tesla says it will finally unveil the second generation Roadster on October 1 (TechCrunch)
+  • LG responds to TV spying allegations (The Verge)
+
+GADGETS & CONSUMER
+  • Expert finds this £3 Temu Wi-Fi extender is full of security issues, and definitely not the bargain you'd hoped for (TechRadar)
+  • Creative Assembly says it was 'a big deal' to have player customization be a 'must-have' part of Total War: Warhammer 40,000 for fans of the tabletop game and hobby (TechRadar)
+  • I've seen 2027's new robot vacuums — here are 3 major trends set to level-up their cleaning, from drop-down suction boosters to… steam? (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-13 10:57
