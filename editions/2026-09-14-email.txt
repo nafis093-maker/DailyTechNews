@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Sep 14, 2026 (102 stories)
+
+Good morning,
+
+Today's IT briefing — 102 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Presentation: Decision Models in Agentic Architectures: From Production to Agent Skills
+Alex Porcelli discusses the critical gap in enterprise AI: non-deterministic output and lack of accountability in high-stakes decisions. He shares how integrating DMN decision models with LLMs, agent skills, and NeMo guardrails creates auditable, deterministic agentic architectures - allowing business leaders to own…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • Russian freelancers use Claude to program autonomous combat drone swarm — AI-enabled target selection and detonation without a human in the loop (Tom's Hardware)
+  • Closing the gap between AI investment and impact: the rise of Open Data Infrastructure (TechRadar)
+  • Maryland data center developers offer residents biggest-ever US community benefits package as big tech seeks to quell fears — $110 million deal includes $30 million elementary school, water reclamation system, and more (Tom's Hardware)
+
+CYBERSECURITY
+  • Microsoft: September updates cause RDS failures on Windows Server (BleepingComputer)
+  • UK.gov begins killing off passwords for 23 million users (The Register)
+  • Revolut discloses data breach exposing financial info, passports (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Proven 8-pin PCIe plugs aren't immune to melting — Thermal Grizzly WireView adapter burns out on Radeon RX 7900 XTX (Tom's Hardware)
+  • Meta Quest user vibe-codes 3D object throwing to 3D printer — ‘I've never felt more like Tony Stark’ says the software engineer (Tom's Hardware)
+  • Save $1,289 when you build an extreme PC with these top-tier components — combo deal features AMD's Ryzen 9 9950X3D2 processor along with an 8TB 9100 Pro SSD, MSI X870E motherboard, and 32GB of DDR5-6000 memory (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Revolut falls for fake government requests, hands over customer data (The Register)
+  • Article: Implementing Durable Workflows on Postgres Without an External Orchestrator (InfoQ)
+  • CPython eases Rust requirements as assimilation continues (The Register)
+
+BUSINESS & BIG TECH
+  • What happens after a town de-Flocks (The Verge)
+  • Larry Ellison cancels $7.5 billion sale of Oracle stock (TechCrunch)
+  • Waymo pulls over, calls cops on riders with a ghost gun (The Verge)
+
+GADGETS & CONSUMER
+  • The latest Windows 11 update breaks audio on some PCs and reportedly kills File History feature (TechRadar)
+  • Asus ROG Swift PG27UCWM gaming monitor review: Speed and pixel density in a premium package (Tom's Hardware)
+  • Samsung brings back its big cashback offer — get up to £350 off the Galaxy Z Fold 8, Galaxy S26 Ultra, Galaxy Watch 9, Buds 4 Pro, and more (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-14 11:32
