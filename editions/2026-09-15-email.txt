@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Sep 15, 2026 (182 stories)
+
+Good morning,
+
+Today's IT briefing — 182 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — What must happen for AI’s trillion-dollar gamble to pay off
+When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in question: A handful of…  (MIT Tech Review)
+
+AI & MACHINE LEARNING
+  • Why every enterprise needs an AI model exit strategy (TechRadar)
+  • Perplexity’s local AI agent comes to Windows, but only for RTX GPUs with at least 24GB of VRAM — Portable Computer brings AI for multistep tasks to compatible PCs (Tom's Hardware)
+  • Is the FCA underestimating the AI fraud threat? (TechRadar)
+
+CYBERSECURITY
+  • Suspected Black Axe gang leaders face cybercrime charges in the US (BleepingComputer)
+  • Microsoft issues emergency Windows 11 update to fix its record-breaking patch (The Verge)
+  • Microsoft confirms KB5002914 Excel update breaks copy and paste (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Grab a $560 saving on this 1440p-ready gaming PC with a 9800X3D and RTX 5060 Ti 16GB, now $1,859 — all-white CyberPowerPC desktop ships with one of AMD's best X3D chips, along with 32GB DDR5 and a 2TB SSD (Tom's Hardware)
+  • Minecraft Legacy gets rewritten in C++ for PS2 and Wii ports — code is tuned so it works well even on the PS2’s meager 32MB of RAM (Tom's Hardware)
+  • Developer builds viral 3D source code visualizer that consumes 21GB of RAM — flies around 2.5 million lines of code at over 120 frames per second (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Give Xfce a Mac or Unity-style makeover (The Register)
+  • Presentation: Lead Without a Ladder: How I Climbed Into Engineering Leadership (InfoQ)
+  • Most people who quit M365 for Google do it out of spite, but there’s no ROI in that (The Register)
+
+BUSINESS & BIG TECH
+  • Valve is still figuring out ‘how and when’ to do Steam Deck 2 (The Verge)
+  • Rocket Lab is seeing red about NASA's decision on a Mars spacecraft (Ars Technica)
+  • Trump throws out power plant climate pollution rules (The Verge)
+
+GADGETS & CONSUMER
+  • Fujifilm’s Instax Pal 2 out-charms the Kodak Charmera, but misses the point of these novelty cameras (TechRadar)
+  • Technology sovereignty is about keeping control, not geography (TechRadar)
+  • Apple adds TV and Arcade to iCloud+ subscriptions in 100 countries (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-09-15 10:52
