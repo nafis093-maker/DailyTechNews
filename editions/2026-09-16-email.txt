@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Sep 16, 2026 (153 stories)
+
+Good morning,
+
+Today's IT briefing — 153 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Meta is reportedly ready to launch less pervy smart glasses
+Meta may be ready to reveal a new pair of smart glasses with no camera at all, amid a PR crisis for the company caused by the video recording capabilities of its flagship smart glasses. A new report from The Information claims the camera-free glasses, codenamed Luna, could be revealed as soon as the Meta […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • Amazon launches Alexa+ in India with Hindi support (TechCrunch AI)
+  • China's open-weight AI models are now just 4 months behind frontier US offerings, Mozilla report claims — models still lag in some benchmarks but are drastically cheaper to use (Tom's Hardware)
+  • I can buy cheap Amazon earbuds with volume controls for far less than Apple's step-up AirPods 5 model — how is it getting away with this? (TechRadar)
+
+CYBERSECURITY
+  • Chrome and Edge browsers hijacked by KREMLIN malware for credential and token session theft (TechRadar)
+  • Windows Server 2022 reaches end of mainstream support next month (BleepingComputer)
+  • Google fixes actively exploited Android zero-day on Pixel devices (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Original Sony PlayStation 2 security chip ‘broken wide open’ after 26 years — chemical decapping and four years of reverse engineering unlocks MechaCon secrets (Tom's Hardware)
+  • The last mile of AI: Closing the gap between insight and action (TechRadar)
+  • Devastated father says his 9-year-old son spent $118,000 on YouTube ad campaigns for his Minecraft channel using a company credit card — bill racked up in just three weeks was supposed to be one $20 promotion (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Java 27 Delivers Post-Quantum Cryptography, Future Language Innovation, Helidon 27, JavaFX 27 (InfoQ)
+  • BT Email users hit by barrage of unsolicited password reset PINs (The Register)
+  • UK funds flying broadband stations with power beamed from below (The Register)
+
+BUSINESS & BIG TECH
+  • Agility’s new humanoid robot will stop, squat to avoid harming human coworkers (Ars Technica)
+  • SpaceX will try to put Starship in orbit for the first time on September 22 (TechCrunch)
+  • US military says it has launched weapons into space (TechCrunch)
+
+GADGETS & CONSUMER
+  • The Boox Palma 3 brings an Android update and a premium design to the brand’s compact ereader range (TechRadar)
+  • The Boox Palma 3 gets stylus support and a sleek redesign (The Verge)
+  • Salesforce CEO Marc Benioff says the SaaSpocalypse is 'crazy nonsense' - and Jensen Huang agrees with him (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-16 10:42
