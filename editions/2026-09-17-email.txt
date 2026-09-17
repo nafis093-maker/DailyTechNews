@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Sep 17, 2026 (179 stories)
+
+Good morning,
+
+Today's IT briefing — 179 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Meet the innovators under 35 shaping climate tech
+Each year, the editorial team at MIT Technology Review puts together a list of 35 innovators under 35—a group of researchers, inventors, and other young minds worth following. The team worked on the newest edition of the list for months, and the final slate includes nine individuals from all over the world in the…  (MIT Tech Review)
+
+AI & MACHINE LEARNING
+  • Oversight Board says Meta's rules for AI deepfakes are 'consistently and fundamentally inadequate' (Engadget)
+  • Think you can spot a ChatGPT image? Take my real-or-AI quiz and see how many fool you (TechRadar)
+  • ‘We’re not stopping’: Salesforce UK&I CEO calls for greater training and skills as it continues on its “mission” to boost workers across the country (TechRadar)
+
+CYBERSECURITY
+  • Autonomous AI agent hit Spanish firm with vulnerability scans before accessing files and data (TechRadar)
+  • Chinese hackers use SparroWocky malware in govt espionage attacks (BleepingComputer)
+  • Microsoft shares workaround for Windows domain login issues (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Retired Microsoft Engineer details the story about the famous leaked FCKGW Windows XP key — copy protection used 10MB of encrypted Microsoft Bob for validation (Tom's Hardware)
+  • The exceptional Bambu Lab P1S 3D printer could be yours for just $349 — Fall sale drops the popular beginner-friendly printer to a new low price (Tom's Hardware)
+  • Poland lost $230m in cryptocurrency trying to buy Venezuelan oil in 2023 — USB drives with crypto handed directly to scammers (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Omarchy gains $18.5M in backing, fresh converts – and fierce critics (The Register)
+  • Ofcom discovers issuing Online Safety Act fines is easier than collecting them (The Register)
+  • Kubernetes Multi-Cluster Project Karmada Reaches CNCF Graduation (InfoQ)
+
+BUSINESS & BIG TECH
+  • Musk’s long-time backer is giving SpaceX stock to its investors (TechCrunch)
+  • US automakers could soon be forced to include AM radio for free (TechCrunch)
+  • Epstein had huge cache of child sex pics; victims sue to find out who's in them (Ars Technica)
+
+GADGETS & CONSUMER
+  • Beyond EAA compliance: Accessibility becomes the benchmark for digital quality (TechRadar)
+  • London's network infrastructure planning rules could be losing the city £2.7 billion a year in economic output (TechRadar)
+  • An iOS 27 bug can temporarily freeze your iPhone (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-09-17 10:50
