@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Sep 18, 2026 (164 stories)
+
+Good morning,
+
+Today's IT briefing — 164 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Man arrested for selling $50 3D-printed machine gun conversion kits to undercover cops — ‘Glock switches’ turn pistols into fully-automatic weapons
+Emani Rey Justavino of Jacksonville, Florida, was arrested for selling more than 50 'Glock switch' converters that gives the pistols fully automatic capabilities. The suspect claims that he 3D-printed the entire batch overnight and offered them all at a discount to an undercover ATF agent.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Microsoft exec said AI scraping was ‘the largest theft of labor in human history,’ lawsuit filings reveal (TechRadar)
+  • How to move from AI discovery to AI enforcement (TechRadar)
+  • The specter of AI-enabled bioweapons is a wake-up call for biotech (MIT Tech Review)
+
+CYBERSECURITY
+  • New Check Point flaw lets hackers execute code with root privileges (BleepingComputer)
+  • Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer (The Hacker News)
+  • Microsoft fixes broken copy and paste for Excel 2016 users (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Lucky eBayer snags 128-core Intel server for $700 — HP server has 1TB RAM and 16 Xeon CPUs worth more than $4,000 (TechRadar)
+  • A camera in a toothbrush? Dyson tells us why it combined 'WiFi, AI, intelligent sensing and fluid dynamics with a highly engineered brushing experience' to create the Dyson Camerajet (TechRadar)
+  • Marvell pushes GlobalFoundries to light up wafer production (The Register)
+
+SOFTWARE & DEV
+  • htmx 4.0: a Fetch-Based Rewrite, Built-In Morphing Swaps, and Explicit Attribute Inheritance (InfoQ)
+  • British Army spends £16M on 1,000 pocket-sized eyes in the sky (The Register)
+  • Article: Architecting Secure and Scalable Facial Verification Systems (InfoQ)
+
+BUSINESS & BIG TECH
+  • Waymo says Singapore will be its next international robotaxi city (The Verge)
+  • Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal (TechCrunch)
+  • Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear (TechCrunch)
+
+GADGETS & CONSUMER
+  • 'Information-collecting monstrosities' — Are Chinese connected cars really worse for your privacy? (TechRadar)
+  • VPN Deal of the Week: A long term partner for your torrenting needs, with no nasty auto-renew surprises (TechRadar)
+  • This new Ugreen case adds an E Ink screen to the back of your iPhone 18 Pro — but it’s no match for my Xteink X4 Pro (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-18 10:25
