@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Sep 19, 2026 (157 stories)
+
+Good morning,
+
+Today's IT briefing — 157 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild
+A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution. "Orkes Conductor 3.21.21 before 3.30.2 contains…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • ICYMI: the 7 biggest tech stories of the week, from AI apocalypse warnings to our Apple CEO interview (TechRadar)
+  • Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up (The Hacker News)
+  • India forces caller-ID apps to feed spam reports to telcos (TechCrunch AI)
+
+CYBERSECURITY
+  • CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild (The Hacker News)
+  • Cisco Zero-Day Highlights API Endpoint Authentication Issues (Dark Reading)
+  • New Android malware can deploy AI to automate device control — and it can even bring itself back from the dead (TechRadar)
+
+HARDWARE & CHIPS
+  • Enthusiast digs into CPU substrate to replace ripped-off data pin — resurrected chip boots and hits 33% overclock (Tom's Hardware)
+  • Geekom A5 mini PC 2027 Edition review: Good value, well-made, and a decent user experience for those who aren’t excessively ambitious (TechRadar)
+  • Details about Intel's next-gen Nova Lake CPUs keep leaking — an attempt to establish a timeline based on what we know so far (Tom's Hardware)
+
+SOFTWARE & DEV
+  • AWS Lambda Pushes Serverless Toward Long-Running Workloads (InfoQ)
+  • Firefox 156 arrives with a forest of forks in its wake (The Register)
+  • SolidStart 2: Replaces Vinxi with a Vite 8 and Enters Maintenance as Its Role Winds Down (InfoQ)
+
+BUSINESS & BIG TECH
+  • Automattic names interim CFO after exec departures (TechCrunch)
+  • Y Combinator insurance tech alum Angle Health hits $2.7B valuation (TechCrunch)
+  • Disney’s first CTO is Character.AI’s former CEO (The Verge)
+
+GADGETS & CONSUMER
+  • MobLand season 2 cast confirm 'comfortable' onset dynamic after apparent Tom Hardy rumors cast doubt over season 3 — 'we're all pals' (TechRadar)
+  • How to make IKEA and Philips Hue smart lights play nicely together, from simple hub pairing to fun DIY hardware hacks (TechRadar)
+  • CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories (The Hacker News)
+
+— THE BITSTREAM, auto-compiled 2026-09-19 10:10
