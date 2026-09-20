@@ -1,0 +1,38 @@
+Subject: THE BITSTREAM — IT Daily, Sun Sep 20, 2026 (81 stories)
+
+Good morning,
+
+Today's IT briefing — 81 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI
+Google has released the Agent Development Kit (ADK) for Kotlin 1.0, a production-ready framework for building AI agents across Kotlin, Android, and JVM/server applications. It brings Kotlin to feature parity with Google's ADK for Python and Java, while adding Android-specific capabilities for on-device and hybrid AI…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • 'The test isn’t whether AI can do something. It’s whether it can make the process measurably better': We hear why businesses need to be more selective about where they’re using AI (TechRadar)
+  • Meta’s Muse is creepy, but maybe not for the reasons you think (The Verge)
+  • Flock reportedly tries to shrink workforce with employee buyouts (TechCrunch AI)
+
+CYBERSECURITY
+  • New solar panel tech could trap heat for 1,000 times longer to beat a long-standing limit in energy production (TechRadar)
+  • North Korean WaterPlum hackers infected 30,000 devices worldwide (BleepingComputer)
+  • ShinyHunters hacks Clop leak site, threatens to extort ransomware gang (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Collapse of mainstream optical drive supply kills high-end CD players — PS Audio and Naim halt production as component costs double (Tom's Hardware)
+  • Google's simulated fruit fly brain 'mines Bitcoin' in web browser proof of concept — FutureBit says real organic neuron miner could have '10x the efficiency of the best silicon 3nm ASICs' (Tom's Hardware)
+  • T. rex teeth indicate it ran as warm as an elephant (Ars Technica)
+
+SOFTWARE & DEV
+  • Cloudflare Measures Origin TLS Preferences, Cutting Handshake Retries from 52% to 3.7% (InfoQ)
+  • How Windows turned months of inactivity into a 7-hour update hostage situation (The Register)
+  • AWS Lambda Pushes Serverless Toward Long-Running Workloads (InfoQ)
+
+BUSINESS & BIG TECH
+  • It’s not just LG. Every TV company is spying on you (The Verge)
+
+GADGETS & CONSUMER
+  • China's autonomous 'bionic robot' fish looks just like the real one, perfect for covert military operations — Robocean BG5 could also be used to track poachers (TechRadar)
+  • How to record audio on your iPhone (Engadget)
+  • What is the difference between Apple CarPlay and CarPlay Ultra? (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-09-20 10:28
