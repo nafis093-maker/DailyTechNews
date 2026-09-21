@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Sep 21, 2026 (93 stories)
+
+Good morning,
+
+Today's IT briefing — 93 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Presentation: The Agent Harness: Control Planes, Invariants, and Approval Boundaries for Production AI Agents
+OpenAI’s Vinoth Govindarajan discusses why production AI agents fail beyond model hallucination. Using real-world case studies like OpenClaw, he explains the key principles of reliable agent harnesses: establishing explicit state ownership, serializing concurrent state mutations, scoping execution authority, and…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • Amazon bars Meta's Muse AI from shopping on its site (Engadget)
+  • Work as you know it will be a relic of the past (TechRadar)
+  • AI-controlled robot arms attempted harmful tasks 97% of the time; experiments included stabbing a baby doll, mixing chemicals — OpenAI and Anthropic models try mixing bleach and stabbing dolls without jailbreaks (Tom's Hardware)
+
+CYBERSECURITY
+  • ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure (The Hacker News)
+  • Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors (The Hacker News)
+  • Bun Rewrites 535K Lines of Zig into Rust in Four Months, Eliminates Numerous Memory Leaks (InfoQ)
+
+HARDWARE & CHIPS
+  • Cloudflare saves 100 TB of RAM again, this time by slashing server hashes by 90% — cutting 100,000 entries down to 10,000 eliminates massive cache bloat (Tom's Hardware)
+  • American datacenters might be getting dirtier, but at least they'll be efficient (The Register)
+  • Texas jury hits Bambu Lab with $27.6M verdict in Stratasys patent fight — X1, P1, and A1 printers found to infringe prime tower and bed-leveling tech (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Article: Beyond Relevance: A Governance-First Architecture for Enterprise Personalization (InfoQ)
+  • Rustaceans warned of job interviews with a malicious payload (The Register)
+  • Your cloud survived everything except the real world (The Register)
+
+BUSINESS & BIG TECH
+  • Elon Musk’s latest Boring Company pitch involves a Hyperloop between Austin and San Antonio (TechCrunch)
+  • A small but growing number of founders are betting on bringing people together offline (TechCrunch)
+  • A great new video game movie (The Verge)
+
+GADGETS & CONSUMER
+  • The iPhone 18 Pro's fancy variable aperture camera is incredibly hard to repair (Engadget)
+  • Lidl is bringing its £80 dehumidifier back this week — just in time for drying your laundry over the winter months (TechRadar)
+  • Is the RAM crisis overblown? Acer CEO plays down memory shortage, and says it's 'impossible' for it to last until 2030 (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-21 11:46
