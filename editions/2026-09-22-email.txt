@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Sep 22, 2026 (162 stories)
+
+Good morning,
+
+Today's IT briefing — 162 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal
+A malicious npm package named "indexed-btree" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls. "Indexed-btree is a malicious npm package mimicking the legit…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • The AI advice gap: what happens when the machine says "yes"? (TechRadar)
+  • OpenAI and Anthropic scramble for smaller data centers as massive gigawatt projects lag — 20-30 MW facilities to provide capacity as mega structures undergo construction (Tom's Hardware)
+  • OpenAI faces lawsuit from British Columbia over Tumbler Ridge shooting (Engadget)
+
+CYBERSECURITY
+  • New Windows Defender zero-day blocks Microsoft antivirus updates (BleepingComputer)
+  • CISA orders feds to patch Zyxel flaw exploited for data theft (BleepingComputer)
+  • SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing (The Hacker News)
+
+HARDWARE & CHIPS
+  • New DapuStor SSD pairs high-capacity QLC with a permanent pSLC region — trades 6% to 20% of its QLC capacity for more than 7x faster random writes (Tom's Hardware)
+  • China's CXMT hits 12nm-class DRAM milestone — new 5th-gen DRAM tech uses quadruple-patterning to boost die capacity by 50% (Tom's Hardware)
+  • Commodore's forgotten Amiga Unix gets a modern revival (The Register)
+
+SOFTWARE & DEV
+  • Longtime SUSE staff asked if they'd opt for 'voluntary separation' (The Register)
+  • Presentation: Maximizing Success with Limited Time, Resources, and Energy: Lessons from Startup Engineering (InfoQ)
+  • Changesets v3: Bumps Peer Dependents by Patch and Ships ESM Only with an 88% Smaller Install (InfoQ)
+
+BUSINESS & BIG TECH
+  • Apple’s first live music venue is opening beneath its UK headquarters (The Verge)
+  • Morphotonics raises €40M to expand its display tech into data centers (TechCrunch)
+  • A cut cable disrupted hundreds of flights across the US (The Verge)
+
+GADGETS & CONSUMER
+  • Apple opens a dedicated concert venue with spatial audio and multi-cam video recording (Engadget)
+  • Apple just bought a London gig venue, and it means loads more live streams and Spatial Audio recordings for Apple Music subscribers (TechRadar)
+  • 'It’s a grand experiment': Bluebird president on the Twitter revival platform that's now called 'Tweet' — and why it won't be using that blue bird (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-22 10:48
