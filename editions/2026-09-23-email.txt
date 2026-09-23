@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Sep 23, 2026 (175 stories)
+
+Good morning,
+
+Today's IT briefing — 175 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks
+The United Arab Emirates and Kingdom of Saudi Arabia together absorbed 50% of all cyberattacks recorded across the Gulf region in the first half of 2026.  (Dark Reading)
+
+AI & MACHINE LEARNING
+  • The case for purpose-built generative AI in fraud prevention (TechRadar)
+  • China launches 'Supercomputing-1' AI satellite as orbital data centers gather momentum (Tom's Hardware)
+  • Customize your AI generated website: A step-by-step guide (TechRadar)
+
+CYBERSECURITY
+  • BigCommerce app breach spills Master of Malt customer data (The Register)
+  • AI floods security teams with findings. The advantage is in what happens next (TechRadar)
+  • F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers (The Hacker News)
+
+HARDWARE & CHIPS
+  • Airbus turned the Steam Deck into a controller for a prototype Mars rover (Tom's Hardware)
+  • Apple weighs its first server since the Xserve, and as always, Nvidia may hold the key (TechRadar)
+  • The Motorola Signature 27 is ‘the most advanced smartphone Motorola has ever created’ — and it’s powered by the new Snapdragon 8 Elite Extreme Gen 6 chipset (TechRadar)
+
+SOFTWARE & DEV
+  • Google Adds Cycle-Level Kernel Profiling to XProf (InfoQ)
+  • BT Tower's rooftop pool plan brings swimmers back down to earth (The Register)
+  • Article: Modular Edge Computing at Multi-Tenant SaaS Scale on Cloudflare Workers (InfoQ)
+
+BUSINESS & BIG TECH
+  • Discord’s age verification era is upon us, despite community backlash (TechCrunch)
+  • Cities across US oppose Trump FCC plan to preempt local broadband rules (Ars Technica)
+  • Saudi Arabia’s new Exobot EVs make the Cybertruck look normal (The Verge)
+
+GADGETS & CONSUMER
+  • Samsung Galaxy S27 series leak suggests the RAM and storage upgrades will be very limited (TechRadar)
+  • How to pick and set up a self-hosted app to run your own server (TechRadar)
+  • ​​​​The Eufy Omni E35 boasts huge suction power, good mopping performance, and self-cleaning (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-23 10:38
