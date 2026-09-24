@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Sep 24, 2026 (170 stories)
+
+Good morning,
+
+Today's IT briefing — 170 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — CyberPowerPC lands rare RTX 50-series Founders Edition cards in discounted Walmart rigs
+CyberPowerPC is offering five different pre-built gaming PCs with either an RTX 5070, 5080, or 5090 Founders Edition GPUs paired with either an Intel or AMD X3D CPU. They also come with 32GB of DDR5 RAM and 1TB of NVMe SSD, all for reasonable prices.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • British Columbia sues OpenAI and Sam Altman for 'aiding and abetting' school shooter (Tom's Hardware)
+  • The fastest way to destroy trust in AI is to give it the wrong job (TechRadar)
+  • 'This situation is obviously unacceptable': OpenAI agent allegedly hacks Australian government healthcare website (TechRadar)
+
+CYBERSECURITY
+  • CISA: Ransomware gangs now exploiting critical TeamCity flaw (BleepingComputer)
+  • OpenAI hacked Australian Medicare govt site, probed data providers (BleepingComputer)
+  • Experts question whether Salesforce demo breaches SAP API policy (The Register)
+
+HARDWARE & CHIPS
+  • Samsung's disastrous firmware update bricks refrigerators ahead of South Korean holiday (Tom's Hardware)
+  • Canvas UI Ships 35 HTML-in-Canvas Components That Run WebGL and WebGPU Effects Over Live DOM (InfoQ)
+  • Meta put Muse in a Tamagotchi like 'Charm' device (Engadget)
+
+SOFTWARE & DEV
+  • Government contractor exposed path to immigration records (The Register)
+  • Europe’s internet registry wants governance ‘correction’ because its ‘Executive Board’ is not the executive (The Register)
+  • Rendering huge pull requests in the GitHub Copilot app (GitHub Blog)
+
+BUSINESS & BIG TECH
+  • Meta is trying VR glasses (again), this time with more IMAX (TechCrunch)
+  • Meta’s next VR device isn’t a headset — it’s glasses (The Verge)
+  • Muse is coming to Meta smart glasses (The Verge)
+
+GADGETS & CONSUMER
+  • HSBC decides Samsung Secure Folder and Android's Private Space are no place for a banking app (The Register)
+  • Obscura VPN finally arrives on Linux — with a GUI, a CLI, and a new open-source license (TechRadar)
+  • This new drone comes with 'whiskers' to help it navigate in the dark or smoky and dusty areas like battlefields — and it weighs less than 100g (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-24 10:57
