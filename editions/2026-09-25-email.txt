@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Sep 25, 2026 (169 stories)
+
+Good morning,
+
+Today's IT briefing — 169 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild
+The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Google adds creepy avatars to Gemini 3.8 live's agents (Engadget)
+  • Google's creepy new Gemini Live Avatars want to try and make online support bots feel more human (TechRadar)
+  • Have we crossed the AI Rubicon? (TechRadar)
+
+CYBERSECURITY
+  • Microsoft: Recent Windows updates cause desktop loading issues (BleepingComputer)
+  • Another week, another data breach for Revolut customers (The Register)
+  • Hackers steal $351.6 million in Bitget crypto exchange hack (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Grab this 4K-ready RTX 5070 Ti gaming PC from HP for under $1,900 right now (Tom's Hardware)
+  • Nvidia DLSS 5 power draw hits 647W as power connector runs hotter than the GPU die, upscales frame rates and flame temps on 16-pin (Tom's Hardware)
+  • Meta employees ordered ‘attorney/client privilege’ hats while fighting child safety disclosures (The Verge)
+
+SOFTWARE & DEV
+  • Judge uses electronic tag on Pokémon card tracker. It's super effective! (The Register)
+  • UK wants more homes heated by waste heat from datacenters (The Register)
+  • Project leader thought his team understood the plan, ended up fixing their 'interpretation' of it (The Register)
+
+BUSINESS & BIG TECH
+  • Waymo is scaling fast: Here’s what the fleet data shows (TechCrunch)
+  • Donald Duck's uncle was partly based on Wernher von Braun (Ars Technica)
+  • Nexterity wants to automate the hard, dangerous part of pipefitting (TechCrunch)
+
+GADGETS & CONSUMER
+  • Your invoice now needs a boarding pass (TechRadar)
+  • Motorola Signature 27 will be the first non-Pixel phone to support GrapheneOS (TechRadar)
+  • Canada's Bill C-22: VPN and tech firms urge the government to 'fix' the bill before it becomes law (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-25 10:58
