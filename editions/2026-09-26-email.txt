@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Sep 26, 2026 (147 stories)
+
+Good morning,
+
+Today's IT briefing — 147 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link
+Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • ChatGPT-6 Astra cracks 85-year-old 1941 Enigma-coded message in two days (Tom's Hardware)
+  • The AI bubble could burst without killing ChatGPT (TechRadar)
+  • 'The prophecy is fulfilled': Popular 2020 XKCD comic predicted 'HEIF Heist' OpenAI hack and even mentions ImageMagick in spooky coincidence (TechRadar)
+
+CYBERSECURITY
+  • SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild (The Hacker News)
+  • U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions (Krebs on Security)
+  • Kiteworks urges 6-hour server shutdown over potential zero-day attacks (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Federal bill would force VPN providers, ISPs, and DNS services to block foreign piracy sites (Tom's Hardware)
+  • Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack (The Hacker News)
+  • I analyzed 10 Apple Mac Studio M5 Ultra reviews — here's absolutely everything you need to know in 3 minutes (TechRadar)
+
+SOFTWARE & DEV
+  • Cloudflare Details Its Migration from WordPress to EmDash (InfoQ)
+  • Space Jam: UK debuts space squadron to protect satellites (The Register)
+  • Valen creator drives 'Golden Spike' to connect new languages with Rust (The Register)
+
+BUSINESS & BIG TECH
+  • Automattic has a new board after failed attempt to put CEO on leave (TechCrunch)
+  • Tesla workers balk at training Optimus humanoid robots as replacements (Ars Technica)
+  • The hottest new hangout for middle schoolers is NPR’s comment section? (TechCrunch)
+
+GADGETS & CONSUMER
+  • How Samsung turned months of inactivity into a very attention-seeking smartphone (The Register)
+  • The Tech Drop: The most exciting new gadgets you might have missed in September (TechRadar)
+  • ICYMI: here's the week's 7 biggest tech news stories for September 26, 2026 (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-26 10:40
