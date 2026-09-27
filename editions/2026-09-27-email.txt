@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Sep 27, 2026 (80 stories)
+
+Good morning,
+
+Today's IT briefing — 80 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — U.S. and UK navies successfully launch 3,700-pound submarine-sinking torpedo from robotic drone submarine in historic first
+The U.S. Navy and Royal Navy have successfully launched a 3,700-pound Mk 48 heavyweight torpedo from Britain’s uncrewed XV Excalibur submarine, marking the first time the weapon has been fired from an autonomous underwater vehicle  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Big AI's content problem: Take the work, keep the money (The Register)
+  • GKE Pod Snapshots Cut Model Load Times, and Move the Work to Snapshot Lifecycle Management (InfoQ)
+  • Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India (TechCrunch AI)
+
+CYBERSECURITY
+  • Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation (The Hacker News)
+  • Over half of UK firms say an AI agent has gone rogue on them — and affected their business or their customers (TechRadar)
+  • ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Counterfeit vinyl record maker sentenced to three years in the slammer after making $3.5 million (Tom's Hardware)
+  • Taiwan's chip talisman snack faces production halt after 94% strike vote (Tom's Hardware)
+  • Your old GPU could be worth more than you think (Engadget)
+
+SOFTWARE & DEV
+  • Apple buried Copland 30 years ago. Now the failed OS boots in a browser (The Register)
+  • Cloudflare Details Its Migration from WordPress to EmDash (InfoQ)
+  • Space Jam: UK debuts space squadron to protect satellites (The Register)
+
+BUSINESS & BIG TECH
+  • PNOE’s new face mask wants to make lab-grade breath testing a self-serve affair (TechCrunch)
+  • Apple hit with $5.7 billion in damages over haptic patents (The Verge)
+  • TikTok agrees to pay at least $100M in Alabama settlement (TechCrunch)
+
+GADGETS & CONSUMER
+  • Goodbye claims, hello prevention — how smart tech is transforming home insurance (TechRadar)
+  • Reolink OMVI 3i reviewpanoramic views and 4K tracking in one smart camera (TechRadar)
+  • Innocn E49M1R ultrawide monitor review (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-27 11:14
