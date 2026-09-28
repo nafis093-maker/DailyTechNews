@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Sep 28, 2026 (96 stories)
+
+Good morning,
+
+Today's IT briefing — 96 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent
+Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent. "The implant installs the framework unchanged, then overwrites its SOUL.md persona file,"…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • The Download: rogue agent liability and the AI Hype Index (MIT Tech Review)
+  • OpenAI agents allegedly scanned a UN data hub over 16,000 times in just three months (TechRadar)
+  • The US government plans to use AI to help redact documents (Engadget)
+
+CYBERSECURITY
+  • North Korea named as primary suspect in $387 million Bitget crypto hack (Tom's Hardware)
+  • Social media is becoming cybercriminals’ most powerful attack vector (TechRadar)
+  • Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Demon's Souls reaches 40-50 FPS on private PS5 emulator with accurate graphics (Tom's Hardware)
+  • Data center developer offers $10,000 checks to 4,500 households if the 1,300-acre facility is approved (Tom's Hardware)
+  • Discord's system resource hogging days may be over, with new 'Game Mode' (TechRadar)
+
+SOFTWARE & DEV
+  • Ex-soldier's telecom hacking spree earns him 70 months (The Register)
+  • UK government vows to reclaim services from outsourcing giants (The Register)
+  • Ofcom pulls the plug on Openreach's aggressive fiber discount (The Register)
+
+BUSINESS & BIG TECH
+  • Microsoft goes quiet after church groups ask for 1% of data center costs (Ars Technica)
+  • Honor’s Magic 9 Pro Max has a big camera and a bigger battery (The Verge)
+  • Sennheiser Momentum 5 review: Great sound, incredible battery life, and few compromises (TechCrunch)
+
+GADGETS & CONSUMER
+  • Walmart price drop slashes $461 off Gigabyte's RTX 5080-powered gaming laptop with 32GB of memory (Tom's Hardware)
+  • Una watch review: A modular, repairable GPS watch is a good first step (Engadget)
+  • Study drone defibrillator delivery could significant improve coverage (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-28 12:41
