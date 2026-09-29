@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Sep 29, 2026 (192 stories)
+
+Good morning,
+
+Today's IT briefing — 192 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing
+As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI development plans could "further increase the risk that our models cause harm." These disclosures come as Anthropic eyes a…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Over half of firms are still holding off using AI for recruitment as human fears persist (TechRadar)
+  • Coming soon: Our 2026 list of Climate Tech Companies to Watch (MIT Tech Review)
+  • Making AI an asset, not an expense (MIT Tech Review)
+
+CYBERSECURITY
+  • Vietnamese man charged in $16 million 'pig butchering' crypto scam (BleepingComputer)
+  • Former X-Force hackers chase the offensive cyber gold rush (The Register)
+  • Kiteworks patches critical flaw, brings customer systems online (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Sony Japan tries an anti-scalper lottery system for PS5 Pro orders, locks systems behind a 60-hour playtime requirement (Tom's Hardware)
+  • AMD drops an EPYC $15,000, 256-core beast (Tom's Hardware)
+  • Grab this 4K-ready gaming PC with a 7800X3D and RTX 5070 for under $2,000 right now, saving you $170 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Healthcare campaigners turn up the heat on Palantir at Labour conference (The Register)
+  • Dutch police arrest 'security pro' in ShinyHunters probe (The Register)
+  • Redmond to millions of Power BI users: You’re Fabric app devs now (The Register)
+
+BUSINESS & BIG TECH
+  • Protego Ventures closes debut $125 million fund for Israeli defense tech (TechCrunch)
+  • Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds (TechCrunch)
+  • Tesla delays Roadster 2 event again due to bad weather (TechCrunch)
+
+GADGETS & CONSUMER
+  • This iPhone Duo app simulates a classic Walkman (TechRadar)
+  • Vivo's new 400mm teleconverter lens shows rivals Oppo and Apple how it's done (TechRadar)
+  • Dyson just made the robot vacuum I've been crying out for — and it's not the new flagship (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-29 11:59
