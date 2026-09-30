@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Sep 30, 2026 (195 stories)
+
+Good morning,
+
+Today's IT briefing — 195 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub
+AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said. Its researchers found more than 13,000 internal images from developers at over 300 organizations, including customer billing records and screens of features…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Developer trains a small AI on a single RTX 3080 Ti gaming GPU to 'play' Pokémon Red (Tom's Hardware)
+  • OpenAI launches Dots, its always-on AI agents that are always watching (TechRadar)
+  • Presentation: Context Is the New Code (InfoQ)
+
+CYBERSECURITY
+  • Bitget hacked via zero-day in third-party security products (BleepingComputer)
+  • US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access (The Hacker News)
+  • Pentagon gets pwned as breach exposes sensitive data on nearly three million military and civilian personnel (Tom's Hardware)
+
+HARDWARE & CHIPS
+  • Nuvacore reveals unconventional Core First CPU IP design strategy (Tom's Hardware)
+  • Former EVGA employee recounts company’s degrading relationship with Nvidia before 2022 blow-up (Tom's Hardware)
+  • Russia unveils underwater swarm drones for oil and gas exploration — USC could control groups of 'up to 1,000 devices' for ship repair and more (TechRadar)
+
+SOFTWARE & DEV
+  • Drunk Van Halen fan called Microsoft support and demanded to speak to Gates (The Register)
+  • KDE turns 30 with Plasma 6.8, but the X11 session isn't invited (The Register)
+  • UK rail cops' £320K face-scanning spree nets zero matches (The Register)
+
+BUSINESS & BIG TECH
+  • Apple’s ‘HomePad’ will reportedly launch on October 13th (The Verge)
+  • Apple Pay finally launches in India after years on the sidelines (TechCrunch)
+  • Your car and its mobile app are probably handing over all kinds of data to tech companies (TechCrunch)
+
+GADGETS & CONSUMER
+  • Pick up a new 34-inch gaming monitor from Acer for just $189 — save 24% on this curved ultrawide with a QHD resolution (Tom's Hardware)
+  • Where to draw the line on AI: Lessons from digital forensics (TechRadar)
+  • Windows 11's 26H2 update could trigger the rollout of delayed features (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-09-30 11:47
