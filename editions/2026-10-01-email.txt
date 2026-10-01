@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Oct 01, 2026 (188 stories)
+
+Good morning,
+
+Today's IT briefing — 188 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation. The vulnerability, tracked as CVE-2026-76504 (CVSS score: 9.8), could…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • OpenAI says actors linked to China-based Moonshot AI spearheaded a campaign to extract its models’ hidden reasoning (Tom's Hardware)
+  • Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites (TechCrunch)
+  • How to Develop Software Engineering Skills in the Age of AI (InfoQ)
+
+CYBERSECURITY
+  • Microsoft enables Windows settings backup by default for orgs (BleepingComputer)
+  • Hackers stole Pentagon personnel records of over 3 million people (BleepingComputer)
+  • Metamask discloses security incident affecting its infrastructure (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Micron lawsuit claims Chinese memory maker YMTC poached its engineers, then sued it using its own stolen tech (Tom's Hardware)
+  • Firm rents four Nvidia H200s to test '80x cheaper' DeepSeek claim (Tom's Hardware)
+  • Sony released the first CD audio player on this day in 1982 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • UK privacy watchdog starts over with new board and Manchester HQ (The Register)
+  • Sopra Steria widens legal challenge to Capita's Whitehall outsourcing deal (The Register)
+  • Fewer women than ever in UK's 'old boys' club' cyber industry (The Register)
+
+BUSINESS & BIG TECH
+  • Vivo’s X Fold 6 accidentally feels like a throwback (The Verge)
+  • Elon Musk’s Grokipedia has a ‘newly refreshed’ design (The Verge)
+  • The new and huger Paramount has a new co-CEO (The Verge)
+
+GADGETS & CONSUMER
+  • LaLiga demands major VPNs be placed on the EU’s piracy watch list (TechRadar)
+  • RAM crisis to get worse in 2027 and 2028 — and then the robots are coming (TechRadar)
+  • Google Home rolls out new updates for voice commands and app features (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-01 12:16
