@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Oct 02, 2026 (166 stories)
+
+Good morning,
+
+Today's IT briefing — 166 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report
+The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides. Then a board member…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Shopify unlocks ‘big picture’ design control with new conversational AI tool (TechRadar)
+  • Financial Services’ next AI risk is the workflow nobody can explain (TechRadar)
+  • OpenAI DevDay 2026 Recap for Developers (InfoQ)
+
+CYBERSECURITY
+  • Police take down dangerous KillSec ransomware gang — and find out it's being run by a teenager (TechRadar)
+  • Microsoft’s X account hacked in crypto pump-and-dump scheme (BleepingComputer)
+  • Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools (The Hacker News)
+
+HARDWARE & CHIPS
+  • Micron now has an 88% margin on consumer memory (Tom's Hardware)
+  • Micro Center requires photo ID and signed no-export pledge to buy RTX 5090 gaming GPU (Tom's Hardware)
+  • Component shortages drive Raspberry Pi prices up by up to 23% (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Presentation: Managing Asynchronous APIs at Scale (InfoQ)
+  • Met Police suspends use of phone-hacking software over Russian links (The Register)
+  • Flight delayed? So are these codec updates (The Register)
+
+BUSINESS & BIG TECH
+  • Robotaxi operators will face fines for blocking first responders (TechCrunch)
+  • Apple’s reportedly developing a smart home camera that doesn’t record video (The Verge)
+  • Lyft is paying $272.5M to settle lawsuit over how it classified drivers (TechCrunch)
+
+GADGETS & CONSUMER
+  • Windows 11 26H2 update reportedly improves RAM usage for some users (TechRadar)
+  • FDA approves artificial heart valve for kids that grows as they do (Engadget)
+  • Bots, deepfakes and fake identities are sabotaging user research (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-02 11:45
