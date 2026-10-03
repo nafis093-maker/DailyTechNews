@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Oct 03, 2026 (143 stories)
+
+Good morning,
+
+Today's IT briefing — 143 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Amazon promises to spend $1 billion on communities close to its data centers, but critics push back
+AWS CEO Matt Garman said in a company blog post that it will allocate $1 billion over five years to key issues that data center communities raised, including education, workforce pathways, energy affordability, and more. This amounts to grants of $200 million annually, even as the company allocates $220 billion on…  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • ChatGPT-6 Astra plays World of Warcraft 'blind' and clears the orc starting zone in 40 minutes with no deaths (Tom's Hardware)
+  • Palantir's fondness for French food cooked up tech's latest fad – forward-deployed engineers (The Register)
+  • Your boss might be bluffing about how much AI knowledge they really have (TechRadar)
+
+CYBERSECURITY
+  • AI Agents Are Disrupting Open Source Security Disclosure (InfoQ)
+  • RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail (Dark Reading)
+  • Cops have breached one of iOS’s most secure features, report claims (TechRadar)
+
+HARDWARE & CHIPS
+  • AMD’s secret Zen 3 gaming CPU had 128MB of game-boosting L3 cache but never saw the light of day (Tom's Hardware)
+  • Micro Center cracks down on scalpers looking to export the RTX 5090 GPU (TechRadar)
+  • The component cost crisis is hitting TVs hard now, as chip prices rise higher than panel costs (TechRadar)
+
+SOFTWARE & DEV
+  • Istio 1.31 Adds Agentgateway Waypoints and Moves Release Artifacts off Google Cloud (InfoQ)
+  • Google hearts Apple's Swift so much it's pumping out server-side support (The Register)
+  • Shut up and take our money: Amazon plows $1B into quashing datacenter dissent (The Register)
+
+BUSINESS & BIG TECH
+  • Sanders introduces bill to ban the federal government from using Flock (TechCrunch)
+  • Someone got Doom in an SQL database (Ars Technica)
+  • Amazon’s $1B plan to combat data center backlash draws more backlash (Ars Technica)
+
+GADGETS & CONSUMER
+  • ICYMI: the 8 biggest tech stories of the week (TechRadar)
+  • After years of covering Amazon AU sales, these are the 12 brands and products we refuse to pay full price for (TechRadar)
+  • Apple acknowledges AT&T network bug on iPhone 18 Pro Max (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-10-03 10:58
