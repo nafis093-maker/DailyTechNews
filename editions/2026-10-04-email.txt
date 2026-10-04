@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Oct 04, 2026 (84 stories)
+
+Good morning,
+
+Today's IT briefing — 84 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members
+A suspected member of the ShinyHunters digital extortion group, who goes by the online alias "Rey," has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Rey, whose real name is Saif ‌al-Din Khader, is said to have been brought into custody on September…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Anthropic asks Claude users to share voice data for AI model training (BleepingComputer)
+  • Open-source tool designs LEGO builds with more than 2,000 real pieces (Tom's Hardware)
+  • Pizza Bot: Open-Source Inbox for Background AI Agents (InfoQ)
+
+CYBERSECURITY
+  • China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing (The Hacker News)
+  • ShinyHunters hacker reportedly detained in Jordan, aiding FBI (BleepingComputer)
+  • GitLab Vulnerability Under Active Exploitation Enables Unauthenticated Data Exfiltration (InfoQ)
+
+HARDWARE & CHIPS
+  • US Navy uses Xbox-style controllers to fire anti-drone lasers deployed on ships (Tom's Hardware)
+  • Portable Bluetooth CD player has a glow-in-the-dark transparent green finish, modern features (Tom's Hardware)
+  • Free browser-based AI-generated Taipei GTA clone hits 1.2 million concurrent players in three days (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Revive Raskin's 3 laws of software with humane work that considers a dev's duty of care (The Register)
+  • Spies, prime ministers, and balls: The BBC Domesday project @ 40 (The Register)
+  • Clever database, but can it run Doom? (The Register)
+
+BUSINESS & BIG TECH
+  • Federal judge calls Flock ‘indiscriminate mass surveillance’ (TechCrunch)
+  • Capcom is preparing for a ‘future where we create games together with AI’ (The Verge)
+  • Jack Dorsey’s Bitchat disappears from app stores in India after government order (TechCrunch)
+
+GADGETS & CONSUMER
+  • How I think Microsoft's campaign to fix Windows 11 is going after 6 months (TechRadar)
+  • Which Hogwarts house does your tech say you belong in? (TechRadar)
+  • Beware the smartphone security threat — new report claims most banking scam attempts now take place on mobile devices (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-04 11:40
