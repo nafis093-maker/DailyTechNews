@@ -1,0 +1,38 @@
+Subject: THE BITSTREAM — IT Daily, Mon Oct 05, 2026 (112 stories)
+
+Good morning,
+
+Today's IT briefing — 112 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The Credential Layer Is Expanding Faster Than Security Teams Can See It
+Every modern enterprise depends on credentials. This is how humans, systems, and now AI, all connect to data, services, and each other securely. GitGuardian helps secure that credential layer through three connected capabilities: Detect, Remediate, and Prevent. The journey starts with detection, because organizations…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Tencent scores 100,000 offshore AI chip deal with Oracle for $7 billion despite climbing prices (Tom's Hardware)
+  • OpenAI is sticking more ads in ChatGPT (The Verge)
+  • Anthropic says its IPO could herald the end of the world as we know it (The Register)
+
+CYBERSECURITY
+  • Alleged dev of Ploutus ATM malware appears in US court after arrest (BleepingComputer)
+  • Need for Speed: AI-Driven Attacks Are Changing Security Strategies (Dark Reading)
+  • Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2 (The Hacker News)
+
+HARDWARE & CHIPS
+  • 32GB dethrones 16GB as top RAM capacity in gaming rigs despite memory shortage (Tom's Hardware)
+  • Modder brings original Xbox emulation to jailbroken PS5 (Tom's Hardware)
+  • Google admits some 'complex' Android apps run poorly on Intel Googlebooks (Engadget)
+
+SOFTWARE & DEV
+  • Windows 11 market share creeps upwards as cost of staying on Windows 10 set to double (The Register)
+  • BT buys TalkTalk out of administration to keep 2.5M customers connected (The Register)
+  • Aspire 13.6 Adds Persistent Dashboard Telemetry and First-Party Java and Rust Hosting (InfoQ)
+
+BUSINESS & BIG TECH
+  • Explaining Hall-effect, TMR, and other new types of "mechanical" switches (Ars Technica)
+
+GADGETS & CONSUMER
+  • Dutch retailer Hans Anders halts sales of Meta Ray-Ban smart glasses over privacy concerns (TechRadar)
+  • Windows 11 update packs a bug that's making the lives of gamers a misery (TechRadar)
+  • Apple's new M6 Mac mini just got a $120 price drop ahead of Prime Big Deal Days (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-05 13:22
