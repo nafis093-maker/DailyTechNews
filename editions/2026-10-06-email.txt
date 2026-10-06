@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Oct 06, 2026 (188 stories)
+
+Good morning,
+
+Today's IT briefing — 188 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The planetary wave headed for California isn’t what you think it is
+A rather strong "planetary wave" recently slammed into South America and is making its way toward California. In case you're worried about headlines warning of the supposedly "freak" phenomenon "bringing trouble," it's worth understanding what this wave really is and isn't. Called a Kelvin wave, it's carrying warm…  (The Verge)
+
+AI & MACHINE LEARNING
+  • OpenAI agents tried to hack Wikipedia tools and flooded it with traffic (Ars Technica)
+  • The Download: 10 climate tech companies to watch (MIT Tech Review)
+  • Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits (BleepingComputer)
+
+CYBERSECURITY
+  • Hackers suspected of using AI agents for cyberattacks on South Korean banks, exposing data from about 25,000 customers (Tom's Hardware)
+  • LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings (The Hacker News)
+  • Asos app delivers a data leak threat instead of fast fashion (The Register)
+
+HARDWARE & CHIPS
+  • Trettire's Retro Ambient Audio System offers a full hi-fi system with no wires (Tom's Hardware)
+  • Data center construction spending hits record $85 billion annual pace (Tom's Hardware)
+  • OpenTelemetry Makes Kubernetes Attributes Processor Stable as Observability Schema Matures (InfoQ)
+
+SOFTWARE & DEV
+  • Licensing costs driving 90 percent of VMware users to explore options: Survey (Ars Technica Tech)
+  • Denmark's ID register spills more people's details than the country has residents (The Register)
+  • Atos lands £350M beat keeping Met Police applications running (The Register)
+
+BUSINESS & BIG TECH
+  • The easiest Apple Watch to recommend is $50 off (The Verge)
+  • Type One Energy raised $200M to build a fusion power plant by 2034 (TechCrunch)
+  • Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end (The Verge)
+
+GADGETS & CONSUMER
+  • ASOS 'hacked' live —all the latest as customers receive threatening alert (TechRadar)
+  • What does the shield icon mean on your Samsung Galaxy? (Engadget)
+  • Two of Alienware's best QD-OLED gaming monitors plummet to record-low prices (Tom's Hardware)
+
+— THE BITSTREAM, auto-compiled 2026-10-06 12:37
