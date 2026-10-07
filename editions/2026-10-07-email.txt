@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Oct 07, 2026 (179 stories)
+
+Good morning,
+
+Today's IT briefing — 179 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials
+The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket layer (SSL) virtual private network (VPN) gateways. "The campaign exploits…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • The Download: weight-loss drugs slowing aging and carbon dioxide batteries (MIT Tech Review)
+  • AI could upend food delivery (The Verge)
+  • Google now lets you make games with AI (The Verge)
+
+CYBERSECURITY
+  • Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details (The Hacker News)
+  • What Is Agentic Pentesting? What It Proves, and Where It Stops. (The Hacker News)
+  • SonicWall warns of max severity SSRF flaw in SMA1000 gateways (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Xreal's Aura Android XR smartglasses will cost you at least $1,279 (Engadget)
+  • Microsoft Windows and Surface event 2026: Live updates as Satya Nadella and Jensen Huang take the stage (Engadget)
+  • Grab this beginner-friendly wireless soldering iron at a new record low price, now $52.99 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Nine in 10 VMware customers eye the exit as licensing bills bite (The Register)
+  • Dutch tax office ditches Microsoft 365 cloud for on-premises alternative (The Register)
+  • Article: Building a Session-Ordered Kafka Pipeline in Go (InfoQ)
+
+BUSINESS & BIG TECH
+  • Samsung Wallet now unlocks some GM cars (The Verge)
+  • Spotify expands audiobooks to over 180 markets (TechCrunch)
+  • How to find out if Amazon thinks you have ‘flat buttocks’ (TechCrunch)
+
+GADGETS & CONSUMER
+  • Surfshark claims a major first by bringing full post-quantum security to WireGuard (TechRadar)
+  • Google’s Pixel Buds update will put them to sleep along with you (The Verge)
+  • At $1,279, Google’s Xreal Aura will go head-to-head with Meta’s VR Glasses (The Verge)
+
+— THE BITSTREAM, auto-compiled 2026-10-07 12:30
