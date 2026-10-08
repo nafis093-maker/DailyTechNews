@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Oct 08, 2026 (195 stories)
+
+Good morning,
+
+Today's IT briefing — 195 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Cupertino might be made for your mom, but it’s a good take on tech
+Cupertino brings the tech backlash to the CBS procedural - an initially awkward combination, but with rewarding results. The show starts off just slightly unsure, but quickly figures out what to do with these strange times, creating fictionalized dupes of the Zizians, Polymarket, Jeff Bezos' looksmaxxing obsession…  (The Verge)
+
+AI & MACHINE LEARNING
+  • AI giants promise to play nice with personal data after UK watchdog scrutiny (The Register)
+  • Top Goldman Sachs executive says new workers will be managing 'virtual army' of AI from the moment they start (TechRadar)
+  • Samsung eyes $80B quarterly profit as memory buyers pay the price (The Register)
+
+CYBERSECURITY
+  • Microsoft Teams to get support for third-party deepfake detection tools (BleepingComputer)
+  • Writing the Next Chapter (Dark Reading)
+  • ASOS links data breach to social engineering attack, credential theft (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Spotifast lets you enjoy Spotify tracks while lowering RAM usage by 5x or more (Tom's Hardware)
+  • China allegedly intercepted UPS-shipped F-35 parts after employee missed email warning (Tom's Hardware)
+  • Former Groq engineers sue board over $20 billion Nvidia deal (Tom's Hardware)
+
+SOFTWARE & DEV
+  • UK and Germany team up against Russian cyberattacks as Brexit rethink looms (The Register)
+  • Windows Search learns to take orders (The Register)
+  • Scientists get a new clue to the origin of solar wind 'switchbacks' (The Register)
+
+BUSINESS & BIG TECH
+  • Vesta raises $30M to bring swarms of agents to mortgage lenders (TechCrunch)
+  • India rejects Elon Musk’s claim of discrimination over Starlink launch (TechCrunch)
+  • BMW’s iX4 SUV is a 428-mile defensive weapon against China’s EV takeover (The Verge)
+
+GADGETS & CONSUMER
+  • Don't buy an 8GB laptop for work: This 16GB Lenovo IdeaPad Slim 3 for £664 is my top WFH pick in Argos' Big Red sale (TechRadar)
+  • Microsoft promises to make Windows 11 search better — and it's about time (TechRadar)
+  • Cyber resilience isn't measured in firewalls. It's measured in minutes (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-08 12:40
