@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Oct 09, 2026 (191 stories)
+
+Good morning,
+
+Today's IT briefing — 191 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The Download: AI’s refusal problem and weight-loss drug side effects
+This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. We’re putting too much faith in AI’s ability to say no Today’s AI models are trained to refuse a vast number of prompts. If you ask your chatbot how to poison…  (MIT Tech Review)
+
+AI & MACHINE LEARNING
+  • The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition (The Hacker News)
+  • Google AI turned my ideas into two playable games (TechRadar)
+  • In open source cybersecurity, AI is kind of a problem — but it can also be a solution (TechRadar)
+
+CYBERSECURITY
+  • Citrix gives NetScaler admins another critical reason to patch (The Register)
+  • Anthropic now offers a free vulnerability-finding service for open-source software (Engadget)
+  • Man admits to running network of 15,000 money mules for cybercriminals (BleepingComputer)
+
+HARDWARE & CHIPS
+  • PC shipments tumble over 20% in 3Q26 as chip shortages bite (Tom's Hardware)
+  • Mistral’s new Large 4 trails some Chinese open models in independent tests (Tom's Hardware)
+  • Save $200 on the 2026 M5 MacBook Air right now, undoing Apple's June price hike with prices starting from $1,099 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • CircleCI Makes Machine Runner Orchestrator Generally Available (InfoQ)
+  • Olson and Söderqvist Discuss Valkey’s Evolution and Future Past Caching Use Cases at OSS EU (InfoQ)
+  • BOFH: Smells like team spirit (The Register)
+
+BUSINESS & BIG TECH
+  • Xona’s commercial GPS alternative is about to go live (TechCrunch)
+  • President Trump awards Big Tech donors with nation’s highest science prizes (TechCrunch)
+  • US plans livestream of execution by firing squad (The Verge)
+
+GADGETS & CONSUMER
+  • What to expect at Apple's 'Welcome home' event next week (Engadget)
+  • Grab this 32-inch 4K OLED gaming monitor from ASRock for the super low price of $596 (Tom's Hardware)
+  • Why identity needs a heartbeat, not a checkpoint (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-09 12:27
