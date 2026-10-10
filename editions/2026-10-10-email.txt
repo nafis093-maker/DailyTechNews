@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Oct 10, 2026 (139 stories)
+
+Good morning,
+
+Today's IT briefing — 139 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't
+In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • World’s first 3D-printed remote control aircraft with a jet turbine takes flight, aims for Mach 0.8 to beat world record for fastest model aircraft (Tom's Hardware)
+  • ‘It's out of our hands anyway’: Atlassian CEO Mike Cannon-Brookes says there probably isn’t a need to pause AI development despite widespread warnings (TechRadar)
+  • Stack Overflow survey finds devs hooked on AI, but not totally sold on its judgment (The Register)
+
+CYBERSECURITY
+  • Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws (The Hacker News)
+  • FBI Arrests Founder of Ransomware Negotiation Firm (Krebs on Security)
+  • ASOS Breach Reveals the Risks in Customer-Facing SaaS (Dark Reading)
+
+HARDWARE & CHIPS
+  • AnyPS5 project reaches critical GPU milestone in race to enable running PS5 games natively on PC (Tom's Hardware)
+  • Ukrainian drones strike largest data center in Russia, multiple parts of 1.4 million square foot campus knocked offline (Tom's Hardware)
+  • Ugreen NASync DXP8800 Ultra review (TechRadar)
+
+SOFTWARE & DEV
+  • Two characters open up a world of typosquatting opportunities in Chromium browsers (The Register)
+  • EC users should be afraid of a US kill switch - not some new software (The Register)
+  • Cloudflare Traces Turns the Proxy Layer into OpenTelemetry Spans, with New Volume-Based Pricing (InfoQ)
+
+BUSINESS & BIG TECH
+  • The Telo MT1 is a big truck trapped in a tiny truck’s body (The Verge)
+  • Elon Musk intensifies attack on Ambani over Starlink India launch delay (TechCrunch)
+  • Batteries are now cheaper than natural gas turbines used at many data centers (TechCrunch)
+
+GADGETS & CONSUMER
+  • Tesla's Full Self-Driving is now called Assisted Driving in Europe (Engadget)
+  • Crazed modder straps 360mm AIO radiator to laptop, cuts temps to below 40 degrees (Tom's Hardware)
+  • Opera adds free 3GB travel eSIM to its Android browser —and I've tried it (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-10 11:46
