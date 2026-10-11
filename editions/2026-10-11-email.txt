@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Oct 11, 2026 (87 stories)
+
+Good morning,
+
+Today's IT briefing — 87 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Learning to use local AI is exciting, overwhelming, and frustrating
+I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready (The Register)
+  • 'Things are here, things are real - it’s here and now': Snowflake tells us why ensuring trust and reliability could be the key to unlocking the potential of the AI agentic enterprise (TechRadar)
+  • HPE's networking boss says AI will handle all trouble tickets without humans in two years (The Register)
+
+CYBERSECURITY
+  • Cryptomining malware that locates its control server in a GitHub poem has hit more than 3,400 servers, researchers say (Tom's Hardware)
+  • P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands (The Hacker News)
+  • Cyber exec arrested in case allegedly tied to ShinyHunters hackers (BleepingComputer)
+
+HARDWARE & CHIPS
+  • State of California sues 3D printer filament company Polymaker for promoting ghost guns by marketing to 3D-printed gun community (Tom's Hardware)
+  • Creator of free Adobe clones unveils open-source Microsoft Office Excel, PowerPoint, and Word replications (Tom's Hardware)
+  • Working Cray-1 supercomputer replica packs 30 vintage Mac Minis and 1.5 TFLOPS (Tom's Hardware)
+
+SOFTWARE & DEV
+  • AWS Introduces Enhanced Custom Event Buses for EventBridge (InfoQ)
+  • Two characters open up a world of typosquatting opportunities in Chromium browsers (The Register)
+  • EC users should be afraid of a US kill switch - not some new software (The Register)
+
+BUSINESS & BIG TECH
+  • DistroKid has been quietly taking down songs in response to UMG lawsuit (The Verge)
+  • Petra Power looks to modernize energy for data centers and defense vehicles (TechCrunch)
+  • Ledger wallet tampering suspected after reports of crypto thefts (The Verge)
+
+GADGETS & CONSUMER
+  • The Ninja Crispi Microwave is an incredibly versatile air fryer and microwave combo that will transform the way you cook (TechRadar)
+  • Worx's Landroid Vision Cloud WR306E is well worth a punt for efficient lawn care on a relative budget (TechRadar)
+  • How to enable Live Activities on iPhone and CarPlay (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-10-11 11:58
