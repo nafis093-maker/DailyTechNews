@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Oct 12, 2026 (122 stories)
+
+Good morning,
+
+Today's IT briefing — 122 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Spotify More Than Doubled Monthly Code Changes as AI Accelerated Development
+Spotify reports that AI-assisted development more than doubled monthly merged changes, prompting a review of quality and reliability controls across its engineering organization. The company describes changes to testing, observability, rollback capacity, workload prioritization, and automated maintenance as it adapts…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • Smart ring maker Ultrahuman to roll out biological-age model across UAE (TechCrunch)
+  • Intel to phase out SGX after Xeon Diamond Rapids in favor of TDX (Tom's Hardware)
+  • Diamond-infused watercooling coldplates for 2,300W Nvidia Rubin drop temps by up to 22C (Tom's Hardware)
+
+CYBERSECURITY
+  • Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption (BleepingComputer)
+  • Retail giant Ahold Delhaize takes systems offline after cyberattack (BleepingComputer)
+  • GitLab warns of max severity code execution vulnerability (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Coder creates NvidiaWatch tracker site that monitors hundreds of GPU driver bugs (Tom's Hardware)
+  • Buyer pays $350 for broken RTX 4090 project only to find realistic fake GPU die and swapped memory (Tom's Hardware)
+  • Redditor unknowingly buys stolen rental PC, and it gets remotely blocked by rental firm (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Ukrainian drone strikes on Yandex datacenters knock cloud and payments offline (The Register)
+  • UCLA settles Oracle ERP dispute with $3.1M in credits and $1.31M wiped off the bill (The Register)
+  • Microsoft giveth and Microsoft taketh away: Copilot edition (The Register)
+
+BUSINESS & BIG TECH
+  • Inside Amazon’s robotic arms race and what it means for the future of human work (Ars Technica)
+  • How Apple can win the smart home (The Verge)
+  • Aaron Sorkin’s ‘The Social Reckoning’ is off to a weak start (TechCrunch)
+
+GADGETS & CONSUMER
+  • Android is the best and worst thing about Googlebooks (The Verge)
+  • No Man’s Sky is coming to the iPhone and iPad (The Verge)
+  • No Man's Sky is coming to iPhone and iPad as the App Store celebrates Indie Games Week (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-10-12 14:11
