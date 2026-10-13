@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Oct 13, 2026 (165 stories)
+
+Good morning,
+
+Today's IT briefing — 165 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The new Apple TV 4K has built-in microphones so you can talk to Siri AI
+Apple is introducing a refreshed Apple TV 4K today with a pair of interesting new hardware features: far-field microphones to talk to Siri hands-free and Find My built into the remote. The fourth-gen Apple TV 4K, announced at Apple's Welcome Home event in New York City, is the first model to support the Siri AI […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • Apple launches a new Apple TV 4K with Siri AI and remote-free voice commands (TechCrunch)
+  • Amex introduces a framework to prevent AI agents from making unauthorized purchases (TechCrunch AI)
+  • Apple announces the HomePod Mini 2, but it isn’t ready for Siri AI at launch (The Verge)
+
+CYBERSECURITY
+  • Over 8.7 million karaoke fans at risk after major data breach — Japanese giant Nippon Columbia says malware infection was to blame for exposing records (TechRadar)
+  • '123456' password linked to Denmark data breach affecting 8.8M people (The Register)
+  • LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network (The Hacker News)
+
+HARDWARE & CHIPS
+  • The HomePod mini 2 is here, but while the upgrades are subtle, the price hike isn’t (TechRadar)
+  • Save $1440 when you go for this 4K gaming rig with a massive 64GB of DDR5 RAM and a 4TB SSD (Tom's Hardware)
+  • CXMT president says company’s first 4F² DRAM will be a server DDR5 RDIMM due by year-end (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Presentation: How Eve Online Leverages Head Based Sampling to Observe "Fun" (InfoQ)
+  • European datacenter boom threatens higher energy bills unless governments intervene (The Register)
+  • Owner of fashion brands Hobbs and Whistles joins autumn pwned collection (The Register)
+
+BUSINESS & BIG TECH
+  • Apple makes another push into the smart home market with HomeView (TechCrunch)
+  • The new Apple Home Collection includes a video doorbell, smart lock, and more (The Verge)
+  • Apple launches HomeView, its first smart display for the home (The Verge)
+
+GADGETS & CONSUMER
+  • Why is your phone overheating while using CarPlay or Android Auto? (Engadget)
+  • Everything announced at Apple's 'Welcome Home' event (Engadget)
+  • Apple debuts the Apple Home Collection of smart devices, including cameras, thermostats and door locks (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-10-13 13:22
