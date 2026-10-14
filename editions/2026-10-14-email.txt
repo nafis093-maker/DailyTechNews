@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Oct 14, 2026 (174 stories)
+
+Good morning,
+
+Today's IT briefing — 174 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host
+A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine. The bug is tracked as…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Scimplify raises $25M to challenge China’s grip on critical materials with AI (TechCrunch)
+  • The task trap: Why AI's biggest promise has nothing to do with speed (TechRadar)
+  • Most small businesses aren't reviewing their own AI usage properly (TechRadar)
+
+CYBERSECURITY
+  • Microsoft: Recent Windows updates may trigger Remote Desktop failures (BleepingComputer)
+  • Qualcomm wins lawsuit against Arm but will only receive two bucks (Engadget)
+  • Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave (The Hacker News)
+
+HARDWARE & CHIPS
+  • Ledger to review sales and anti-tamper policies after $93 million hardware-wallet supply chain attack (Tom's Hardware)
+  • Nvidia GPU prices spike in Japan; prices up to 41% higher than Amazon US (Tom's Hardware)
+  • 32GB of DDR5 6000 RAM now costs $450 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • KPMG tech and data boss tells staff facing the boot he's getting promoted (The Register)
+  • Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration (InfoQ)
+  • Topgolf saved over $11.3 million after leaving VMware (Ars Technica Tech)
+
+BUSINESS & BIG TECH
+  • Apple’s HomeView ad is confusing to everyone except parents (The Verge)
+  • Helix Carbon says it can make iron cheaper by recycling blast furnace pollution (TechCrunch)
+  • Cambridge Heavy Industries has been quietly building a desktop fusion device (TechCrunch)
+
+GADGETS & CONSUMER
+  • iPhone Duo faces criticism from Nothing's CEO over value and features amid rising pre-order scams (TechRadar)
+  • People are hating on Apple Music's redesigned black-and-white logo (Engadget)
+  • 3D-printed airless wheels could be a game changer for Ukraine's ground robotic vehicles — ultralight no-deflation tyres improve resistance to punctures and explosions (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-14 11:01
