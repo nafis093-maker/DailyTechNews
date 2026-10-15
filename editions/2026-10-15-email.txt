@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Oct 15, 2026 (186 stories)
+
+Good morning,
+
+Today's IT briefing — 186 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories
+The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026. "This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • AI Storagemaxxing: Your GPUs are optimized, what about your data? (TechRadar)
+  • How much more can nuclear power plants give? (MIT Tech Review)
+  • Unsupervised AI agent deletes TV show’s entire edit weeks before release; program can't air (Tom's Hardware)
+
+CYBERSECURITY
+  • US Air Force pilots used malware-laden USB drives to plan Afghanistan missions (The Register)
+  • Microsoft fixes bug causing Windows black screens, Explorer crashes (BleepingComputer)
+  • UK Legal Aid Agency: Hackers stole records dating back to 1978 (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Nvidia CEO Jensen Huang hails OpenClaw as helping the future of robotics, but calls for controls, 'so we can realize the incredible future potential of the technology that we’re building' (TechRadar)
+  • Russian chipmakers demo homegrown RISC-V and Arm silicon with retro games (Tom's Hardware)
+  • Two killed, one seriously hurt in explosion at Intel’s chip plant in Israel (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Japanese consortium bets on building bobbing bit barns (The Register)
+  • Grafana Tempo 3.1 Adds Query-Based Trace Redaction and Sampling-Aware TraceQL Metrics (InfoQ)
+  • Article: Server-Side DPoP and Token Exchange in Spring Security 7 (InfoQ)
+
+BUSINESS & BIG TECH
+  • Big Walk skipped Xbox to boycott Microsoft’s involvement with Israel (The Verge)
+  • Flock CEO defends surveillance technology amid national backlash: ‘We shouldn’t pause progress’ (TechCrunch)
+  • Meet the five companies competing in the Startup Battlefield finals at Disrupt 2026 (TechCrunch)
+
+GADGETS & CONSUMER
+  • Apple I 'Hatfield' computer signed by Woz fetches a record $1.15 million at auction (Engadget)
+  • Save 30% on this ASUS ROG Gaming laptop with RTX 5060 — $600 discount makes this hefty machine just $1,399 (Tom's Hardware)
+  • USB hub vs dockingstation: What actually is the difference? (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-15 10:44
