@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Oct 16, 2026 (177 stories)
+
+Good morning,
+
+Today's IT briefing — 177 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Ukrainian drones hit Russian data centers, disrupting Russian apps and services
+After Ukrainian long-range strike drones targeted Russian data centers, various Russian digital services and apps went down or faced severe disruption. There's even some suggestion that online bot activity may be down, but not by as much as initial reports claimed.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • ChatGPT can now look at your Chrome tabs to do tasks for you (Engadget)
+  • Jailbroken PS5s can now run local AI models at over 100+ tokens per second (Tom's Hardware)
+  • Xgimi's new 4K 120Hz triple-laser projector gets fully unveiled in three different versions (TechRadar)
+
+CYBERSECURITY
+  • Microsoft: October Windows update may break Smart App Control (BleepingComputer)
+  • BAE Systems cyberattack disrupts US federal court operations (BleepingComputer)
+  • User refused to change her password because everyone already knew it (The Register)
+
+HARDWARE & CHIPS
+  • Thai cops bust 'audacious' cross-border fiberoptic cable running to Myanmar scam compound — 350-meter, 48-core cable was supplying illegal border casino and a scam center with 6TB of data per day (Tom's Hardware)
+  • Newegg has slashed $260 off this all-AMD 4K gaming PC — 9800X3D and Radeon RX 9070 XT combo comes with 32GB of DDR5 and a 2TB SSD (Tom's Hardware)
+  • This implant can restore sight for patients with macular degeneration (MIT Tech Review)
+
+SOFTWARE & DEV
+  • Thief snatches school snapper's SD cards in smash & grab (The Register)
+  • Article: Cryptographic Foundation of Mobile ID Systems: An ISO/IEC 18013-5 Enterprise Architecture Blueprint (InfoQ)
+  • Open source sovereignty gets down to the boring business of making it work (The Register)
+
+BUSINESS & BIG TECH
+  • Time is a-changin’: say goodbye to the leap second (The Verge)
+  • And the winner of Startup Battlefield at Disrupt 2026 is: Intero Biosystems (TechCrunch)
+  • Steam can now show game achievements in separate ‘sets’ (The Verge)
+
+GADGETS & CONSUMER
+  • Gartner: The quantum threat is already behind schedule (TechRadar)
+  • Googlebook review: Android on a laptop is still Android (Ars Technica)
+  • Sainsbury’s 'dangerous' facial recognition is back, months after ejecting an innocent shopper — and there’s no way to opt out (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-16 10:31
