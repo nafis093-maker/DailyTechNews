@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Oct 17, 2026 (128 stories)
+
+Good morning,
+
+Today's IT briefing — 128 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants
+Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments. ConnectWise Cloud Backup is a…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Reverse Engineer Anything Project Brings AI Agents to Binary Analysis (InfoQ)
+  • The collapse of web coding gigs is getting ugly — AI takes over routine website development jobs, and business owners are very happy with its job so far (TechRadar)
+  • Apple’s updated App Store rules go after ‘nudify’ AI apps (The Verge)
+
+CYBERSECURITY
+  • OpenAI models hacked a crypto wallet and breached more websites (Ars Technica Tech)
+  • BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs (Dark Reading)
+  • Critical BlockStrap flaw lets hackers run code on Magento servers (BleepingComputer)
+
+HARDWARE & CHIPS
+  • ASML's employee-only High-NA EUV Lego kit gets an open 810-piece fan replica (Tom's Hardware)
+  • 'Remarkably close to the minimum permitted by physics': this superconducting memory bit runs at an estimated 5x the limit, but at -269°C the fridge shrinks its claimed million-fold edge over today’s chips considerably (TechRadar)
+  • This could be your last chance to grab an RTX 5090 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL (InfoQ)
+  • Google EnvHarness Enables Self-Evolving Agents to Learn in Dynamics Environments (InfoQ)
+  • Zod Brings In-Process Schema Compilation and a 9x Cut in Memory Footprint (InfoQ)
+
+BUSINESS & BIG TECH
+  • Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept (TechCrunch)
+  • Tesla driver says he was asleep and using FSD when he crashed into highway patrol cars (The Verge)
+  • US Rep proposes bill to give video game buyers "ownership," not "a license" (Ars Technica)
+
+GADGETS & CONSUMER
+  • 10 of the raddest retro gadgets around, from cassette players to flip phones (TechRadar)
+  • Biomemory’s DNA Shield stores critical data in synthetic DNA — beyond the reach of cyberattacks (TechRadar)
+  • I gave a 13-year-old iMac a new lease of life with two simple upgrades — but was it worth it? (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-17 10:01
