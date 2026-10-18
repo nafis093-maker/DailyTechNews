@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Oct 18, 2026 (69 stories)
+
+Good morning,
+
+Today's IT briefing — 69 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants
+ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below -…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • OpenAI is building a humanoid robot, but the body isn't the real challenge (Engadget)
+  • Meta removes language that raised scraping and AI training concerns (TechCrunch AI)
+  • Anthropic says its workforce has become less junior and is spending more time in meetings (TechCrunch AI)
+
+CYBERSECURITY
+  • Just when we thought targeted ads couldn't get any worse, these were found serving malware (TechRadar)
+  • Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack (BleepingComputer)
+  • Drupal patches critical RCE flaws, warns exploits may emerge soon (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Flock camera locations revealed on MapQuest’s new Surveillance Layer (Tom's Hardware)
+  • 'This computer is going to be incredible': Nvidia CEO Jensen Huang explains why the new Surface Laptop Ultra is "really a work of love" (TechRadar)
+  • World's smallest PC with a 16GB GDDR7 desktop RTX 5080 GPU goes on sale for $2,647, but you will have to buy your own SSD, RAM, and OS — Zotac Magnus One Ultra has an 850W PSU and can drive 6 4K monitors (TechRadar)
+
+SOFTWARE & DEV
+  • Oh no, what happened to my OOHPod? Windows command prompt puts in a surprise appearance (The Register)
+  • AWS Will Run Its European Sovereign Cloud Without the Global Backbone for Several Hours (InfoQ)
+  • Cybercrims go beyond stealing data to attack physical building systems (The Register)
+
+BUSINESS & BIG TECH
+  • TikTok permanently bans ‘Musk’ documentary advertising account (TechCrunch)
+  • Ember’s new temperature-controlled mug makes my nightly tea ritual even better (TechCrunch)
+  • Meta removes language that may have allowed it to scrape news sites (The Verge)
+
+GADGETS & CONSUMER
+  • Watch South Africa vs Australia 2026 2nd Test: Live Streams (TechRadar)
+  • Someone got Blu-ray's Dolby Atmos TrueHD sound working on the Apple TV 4K, through quite the hack (TechRadar)
+  • The US Air Force is spending millions on data collected by massive autonomous weather balloons (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-18 10:14
