@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Oct 19, 2026 (93 stories)
+
+Good morning,
+
+Today's IT briefing — 93 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The Maeving RM2 is high-style electric riding with a few compromises
+There's a fast-growing category of two-wheeled electric vehicles splitting the difference between high-end scooters and entry-level motorcycles, fresh bikes with avant-garde style but approachable performance. I'm talking about offerings like the Infinite Machine P1 and BMW CE 02, similar concepts but with wildly…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Claude Code AI agent caught a crypto miner hiding on a developer’s overheating Mac (Tom's Hardware)
+  • Arm says its AGI CPU delivers nearly 2X the performance per rack of AMD EPYC 9755 in new agentic AI CPU tests (Tom's Hardware)
+  • Article: From Microservices to Agents: The Next Evolution of Distributed Systems (InfoQ)
+
+CYBERSECURITY
+  • Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic (The Hacker News)
+  • Microsoft: October Windows Server updates break Exchange sign-in, mail flow (BleepingComputer)
+  • OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys (The Hacker News)
+
+HARDWARE & CHIPS
+  • Engineer builds tiny 3D-printed single-motor drone in their bedroom (Tom's Hardware)
+  • Save $500 on this 1440p gaming PC with an RTX 5070, now under $1,800 (Tom's Hardware)
+  • Russian military satellite closes from 200 miles to 3 miles of US radar craft aiding Ukraine (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Museum exhibit reveals the intricate workings of a knackered Dell (The Register)
+  • Microsoft’s second-hand licensing appeal gets the brush-off (The Register)
+  • AI’s epic cash call is matched only by its ability to strangle revenue streams (The Register)
+
+BUSINESS & BIG TECH
+  • Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics (TechCrunch)
+  • A Savannah police officer gave her Flock login to her ICE agent husband (The Verge)
+  • No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market (TechCrunch)
+
+GADGETS & CONSUMER
+  • Windows 11 is getting what should be a hefty speed boost for apps (TechRadar)
+  • Microsoft set for further crackdown from UK competition watchdog over alleged dominance of the business software scene (TechRadar)
+  • This £35 Lexar SATA SSD is the cheap upgrade I’d give any old laptop still running a hard drive (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-19 11:53
