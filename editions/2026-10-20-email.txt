@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Oct 20, 2026 (136 stories)
+
+Good morning,
+
+Today's IT briefing — 136 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware
+An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Google DeepMind claims four AI agents beat Minecraft in 27 hours by writing 2,783 programs of their own (Tom's Hardware)
+  • How to study a swiftly melting climate disaster (MIT Tech Review)
+  • After more than a week of living and breathing Nvidia’s RTX Spark chip, I’m impressed by how much AI, creative and gaming power it packs into such a tiny space (TechRadar)
+
+CYBERSECURITY
+  • Revolut outage disrupts online banking operations worldwide (BleepingComputer)
+  • NordVPN patches "clumsy" Windows bug that let attackers disable system services (TechRadar)
+  • ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan (The Hacker News)
+
+HARDWARE & CHIPS
+  • Pick up this DDR5 gaming PC for only $899 (Tom's Hardware)
+  • Ukraine rescues wounded soldier using drone in daring 'world's first' UAV evacuation of a human (Tom's Hardware)
+  • Acemagic S16 Ryzen 7 laptop with 24GB DDR5 RAM drops to $569 when you stack Newegg's gift card promotion (TechRadar)
+
+SOFTWARE & DEV
+  • Java News Roundup: JEPs for JDK 28, Azul Payara, Gatherers4j, Google ADK, Yupiik, Apache Camel CVEs (InfoQ)
+  • How to continue a GitHub Copilot app session in VS Code (GitHub Blog)
+  • ReactOS reaches major milestone with NTFS install support (Ars Technica Tech)
+
+BUSINESS & BIG TECH
+  • Baseus’ new security camera has a spotlight that tracks and follows moving targets (The Verge)
+  • Walmart’s Flipkart is quietly building a food delivery challenger in India (TechCrunch)
+  • Startup taps underwater volcano as energy source in "proof point" test (Ars Technica)
+
+GADGETS & CONSUMER
+  • Save $60 on this TP-Link wireless router with ultra-fast Wi-Fi 7 support, now $189.98 (Tom's Hardware)
+  • UK schools caught in a 'learning technology balance gap' as kids demand more tech in the classroom (TechRadar)
+  • Google Cloud down - major outage across Europe hits big brands, banking apps and more (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-20 10:49
