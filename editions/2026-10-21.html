@@ -1,0 +1,399 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE BITSTREAM — Wednesday, October 21, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4efe3; --paper-2:#ece5d4; --panel:#f9f5ec;
+  --ink:#1b1714; --ink-2:#5a5147; --ink-3:#8a7f70;
+  --accent:#bf3b1c; --accent-2:#16433b;
+  --rule:#d8cdb6; --rule-strong:#1b1714;
+  --backdrop:#26221d;
+  --serif:"Newsreader",Georgia,serif;
+  --display:"Fraunces","Newsreader",Georgia,serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--backdrop);
+  font-family:var(--serif);color:var(--ink);
+  line-height:1.55;padding:28px 16px;
+  background-image:radial-gradient(circle at 20% 0,rgba(255,255,255,.04),transparent 60%);
+}
+.page{
+  max-width:1180px;margin:0 auto;background:var(--paper);
+  padding:clamp(22px,4vw,60px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.2);
+  position:relative;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(120,100,70,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(circle at 80% 10%,rgba(191,59,28,.04),transparent 45%);
+}
+a{color:inherit;text-decoration:none}
+
+/* ---- folio bar ---- */
+.folio{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-2);
+  border-bottom:1px solid var(--rule);padding-bottom:10px;flex-wrap:wrap;gap:6px;
+}
+.folio .dot{color:var(--accent)}
+
+/* ---- masthead ---- */
+.masthead{text-align:center;padding:30px 0 16px;border-bottom:3px double var(--rule-strong)}
+.masthead h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(44px,11vw,128px);line-height:.9;letter-spacing:-.02em;
+  font-optical-sizing:auto;
+}
+.masthead .tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:16px;
+}
+.dateline{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;
+}
+
+/* ---- kickers ---- */
+.kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;display:inline-block;
+}
+.section-head{
+  display:flex;align-items:center;gap:16px;margin:46px 0 22px;
+}
+.section-head h2{
+  font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;
+  white-space:nowrap;color:var(--ink);font-weight:700;
+}
+.section-head .line{flex:1;height:1px;background:var(--rule-strong)}
+.section-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+
+/* ---- lead ---- */
+.lead{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
+.lead .kicker{margin-bottom:14px}
+.lead h2{
+  font-family:var(--display);font-weight:800;letter-spacing:-.015em;
+  font-size:clamp(30px,5.4vw,62px);line-height:1.02;margin-bottom:18px;
+}
+.lead h2 a{background-image:linear-gradient(var(--accent),var(--accent));
+  background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.lead h2 a:hover{background-size:100% 2px}
+.lead .dek{font-size:clamp(17px,2.2vw,22px);color:var(--ink-2);
+  font-style:italic;max-width:60ch;margin-bottom:18px}
+.lead .body{columns:2;column-gap:42px;font-size:16px}
+.lead .body p{margin-bottom:12px;break-inside:avoid}
+.lead .body p:first-child::first-letter{
+  font-family:var(--display);font-weight:900;float:left;font-size:74px;
+  line-height:.72;padding:6px 10px 0 0;color:var(--accent)}
+.byline{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:14px}
+.byline a{border-bottom:1px solid var(--accent);color:var(--accent)}
+
+/* ---- grids ---- */
+.frontpage{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.frontpage .story{padding:20px;border-right:1px solid var(--rule)}
+.frontpage .story:last-child{border-right:none}
+.beat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 32px}
+
+.story .kicker{font-size:10px;margin-bottom:9px}
+.story h3{font-family:var(--display);font-weight:700;font-size:21px;
+  line-height:1.12;letter-spacing:-.01em;margin-bottom:8px}
+.story h3 a{background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.story h3 a:hover{background-size:100% 1px}
+.story p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.story .src{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3)}
+.story .src b{color:var(--accent);font-weight:700}
+
+/* a few editorial 2-col beats get a leading wide story */
+.beat-grid.lead-left{grid-template-columns:1.6fr 1fr 1fr}
+
+/* ---- colophon ---- */
+.colophon{margin-top:54px;border-top:3px double var(--rule-strong);padding-top:20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  line-height:1.7}
+.colophon b{color:var(--ink)}
+.sources-list{margin-top:8px;color:var(--ink-2)}
+
+/* ---- entrance animation ---- */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .frontpage{grid-template-columns:repeat(2,1fr)}
+  .frontpage .story:nth-child(2n){border-right:none}
+  .beat-grid,.beat-grid.lead-left{grid-template-columns:1fr 1fr}
+  .lead .body{columns:1}
+}
+@media(max-width:560px){
+  .frontpage,.beat-grid,.beat-grid.lead-left{grid-template-columns:1fr}
+  .frontpage .story{border-right:none;border-bottom:1px solid var(--rule)}
+}
+</style></head><body><main class="page"><div class="folio">
+      <span>Wednesday, October 21, 2026</span>
+      <span>Vol. I <span class="dot">·</span> No. 143</span>
+      <span>193 stories <span class="dot">·</span> 18 sources</span>
+    </div><header class="masthead reveal">
+      <h1>THE BITSTREAM</h1>
+      <div class="tag">An IT &amp; Technology Daily — automatically compiled</div>
+      <div class="dateline">
+        <span>Auto-compiled edition</span><span>Tech wire</span>
+        <span>Wednesday, October 21, 2026</span>
+      </div>
+    </header><section class="lead reveal" style="animation-delay:.05s">
+  <span class="kicker">Lead Story &nbsp;·&nbsp; Cybersecurity</span>
+  <h2><a href="https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html" target="_blank" rel="noopener">PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert</a></h2>
+  <div class="body"><p>This story is developing and was written before PHP&#x27;s scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed</p><p>versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that…</p></div>
+  <div class="byline">Filed by <a href="https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html" target="_blank" rel="noopener">The Hacker News</a>
+     &nbsp;·&nbsp; 1h ago &nbsp;·&nbsp; thehackernews.com</div>
+</section><section class="reveal">
+          <div class="section-head"><h2>The Front Page</h2><span class="line"></span></div>
+          <div class="frontpage"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.engadget.com/2292644/openai-agents-disabled-own-safety-monitoring-systems/" target="_blank" rel="noopener">OpenAI&#x27;s agents disabled their own safety monitoring systems</a></h3>
+  <p>OpenAI reveals that its agents misbehaved by switching off the system monitoring them for misbehaviors.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/" target="_blank" rel="noopener">Microsoft says October updates didn’t actually fix VPN issues</a></h3>
+  <p>Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/desktops/gaming-pcs/score-a-1440p-ready-gaming-pc-with-an-rtx-5060-ti-16gb-for-under-usd1-500-right-now-saving-you-usd200-abs-cyclone-aqua-rig-ships-with-16gb-ddr5-1tb-ssd-and-a-20-core-intel-cpu" target="_blank" rel="noopener">Score a 1440p-ready gaming PC with an RTX 5060 Ti 16GB for under $1,500 right now, saving you $200</a></h3>
+  <p>You can pick up this ABS Cyclone Aqua gaming PC with an RTX 5060 Ti 16GB, Intel Core i7-14700F, 16GB DDR5, and a 1TB SS with a $200 discount, now $1,499.99.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/offbeat/2026/10/21/java-crashes-the-departure-board-at-tyne-and-wear-metro/5304106" target="_blank" rel="noopener">Java crashes the departure board at Tyne and Wear Metro</a></h3>
+  <p>Train times remain on show as an elderly Windows dialog demands attention</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; just now</div>
+</article></div>
+        </section><section class="reveal">
+  <div class="section-head">
+    <h2>AI &amp; Machine Learning</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.engadget.com/2292644/openai-agents-disabled-own-safety-monitoring-systems/" target="_blank" rel="noopener">OpenAI&#x27;s agents disabled their own safety monitoring systems</a></h3>
+  <p>OpenAI reveals that its agents misbehaved by switching off the system monitoring them for misbehaviors.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/supercomputers/hpe-says-it-will-run-the-first-supercomputer-benchmarks-on-the-moon-with-its-spaceborne-computer-4-system-will-ride-a-rover-to-the-lunar-south-pole-to-test-linpack-llms-and-lidar-mapping" target="_blank" rel="noopener">HPE says it will run the first supercomputer benchmarks on the Moon</a></h3>
+  <p>HPE’s Spaceborne Computer-4 will ride Astrolab’s FLIP rover to the Moon’s south pole to run HPL, HPCG, and AI tests.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/stop-choosing-the-wrong-agentic-ai-use-cases" target="_blank" rel="noopener">Stop choosing the wrong Agentic AI use cases</a></h3>
+  <p>Why businesses must rethink agentic AI before scaling costly, ineffective use cases.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/foldable-phones-could-be-hot-in-more-ways-than-one" target="_blank" rel="noopener">Foldable phones could be hot – in more ways than one</a></h3>
+  <p>Foldable phones expose the thermal limits of edge AI and the need for new cooling solutions.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.infoq.com/news/2026/10/synthid-watermarking-detector/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Google SynthID Detector Simplifies Watermark Detection and Expands Support to Other AI Providers</a></h3>
+  <p>Google DeepMind announced the global availability of SynthID Detector, a tool designed to help identify AI-generated content, including media created using AI tools from SynthID partners such as OpenAI, NVIDIA, and Kakao, with Apple support expected soon. By Sergio De Simone</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Cybersecurity</h2><span class="line"></span>
+    <span class="count">04 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/" target="_blank" rel="noopener">Microsoft says October updates didn’t actually fix VPN issues</a></h3>
+  <p>Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html" target="_blank" rel="noopener">Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites</a></h3>
+  <p>Unknown threat actors breached TeamUpdraft&#x27;s website and potentially gained unauthorized access to customers&#x27; connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four…</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/" target="_blank" rel="noopener">CISA: SafePay ransomware hit over 600 critical infrastructure orgs</a></h3>
+  <p>The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html" target="_blank" rel="noopener">U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases</a></h3>
+  <p>U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services &quot;developed using DeepSeek implementations,&quot; under a Department of Homeland Security order. They may also no longer buy information technology products or services from…</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 2h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Hardware &amp; Chips</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/desktops/gaming-pcs/score-a-1440p-ready-gaming-pc-with-an-rtx-5060-ti-16gb-for-under-usd1-500-right-now-saving-you-usd200-abs-cyclone-aqua-rig-ships-with-16gb-ddr5-1tb-ssd-and-a-20-core-intel-cpu" target="_blank" rel="noopener">Score a 1440p-ready gaming PC with an RTX 5060 Ti 16GB for under $1,500 right now, saving you $200</a></h3>
+  <p>You can pick up this ABS Cyclone Aqua gaming PC with an RTX 5060 Ti 16GB, Intel Core i7-14700F, 16GB DDR5, and a 1TB SS with a $200 discount, now $1,499.99.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/semiconductors/three-workers-killed-one-in-intensive-care-after-fall-at-tsmcs-2nm-fab-construction-site-in-kaohsiung-broken-bolt-on-a-steel-connection-plate-suspected-as-cause-behind-tragic-accident" target="_blank" rel="noopener">Three workers killed, one in intensive care after fall at TSMC’s 2nm fab construction site</a></h3>
+  <p>Three contract workers died, and one is in intensive care after a fall at TSMC’s Fab 22 construction site in Kaohsiung, Taiwan.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/jensen-huang-nvidia-gtc-keynote-disrupted-by-greenpeace-protest-over-chips-in-russian-drones-what-are-you-doing-about-that-heckler-demands-before-being-thrown-out" target="_blank" rel="noopener">Jensen Huang Nvidia GTC keynote disrupted by Greenpeace protest over chips in Russian drones</a></h3>
+  <p>Jensen Huang&#x27;s Nvidia GTC keynote speech in Berlin was disrupted by a Greenpeace protest on Wednesday.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.infoq.com/news/2026/10/tornadovm-7-gpu/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">TornadoVM 7 Enables GPU-Native Workloads From Java Applications</a></h3>
+  <p>TornadoVM, an open-source heterogeneous programming framework for Java has reached version 7.0. It automatically accelerates Java programs on multi-core CPUs and GPUs and provides a rich GPU programming ecosystem in Java that can be used with any mainstream JDK distribution e.g. Temurin, Red Hat OpenJDK, Coretto…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 8h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.techradar.com/pro/this-minisforum-thunderbolt-5-dock-lets-a-mini-pc-run-a-full-desktop-graphics-card-for-video-editing-and-its-down-to-usd219" target="_blank" rel="noopener">Minisforum’s Thunderbolt 5 dock lets mini PCs run a full desktop GPU for video editing</a></h3>
+  <p>Minisforum’s DEG2 dock lets you run a full-size desktop graphics card over Thunderbolt 5 or OCuLink, which gives video editors much faster effects and exports.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 14h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Software &amp; Dev</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/offbeat/2026/10/21/java-crashes-the-departure-board-at-tyne-and-wear-metro/5304106" target="_blank" rel="noopener">Java crashes the departure board at Tyne and Wear Metro</a></h3>
+  <p>Train times remain on show as an elderly Windows dialog demands attention</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/software/2026/10/21/the-spec-is-the-new-code-so-brush-up-on-your-prose-says-kaseya-cto/5304002" target="_blank" rel="noopener">The spec is the new code, so brush up on your prose, says Kaseya CTO</a></h3>
+  <p>Domain expertise and clear writing will matter more than syntax, and yes, that means documentation</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Article: Distributed Spring Batch Without a Message Broker</a></h3>
+  <p>Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the live node count, a per-job master with no standing coordinator, compare-and-set claiming that prevents…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/10/cilium-120-kubernetes-networking/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Cilium 1.20 Expands Gateway API and Opens eBPF Datapath for Kubernetes</a></h3>
+  <p>Cilium 1.20 has been released with broader Kubernetes Gateway API support, an extensible eBPF datapath and further work on sidecarless mutual TLS. The release also makes the newer netkit network device easier to introduce across Kubernetes fleets that run different Linux kernel versions. By Matt Saunders</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/public-sector/2026/10/21/mps-urge-uk-government-to-play-venture-capitalist-with-taxpayer-funded-tech/5304212" target="_blank" rel="noopener">MPs urge UK government to play venture capitalist with taxpayer-funded tech</a></h3>
+  <p>Watchdog says Whitehall is too timid about taking stakes in British startups, leaving taxpayers at risk of missing out when they strike gold</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 2h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Business &amp; Big Tech</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/streaming/1015099/youtube-dislike-button-hide-menu" target="_blank" rel="noopener">YouTube might be testing hiding the dislike button</a></h3>
+  <p>YouTube appears to be testing hiding the dislike button on videos, as reported by 9to5Google. At least two users on X have recently shared screenshots of the dislike button now being placed in the three-dots submenu, and a user on Reddit also shared an image of the dislike button being absent for them. Right now, […]</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 11h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/" target="_blank" rel="noopener">SpaceX and Tesla boards form special committees to review merger</a></h3>
+  <p>Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 12h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/" target="_blank" rel="noopener">Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix</a></h3>
+  <p>Xbox maker is also apparently planning its own gaming handheld for next year.</p>
+  <div class="src"><b>Ars Technica</b> &nbsp;·&nbsp; 13h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/streaming/1014826/netflix-earnings-q3-2026-viewing-time" target="_blank" rel="noopener">Netflix is telling investors not to worry, even though you’re watching less and less</a></h3>
+  <p>Netflix is making monetization a top priority amid reports of falling viewing time. As part of its third-quarter earnings report on Tuesday, Netflix lists improvements to monetization as one of its main focuses going forward, alongside efforts to boost entertainment value and leverage new technology. The streaming…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 14h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/tech/1014869/snap-specs-robert-downey-jr" target="_blank" rel="noopener">Snap is paying Robert Downey Jr. to do the Iron Man thing</a></h3>
+  <p>Snap has a new brand ambassador for its Specs AR glasses: Iron Man actor Robert Downey Jr. The company has brought on Downey as Specs&#x27; &quot;Chief Customer Experience Officer&quot; and has published several videos featuring Downey showcasing the capabilities of the new glasses, including as a tool to get help with a putt…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 14h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Gadgets &amp; Consumer</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.tomshardware.com/laptops/gaming-laptops/save-a-massive-usd850-on-lenovos-legion-5i-gaming-laptop-with-this-32-percent-best-buy-discount-featuring-powerful-rtx-5070-graphics-and-a-3k-display-with-a-240hz-refresh-rate" target="_blank" rel="noopener">Save a massive $850 on Lenovo&#x27;s Legion 5i gaming laptop with this 32% Best Buy discount</a></h3>
+  <p>Save $850 on a new Lenovo gaming laptop from Best Buy. Pick up the Legion 5i with RTX 5070 graphics and save 32%.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/when-technology-becomes-part-of-the-talent-infrastructure" target="_blank" rel="noopener">When technology becomes part of the talent infrastructure</a></h3>
+  <p>AI-ready PCs and smarter device strategies improve employee experience, productivity, and retention.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2289282/apple-watch-ultra-4-action-button-uses-explained/" target="_blank" rel="noopener">What can you use your Apple Watch Ultra 4 action button for?</a></h3>
+  <p>Here&#x27;s what your Apple Watch Ultra 4 action button can really do, from launching workouts and retracing routes to controlling smart home devices with one tap.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 11h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/the-dark-side-of-free-mobile-games-how-developers-reverse-engineer-your-patience-to-milk-ad-revenue" target="_blank" rel="noopener">The dark side of &#x27;free&#x27; mobile games — how developers reverse-engineer your patience to milk ad revenue</a></h3>
+  <p>Block Blast reportedly earned $127 million from ads, but an investigation uncovered code allegedly manipulating difficulty, player profiling, and incentives to watch ads.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 11h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/the-wd-elements-6tb-desktop-hdd-is-the-no-fuss-backup-drive-id-plug-into-a-home-pc" target="_blank" rel="noopener">The WD Elements 6TB Desktop HDD is the no-fuss backup drive I’d plug into a home PC</a></h3>
+  <p>Ideal for homes and home offices, the WD Elements 6TB Desktop HDD is a simple plug-and-play backup drive for Windows PC users, with a two-year warranty.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 11h ago</div>
+</article></div>
+</section><footer class="colophon">
+      <b>THE BITSTREAM</b> is compiled automatically by an RSS-crawling agent.
+      Every headline links to its original publisher; summaries are condensed from
+      each outlet's own feed. Built 2026-10-21 11:01.
+      <div class="sources-list"><b>Wire sources &nbsp;·&nbsp;</b> AnandTech, Ars Technica, Ars Technica Tech, BleepingComputer, Dark Reading, Engadget, GitHub Blog, InfoQ, Krebs on Security, MIT Tech Review, TechCrunch, TechCrunch AI, TechRadar, The Hacker News, The Register, The Verge, Tom&#x27;s Hardware, VentureBeat AI</div>
+    </footer></main></body></html>

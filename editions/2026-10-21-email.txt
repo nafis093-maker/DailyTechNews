@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Oct 21, 2026 (193 stories)
+
+Good morning,
+
+Today's IT briefing — 193 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert
+This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • OpenAI's agents disabled their own safety monitoring systems (Engadget)
+  • HPE says it will run the first supercomputer benchmarks on the Moon (Tom's Hardware)
+  • Stop choosing the wrong Agentic AI use cases (TechRadar)
+
+CYBERSECURITY
+  • Microsoft says October updates didn’t actually fix VPN issues (BleepingComputer)
+  • Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites (The Hacker News)
+  • CISA: SafePay ransomware hit over 600 critical infrastructure orgs (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Score a 1440p-ready gaming PC with an RTX 5060 Ti 16GB for under $1,500 right now, saving you $200 (Tom's Hardware)
+  • Three workers killed, one in intensive care after fall at TSMC’s 2nm fab construction site (Tom's Hardware)
+  • Jensen Huang Nvidia GTC keynote disrupted by Greenpeace protest over chips in Russian drones (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Java crashes the departure board at Tyne and Wear Metro (The Register)
+  • The spec is the new code, so brush up on your prose, says Kaseya CTO (The Register)
+  • Article: Distributed Spring Batch Without a Message Broker (InfoQ)
+
+BUSINESS & BIG TECH
+  • YouTube might be testing hiding the dislike button (The Verge)
+  • SpaceX and Tesla boards form special committees to review merger (TechCrunch)
+  • Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix (Ars Technica)
+
+GADGETS & CONSUMER
+  • Save a massive $850 on Lenovo's Legion 5i gaming laptop with this 32% Best Buy discount (Tom's Hardware)
+  • When technology becomes part of the talent infrastructure (TechRadar)
+  • What can you use your Apple Watch Ultra 4 action button for? (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-10-21 11:01
