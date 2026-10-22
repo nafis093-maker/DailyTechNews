@@ -1,0 +1,399 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE BITSTREAM — Thursday, October 22, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4efe3; --paper-2:#ece5d4; --panel:#f9f5ec;
+  --ink:#1b1714; --ink-2:#5a5147; --ink-3:#8a7f70;
+  --accent:#bf3b1c; --accent-2:#16433b;
+  --rule:#d8cdb6; --rule-strong:#1b1714;
+  --backdrop:#26221d;
+  --serif:"Newsreader",Georgia,serif;
+  --display:"Fraunces","Newsreader",Georgia,serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--backdrop);
+  font-family:var(--serif);color:var(--ink);
+  line-height:1.55;padding:28px 16px;
+  background-image:radial-gradient(circle at 20% 0,rgba(255,255,255,.04),transparent 60%);
+}
+.page{
+  max-width:1180px;margin:0 auto;background:var(--paper);
+  padding:clamp(22px,4vw,60px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.2);
+  position:relative;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(120,100,70,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(circle at 80% 10%,rgba(191,59,28,.04),transparent 45%);
+}
+a{color:inherit;text-decoration:none}
+
+/* ---- folio bar ---- */
+.folio{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-2);
+  border-bottom:1px solid var(--rule);padding-bottom:10px;flex-wrap:wrap;gap:6px;
+}
+.folio .dot{color:var(--accent)}
+
+/* ---- masthead ---- */
+.masthead{text-align:center;padding:30px 0 16px;border-bottom:3px double var(--rule-strong)}
+.masthead h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(44px,11vw,128px);line-height:.9;letter-spacing:-.02em;
+  font-optical-sizing:auto;
+}
+.masthead .tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:16px;
+}
+.dateline{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;
+}
+
+/* ---- kickers ---- */
+.kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;display:inline-block;
+}
+.section-head{
+  display:flex;align-items:center;gap:16px;margin:46px 0 22px;
+}
+.section-head h2{
+  font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;
+  white-space:nowrap;color:var(--ink);font-weight:700;
+}
+.section-head .line{flex:1;height:1px;background:var(--rule-strong)}
+.section-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+
+/* ---- lead ---- */
+.lead{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
+.lead .kicker{margin-bottom:14px}
+.lead h2{
+  font-family:var(--display);font-weight:800;letter-spacing:-.015em;
+  font-size:clamp(30px,5.4vw,62px);line-height:1.02;margin-bottom:18px;
+}
+.lead h2 a{background-image:linear-gradient(var(--accent),var(--accent));
+  background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.lead h2 a:hover{background-size:100% 2px}
+.lead .dek{font-size:clamp(17px,2.2vw,22px);color:var(--ink-2);
+  font-style:italic;max-width:60ch;margin-bottom:18px}
+.lead .body{columns:2;column-gap:42px;font-size:16px}
+.lead .body p{margin-bottom:12px;break-inside:avoid}
+.lead .body p:first-child::first-letter{
+  font-family:var(--display);font-weight:900;float:left;font-size:74px;
+  line-height:.72;padding:6px 10px 0 0;color:var(--accent)}
+.byline{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:14px}
+.byline a{border-bottom:1px solid var(--accent);color:var(--accent)}
+
+/* ---- grids ---- */
+.frontpage{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.frontpage .story{padding:20px;border-right:1px solid var(--rule)}
+.frontpage .story:last-child{border-right:none}
+.beat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 32px}
+
+.story .kicker{font-size:10px;margin-bottom:9px}
+.story h3{font-family:var(--display);font-weight:700;font-size:21px;
+  line-height:1.12;letter-spacing:-.01em;margin-bottom:8px}
+.story h3 a{background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.story h3 a:hover{background-size:100% 1px}
+.story p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.story .src{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3)}
+.story .src b{color:var(--accent);font-weight:700}
+
+/* a few editorial 2-col beats get a leading wide story */
+.beat-grid.lead-left{grid-template-columns:1.6fr 1fr 1fr}
+
+/* ---- colophon ---- */
+.colophon{margin-top:54px;border-top:3px double var(--rule-strong);padding-top:20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  line-height:1.7}
+.colophon b{color:var(--ink)}
+.sources-list{margin-top:8px;color:var(--ink-2)}
+
+/* ---- entrance animation ---- */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .frontpage{grid-template-columns:repeat(2,1fr)}
+  .frontpage .story:nth-child(2n){border-right:none}
+  .beat-grid,.beat-grid.lead-left{grid-template-columns:1fr 1fr}
+  .lead .body{columns:1}
+}
+@media(max-width:560px){
+  .frontpage,.beat-grid,.beat-grid.lead-left{grid-template-columns:1fr}
+  .frontpage .story{border-right:none;border-bottom:1px solid var(--rule)}
+}
+</style></head><body><main class="page"><div class="folio">
+      <span>Thursday, October 22, 2026</span>
+      <span>Vol. I <span class="dot">·</span> No. 144</span>
+      <span>188 stories <span class="dot">·</span> 18 sources</span>
+    </div><header class="masthead reveal">
+      <h1>THE BITSTREAM</h1>
+      <div class="tag">An IT &amp; Technology Daily — automatically compiled</div>
+      <div class="dateline">
+        <span>Auto-compiled edition</span><span>Tech wire</span>
+        <span>Thursday, October 22, 2026</span>
+      </div>
+    </header><section class="lead reveal" style="animation-delay:.05s">
+  <span class="kicker">Lead Story &nbsp;·&nbsp; Cybersecurity</span>
+  <h2><a href="https://www.tomshardware.com/tech-industry/cyber-security/openai-says-gpt-5-6-sol-helped-uncover-critical-php-flaws-that-could-affect-70-percent-of-websites-ai-assisted-researchers-turned-two-year-old-bug-that-stumped-human-developers-into-working-exploits-in-two-weeks" target="_blank" rel="noopener">OpenAI says ChatGPT Sol helped uncover critical PHP flaws that could affect 70% of websites</a></h2>
+  <div class="body"><p>OpenAI says researchers using GPT-5.6 Sol uncovered two critical PHP vulnerabilities with severity</p><p>scores of 9.2 and demonstrated working exploits, after which the company coordinated fixes.</p></div>
+  <div class="byline">Filed by <a href="https://www.tomshardware.com/tech-industry/cyber-security/openai-says-gpt-5-6-sol-helped-uncover-critical-php-flaws-that-could-affect-70-percent-of-websites-ai-assisted-researchers-turned-two-year-old-bug-that-stumped-human-developers-into-working-exploits-in-two-weeks" target="_blank" rel="noopener">Tom&#x27;s Hardware</a>
+     &nbsp;·&nbsp; just now &nbsp;·&nbsp; tomshardware.com</div>
+</section><section class="reveal">
+          <div class="section-head"><h2>The Front Page</h2><span class="line"></span></div>
+          <div class="frontpage"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/the-biggest-ai-security-risk-is-doing-nothing" target="_blank" rel="noopener">The biggest AI security risk is doing nothing</a></h3>
+  <p>The existential risk of doing nothing about AI is bigger than the risk of doing it badly.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/cyber-security/480-000-phishing-emails-sent-from-a-pc-hidden-behind-a-fridge-in-a-japanese-hotel-room-chinese-couple-arrested-over-fraud-operation-leaching-hotel-wi-fi" target="_blank" rel="noopener">480,000 phishing emails sent from a PC hidden behind a fridge in a Japanese hotel room</a></h3>
+  <p>Almost 500,000 phishing emails were sent from a PC hidden behind a fridge in a Kobe, Japan, hotel room.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/pc-components/save-usd238-on-this-9800x3d-combo-deal-with-32gb-ddr5-that-lets-you-start-a-4k-gaming-pc-build-for-just-over-usd1-000-newegg-bundle-ships-this-powerhouse-amd-cpu-with-a-gigabyte-x870e-am5-motherboard-and-a-free-240mm-aio-cooler" target="_blank" rel="noopener">Save $238 on this 9800X3D combo deal with 32GB DDR5 that lets you start a 4K gaming PC build for just over $1,000</a></h3>
+  <p>This Newegg combo deal combines the AMD Ryzen 7 9800X3D, 32GB of fast DDR5 RAM, and a Gigabyte AM5 X870E motherboard for $1,029.99, saving you over $238 in total.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/security/2026/10/22/it-department-and-auditors-at-major-pharmacy-chain-got-into-a-rip-roaring-fight-about-using-password-on-cisco-firewall/5304592" target="_blank" rel="noopener">IT department and auditors at major pharmacy chain got into a rip-roaring fight about using &#x27;password&#x27; on Cisco firewall</a></h3>
+  <p>Misaligned incentives led to an intractable argument</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; just now</div>
+</article></div>
+        </section><section class="reveal">
+  <div class="section-head">
+    <h2>AI &amp; Machine Learning</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/the-biggest-ai-security-risk-is-doing-nothing" target="_blank" rel="noopener">The biggest AI security risk is doing nothing</a></h3>
+  <p>The existential risk of doing nothing about AI is bigger than the risk of doing it badly.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/could-ai-agents-be-causing-surprise-bills-at-your-business-youre-not-alone" target="_blank" rel="noopener">Could AI agents be causing surprise bills at your business? You&#x27;re not alone</a></h3>
+  <p>Unexpected AI bill spikes are worse for companies than a high but flat baseline, but observability is improving.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/" target="_blank" rel="noopener">Making the case for context-aware AI</a></h3>
+  <p>Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI…</p>
+  <div class="src"><b>MIT Tech Review</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/" target="_blank" rel="noopener">Three things you should know about permafrost</a></h3>
+  <p>How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it. The great news for both of us is that my colleague James Temple just published two…</p>
+  <div class="src"><b>MIT Tech Review</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/googles-tpus-for-ai-workloads-now-run-in-at-metas-data-centers-tpus-sold-to-external-customers-for-the-first-time-threaten-nvidias-market-dominance" target="_blank" rel="noopener">Google’s TPUs for AI workloads now run in Meta&#x27;s data centers</a></h3>
+  <p>Google’s TPUs now serve AI in production at Meta, through new open-source engines that run PyTorch models natively on the chips.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Cybersecurity</h2><span class="line"></span>
+    <span class="count">04 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/cyber-security/480-000-phishing-emails-sent-from-a-pc-hidden-behind-a-fridge-in-a-japanese-hotel-room-chinese-couple-arrested-over-fraud-operation-leaching-hotel-wi-fi" target="_blank" rel="noopener">480,000 phishing emails sent from a PC hidden behind a fridge in a Japanese hotel room</a></h3>
+  <p>Almost 500,000 phishing emails were sent from a PC hidden behind a fridge in a Kobe, Japan, hotel room.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.techradar.com/pro/security/php-releases-emergency-fixes-as-some-of-the-worlds-biggest-websites-say-they-were-targeted-by-hackers" target="_blank" rel="noopener">PHP releases emergency fixes as some of the world&#x27;s biggest websites say they were targeted by hackers</a></h3>
+  <p>PHP urges organizations to deploy the fixes immediately, as threat actors start abusing the php2shell bug</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/" target="_blank" rel="noopener">Authorities disrupt nearly 11,000 cybercrime networks in Africa</a></h3>
+  <p>Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html" target="_blank" rel="noopener">Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions</a></h3>
+  <p>Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on…</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 3h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Hardware &amp; Chips</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/pc-components/save-usd238-on-this-9800x3d-combo-deal-with-32gb-ddr5-that-lets-you-start-a-4k-gaming-pc-build-for-just-over-usd1-000-newegg-bundle-ships-this-powerhouse-amd-cpu-with-a-gigabyte-x870e-am5-motherboard-and-a-free-240mm-aio-cooler" target="_blank" rel="noopener">Save $238 on this 9800X3D combo deal with 32GB DDR5 that lets you start a 4K gaming PC build for just over $1,000</a></h3>
+  <p>This Newegg combo deal combines the AMD Ryzen 7 9800X3D, 32GB of fast DDR5 RAM, and a Gigabyte AM5 X870E motherboard for $1,029.99, saving you over $238 in total.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.theregister.com/ai-and-ml/2026/10/22/to-help-world-gorge-on-gpus-nvidia-brings-cash-bucket-to-fatten-wafer-thin-supply-chain/5304623" target="_blank" rel="noopener">To help world gorge on GPUs, Nvidia brings cash bucket to fatten wafer-thin supply chain</a></h3>
+  <p>Signs Samsung to build substrates, bolsters spend with other players</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 10h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/semiconductors/intel-installs-production-tools-at-fab-62-in-arizona-provides-updates-on-ohio-chip-fab-confirms-high-na-euv-for-high-volume-manufacturing-in-2028" target="_blank" rel="noopener">Intel installs production tools at Fab 62 in Arizona, provides updates on Ohio chip fab</a></h3>
+  <p>Intel makes progress on its manufacturing expansion in Arizona and Ohio as it continues to expand advanced semiconductor manufacturing capacity in the U.S.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 15h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/pc-components/ssds/4tb-samsung-990-pro-m-2-ssd-falls-27-percent-hits-20-cents-per-gigabyte-our-favorite-high-capacity-pcie-gen-4-drive-is-the-ultimate-storage-for-your-game-library" target="_blank" rel="noopener">4TB Samsung 990 Pro M.2 SSD falls 27%, hits 20 cents per gigabyte</a></h3>
+  <p>The 4TB Samsung 990 Pro has its astronomical AI-driven high price slashed by 27%.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 18h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.theregister.com/ai-and-ml/2026/10/21/jensen-huang-sends-in-the-robot-ducks-to-sell-nvidias-ai-everywhere-vision/5304472" target="_blank" rel="noopener">Jensen Huang sends in the robot ducks to sell Nvidia&#x27;s AI-everywhere vision</a></h3>
+  <p>Containerized datacenters, androids, and telecoms all feature in Berlin keynote interrupted by environmental protesters</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 19h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Software &amp; Dev</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/security/2026/10/22/it-department-and-auditors-at-major-pharmacy-chain-got-into-a-rip-roaring-fight-about-using-password-on-cisco-firewall/5304592" target="_blank" rel="noopener">IT department and auditors at major pharmacy chain got into a rip-roaring fight about using &#x27;password&#x27; on Cisco firewall</a></h3>
+  <p>Misaligned incentives led to an intractable argument</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/public-sector/2026/10/22/uk-government-hasnt-the-foggiest-how-much-its-spending-on-digital-transformation/5304662" target="_blank" rel="noopener">UK government hasn&#x27;t the foggiest how much it&#x27;s spending on digital transformation</a></h3>
+  <p>Years of promises, but officials unable to put a figure on investment</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/security/2026/10/22/certification-authority-emudhra-defends-its-laughably-weak-private-keys/5304647" target="_blank" rel="noopener">Certification authority eMudhra defends its laughably weak private keys</a></h3>
+  <p>Says it passed audits and made just a minor mystery error</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 4h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640" target="_blank" rel="noopener">IBM CEO says open weight models are now irresistibly good and cheap on-prem</a></h3>
+  <p>90 percent of the performance at ten percent of the price, in just two or three racks, is hard to beat</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 6h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/public-sector/2026/10/22/philippine-government-suspends-top-tech-official-for-alleged-misconduct/5304633" target="_blank" rel="noopener">Philippine government suspends top tech official for alleged misconduct</a></h3>
+  <p>Founder of offshore software development firm investigated for possibly giving his former outfit government contracts</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 7h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Business &amp; Big Tech</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/" target="_blank" rel="noopener">Tesla says it will start selling Cybercabs by end of year</a></h3>
+  <p>Tesla said Wednesday it will start selling its Cybercab to customers by the end of the year, even as federal regulators investigate whether the vehicle meets vehicle safety standards. The gold-hued, autonomous two-seater lacks a steering wheel and other traditional controls. During the company’s third-quarter earnings…</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 10h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/streaming/1016206/youtube-dislike-button-videos" target="_blank" rel="noopener">YouTube says it isn’t testing hiding the dislike button</a></h3>
+  <p>On Tuesday, I published a story about how YouTube appeared to be testing hiding the dislike button on videos, with at least two users on X sharing screenshots of the dislike button moved into the three-dot menu. But a YouTube spokesperson, in a Wednesday statement to The Verge, confirmed that YouTube is &quot;not testing…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 11h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/transportation/1016118/tesla-robotaxi-customer-owned-vehicle-fleet-network-q3-2026-earnings" target="_blank" rel="noopener">Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen?</a></h3>
+  <p>For years, Elon Musk has been making big promises to Tesla owners about unsupervised autonomous driving and the ability to add their own vehicles to the company&#x27;s robotaxi fleet. During today&#x27;s third-quarter earnings call, the company finally gave itself a deadline. According to Tesla VP for Autonomous Driving Ashok…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 11h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report" target="_blank" rel="noopener">Data centers could erase decades of air quality gains</a></h3>
+  <p>A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 12h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://arstechnica.com/tech-policy/2026/10/fcc-chair-warns-media-not-to-run-the-fake-polls-trump-keeps-complaining-about/" target="_blank" rel="noopener">FCC chair warns media not to run the &quot;fake polls&quot; Trump keeps complaining about</a></h3>
+  <p>Ex-FCC chairs say Brendan Carr aims to scare broadcasters into self-censorship.</p>
+  <div class="src"><b>Ars Technica</b> &nbsp;·&nbsp; 12h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Gadgets &amp; Consumer</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/why-scrutiny-of-facial-recognition-needs-to-extend-beyond-policing" target="_blank" rel="noopener">Why scrutiny of facial recognition needs to extend beyond policing</a></h3>
+  <p>Policing steals the headlines, but we must examine how facial recognition technology nationwide.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/live/php-issues-affect-websites-across-the-world-all-the-latest-updates-and-what-you-need-to-know" target="_blank" rel="noopener">PHP security crisis live — all the latest news as issues affect websites across the world</a></h3>
+  <p>PHP issues are affecting websites across the globe - we&#x27;re covering the latest news and updates as it happens.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2293810/tesla-plans-selling-cybercabs-by-end-of-2026/" target="_blank" rel="noopener">Tesla plans to start selling Cybercabs by the end of the year</a></h3>
+  <p>Tesla wants to sell Cybercabs to other transport companies before the year ends.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2293801/fortnite-is-back-on-apple-australian-app-store-following-court-ruling/" target="_blank" rel="noopener">Fortnite is coming back to Apple&#x27;s Australian App Store following court ruling</a></h3>
+  <p>Fortnite is back on the App Store in Australia after a federal court ordered Apple to open its iOS ecosystem up to competition.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/chinese-made-mesh-modems-are-giving-russian-drones-longer-range-control-over-ukraine" target="_blank" rel="noopener">Chinese-made mesh modems are giving Russian drones longer-range control over Ukraine</a></h3>
+  <p>Russian drones have already been found to feature off-the-shelf components, and now Chinese mesh networking tech has been found in a Gerbera drone shot down during an assault on Ukraine.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 9h ago</div>
+</article></div>
+</section><footer class="colophon">
+      <b>THE BITSTREAM</b> is compiled automatically by an RSS-crawling agent.
+      Every headline links to its original publisher; summaries are condensed from
+      each outlet's own feed. Built 2026-10-22 10:59.
+      <div class="sources-list"><b>Wire sources &nbsp;·&nbsp;</b> AnandTech, Ars Technica, Ars Technica Tech, BleepingComputer, Dark Reading, Engadget, GitHub Blog, InfoQ, Krebs on Security, MIT Tech Review, TechCrunch, TechCrunch AI, TechRadar, The Hacker News, The Register, The Verge, Tom&#x27;s Hardware, VentureBeat AI</div>
+    </footer></main></body></html>

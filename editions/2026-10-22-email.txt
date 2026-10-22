@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Oct 22, 2026 (188 stories)
+
+Good morning,
+
+Today's IT briefing — 188 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — OpenAI says ChatGPT Sol helped uncover critical PHP flaws that could affect 70% of websites
+OpenAI says researchers using GPT-5.6 Sol uncovered two critical PHP vulnerabilities with severity scores of 9.2 and demonstrated working exploits, after which the company coordinated fixes.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • The biggest AI security risk is doing nothing (TechRadar)
+  • Could AI agents be causing surprise bills at your business? You're not alone (TechRadar)
+  • Making the case for context-aware AI (MIT Tech Review)
+
+CYBERSECURITY
+  • 480,000 phishing emails sent from a PC hidden behind a fridge in a Japanese hotel room (Tom's Hardware)
+  • PHP releases emergency fixes as some of the world's biggest websites say they were targeted by hackers (TechRadar)
+  • Authorities disrupt nearly 11,000 cybercrime networks in Africa (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Save $238 on this 9800X3D combo deal with 32GB DDR5 that lets you start a 4K gaming PC build for just over $1,000 (Tom's Hardware)
+  • To help world gorge on GPUs, Nvidia brings cash bucket to fatten wafer-thin supply chain (The Register)
+  • Intel installs production tools at Fab 62 in Arizona, provides updates on Ohio chip fab (Tom's Hardware)
+
+SOFTWARE & DEV
+  • IT department and auditors at major pharmacy chain got into a rip-roaring fight about using 'password' on Cisco firewall (The Register)
+  • UK government hasn't the foggiest how much it's spending on digital transformation (The Register)
+  • Certification authority eMudhra defends its laughably weak private keys (The Register)
+
+BUSINESS & BIG TECH
+  • Tesla says it will start selling Cybercabs by end of year (TechCrunch)
+  • YouTube says it isn’t testing hiding the dislike button (The Verge)
+  • Tesla says customers can add their own vehicles to the robotaxi fleet next year — will it happen? (The Verge)
+
+GADGETS & CONSUMER
+  • Why scrutiny of facial recognition needs to extend beyond policing (TechRadar)
+  • PHP security crisis live — all the latest news as issues affect websites across the world (TechRadar)
+  • Tesla plans to start selling Cybercabs by the end of the year (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-10-22 11:00
