@@ -1,0 +1,399 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE BITSTREAM — Saturday, October 24, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4efe3; --paper-2:#ece5d4; --panel:#f9f5ec;
+  --ink:#1b1714; --ink-2:#5a5147; --ink-3:#8a7f70;
+  --accent:#bf3b1c; --accent-2:#16433b;
+  --rule:#d8cdb6; --rule-strong:#1b1714;
+  --backdrop:#26221d;
+  --serif:"Newsreader",Georgia,serif;
+  --display:"Fraunces","Newsreader",Georgia,serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--backdrop);
+  font-family:var(--serif);color:var(--ink);
+  line-height:1.55;padding:28px 16px;
+  background-image:radial-gradient(circle at 20% 0,rgba(255,255,255,.04),transparent 60%);
+}
+.page{
+  max-width:1180px;margin:0 auto;background:var(--paper);
+  padding:clamp(22px,4vw,60px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.2);
+  position:relative;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(120,100,70,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(circle at 80% 10%,rgba(191,59,28,.04),transparent 45%);
+}
+a{color:inherit;text-decoration:none}
+
+/* ---- folio bar ---- */
+.folio{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-2);
+  border-bottom:1px solid var(--rule);padding-bottom:10px;flex-wrap:wrap;gap:6px;
+}
+.folio .dot{color:var(--accent)}
+
+/* ---- masthead ---- */
+.masthead{text-align:center;padding:30px 0 16px;border-bottom:3px double var(--rule-strong)}
+.masthead h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(44px,11vw,128px);line-height:.9;letter-spacing:-.02em;
+  font-optical-sizing:auto;
+}
+.masthead .tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:16px;
+}
+.dateline{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;
+}
+
+/* ---- kickers ---- */
+.kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;display:inline-block;
+}
+.section-head{
+  display:flex;align-items:center;gap:16px;margin:46px 0 22px;
+}
+.section-head h2{
+  font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;
+  white-space:nowrap;color:var(--ink);font-weight:700;
+}
+.section-head .line{flex:1;height:1px;background:var(--rule-strong)}
+.section-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+
+/* ---- lead ---- */
+.lead{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
+.lead .kicker{margin-bottom:14px}
+.lead h2{
+  font-family:var(--display);font-weight:800;letter-spacing:-.015em;
+  font-size:clamp(30px,5.4vw,62px);line-height:1.02;margin-bottom:18px;
+}
+.lead h2 a{background-image:linear-gradient(var(--accent),var(--accent));
+  background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.lead h2 a:hover{background-size:100% 2px}
+.lead .dek{font-size:clamp(17px,2.2vw,22px);color:var(--ink-2);
+  font-style:italic;max-width:60ch;margin-bottom:18px}
+.lead .body{columns:2;column-gap:42px;font-size:16px}
+.lead .body p{margin-bottom:12px;break-inside:avoid}
+.lead .body p:first-child::first-letter{
+  font-family:var(--display);font-weight:900;float:left;font-size:74px;
+  line-height:.72;padding:6px 10px 0 0;color:var(--accent)}
+.byline{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:14px}
+.byline a{border-bottom:1px solid var(--accent);color:var(--accent)}
+
+/* ---- grids ---- */
+.frontpage{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.frontpage .story{padding:20px;border-right:1px solid var(--rule)}
+.frontpage .story:last-child{border-right:none}
+.beat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 32px}
+
+.story .kicker{font-size:10px;margin-bottom:9px}
+.story h3{font-family:var(--display);font-weight:700;font-size:21px;
+  line-height:1.12;letter-spacing:-.01em;margin-bottom:8px}
+.story h3 a{background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.story h3 a:hover{background-size:100% 1px}
+.story p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.story .src{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3)}
+.story .src b{color:var(--accent);font-weight:700}
+
+/* a few editorial 2-col beats get a leading wide story */
+.beat-grid.lead-left{grid-template-columns:1.6fr 1fr 1fr}
+
+/* ---- colophon ---- */
+.colophon{margin-top:54px;border-top:3px double var(--rule-strong);padding-top:20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  line-height:1.7}
+.colophon b{color:var(--ink)}
+.sources-list{margin-top:8px;color:var(--ink-2)}
+
+/* ---- entrance animation ---- */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .frontpage{grid-template-columns:repeat(2,1fr)}
+  .frontpage .story:nth-child(2n){border-right:none}
+  .beat-grid,.beat-grid.lead-left{grid-template-columns:1fr 1fr}
+  .lead .body{columns:1}
+}
+@media(max-width:560px){
+  .frontpage,.beat-grid,.beat-grid.lead-left{grid-template-columns:1fr}
+  .frontpage .story{border-right:none;border-bottom:1px solid var(--rule)}
+}
+</style></head><body><main class="page"><div class="folio">
+      <span>Saturday, October 24, 2026</span>
+      <span>Vol. I <span class="dot">·</span> No. 146</span>
+      <span>135 stories <span class="dot">·</span> 18 sources</span>
+    </div><header class="masthead reveal">
+      <h1>THE BITSTREAM</h1>
+      <div class="tag">An IT &amp; Technology Daily — automatically compiled</div>
+      <div class="dateline">
+        <span>Auto-compiled edition</span><span>Tech wire</span>
+        <span>Saturday, October 24, 2026</span>
+      </div>
+    </header><section class="lead reveal" style="animation-delay:.05s">
+  <span class="kicker">Lead Story &nbsp;·&nbsp; Cybersecurity</span>
+  <h2><a href="https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html" target="_blank" rel="noopener">CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud</a></h2>
+  <div class="body"><p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and</p><p>Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity…</p></div>
+  <div class="byline">Filed by <a href="https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html" target="_blank" rel="noopener">The Hacker News</a>
+     &nbsp;·&nbsp; 3h ago &nbsp;·&nbsp; thehackernews.com</div>
+</section><section class="reveal">
+          <div class="section-head"><h2>The Front Page</h2><span class="line"></span></div>
+          <div class="frontpage"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/video-games/retro-gaming/exhaustion-with-tech-market-prompts-youtuber-to-remake-their-first-pc-1996-build-fueled-by-nostalgia-and-ai-weariness" target="_blank" rel="noopener">YouTuber escapes the modern AI tech market by recreating his 1996 PC</a></h3>
+  <p>Exhaustion with tech market prompt Youtuber to remake their first PC — 1996 build fueled by nostalgia and AI weariness</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it" target="_blank" rel="noopener">Trust Is Not What It Seems — And Fraudsters Are Counting on It</a></h3>
+  <p>Threat actors don&#x27;t need to rely on malware to breach organizations anymore. They&#x27;re simply calling help desks and politely asking for access, with a little help from artificial intelligence.</p>
+  <div class="src"><b>Dark Reading</b> &nbsp;·&nbsp; 13h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/video-games/retro-gaming/rare-archival-footage-tours-the-compusa-nyc-store-in-november-2000-soak-up-some-y2k-pentium-iii-athlon-powerpc-windows-me-chunky-laptop-and-bulging-crt-nostalgia-in-glorious-360p" target="_blank" rel="noopener">Rare archival footage tours the CompUSA NYC store in November 2000</a></h3>
+  <p>Fascinating footage captured inside a busy CompUSA retail store in Y2K lets you relive the PC era when translucent acrylic Presarios and iMacs roamed the Earth.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM</a></h3>
+  <p>Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and practitioners need to tell them apart: one is a skill asking the agent to stop, the other an IAM…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+        </section><section class="reveal">
+  <div class="section-head">
+    <h2>AI &amp; Machine Learning</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/video-games/retro-gaming/exhaustion-with-tech-market-prompts-youtuber-to-remake-their-first-pc-1996-build-fueled-by-nostalgia-and-ai-weariness" target="_blank" rel="noopener">YouTuber escapes the modern AI tech market by recreating his 1996 PC</a></h3>
+  <p>Exhaustion with tech market prompt Youtuber to remake their first PC — 1996 build fueled by nostalgia and AI weariness</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/security/this-ai-tool-can-now-turn-ordinary-household-photos-into-location-clues-so-could-law-forces-use-the-technology-to-scope-out-your-home" target="_blank" rel="noopener">This AI tool can now turn ordinary household photos into location clues — so could law forces use the technology to scope out your home?</a></h3>
+  <p>US police are using an AI tool to detect the location of properties based on interior photos, but the way tool accumulates its data drawn concern from Airbnb, Zillow, and others</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 10h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/" target="_blank" rel="noopener">OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”</a></h3>
+  <p>OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn&#x27;t work.</p>
+  <div class="src"><b>TechCrunch AI</b> &nbsp;·&nbsp; 11h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/" target="_blank" rel="noopener">OpenAI says it&#x27;s cutting off internet access for frontier model training</a></h3>
+  <p>OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 11h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.theregister.com/ai-and-ml/2026/10/23/openai-disables-internet-access-during-model-training-while-anthropic-issues-another-mea-culpa/5305238" target="_blank" rel="noopener">OpenAI disables internet access during model training while Anthropic issues another mea culpa</a></h3>
+  <p>We&#x27;ve totally got things under control</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 11h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Cybersecurity</h2><span class="line"></span>
+    <span class="count">04 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it" target="_blank" rel="noopener">Trust Is Not What It Seems — And Fraudsters Are Counting on It</a></h3>
+  <p>Threat actors don&#x27;t need to rely on malware to breach organizations anymore. They&#x27;re simply calling help desks and politely asking for access, with a little help from artificial intelligence.</p>
+  <div class="src"><b>Dark Reading</b> &nbsp;·&nbsp; 13h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/" target="_blank" rel="noopener">Abandoned Popcorn Time app exposed millions of devices to RCE attacks</a></h3>
+  <p>Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 13h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice" target="_blank" rel="noopener">Exposed to PHP2Shell? Cyber Experts Weigh in With Advice</a></h3>
+  <p>Fixing the critical PHP flaws is not as simple as clicking &quot;Update.&quot; Here&#x27;s how to assess your risk, and what you can do to protect yourself.</p>
+  <div class="src"><b>Dark Reading</b> &nbsp;·&nbsp; 14h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/" target="_blank" rel="noopener">Microsoft Teams to get AI-powered, context-aware phishing detection</a></h3>
+  <p>Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 15h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Hardware &amp; Chips</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/video-games/retro-gaming/rare-archival-footage-tours-the-compusa-nyc-store-in-november-2000-soak-up-some-y2k-pentium-iii-athlon-powerpc-windows-me-chunky-laptop-and-bulging-crt-nostalgia-in-glorious-360p" target="_blank" rel="noopener">Rare archival footage tours the CompUSA NYC store in November 2000</a></h3>
+  <p>Fascinating footage captured inside a busy CompUSA retail store in Y2K lets you relive the PC era when translucent acrylic Presarios and iMacs roamed the Earth.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.techradar.com/pro/plucky-chinese-startup-claims-to-beat-nvidia-dgx-spark-mac-mini-on-qwen-says-its-256-tops-beats-1000-tops-in-prefill-running-16-core-cortex-a55-soc-on-40w" target="_blank" rel="noopener">Plucky Chinese startup claims to beat Nvidia DGX Spark, Mac Mini on Qwen — says its &#x27;256 TOPS beats 1000 TOPS in prefill&#x27;, running 16-core Cortex-A55 SoC on 40w</a></h3>
+  <p>Sipeed claims its 256 TOPS MaixStation can outperform Nvidia&#x27;s DGX Spark on Qwen workloads despite lower advertised computing capacity and consumption.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 11h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/" target="_blank" rel="noopener">Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell</a></h3>
+  <p>The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a &quot;nap,&quot; and summersaulted on voice command.</p>
+  <div class="src"><b>TechCrunch AI</b> &nbsp;·&nbsp; 12h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.techradar.com/pro/32-tb-ram-for-your-gpus-marvell-shows-revolutionary-photonic-fabric-memory-module-that-uses-light-to-link-up-to-16-gpus-and-slash-capex-but-nvidia-wont-stick-around-doing-nothing" target="_blank" rel="noopener">32 TB RAM for your GPUs: Marvell shows revolutionary Photonic Fabric Memory Module that uses light to link up to 16 GPUs and slash CAPEX — but Nvidia won&#x27;t stick around doing nothing</a></h3>
+  <p>Marvell wants to stop GPUs acting as &quot;the world&#x27;s most expensive memory controller&quot; with 32TB of optically pooled memory, but sampling doesn&#x27;t start until 2027.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 12h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/" target="_blank" rel="noopener">Hegseth warns prediction market bets warp military judgment, endanger troops</a></h3>
+  <p>Pentagon memo: Insider trading gives US enemies key intel on military operations.</p>
+  <div class="src"><b>Ars Technica</b> &nbsp;·&nbsp; 13h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Software &amp; Dev</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM</a></h3>
+  <p>Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and practitioners need to tell them apart: one is a skill asking the agent to stop, the other an IAM…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/10/cloudflare-hashing-optimization/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Cloudflare Reclaims 100 TB of RAM by Optimizing Consistent Hashing</a></h3>
+  <p>Cloudflare recently documented how it reduced the memory footprint of its internal load-balancing service by more than 100 TB by optimizing the Rust implementation of consistent hashing in pingora-ketama. The changes compacted hash-ring entries and used statistical analysis of hash distribution and collision rates to…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208" target="_blank" rel="noopener">There&#x27;s a third PHP2Shell bug, but it won&#x27;t get an emergency fix</a></h3>
+  <p>Bad things (and software bugs?) come in threes</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 14h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/software/2026/10/23/arc-browser-on-its-way-out-as-makers-suggest-an-alternative/5305114" target="_blank" rel="noopener">Arc browser on its way out as makers suggest an alternative</a></h3>
+  <p>No new accounts from now, and the end will come in December</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 18h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/os-platforms/2026/10/23/sparkyos-lightweight-general-purpose-arch-on-a-pendrive/5304984" target="_blank" rel="noopener">SparkyOS: Lightweight general-purpose Arch, on a pendrive</a></h3>
+  <p>Interesting new project from the minds behind SparkyLinux</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 19h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Business &amp; Big Tech</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/" target="_blank" rel="noopener">Startups don’t need to go viral to win customers</a></h3>
+  <p>At TechCrunch Disrupt last week, two founders and a VC discussed how to not just gain an early following but keep one.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 10h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit/" target="_blank" rel="noopener">VCs, Superhuman Mail founder share red flags about product-market fit</a></h3>
+  <p>Top investors from Iconiq and Sapphire Ventures, along with Rahul Vohra, the founder of Superhuman Mail, share the do&#x27;s and don&#x27;ts for building hit products.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 13h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/" target="_blank" rel="noopener">TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now</a></h3>
+  <p>TechCrunch Founder Summit 2026 is coming to SoWa Power Station in Boston on November 4, bringing founders, investors, and operators together for a full day of candid conversations, practical sessions, live pitching, networking, and smaller roundtables built for deeper discussion.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 14h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/tech/1017914/popcorn-time-piracy-botnet-avoided" target="_blank" rel="noopener">Abandoned Popcorn Time apps had to be disabled to prevent a zombie army</a></h3>
+  <p>Remember Popcorn Time, the app that served as an easy-to-use front end for streaming torrents of movies and TV shows? Development of the MPAA&#x27;s least-favorite app of the 2010s has been abandoned for years, but the &quot;Netflix of Piracy&quot; software is still installed on millions of devices that are just waiting to join a…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 14h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/23/carta-and-newview-partner-hoping-to-entice-more-startups-to-let-employees-sell-shares-early/" target="_blank" rel="noopener">Carta and NewView partner, hoping to entice more startups to let employees sell shares early</a></h3>
+  <p>A new program wants to encourage more startups to allow workers to cash out early by making it easier to transact tender offers.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 14h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Gadgets &amp; Consumer</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/tech/icymi-the-7-biggest-tech-stories-of-the-week-including-our-iphone-duo-review-and-the-recent-php-crisis" target="_blank" rel="noopener">ICYMI: the 7 biggest tech stories of the week</a></h3>
+  <p>We&#x27;ve covered a bunch of big stories on TechRadar in the past week, and here&#x27;s where you can catch up on them all.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/this-is-the-hardware-i-recommend-to-controlling-multiple-computers-with-one-keyboard-and-mouse" target="_blank" rel="noopener">This is the hardware I recommend to controlling multiple computers with one keyboard and mouse</a></h3>
+  <p>Talk about a productivity boost - I&#x27;ve been experimenting with controlling multiple PCs with different hardware, and this is what works for me.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/we-take-a-tour-of-hpes-technology-renewal-centre-to-see-how-old-tech-is-getting-a-second-life" target="_blank" rel="noopener">From the bins, back to business: We take a tour of HPE’s Technology Renewal Centre to see how it&#x27;s giving old tech a second life</a></h3>
+  <p>From PCs to servers, HPE’s Technology Renewal Centre (TRC) is giving pre-used tech a second life.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 4h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/security/the-pentagon-has-a-covert-tech-sabotage-agency-that-they-really-dont-want-you-to-know-about-and-there-are-big-questions-about-its-oversight" target="_blank" rel="noopener">The Pentagon has a covert tech sabotage agency that they really don’t want you to know about — and there are big questions about its oversight</a></h3>
+  <p>Disruption of foreign tech through disinformation, cyberattacks, and sabotage could be the future of this new Pentagon office.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 8h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/phones/iphone/mlb-is-making-the-most-of-iphone-duos-foldable-screen-just-in-time-for-the-world-series" target="_blank" rel="noopener">MLB is making the most of iPhone Duo&#x27;s foldable screen just in time for the World Series</a></h3>
+  <p>MLB has redesigned its app for iPhone Duo, bringing live video, real-time stats, and AI-powered game insights together on the foldable screen just in time for the World Series, and we spoke to two key team members behind it.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 11h ago</div>
+</article></div>
+</section><footer class="colophon">
+      <b>THE BITSTREAM</b> is compiled automatically by an RSS-crawling agent.
+      Every headline links to its original publisher; summaries are condensed from
+      each outlet's own feed. Built 2026-10-24 10:07.
+      <div class="sources-list"><b>Wire sources &nbsp;·&nbsp;</b> AnandTech, Ars Technica, Ars Technica Tech, BleepingComputer, Dark Reading, Engadget, GitHub Blog, InfoQ, Krebs on Security, MIT Tech Review, TechCrunch, TechCrunch AI, TechRadar, The Hacker News, The Register, The Verge, Tom&#x27;s Hardware, VentureBeat AI</div>
+    </footer></main></body></html>

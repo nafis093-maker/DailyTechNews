@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Oct 24, 2026 (135 stories)
+
+Good morning,
+
+Today's IT briefing — 135 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild. The critical-severity…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • YouTuber escapes the modern AI tech market by recreating his 1996 PC (Tom's Hardware)
+  • This AI tool can now turn ordinary household photos into location clues — so could law forces use the technology to scope out your home? (TechRadar)
+  • OpenAI says it will no longer train its AI models on the live internet, citing “significant risks” (TechCrunch AI)
+
+CYBERSECURITY
+  • Trust Is Not What It Seems — And Fraudsters Are Counting on It (Dark Reading)
+  • Abandoned Popcorn Time app exposed millions of devices to RCE attacks (BleepingComputer)
+  • Exposed to PHP2Shell? Cyber Experts Weigh in With Advice (Dark Reading)
+
+HARDWARE & CHIPS
+  • Rare archival footage tours the CompUSA NYC store in November 2000 (Tom's Hardware)
+  • Plucky Chinese startup claims to beat Nvidia DGX Spark, Mac Mini on Qwen — says its '256 TOPS beats 1000 TOPS in prefill', running 16-core Cortex-A55 SoC on 40w (TechRadar)
+  • Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell (TechCrunch AI)
+
+SOFTWARE & DEV
+  • Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM (InfoQ)
+  • Cloudflare Reclaims 100 TB of RAM by Optimizing Consistent Hashing (InfoQ)
+  • There's a third PHP2Shell bug, but it won't get an emergency fix (The Register)
+
+BUSINESS & BIG TECH
+  • Startups don’t need to go viral to win customers (TechCrunch)
+  • VCs, Superhuman Mail founder share red flags about product-market fit (TechCrunch)
+  • TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now (TechCrunch)
+
+GADGETS & CONSUMER
+  • ICYMI: the 7 biggest tech stories of the week (TechRadar)
+  • This is the hardware I recommend to controlling multiple computers with one keyboard and mouse (TechRadar)
+  • From the bins, back to business: We take a tour of HPE’s Technology Renewal Centre to see how it's giving old tech a second life (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-24 10:07
