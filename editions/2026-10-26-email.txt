@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Oct 26, 2026 (95 stories)
+
+Good morning,
+
+Today's IT briefing — 95 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Bitcoin reward offered to anyone who could break into an unpatched server running PHP, hacker cracks site and claims bounty
+The “Steal My Bitcoin” challenge offers a bounty to anyone who can breach a deliberately vulnerable PHP website using the recently disclosed PHP2Shell flaws. The challenge follows previous recoveries of locked Bitcoin fortunes through software vulnerabilities and AI-assisted investigation, but no successful claim has…  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • ChatGPT and Claude blocked by Swedish government over "problematic" security concerns (TechRadar)
+  • IT and security leaders of the AI era must go back to basics and beware the hype (TechRadar)
+  • Elvis Presley's estate is suing Anthropic over copyright infringement (Engadget)
+
+CYBERSECURITY
+  • Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses (The Hacker News)
+  • Microsoft Teams will soon use AI to warn you of sneaky phishing scams (TechRadar)
+  • Kali Linux 2026.3 released with 6 new tools, desktop updates (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Former Intel CEO Pat Gelsinger bets on Nagare Labs to vault the memory wall (The Register)
+  • Lack of staff and funding likely led to the recent PHP security snafu; project has only one full-time employee, but that's just the tip of the iceberg (Tom's Hardware)
+  • Modder turns NES into a Windows-like desktop with original hardware (Tom's Hardware)
+
+SOFTWARE & DEV
+  • iFixit dismantles Apple's Duo: 'You'd better baby that screen' (The Register)
+  • 'Let's just shove a bigger fan in there and see what happens' (The Register)
+  • Tesco replacing VMware with Proxmox in its stores and on the edge (The Register)
+
+BUSINESS & BIG TECH
+  • The city that fought Flock (The Verge)
+  • The best apps for tracking your reading and discovering new books (TechCrunch)
+  • ‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead (TechCrunch)
+
+GADGETS & CONSUMER
+  • Jaguar Type 01 reimagines the electric luxury GT (TechRadar)
+  • Preparing for a quantum-safe future (TechRadar)
+  • Are passkeys more secure than passwords? (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-26 12:06
