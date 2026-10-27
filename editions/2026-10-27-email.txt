@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Oct 27, 2026 (181 stories)
+
+Good morning,
+
+Today's IT briefing — 181 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Acer is bringing a Predator gaming handheld to the US for the first time
+It's been several months since Acer unveiled its Predator Atlas 8 gaming handheld, but now we finally know that it's coming to the US, and how much it'll cost. The Intel Arc G3 Extreme variant - the more powerful of the two models announced in May - will be available exclusively at Best Buy on […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • How Anthropic Redesigned Source Control for AI-Driven Development (InfoQ)
+  • Sovereign AI is about more than where data resides (TechRadar)
+  • Nvidia backs Indian startup helping companies run AI models with fewer GPUs (TechCrunch AI)
+
+CYBERSECURITY
+  • Apple backports CoreGraphics zero-day patches to older iPhones (BleepingComputer)
+  • Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers (The Hacker News)
+  • Energy giant ENGIE discloses data breach affecting customers (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Industrial Intelligence: The next growth opportunity for manufacturing (MIT Tech Review)
+  • Grab 32GB of DDR5 RAM for just $151 in this 4-in-1 Newegg bundle with the 9800X3D and a 2TB SSD (Tom's Hardware)
+  • Data center gear is being hijacked in transit to the tune of hundreds of millions (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Year of Linux on the Beach confirmed (The Register)
+  • Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust Port of TypeScript (InfoQ)
+  • Japanese virtual desktop cloud hacked so hard it asks to be banned (The Register)
+
+BUSINESS & BIG TECH
+  • Sterling Anderson doesn’t think humanoid robots should be building cars (The Verge)
+  • Data center backlash is uniting America (The Verge)
+  • X is nudging users to promote their posts with a pointing hand, and people are confused (TechCrunch)
+
+GADGETS & CONSUMER
+  • Amazon Kindle (2026) review: this ereader is like an old book with a new cover (TechRadar)
+  • What sorcery is this? Telstra actually has some excellent NBN deals (TechRadar)
+  • 71,207 drones broke world record in Texas using Chinese expertise and intriguing 'drone-in-a-box' concept — Shenzhen-based Damoda teamed with Sky Elements to bring 10000-strong dragon to life (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-27 11:27
