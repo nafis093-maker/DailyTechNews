@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Oct 28, 2026 (195 stories)
+
+Good morning,
+
+Today's IT briefing — 195 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass
+Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Why 'never trust, always verify - repeatably' security strategy for AI Agents, starts after login (TechRadar)
+  • Asus ProArt P16 RTX Spark review: Nvidia’s next-gen SoC yields stellar gaming, creative and AI power (TechRadar)
+  • UK considering forcing data centers to invest in local communities as part of AI “covenant” — and it shows getting angry at developers can massively benefit working people (TechRadar)
+
+CYBERSECURITY
+  • 123 Reg discloses 'AI cyberattack' on customer data, suspects China nexus (The Register)
+  • CISA warns of hackers now exploiting critical Node2Shell flaw (BleepingComputer)
+  • American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed (The Hacker News)
+
+HARDWARE & CHIPS
+  • Save $249 on 32GB of DDR5 with this 9800X3D parts bundle (Tom's Hardware)
+  • Taiwan working on autonomous drone swarms to counter China’s increasingly aggressive grey-zone military tactics — island has already completed flight simulations, now working towards flight trials over maritime areas (Tom's Hardware)
+  • Standalone Nvidia Vera CPUs land in Oracle Cloud's multi-gigawatt deployment — our independent benchmarking of a local server reveals Vera's massive memory bandwidth lead over dual Xeon 6 server (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Open Cosmos steps up Europe's space sovereignty game, shows off ConnectedCosmos satellites (The Register)
+  • Presentation: Wrangling Telemetry at Scale: A Guide to Self-Hosted Observability (InfoQ)
+  • Man spends 35 years collecting corporate waffle, turns it into an app (The Register)
+
+BUSINESS & BIG TECH
+  • Meta quietly launched an ‘AI pet journal’ app (The Verge)
+  • China’s snooping around Pacific undersea cables raises risks for Big Tech (Ars Technica)
+  • Jio shares surge 21% in market debut after blockbuster India IPO (TechCrunch)
+
+GADGETS & CONSUMER
+  • Amazon adds handwriting support to the Kindle app for Android (TechRadar)
+  • Why less data means improved security for businesses (TechRadar)
+  • SK Hynix says memory shortages to persist until 2030 (The Register)
+
+— THE BITSTREAM, auto-compiled 2026-10-28 11:58
