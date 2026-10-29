@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Oct 29, 2026 (191 stories)
+
+Good morning,
+
+Today's IT briefing — 191 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — New Cisco firewall zero-day exploited to crash SSL VPN devices
+Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]  (BleepingComputer)
+
+AI & MACHINE LEARNING
+  • Are you still piloting? (TechRadar)
+  • How to Make Artificial Intelligence More Environmentally Sustainable (InfoQ)
+  • Fujifilm plans 5x production boost of 100TB magnetic storage tapes driven by skyrocketing AI storage demand — $63 million injection is the largest investment in tape for 20 years (Tom's Hardware)
+
+CYBERSECURITY
+  • Windows 11 KB5127936 update released with 41 changes and fixes (BleepingComputer)
+  • Fake PS5 emulators are being used to steal gamers' passwords — two well-known GitHub repos, including popular AnyPS5, get hit, infecting gamers' computers with password-scraping malware (Tom's Hardware)
+  • Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls (The Hacker News)
+
+HARDWARE & CHIPS
+  • Score a huge $1,250 saving on this Alienware gaming PC with an RTX 5070 Ti and 32GB DDR5 right now — big Newegg price drop means you can grab this 4K-ready rig with a 24-core Intel CPU and 1TB SSD for $2,599.99 (Tom's Hardware)
+  • Save $234 on 32GB of DDR5 RAM with this 3-item AM5 Newegg bundle (Tom's Hardware)
+  • Apple launches new MacBook Pro with touchscreen and OLED — starts at $2,899 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Attackers turn GitHub issues into supply chain campaign against 61 public repos in less than an hour (The Register)
+  • Microsoft breaks New Outlook attachment opening with Edge Update (The Register)
+  • Matrix takes sovereign messaging into the realm of the tech giants (The Register)
+
+BUSINESS & BIG TECH
+  • DoorDash is acquiring Instacart for around $17 billion (The Verge)
+  • Upwind raises $400M after walking away from Datadog acquisition offer (TechCrunch)
+  • Readwise is taking on Kindle and Kobo for ebook supremacy (The Verge)
+
+GADGETS & CONSUMER
+  • ‘Bad actor’ cyberattack on FEC obscures political spending by donors and SuperPACs days before US midterm elections (TechRadar)
+  • Windows 11's right-click menu is now faster and fully customizable (TechRadar)
+  • Google Pixel Watch Ultra rumors begin — but a rugged Pixel Watch needs 3 fixes first (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-29 12:08
