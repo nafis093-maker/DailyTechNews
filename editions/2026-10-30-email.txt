@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Oct 30, 2026 (191 stories)
+
+Good morning,
+
+Today's IT briefing — 191 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Binance hackers stole $6.3 billion in record-breaking crypto heist
+Binance has disclosed that $6.3 billion worth of crypto funds have been stolen from the platform, in what's believed to be the biggest cryptocurrency hack on record. In a series of updates posted to X, the crypto exchange said that user funds are safe, and that around $3 billion of the impacted assets have been […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months — president plucks former startup founder, telling him to 'go nuts' (Tom's Hardware)
+  • Former esports commentator builds his own custom mouse shell generator for 3D printing that doesn’t use AI — Mausstudio automatically detects buttons, screwholes, and sensor locations (Tom's Hardware)
+  • The AI Act's longer runway is an opportunity to build governance that lasts (TechRadar)
+
+CYBERSECURITY
+  • Microsoft finally fixes VPN issues caused by September updates (BleepingComputer)
+  • Massive GovTech breach leaks 42 million documents — including thousands packed with personal information (TechRadar)
+  • Suspected North Korean hackers steal $5.6 billion in crypto in record-breaking cryptocurrency heist, Binance withdrawals frozen (Tom's Hardware)
+
+HARDWARE & CHIPS
+  • 5 years’ worth of salary in bonuses given to 700 eligible Micron workers as company continues to battle union — more than 4,300 production-line staff to receive three bonuses of more than $31,000, plus quarterly profit bonuses starting next year (Tom's Hardware)
+  • Intel leaker reveals Moon Lake chip as a likely replacement for N-series SoCs — four lower-power-efficiency cores, no performance cores, and a 6W TDP (Tom's Hardware)
+  • Benchmarking Nvidia’s Vera CPU for the data center — standalone Vera tested against Granite Rapids-AP and EPYC Turin (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Domestic droid gone amok? Don't worry, you're covered (The Register)
+  • Netflix Titus Adds Single-Tenant VM Isolation for Containers (InfoQ)
+  • Topcoat enables Rust to render server-side web apps (The Register)
+
+BUSINESS & BIG TECH
+  • Maine’s data center revolt will decide who controls the Senate (The Verge)
+  • Waymo taps Toyota to supply robotaxis for Japan and the U.K. (TechCrunch)
+  • Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’ (TechCrunch)
+
+GADGETS & CONSUMER
+  • Waymo and Toyota will soon start testing their robotaxis in Japan (Engadget)
+  • Binance links $6.3 billion crypto theft to compromised DevOps laptop (BleepingComputer)
+  • Binance hacked for an estimated $6.3 billion in record crypto theft (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-10-30 11:59

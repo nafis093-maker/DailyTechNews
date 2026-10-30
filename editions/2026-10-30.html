@@ -1,0 +1,399 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE BITSTREAM — Friday, October 30, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4efe3; --paper-2:#ece5d4; --panel:#f9f5ec;
+  --ink:#1b1714; --ink-2:#5a5147; --ink-3:#8a7f70;
+  --accent:#bf3b1c; --accent-2:#16433b;
+  --rule:#d8cdb6; --rule-strong:#1b1714;
+  --backdrop:#26221d;
+  --serif:"Newsreader",Georgia,serif;
+  --display:"Fraunces","Newsreader",Georgia,serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--backdrop);
+  font-family:var(--serif);color:var(--ink);
+  line-height:1.55;padding:28px 16px;
+  background-image:radial-gradient(circle at 20% 0,rgba(255,255,255,.04),transparent 60%);
+}
+.page{
+  max-width:1180px;margin:0 auto;background:var(--paper);
+  padding:clamp(22px,4vw,60px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.2);
+  position:relative;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(120,100,70,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(circle at 80% 10%,rgba(191,59,28,.04),transparent 45%);
+}
+a{color:inherit;text-decoration:none}
+
+/* ---- folio bar ---- */
+.folio{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-2);
+  border-bottom:1px solid var(--rule);padding-bottom:10px;flex-wrap:wrap;gap:6px;
+}
+.folio .dot{color:var(--accent)}
+
+/* ---- masthead ---- */
+.masthead{text-align:center;padding:30px 0 16px;border-bottom:3px double var(--rule-strong)}
+.masthead h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(44px,11vw,128px);line-height:.9;letter-spacing:-.02em;
+  font-optical-sizing:auto;
+}
+.masthead .tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:16px;
+}
+.dateline{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;
+}
+
+/* ---- kickers ---- */
+.kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;display:inline-block;
+}
+.section-head{
+  display:flex;align-items:center;gap:16px;margin:46px 0 22px;
+}
+.section-head h2{
+  font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;
+  white-space:nowrap;color:var(--ink);font-weight:700;
+}
+.section-head .line{flex:1;height:1px;background:var(--rule-strong)}
+.section-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+
+/* ---- lead ---- */
+.lead{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
+.lead .kicker{margin-bottom:14px}
+.lead h2{
+  font-family:var(--display);font-weight:800;letter-spacing:-.015em;
+  font-size:clamp(30px,5.4vw,62px);line-height:1.02;margin-bottom:18px;
+}
+.lead h2 a{background-image:linear-gradient(var(--accent),var(--accent));
+  background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.lead h2 a:hover{background-size:100% 2px}
+.lead .dek{font-size:clamp(17px,2.2vw,22px);color:var(--ink-2);
+  font-style:italic;max-width:60ch;margin-bottom:18px}
+.lead .body{columns:2;column-gap:42px;font-size:16px}
+.lead .body p{margin-bottom:12px;break-inside:avoid}
+.lead .body p:first-child::first-letter{
+  font-family:var(--display);font-weight:900;float:left;font-size:74px;
+  line-height:.72;padding:6px 10px 0 0;color:var(--accent)}
+.byline{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:14px}
+.byline a{border-bottom:1px solid var(--accent);color:var(--accent)}
+
+/* ---- grids ---- */
+.frontpage{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.frontpage .story{padding:20px;border-right:1px solid var(--rule)}
+.frontpage .story:last-child{border-right:none}
+.beat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 32px}
+
+.story .kicker{font-size:10px;margin-bottom:9px}
+.story h3{font-family:var(--display);font-weight:700;font-size:21px;
+  line-height:1.12;letter-spacing:-.01em;margin-bottom:8px}
+.story h3 a{background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.story h3 a:hover{background-size:100% 1px}
+.story p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.story .src{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3)}
+.story .src b{color:var(--accent);font-weight:700}
+
+/* a few editorial 2-col beats get a leading wide story */
+.beat-grid.lead-left{grid-template-columns:1.6fr 1fr 1fr}
+
+/* ---- colophon ---- */
+.colophon{margin-top:54px;border-top:3px double var(--rule-strong);padding-top:20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  line-height:1.7}
+.colophon b{color:var(--ink)}
+.sources-list{margin-top:8px;color:var(--ink-2)}
+
+/* ---- entrance animation ---- */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .frontpage{grid-template-columns:repeat(2,1fr)}
+  .frontpage .story:nth-child(2n){border-right:none}
+  .beat-grid,.beat-grid.lead-left{grid-template-columns:1fr 1fr}
+  .lead .body{columns:1}
+}
+@media(max-width:560px){
+  .frontpage,.beat-grid,.beat-grid.lead-left{grid-template-columns:1fr}
+  .frontpage .story{border-right:none;border-bottom:1px solid var(--rule)}
+}
+</style></head><body><main class="page"><div class="folio">
+      <span>Friday, October 30, 2026</span>
+      <span>Vol. I <span class="dot">·</span> No. 152</span>
+      <span>191 stories <span class="dot">·</span> 18 sources</span>
+    </div><header class="masthead reveal">
+      <h1>THE BITSTREAM</h1>
+      <div class="tag">An IT &amp; Technology Daily — automatically compiled</div>
+      <div class="dateline">
+        <span>Auto-compiled edition</span><span>Tech wire</span>
+        <span>Friday, October 30, 2026</span>
+      </div>
+    </header><section class="lead reveal" style="animation-delay:.05s">
+  <span class="kicker">Lead Story &nbsp;·&nbsp; Cybersecurity</span>
+  <h2><a href="https://www.theverge.com/tech/1023021/binance-hack-billions-biggest-crypto-heist" target="_blank" rel="noopener">Binance hackers stole $6.3 billion in record-breaking crypto heist</a></h2>
+  <div class="body"><p>Binance has disclosed that $6.3 billion worth of crypto funds have been stolen from the platform, in what&#x27;s believed to be the biggest cryptocurrency hack on record. In</p><p>a series of updates posted to X, the crypto exchange said that user funds are safe, and that around $3 billion of the impacted assets have been […]</p></div>
+  <div class="byline">Filed by <a href="https://www.theverge.com/tech/1023021/binance-hack-billions-biggest-crypto-heist" target="_blank" rel="noopener">The Verge</a>
+     &nbsp;·&nbsp; just now &nbsp;·&nbsp; theverge.com</div>
+</section><section class="reveal">
+          <div class="section-head"><h2>The Front Page</h2><span class="line"></span></div>
+          <div class="frontpage"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts" target="_blank" rel="noopener">Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company&#x27;s legacy code in 24 months — president plucks former startup founder, telling him to &#x27;go nuts&#x27;</a></h3>
+  <p>Cisco President Jeetu Patel has handed a 27-year-old ex-startup founder a huge job to rewrite 98% of Cisco&#x27;s legacy code within 24 months.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/" target="_blank" rel="noopener">Microsoft finally fixes VPN issues caused by September updates</a></h3>
+  <p>Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/semiconductors/5-years-worth-of-salary-in-bonuses-given-to-700-eligible-micron-workers-as-company-continues-to-battle-union-more-than-4-300-production-line-staff-to-receive-three-bonuses-of-more-than-usd31-000-plus-quarterly-profit-bonuses-starting-next-year" target="_blank" rel="noopener">5 years’ worth of salary in bonuses given to 700 eligible Micron workers as company continues to battle union — more than 4,300 production-line staff to receive three bonuses of more than $31,000, plus quarterly profit bonuses starting next year</a></h3>
+  <p>Eligible employees get an annual performance bonus, a mass-production bonus, and a one-time appreciation bonus. A quarterly profit bonus has also been introduced starting January 2027.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/ai-and-ml/2026/10/30/domestic-droid-gone-amok-dont-worry-youre-covered/5306396" target="_blank" rel="noopener">Domestic droid gone amok? Don&#x27;t worry, you&#x27;re covered</a></h3>
+  <p>Insurance firms look to insulate domestic humanoid robot owners against the inevitable chaos they will bring</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+        </section><section class="reveal">
+  <div class="section-head">
+    <h2>AI &amp; Machine Learning</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts" target="_blank" rel="noopener">Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company&#x27;s legacy code in 24 months — president plucks former startup founder, telling him to &#x27;go nuts&#x27;</a></h3>
+  <p>Cisco President Jeetu Patel has handed a 27-year-old ex-startup founder a huge job to rewrite 98% of Cisco&#x27;s legacy code within 24 months.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/peripherals/gaming-mice/esports-commentator-builds-his-own-custom-mouse-shell-generator-for-3d-printing-that-doesnt-use-ai-mausstudio-automatically-detects-buttons-screwholes-and-sensor-locations" target="_blank" rel="noopener">Former esports commentator builds his own custom mouse shell generator for 3D printing that doesn’t use AI — Mausstudio automatically detects buttons, screwholes, and sensor locations</a></h3>
+  <p>A Counter-Strike commentator just showed the demo of his customizable gaming mouse shell generator for 3D printing that detects key components like mouse buttons, the scroll wheel, and screw hole locations without using AI.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/the-ai-acts-longer-runway-is-an-opportunity-to-build-governance-that-lasts" target="_blank" rel="noopener">The AI Act&#x27;s longer runway is an opportunity to build governance that lasts</a></h3>
+  <p>Europe’s extended AI timeline gives businesses time to build trusted, resilient governance now.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/hubspot-aeo-review" target="_blank" rel="noopener">HubSpot AEO review 2026</a></h3>
+  <p>Useful AI search reports, provided you ask the right questions first.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.theregister.com/ai-and-ml/2026/10/30/accenture-ai-agents-are-sifting-through-applicants/5306460" target="_blank" rel="noopener">Accenture AI agents are sifting through applicants</a></h3>
+  <p>But a human makes final hiring decisions at global tech consultancy</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; just now</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Cybersecurity</h2><span class="line"></span>
+    <span class="count">04 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/" target="_blank" rel="noopener">Microsoft finally fixes VPN issues caused by September updates</a></h3>
+  <p>Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.techradar.com/pro/security/massive-govtech-breach-leaks-42-million-documents-including-thousands-packed-with-personal-information" target="_blank" rel="noopener">Massive GovTech breach leaks 42 million documents — including thousands packed with personal information</a></h3>
+  <p>A large database full of personal information was discovered and locked down.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/cryptocurrency/binance-withdrawals-frozen-after-thieves-steal-usd5-6-billion-in-crypto-in-record-breaking-cryptocurrency-heist-firm-says-it-will-cover-losses-as-stablecoin-networks-move-to-freeze-usd2-4b-in-stolen-assets" target="_blank" rel="noopener">Suspected North Korean hackers steal $5.6 billion in crypto in record-breaking cryptocurrency heist, Binance withdrawals frozen</a></h3>
+  <p>Binance withdrawals frozen after thieves run off with $5.6 billion in crypto — firm says it will cover losses as stablecoin networks move to freeze $2.4b in stolen assets</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/" target="_blank" rel="noopener">Drupal warns of critical Commerce Core flaw exploited in attacks</a></h3>
+  <p>Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Hardware &amp; Chips</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/semiconductors/5-years-worth-of-salary-in-bonuses-given-to-700-eligible-micron-workers-as-company-continues-to-battle-union-more-than-4-300-production-line-staff-to-receive-three-bonuses-of-more-than-usd31-000-plus-quarterly-profit-bonuses-starting-next-year" target="_blank" rel="noopener">5 years’ worth of salary in bonuses given to 700 eligible Micron workers as company continues to battle union — more than 4,300 production-line staff to receive three bonuses of more than $31,000, plus quarterly profit bonuses starting next year</a></h3>
+  <p>Eligible employees get an annual performance bonus, a mass-production bonus, and a one-time appreciation bonus. A quarterly profit bonus has also been introduced starting January 2027.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/pc-components/cpus/intel-leaker-reveals-moon-lake-chip-as-a-likely-replacement-for-n-series-socs-four-lower-power-efficiency-cores-no-performance-cores-and-a-6-w-tdp" target="_blank" rel="noopener">Intel leaker reveals Moon Lake chip as a likely replacement for N-series SoCs — four lower-power-efficiency cores, no performance cores, and a 6W TDP</a></h3>
+  <p>An Intel leaker revealed Moon Lake chip as a likely replacement for N-series SoCs with four lower-power-efficiency cores, no performance cores, and a 6-watt TDP</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/pc-components/cpus/benchmarking-nvidias-vera-cpu-for-the-data-center-standalone-vera-tested-against-granite-rapids-ap-and-epyc-turin" target="_blank" rel="noopener">Benchmarking Nvidia’s Vera CPU for the data center — standalone Vera tested against Granite Rapids-AP and EPYC Turin</a></h3>
+  <p>Nvidia gave us access to its Vera data center CPU for testing against Intel&#x27;s Granite Rapids-AP and AMD&#x27;s EPYC Turin.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/cyber-security/south-korea-clamps-down-on-tesla-drivers-for-unlocking-restricted-fsd-usd15-000-fines-and-prison-possible-sentences-suspects-imported-hardware-from-europe-and-china-then-traded-tips-on-concealing-activation-logs" target="_blank" rel="noopener">South Korea clamps down on Tesla drivers for unlocking restricted full self-driving feature, $15,000 fines and prison possible sentences</a></h3>
+  <p>South Korean police have booked 80 Tesla owners for bypassing regional restrictions on Full Self-Driving (FSD), seizing 21 devices allegedly used to unlock the driver-assistance software. Some suspects reportedly built their own hardware using information from GitHub, while others traded tips on hiding activation…</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory" target="_blank" rel="noopener">Deadly Intel Fab 28 explosion causes two-week shutdown, to cost $600 million and severely disrupt server chip manufacturing for six months</a></h3>
+  <p>A two-week shutdown of Intel&#x27;s Fab 28 in Israel will affect server CPU shipments for two consecutive quarters.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 2h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Software &amp; Dev</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/ai-and-ml/2026/10/30/domestic-droid-gone-amok-dont-worry-youre-covered/5306396" target="_blank" rel="noopener">Domestic droid gone amok? Don&#x27;t worry, you&#x27;re covered</a></h3>
+  <p>Insurance firms look to insulate domestic humanoid robot owners against the inevitable chaos they will bring</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/10/netflix-titus-kubernetes-microvm/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Netflix Titus Adds Single-Tenant VM Isolation for Containers</a></h3>
+  <p>Netflix has added single-tenant Titus, a mode that runs one task alone on its own right-sized EC2 instance. The Compute/Platform team still owns and patches the host, so application teams keep the same API and deployment path By Claudio Masolo</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/devops/2026/10/29/topcoat-enables-rust-to-render-server-side-web-apps/5306470" target="_blank" rel="noopener">Topcoat enables Rust to render server-side web apps</a></h3>
+  <p>Rust guru rejiggers web app reactivity for potentially speedier page loading</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 16h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/10/google-dpop-oauth2/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Google Adopts DPoP to Strengthen OAuth 2.0 Against Token Theft and Replay Attacks</a></h3>
+  <p>Google&#x27;s OAuth Platform has recently introduces support for Demonstrating Proof-of-Possession (DPoP), an OAuth 2.0 security mechanism designed to mitigate token theft and replay attacks. By Sergio De Simone</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 16h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/os-platforms/2026/10/29/ubuntu-2704-may-bring-a-preview-of-the-long-awaited-core-desktop/5306426" target="_blank" rel="noopener">Ubuntu 27.04 may bring a preview of the long-awaited Core Desktop</a></h3>
+  <p>Canonical has a long way to catch up, but it knows who it&#x27;s chasing</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 18h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Business &amp; Big Tech</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers" target="_blank" rel="noopener">Maine’s data center revolt will decide who controls the Senate</a></h3>
+  <p>Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. &quot;I&#x27;m terrified,&quot; a man shouted. &quot;AI data centers are destroying our climate. They are poisoning our water.&quot; Collins brushed off the outburst, tying the man to…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/30/waymos-next-robotaxi-will-be-a-toyota-bz4x-destined-for-japan-and-the-uk/" target="_blank" rel="noopener">Waymo taps Toyota to supply robotaxis for Japan and the U.K.</a></h3>
+  <p>Waymo will begin testing self-driving versions of Toyota&#x27;s electric bZ4X vehicles in Japan next year as part of a broader partnership with the automaker.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 4h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/" target="_blank" rel="noopener">Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’</a></h3>
+  <p>The success of blockbuster hits like &quot;Project Hail Mary&quot; and &quot;Verity&quot; is only part of the story, Amazon&#x27;s CEO says.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 12h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/29/elon-musk-is-truly-a-genius-says-vladimir-putin/" target="_blank" rel="noopener">Elon Musk is ‘truly a genius,’ says Vladimir Putin</a></h3>
+  <p>Putin said that he and Musk are in &quot;close contact&quot; about Rassvet, Russia&#x27;s Starlink-like satellite connectivity project.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 14h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/" target="_blank" rel="noopener">Amazon reported booming cloud revenue but otherwise missed expectations</a></h3>
+  <p>The biggest ouch of the report was its negative free cash flow of $2.4 billion.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 14h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Gadgets &amp; Consumer</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2301972/waymo-toyota-soon-start-testing-bz4x-robotaxis-japan/" target="_blank" rel="noopener">Waymo and Toyota will soon start testing their robotaxis in Japan</a></h3>
+  <p>Waymo and Toyota will start testing autonomous bZ4X vehicles in Japan next year. (edited)</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/" target="_blank" rel="noopener">Binance links $6.3 billion crypto theft to compromised DevOps laptop</a></h3>
+  <p>Binance, the world&#x27;s largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer&#x27;s compromised laptop. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2301941/binance-hacked-for-estimated-6-3-billion-in-record-crypto-theft/" target="_blank" rel="noopener">Binance hacked for an estimated $6.3 billion in record crypto theft</a></h3>
+  <p>Cryptocurrency exchange Binance has been hit with a record $6.3 billion hack.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 3h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/entertainment/rugby/watch-england-vs-papua-new-guinea-free-rugby-league-world-cup-2026" target="_blank" rel="noopener">Watch England vs Papua New Guinea for FREE: Live streams</a></h3>
+  <p>All the ways to watch England vs Papua New Guinea for free from anywhere as Brian McDermott&#x27;s side aim to keep their Rugby League World Cup 2026 hopes alive.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 4h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/fox-news-pro-data-center-coverage-explodes-420-percent-following-gop-warning-that-democrats-are-defeating-republicans" target="_blank" rel="noopener">Fox News’ pro-data center coverage explodes 420% following GOP warning that Democrats are defeating Republicans</a></h3>
+  <p>Fox News increased pro-data center perspectives after a warning from GOP that Republicans were losing ground in Ohio.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 9h ago</div>
+</article></div>
+</section><footer class="colophon">
+      <b>THE BITSTREAM</b> is compiled automatically by an RSS-crawling agent.
+      Every headline links to its original publisher; summaries are condensed from
+      each outlet's own feed. Built 2026-10-30 11:59.
+      <div class="sources-list"><b>Wire sources &nbsp;·&nbsp;</b> AnandTech, Ars Technica, Ars Technica Tech, BleepingComputer, Dark Reading, Engadget, GitHub Blog, InfoQ, Krebs on Security, MIT Tech Review, TechCrunch, TechCrunch AI, TechRadar, The Hacker News, The Register, The Verge, Tom&#x27;s Hardware, VentureBeat AI</div>
+    </footer></main></body></html>
