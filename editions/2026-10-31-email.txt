@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Oct 31, 2026 (157 stories)
+
+Good morning,
+
+Today's IT briefing — 157 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Sam Altman says it's 'quite terrible' that you're using RAM in your PC (TechRadar)
+  • Amazon sends chills through its workforce with mixed message memo about AI use (The Register)
+  • The intent compression paradox: How LLM developers are solving semantic erosion to keep human intent alive (TechRadar)
+
+CYBERSECURITY
+  • Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs (InfoQ)
+  • Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38% (The Hacker News)
+  • Last-minute Halloween costumes for tech nerds (TechCrunch AI)
+
+HARDWARE & CHIPS
+  • TrashBench repurposes a trash 4-kW air conditioner radiator for his test bench to see how well it can cool a PC — achieves a shocking 28C on an Nvidia RTX 3080 (Tom's Hardware)
+  • 3D-printed ghost guns may now have a way to be traced to their source (Tom's Hardware)
+  • Tech sleuth claims to have found the oldest GUI application that still works with Windows 11 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Chocolate Caterpillar or Chocolate Teapot? Top up the disk space for Windows 10 to find out (The Register)
+  • LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced (InfoQ)
+  • HTTP/3 is faster with some work and help from Cloudflare (The Register)
+
+BUSINESS & BIG TECH
+  • Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up (TechCrunch)
+  • Applebee’s exposed customers’ personal data after leaving database password in app (TechCrunch)
+  • Exclusive details about Akai’s MPC Sample Key (The Verge)
+
+GADGETS & CONSUMER
+  • Top tech of the month: the best new gadgets we've tested for November 2026 (TechRadar)
+  • AirPods 5 with Wireless Charging review: with ANC this good, why pay more for AirPods Pro 3? (TechRadar)
+  • ICYMI: the 7 biggest tech stories of the week (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-10-31 11:34
