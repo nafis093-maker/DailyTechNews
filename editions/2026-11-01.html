@@ -1,0 +1,399 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE BITSTREAM — Sunday, November 1, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4efe3; --paper-2:#ece5d4; --panel:#f9f5ec;
+  --ink:#1b1714; --ink-2:#5a5147; --ink-3:#8a7f70;
+  --accent:#bf3b1c; --accent-2:#16433b;
+  --rule:#d8cdb6; --rule-strong:#1b1714;
+  --backdrop:#26221d;
+  --serif:"Newsreader",Georgia,serif;
+  --display:"Fraunces","Newsreader",Georgia,serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--backdrop);
+  font-family:var(--serif);color:var(--ink);
+  line-height:1.55;padding:28px 16px;
+  background-image:radial-gradient(circle at 20% 0,rgba(255,255,255,.04),transparent 60%);
+}
+.page{
+  max-width:1180px;margin:0 auto;background:var(--paper);
+  padding:clamp(22px,4vw,60px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.2);
+  position:relative;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(120,100,70,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(circle at 80% 10%,rgba(191,59,28,.04),transparent 45%);
+}
+a{color:inherit;text-decoration:none}
+
+/* ---- folio bar ---- */
+.folio{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-2);
+  border-bottom:1px solid var(--rule);padding-bottom:10px;flex-wrap:wrap;gap:6px;
+}
+.folio .dot{color:var(--accent)}
+
+/* ---- masthead ---- */
+.masthead{text-align:center;padding:30px 0 16px;border-bottom:3px double var(--rule-strong)}
+.masthead h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(44px,11vw,128px);line-height:.9;letter-spacing:-.02em;
+  font-optical-sizing:auto;
+}
+.masthead .tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:16px;
+}
+.dateline{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;
+}
+
+/* ---- kickers ---- */
+.kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;display:inline-block;
+}
+.section-head{
+  display:flex;align-items:center;gap:16px;margin:46px 0 22px;
+}
+.section-head h2{
+  font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;
+  white-space:nowrap;color:var(--ink);font-weight:700;
+}
+.section-head .line{flex:1;height:1px;background:var(--rule-strong)}
+.section-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+
+/* ---- lead ---- */
+.lead{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
+.lead .kicker{margin-bottom:14px}
+.lead h2{
+  font-family:var(--display);font-weight:800;letter-spacing:-.015em;
+  font-size:clamp(30px,5.4vw,62px);line-height:1.02;margin-bottom:18px;
+}
+.lead h2 a{background-image:linear-gradient(var(--accent),var(--accent));
+  background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.lead h2 a:hover{background-size:100% 2px}
+.lead .dek{font-size:clamp(17px,2.2vw,22px);color:var(--ink-2);
+  font-style:italic;max-width:60ch;margin-bottom:18px}
+.lead .body{columns:2;column-gap:42px;font-size:16px}
+.lead .body p{margin-bottom:12px;break-inside:avoid}
+.lead .body p:first-child::first-letter{
+  font-family:var(--display);font-weight:900;float:left;font-size:74px;
+  line-height:.72;padding:6px 10px 0 0;color:var(--accent)}
+.byline{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:14px}
+.byline a{border-bottom:1px solid var(--accent);color:var(--accent)}
+
+/* ---- grids ---- */
+.frontpage{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.frontpage .story{padding:20px;border-right:1px solid var(--rule)}
+.frontpage .story:last-child{border-right:none}
+.beat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 32px}
+
+.story .kicker{font-size:10px;margin-bottom:9px}
+.story h3{font-family:var(--display);font-weight:700;font-size:21px;
+  line-height:1.12;letter-spacing:-.01em;margin-bottom:8px}
+.story h3 a{background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.story h3 a:hover{background-size:100% 1px}
+.story p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.story .src{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3)}
+.story .src b{color:var(--accent);font-weight:700}
+
+/* a few editorial 2-col beats get a leading wide story */
+.beat-grid.lead-left{grid-template-columns:1.6fr 1fr 1fr}
+
+/* ---- colophon ---- */
+.colophon{margin-top:54px;border-top:3px double var(--rule-strong);padding-top:20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  line-height:1.7}
+.colophon b{color:var(--ink)}
+.sources-list{margin-top:8px;color:var(--ink-2)}
+
+/* ---- entrance animation ---- */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .frontpage{grid-template-columns:repeat(2,1fr)}
+  .frontpage .story:nth-child(2n){border-right:none}
+  .beat-grid,.beat-grid.lead-left{grid-template-columns:1fr 1fr}
+  .lead .body{columns:1}
+}
+@media(max-width:560px){
+  .frontpage,.beat-grid,.beat-grid.lead-left{grid-template-columns:1fr}
+  .frontpage .story{border-right:none;border-bottom:1px solid var(--rule)}
+}
+</style></head><body><main class="page"><div class="folio">
+      <span>Sunday, November 1, 2026</span>
+      <span>Vol. I <span class="dot">·</span> No. 154</span>
+      <span>93 stories <span class="dot">·</span> 18 sources</span>
+    </div><header class="masthead reveal">
+      <h1>THE BITSTREAM</h1>
+      <div class="tag">An IT &amp; Technology Daily — automatically compiled</div>
+      <div class="dateline">
+        <span>Auto-compiled edition</span><span>Tech wire</span>
+        <span>Sunday, November 1, 2026</span>
+      </div>
+    </header><section class="lead reveal" style="animation-delay:.05s">
+  <span class="kicker">Lead Story &nbsp;·&nbsp; Cybersecurity</span>
+  <h2><a href="https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html" target="_blank" rel="noopener">CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key</a></h2>
+  <div class="body"><p>A critical flaw in Canonical&#x27;s LXD and MicroCloud let an attacker log in as a trusted client without holding that client&#x27;s private key. To do it, the attacker</p><p>had to reach their HTTPS API over the network and have the trusted client&#x27;s public certificate. Once in, the attacker would act as that client, with access to…</p></div>
+  <div class="byline">Filed by <a href="https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html" target="_blank" rel="noopener">The Hacker News</a>
+     &nbsp;·&nbsp; 3h ago &nbsp;·&nbsp; thehackernews.com</div>
+</section><section class="reveal">
+          <div class="section-head"><h2>The Front Page</h2><span class="line"></span></div>
+          <div class="frontpage"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/the-reality-is-that-not-every-task-requires-the-most-advanced-or-expensive-model-available-snowflake-explains-why-finding-the-right-ai-model-can-make-all-the-difference-in-helping-your-business-succeed" target="_blank" rel="noopener">&#x27;The reality is that not every task requires the most advanced or expensive model available&#x27;: Snowflake explains why finding the right AI model can make all the difference in helping your business succeed</a></h3>
+  <p>Snowflake lays out how your business can solve the AI economics problem.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html" target="_blank" rel="noopener">Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script</a></h3>
+  <p>Malicious code on the website of prediction market Polymarket sold some signed-in traders&#x27; positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets…</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 5h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/space/voyager-1-probe-to-hit-historic-one-light-day-distance-from-earth-in-17-days-49-year-old-spacecraft-travels-16-billion-miles-and-survives-nearly-ten-times-the-length-of-its-original-five-year-mission" target="_blank" rel="noopener">Voyager 1 probe to hit historic one light-day distance from Earth in 17 days — 49-year-old spacecraft travels 16 billion miles</a></h3>
+  <p>It took the space probe nearly 50 years to get to one light-day, with NASA scientists and engineers going through lengths to ensure that it could keep operating for as long as possible.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/applications/2026/11/01/mother-of-all-editors-emacs-is-50/5306727" target="_blank" rel="noopener">&#x27;Mother of all editors&#x27; Emacs is 50</a></h3>
+  <p>By a startling coincidence, so is its arch-rival Vi</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; just now</div>
+</article></div>
+        </section><section class="reveal">
+  <div class="section-head">
+    <h2>AI &amp; Machine Learning</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/the-reality-is-that-not-every-task-requires-the-most-advanced-or-expensive-model-available-snowflake-explains-why-finding-the-right-ai-model-can-make-all-the-difference-in-helping-your-business-succeed" target="_blank" rel="noopener">&#x27;The reality is that not every task requires the most advanced or expensive model available&#x27;: Snowflake explains why finding the right AI model can make all the difference in helping your business succeed</a></h3>
+  <p>Snowflake lays out how your business can solve the AI economics problem.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/scaling-smart-how-llm-developers-are-solving-multi-agent-orchestration-bottlenecks" target="_blank" rel="noopener">Scaling smart: How LLM developers are solving multi-agent orchestration bottlenecks</a></h3>
+  <p>We explore the challenges developers face with multi-agent orchestration and the strategies they use to overcome them.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/neither-side-thinks-hiring-is-working-gen-z-job-seekers-are-rewriting-their-cvs-as-theyre-worried-about-sounding-like-ai-and-they-arent-alone" target="_blank" rel="noopener">Neither side thinks hiring is working&#x27;: Gen Z job seekers are rewriting their CVs as they&#x27;re worried about sounding like AI — and they aren&#x27;t alone</a></h3>
+  <p>AI’s role in hiring is under scrutiny as jobseekers try to sound more human while simultaneously passing AI screening.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 5h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn/" target="_blank" rel="noopener">Data centers are now a midterm issue, even in Brooklyn</a></h3>
+  <p>At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI and data centers.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 10h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/anthropic-hiring-manager-says-he-stopped-giving-coding-interviews-because-claude-is-better-at-them-and-tells-junior-engineers-that-hunger-beats-tenure" target="_blank" rel="noopener">Anthropic hiring manager says he stopped giving coding interviews because Claude is better at them — and tells junior engineers that &#x27;hunger beats tenure&#x27;</a></h3>
+  <p>Anthropic’s Felix Rieseberg retires coding tasks in interviews after deciding that Claude does a better job.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 13h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Cybersecurity</h2><span class="line"></span>
+    <span class="count">04 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html" target="_blank" rel="noopener">Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script</a></h3>
+  <p>Malicious code on the website of prediction market Polymarket sold some signed-in traders&#x27; positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets…</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 5h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html" target="_blank" rel="noopener">FBI Links North Korea&#x27;s TraderTraitor to Record $6.43 Billion Binance Crypto Heist</a></h3>
+  <p>The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS)…</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 5h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/2026/11/netamloader-malware-targets-government.html" target="_blank" rel="noopener">NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection</a></h3>
+  <p>Cybersecurity researchers have disclosed details of what has been described as a &quot;highly sophisticated infection chain&quot; targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the…</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 5h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto" target="_blank" rel="noopener">Binance CEO says 90 percent of stolen assets have been ‘replenished’</a></h3>
+  <p>After hackers stole a shocking $6.3 billion from Binance customers in a record-breaking crypto heist, the company&#x27;s CEO says that 90 percent of the funds have been replaced, and the company plans to cover the remaining 10 percent as well. Binance is covering the stolen funds directly, and the remaining 10 percent…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 17h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Hardware &amp; Chips</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/space/voyager-1-probe-to-hit-historic-one-light-day-distance-from-earth-in-17-days-49-year-old-spacecraft-travels-16-billion-miles-and-survives-nearly-ten-times-the-length-of-its-original-five-year-mission" target="_blank" rel="noopener">Voyager 1 probe to hit historic one light-day distance from Earth in 17 days — 49-year-old spacecraft travels 16 billion miles</a></h3>
+  <p>It took the space probe nearly 50 years to get to one light-day, with NASA scientists and engineers going through lengths to ensure that it could keep operating for as long as possible.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/space/usaf-successfully-tests-dropping-spacex-starfall-cargo-drop-pods-from-space-2-200-pound-capsule-drops-military-supplies-in-the-pacific-to-test-starcraft-like-supply-drops" target="_blank" rel="noopener">USAF successfully tests dropping SpaceX Starfall cargo drop pods from space</a></h3>
+  <p>The Rocket Cargo capability should allow U.S. forces to resupply quickly without risking aircrews and equipment, especially in contested areas.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/drones/college-student-unofficially-breaks-world-record-for-fastest-jet-powered-drone-with-491-mph-aircraft-built-in-his-dorm-reaper-aims-to-grab-the-usd800-000-boom-prize" target="_blank" rel="noopener">College student unofficially breaks world record for fastest jet-powered drone with 491 mph aircraft built in his dorm</a></h3>
+  <p>An undergraduate student from Georgia Tech is trying his hand at an $800k prize for the fastest jet-powered RC aircraft, achieving 790 km/h (491 mph) and breaking the previous world record.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.techradar.com/pro/nvidia-forced-to-dial-back-key-bandwidth-targets-on-vera-rubin-hardware-tweaks-will-affect-target-specifications-for-memory-and-interconnect-fabric" target="_blank" rel="noopener">Nvidia forced to dial back key bandwidth targets on Vera Rubin hardware — tweaks will affect target specifications for memory and interconnect fabric</a></h3>
+  <p>HBM4 bandwidth dropped 13% while NVLink dropped 17%, and it took six weeks for anyone to notice.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 15h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/pc-components/grab-the-award-winning-bambu-lab-p1s-3d-printer-with-ams-for-usd70-off-save-usd70-on-one-of-the-best-3d-printers-for-beginners" target="_blank" rel="noopener">Grab the award-winning Bambu Lab P1S 3D printer with AMS for $70 off</a></h3>
+  <p>The Bambu Lab P1S earned our Editor&#x27;s Choice recognition in testing, and this discounted bundle gives you access to its high-speed printing capabilities alongside the convenience of the AMS color printing system.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 17h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Software &amp; Dev</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/applications/2026/11/01/mother-of-all-editors-emacs-is-50/5306727" target="_blank" rel="noopener">&#x27;Mother of all editors&#x27; Emacs is 50</a></h3>
+  <p>By a startling coincidence, so is its arch-rival Vi</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/networks/2026/11/01/landline-phones-will-switch-off-across-britland-in-100-days-no-extensions-openreach/5306673" target="_blank" rel="noopener">Landline phones will switch off across Britland in 100 days, no extensions – Openreach</a></h3>
+  <p>Legacy public switched telephone network service is to be retired on January 31, 2027</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 3h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved</a></h3>
+  <p>Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC2 and Bedrock. Practitioners discussing the remarks report difficulty obtaining On Demand capacity for ordinary EC2…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 4h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers</a></h3>
+  <p>AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, and Linux, it supports parallel transfers, automatic performance tuning, retries, pause and resume, and file integrity…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 5h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption</a></h3>
+  <p>Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Keys live only in kernel memory on verified regional servers, and any failed check rejects the request, a fail-closed…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 16h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Business &amp; Big Tech</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/gadgets/1017979/keyboards-of-the-verge-staff-picks" target="_blank" rel="noopener">Keyboards of The Verge</a></h3>
+  <p>What is a keyboard if not the original brain-computer interface? You can tap on a touchscreen or talk to the computer, but if your work involves getting information out of your head and into the computer, you&#x27;re probably spending a lot of time using a keyboard. We&#x27;ve written about many keyboards over the years, from…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 17h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/games/1024085/happy-pikmin-day-eve" target="_blank" rel="noopener">Happy Pikmin Day Eve</a></h3>
+  <p>This morning, Nintendo announced that tomorrow, November 1st, would be the first annual Pikmin Day. As part of the short Pikmin Day Direct, Shigeru Miyamoto shared new info about Pikmin 4 for the Switch 2, as well as an update for the mobile app Pikmin Bloom, and announced the Hello! Pikmin series of shorts. Players…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 18h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/" target="_blank" rel="noopener">From restaurant guides to payments, here’s how TikTok is building a super app</a></h3>
+  <p>TikTok may be working to become the app that people use for most of their digital activities.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 20h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/tech/1024058/windows-11-search-improvements-xbox-quick-settings" target="_blank" rel="noopener">Windows 11 tries new shortcuts for Xbox gaming mode and search</a></h3>
+  <p>The latest Windows 11 Insider build adds some powerful new search features and quick settings while in Xbox mode. The Xbox shortcuts let you control things like Bluetooth, WiFi, and power settings without having to exit gaming mode. The search improvements are quite comprehensive. You can now filter results for files…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 21h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://arstechnica.com/science/2026/10/the-fda-wants-to-pull-its-approval-of-a-drug-its-not-so-easy/" target="_blank" rel="noopener">The FDA wants to pull its approval of a drug. It’s not so easy.</a></h3>
+  <p>The regulator says Tavneos was approved on the basis of manipulated study data. Should patients still have access to it?</p>
+  <div class="src"><b>Ars Technica</b> &nbsp;·&nbsp; 1d ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Gadgets &amp; Consumer</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/phones/a-year-after-europes-repairability-rules-came-in-are-smartphones-and-laptops-actually-getting-easier-to-repair" target="_blank" rel="noopener">One year after new EU repairability rules came into force, are our smartphones and laptops actually getting easier to repair? Here&#x27;s what I found out</a></h3>
+  <p>More than a year after the EU&#x27;s repairability rules came in, there are some real signs of improvement – but also lingering questions about the difficulty and cost of repairs. We speak to three experts to find out what has changed.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2300231/why-airpods-battery-drains-fast-how-to-fix/" target="_blank" rel="noopener">Why your Apple AirPods&#x27; battery drains so fast and how to make it last longer</a></h3>
+  <p>It&#x27;s annoying when your Apple AirPods run out of juice, but the culprit might not be what you think. Here&#x27;s what&#x27;s going on and what you can do about it.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 13h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2300238/slate-vs-ford-fathom-android-auto-carplay-support/" target="_blank" rel="noopener">The Slate vs Ford Fathom debate might be settled by this one key tech feature</a></h3>
+  <p>Slate and Ford are both building affordable electric pickups, and that means compromises. But the two automakers are taking very different paths to get there.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 13h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/big-tech-is-quietly-preparing-for-democratic-scrutiny-as-trump-tries-to-crack-down-on-free-speech" target="_blank" rel="noopener">Big tech is quietly preparing for Democratic scrutiny as Trump tries to crack down on free speech</a></h3>
+  <p>User data has been subpoenaed by ICE to investigate speech critical of Trump&#x27;s immigration policy.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 15h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2302450/why-apple-airpods-wont-connect-to-iphone-fixes/" target="_blank" rel="noopener">Why your Apple AirPods won&#x27;t connect to your iPhone and how can you fix it</a></h3>
+  <p>When your AirPods refuse to show up on your iPhone, the cause is usually simpler than you&#x27;d think. Here&#x27;s where to look first and what to try next.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 15h ago</div>
+</article></div>
+</section><footer class="colophon">
+      <b>THE BITSTREAM</b> is compiled automatically by an RSS-crawling agent.
+      Every headline links to its original publisher; summaries are condensed from
+      each outlet's own feed. Built 2026-11-01 12:31.
+      <div class="sources-list"><b>Wire sources &nbsp;·&nbsp;</b> AnandTech, Ars Technica, Ars Technica Tech, BleepingComputer, Dark Reading, Engadget, GitHub Blog, InfoQ, Krebs on Security, MIT Tech Review, TechCrunch, TechCrunch AI, TechRadar, The Hacker News, The Register, The Verge, Tom&#x27;s Hardware, VentureBeat AI</div>
+    </footer></main></body></html>
