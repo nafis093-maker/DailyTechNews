@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Nov 02, 2026 (133 stories)
+
+Good morning,
+
+Today's IT briefing — 133 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — NVIDIA Brev security breach may have exposed SSH keys used to access customer VMs — investigation finds unauthorized activity spanning 16 days, but no evidence of misuse
+NVIDIA is investigating a security incident involving its Brev cloud development platform after detecting unauthorized activity between October 4 and October 20. The incident may have exposed SSH keys used to access customer virtual machines. NVIDIA has rotated the affected keys and updated customer instances, but…  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Google kills off Jules, its AI coding agent which promised to do all the jobs you didn't want to (TechRadar)
+  • OpenAI is finally merging ChatGPT’s chat and Work tabs (TechCrunch AI)
+  • Why the AI boom could keep memory prices high until 2030 (TechRadar)
+
+CYBERSECURITY
+  • Hackers disrupt refrigeration systems at European supermarkets (BleepingComputer)
+  • PapRAT Cyber Espionage Campaign Leaves a 'BITTER' Taste in South Asia (Dark Reading)
+  • Microsoft fixes Smart App Control broken by October Windows update (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Google data center wins approval in Minnesota after protests delay council vote twice (Tom's Hardware)
+  • Triple your Nintendo Switch 2's storage for just $99 (Tom's Hardware)
+  • Bizarre Dell Pro Max Tower T2 workstation pricing quirk makes it cheaper than the Nvidia Blackwell GPU inside it (TechRadar)
+
+SOFTWARE & DEV
+  • Microsoft's Canada timezone troubles leave admins fixing calendars, pretending they're in Bogota (The Register)
+  • Microsoft's moolah mountain is more massive than ever. It just doesn't want the people who built it (The Register)
+  • Britain's driverless dream hits a roundabout of awkward questions (The Register)
+
+BUSINESS & BIG TECH
+  • Northwood Space raises $375M Series C at a $2B valuation from a16z and DFJ growth (TechCrunch)
+  • A fresh wave of cyberattacks has hit Europe’s supermarket refrigerators, destroying food across countries (TechCrunch)
+  • The 16GB Raspberry Pi 5 got another ‘unavoidable’ RAM price hike (The Verge)
+
+GADGETS & CONSUMER
+  • Why software updates may have an unexpected effect on your phone (Engadget)
+  • Flock's silence means municipalities are now removing its cameras themselves (TechRadar)
+  • Apple finally has a touchscreen MacBook. Why now? (Tom's Hardware)
+
+— THE BITSTREAM, auto-compiled 2026-11-02 14:33
