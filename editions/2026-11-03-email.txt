@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Nov 03, 2026 (195 stories)
+
+Good morning,
+
+Today's IT briefing — 195 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Chinese survey ship loitering near undersea cable ignores Philippine demands to withdraw — evasive action point to growing PRC threats to data lines in the Pacific
+A Chinese research vessel ignored the Philippine coast guard's attempts to move it as it loitered over an undersea cable near its coast as the PRC continues to use civilian vessels as "gray-zone" warfare against potential future adversaries in the region.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • The Download: controlling AI agents and “Super Intelligence” loyalty tests (MIT Tech Review)
+  • Google reveals new Gemini 4 Carbon AI model, narrowly beating Claude Opus 5.5 — frontier AI model is also the least likely to hallucinate, benchmarks claim (Tom's Hardware)
+  • 'The people deserve to have their RAM too!' Elon Musk mocks OpenAI Sam Altman's claim that people owning home PCs with RAM is 'terrible' (TechRadar)
+
+CYBERSECURITY
+  • Britain on notice: AI-powered ransomware attacks to arrive by 2028 (The Register)
+  • Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs (BleepingComputer)
+  • AI chip smugglers exploit trade control loophole to bring banned HBM from South Korea into China — expensive memory chips packaged with cheap, unsanctioned processors to become legal exports (Tom's Hardware)
+
+HARDWARE & CHIPS
+  • Corsair has slashed $180 off its blistering MP700 SE Gen 5 SSD (Tom's Hardware)
+  • Engineer creates retro FPGA Game Boy console that can rip your cartridges to an SD card natively — features HDMI, USB-C, and even has Game Link Cable support (Tom's Hardware)
+  • Steam Survey shockwaves felt as proportion of 32GB RAM systems drops by more than 5% — the percentage of PC gamers with 1TB+ total storage also shrunk by nearly 5% (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Virgin Media O2 outlines plans to lay off thousands as revenue falls (The Register)
+  • Apple's Mac business is booming, but the memory market has other plans (The Register)
+  • Broadcom denied names of cloud providers backing VMware merger challenge (The Register)
+
+BUSINESS & BIG TECH
+  • Redmagic upgrades its liquid-cooled gaming phone with extra RGBs (The Verge)
+  • Rivian spinoff Also wants to reinvent the wheel — but first, it has to ship (The Verge)
+  • Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them (TechCrunch)
+
+GADGETS & CONSUMER
+  • Apple's CEO John Ternus warns RAM cost increases are now 'unprecedented' (TechRadar)
+  • NASA's Swift observatory is expected to return to Earth on November 4 (Engadget)
+  • Snag this 360Hz QD-OLED gaming monitor for only $349 — sumptuous 27-inch display also features an integrated Wi-Fi antenna (Tom's Hardware)
+
+— THE BITSTREAM, auto-compiled 2026-11-03 13:28
