@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Nov 04, 2026 (196 stories)
+
+Good morning,
+
+Today's IT briefing — 196 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Binance heist began with fake job interviews and a malicious Homebrew download
+Binance has revealed how Norh Korean attackers spent months compromising systems and employees with malicious developer software and a fake recruitment process. The intrusions eventually gave hackers access to the exchange’s internal wallet signing systems, enabling the October 29 theft.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • AI data centers comprehensively defeated at US midterm elections — 45 measures put on the ballot as Americans overwhelmingly vote against developments (Tom's Hardware)
+  • The Download: blended meat, restored sight, and the agentic web (MIT Tech Review)
+  • Securing the agentic enterprise with data lineage (MIT Tech Review)
+
+CYBERSECURITY
+  • US charges two Canadians accused of hacking US universities (BleepingComputer)
+  • Hackers target French blood banks in latest freezer attack amid UK warnings (TechRadar)
+  • PHP vulnerability post-mortem reveals bug was known two years ago — Small team of maintainers knew of the issue before it was made public, as new PHP2Shell chained exploit ravages servers (Tom's Hardware)
+
+HARDWARE & CHIPS
+  • Open source project renders your Windows 11 desktop using the NPU rather than the GPU — ‘npu-driver’ can only run at 2 to 3 Hz, targets 30 Hz performance (Tom's Hardware)
+  • Cloudflare engineers optimize DNS build services for twice the speed and 85% lower RAM usage (Tom's Hardware)
+  • Save $300 on this 1440p gaming PC with a 9800X3D and RTX 5070 right now (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Watchdog sticks probe into Capita's handling of 1.7 million member civil service pension scheme (The Register)
+  • Cyberattack on French plasma stores is enough to make your blood boil (The Register)
+  • Achieving nirvana: Enlightenment 0.28 hits the desktop (The Register)
+
+BUSINESS & BIG TECH
+  • Canva lays off over 1,200 people amid slowing growth (TechCrunch)
+  • India’s EloElo nabs $80M from NBCUniversal to bet on the country’s rising microdrama market (TechCrunch)
+  • Valve is making changes to deal with a ‘significant increase’ in Steam game submissions (The Verge)
+
+GADGETS & CONSUMER
+  • UK policing minister promises new facial recognition laws after criticisms (TechRadar)
+  • Upgrade to an OLED display for only $269 at Walmart — Acer's 27-inch Nitro gaming monitor has a superfast 240Hz refresh rate and crisp WQHD resolution (Tom's Hardware)
+  • Apple Music's upcoming feature will let you record yourself doing karaoke (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-11-04 13:39
