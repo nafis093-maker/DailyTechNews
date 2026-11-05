@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Nov 05, 2026 (183 stories)
+
+Good morning,
+
+Today's IT briefing — 183 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out
+A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Congresswoman calls for artificial superintelligence ban after Democrats' seismic midterm sweep (Tom's Hardware)
+  • The UK wants to combine AI with satellites and military aircraft (TechRadar)
+  • The Download: Texas’s fragile AI boom and energy policy shifts (MIT Tech Review)
+
+CYBERSECURITY
+  • New York's Queens Public Library battles ransomware crims: Wi-Fi, checkouts, and website go dark (The Register)
+  • OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run (The Hacker News)
+  • Hackers target French blood service fridges following supermarket attacks (Tom's Hardware)
+
+HARDWARE & CHIPS
+  • Two dead, five injured in Taiwan PCB factory explosion (Tom's Hardware)
+  • Marvell to buy Lumentum in $115 billion all-stock deal (Tom's Hardware)
+  • SpaceX's plan to build more data center compute than Google's entire lifetime capacity in just 1.5 years is possible, say analysts (Tom's Hardware)
+
+SOFTWARE & DEV
+  • 'Stop dirty datacenters': Europe-wide protests planned demanding building moratorium (The Register)
+  • Building a Culture for a Kubernetes-Based Platform in a Bank (InfoQ)
+  • SAP promises to open out data flows in both directions (The Register)
+
+BUSINESS & BIG TECH
+  • Spotify is coming to United Airlines seatbacks — with help from Starlink (The Verge)
+  • Discord is ditching Electron and its new app uses less RAM (The Verge)
+  • Amazon ditches GrubHub, taps Uber Eats for Prime (TechCrunch)
+
+GADGETS & CONSUMER
+  • Could Warhammer 40,000: Dawn of War 4 come to console? Its creative director says RTS games on console are 'always a big challenge,' but 'I think we could do it on a technical level' (TechRadar)
+  • Redditor fudges DLSS 5 to work on GTA 6 trailer — and it looks impressive (TechRadar)
+  • This $79.98 TP-Link wireless router with Wi-Fi 7 tech is back down to its lowest-ever price (Tom's Hardware)
+
+— THE BITSTREAM, auto-compiled 2026-11-05 13:52
