@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Nov 06, 2026 (186 stories)
+
+Good morning,
+
+Today's IT briefing — 186 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The Download: a humanoid cleans house and Samsung builds for the AI boom
+This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in…  (MIT Tech Review)
+
+AI & MACHINE LEARNING
+  • Underdog shows off a 32MB speech model in new demo (TechCrunch AI)
+  • Physicl raises $10M to make the digital world real enough for robots (TechCrunch AI)
+  • Hideo Kojima says AI can’t replace human craftsmanship in video games (TechRadar)
+
+CYBERSECURITY
+  • D-Link warns of multiple zero-days in DGS-3130 Series switches (BleepingComputer)
+  • Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It (The Hacker News)
+  • Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers (The Hacker News)
+
+HARDWARE & CHIPS
+  • AMD CEO enrages gamers by saying it's now a 'data center first' company (TechRadar)
+  • Save 26% on this 142-piece toolkit for your PC repairs and hobbyist projects, now under $28 (Tom's Hardware)
+  • Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims (Tom's Hardware)
+
+SOFTWARE & DEV
+  • DigiCert admits 16-month security lapse exposed customer information (The Register)
+  • Home Office cloud services contract may net AWS £1B (The Register)
+  • TypeScript 7.1 Beta: Restores the Compiler API and Makes Vue and Svelte First-Class (InfoQ)
+
+BUSINESS & BIG TECH
+  • Protesters break into Microsoft data center site in Amsterdam (The Verge)
+  • Tesla will stop making the Cybertruck in 2027 (TechCrunch)
+  • Tesla is ‘winding down’ production of the Cybertruck next year (The Verge)
+
+GADGETS & CONSUMER
+  • Elon Musk says Tesla is 'winding down' production of its Cybertruck (TechRadar)
+  • Samsung Galaxy Watch Ultra 2 review: The new standard for smartwatch battery life (Engadget)
+  • I’ve reviewed almost every Android foldable this year — here’s how the iPhone Duo compares (The Verge)
+
+— THE BITSTREAM, auto-compiled 2026-11-06 13:37
