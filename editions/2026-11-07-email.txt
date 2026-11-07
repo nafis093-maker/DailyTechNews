@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Nov 07, 2026 (148 stories)
+
+Good morning,
+
+Today's IT briefing — 148 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes
+The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain crashes throughout the…  (InfoQ)
+
+AI & MACHINE LEARNING
+  • 70% of Brits say please or thank you when speaking to AI — and some even apologize (TechRadar)
+  • AI teddy bears spark fresh safety fears after report discovers malfunctioning toys (TechRadar)
+  • ChatGPT can now create interactive tools instead of just answering questions (TechRadar)
+
+CYBERSECURITY
+  • NHS breach helpline left staff carrying a 'significant emotional burden' (The Register)
+  • SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks (BleepingComputer)
+  • Runaway AI hacking agent behind WorkOS breach after escaping sandbox (BleepingComputer)
+
+HARDWARE & CHIPS
+  • EA producer found 20,000 archival media assets in secret physical vault at its HQ (Tom's Hardware)
+  • US FAA to eliminate floppy disks from air traffic control by 2028 (Tom's Hardware)
+  • Nvidia hardware worth $11.4M vanished between Oakland and Texas (Ars Technica)
+
+SOFTWARE & DEV
+  • Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL (InfoQ)
+  • Windows takes a break at UK motorway services (The Register)
+  • Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets (InfoQ)
+
+BUSINESS & BIG TECH
+  • From the front row to the hot seat — what the midterms mean for Big Tech (TechCrunch)
+  • Doctors pull knife from man's eye that went through his brain—and he's fine now (Ars Technica)
+  • Starlink Mobile: All the news on SpaceX’s major mobile carrier ambitions (The Verge)
+
+GADGETS & CONSUMER
+  • I discovered my YouTube viewing stats with this handy hidden feature (TechRadar)
+  • Oukitel WP63 rugged phone review (TechRadar)
+  • The Ninja Crispi DualZone air fryer earns its price tag with clever design, great features, and excellent cooking (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-07 12:18
