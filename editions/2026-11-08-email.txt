@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Nov 08, 2026 (78 stories)
+
+Good morning,
+
+Today's IT briefing — 78 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Pocket-sized Ukrainian receiver intercepts Russian strike drone video feeds up to six miles away
+The D·Vision SDR can intercept signals from 500 MHz to 8.7 GHz, covering the 4.1-4.5 GHz spectrum that Russian Molniya strike drones use to communicate with their operators.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Homelabber uses second-gen Optane memory sticks to run a 2.8-trillion-parameter AI model on CPU alone (Tom's Hardware)
+  • 'Getting the job done should also be a natural thing': Zoom lays out its plans to use AI and context to be even more of a useful workplace assistant (TechRadar)
+  • PC air duster motors power 21-inch DIY remote control plane at 130,000 RPM — $23 air duster power styrofoam A10 Warthog-style RC plane, hits the skies much faster than expected (Tom's Hardware)
+
+CYBERSECURITY
+  • 'The next generation won’t replace this one so much as sit on top of it' — Industry analysts say Sony, Microsoft, and Nintendo's 'relentless push for higher-end performance will need to be moderated' to avoid $1000 launch consoles (TechRadar)
+  • Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack (TechCrunch)
+  • Hackers pull off $133 million French bank heist via service provider (BleepingComputer)
+
+HARDWARE & CHIPS
+  • WoW: Forever launch used 70,480 CPU cores and 251 terabytes of RAM (Tom's Hardware)
+  • This RTX 5060 gaming PC costs less than the Steam Machine — grab the iBuyPower Slate prebuilt PC with massive $500 discount (Tom's Hardware)
+  • Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo (TechCrunch AI)
+
+SOFTWARE & DEV
+  • Doom delivers five minutes of terminal violence on an IBM mainframe (The Register)
+  • Internet governance about to get its quadrennial stress test at ITU meeting (The Register)
+  • Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal (InfoQ)
+
+BUSINESS & BIG TECH
+  • Amazon’s new basic Kindle proves you don’t need all the bells and whistles (TechCrunch)
+  • The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance (The Verge)
+  • Discogs’ Kevin Lewandowski can’t live without his AeroPress (The Verge)
+
+GADGETS & CONSUMER
+  • The iPhone has a 'gray list' of words and phrases that won't auto-complete (TechRadar)
+  • Audio-Technica AT-LP7X review: a beautiful and easy to use turntable that's just a shade off excellent, sonically speaking (TechRadar)
+  • Corsair Voxara review: the right specs for a gamer, but a long way off ‘studio grade’ (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-08 12:38
