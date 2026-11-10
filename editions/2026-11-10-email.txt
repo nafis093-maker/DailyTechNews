@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Nov 10, 2026 (200 stories)
+
+Good morning,
+
+Today's IT briefing — 200 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Anthropic targets $1.4 trillion IPO
+Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share and according to the Wall Street Journal's sources, Anthropic is "aiming for its shares to start trading Thursday or…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Adobe adds more AI to its products and launches an MCP (TechCrunch AI)
+  • Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion (TechCrunch AI)
+  • Spotify’s AI DJ gets new voices, personalities, and an option for less chatter (TechCrunch AI)
+
+CYBERSECURITY
+  • Chrome zero-day whack-a-mole continues as 2026 tally hits 8 (The Register)
+  • AI Makes Reverse Engineering Mainstream Software & Malware Far Easier (Dark Reading)
+  • Ransomware threat blares from Vanderbilt University computers during cyberattack (The Register)
+
+HARDWARE & CHIPS
+  • 'Let's take all the intelligence out': How Ring finally built its home surveillance drone (TechRadar)
+  • Elon Musk’s Terafab targets 1 million wafers a month after 2032 (Tom's Hardware)
+  • $10 programmer saves BIOS-locked Lenovo ThinkPads from the dump (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Smart meters to cost the UK billions: 2G switch-off means replacing 12-13 million (The Register)
+  • EU's €212M border IT project lands IBM and Atos in legal water (The Register)
+  • Royal Navy stands up first autonomous boat squadron (The Register)
+
+BUSINESS & BIG TECH
+  • Aura’s newest e-ink photo frame is even better and more affordable than its last (TechCrunch)
+  • Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot (TechCrunch)
+  • Review: Apple's M6 MacBook Pro is good, but it's missing all the exciting stuff (Ars Technica)
+
+GADGETS & CONSUMER
+  • Wyndham confirms it exposed hotel customer data after expert finds flaw in app security (TechRadar)
+  • Here's what the red dot on your Apple Watch means and how to clear it (Engadget)
+  • Amazon turned its Alexa robot into a Ring security patrol bot (The Verge)
+
+— THE BITSTREAM, auto-compiled 2026-11-10 14:09

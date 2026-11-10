@@ -1,0 +1,399 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE BITSTREAM — Tuesday, November 10, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4efe3; --paper-2:#ece5d4; --panel:#f9f5ec;
+  --ink:#1b1714; --ink-2:#5a5147; --ink-3:#8a7f70;
+  --accent:#bf3b1c; --accent-2:#16433b;
+  --rule:#d8cdb6; --rule-strong:#1b1714;
+  --backdrop:#26221d;
+  --serif:"Newsreader",Georgia,serif;
+  --display:"Fraunces","Newsreader",Georgia,serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--backdrop);
+  font-family:var(--serif);color:var(--ink);
+  line-height:1.55;padding:28px 16px;
+  background-image:radial-gradient(circle at 20% 0,rgba(255,255,255,.04),transparent 60%);
+}
+.page{
+  max-width:1180px;margin:0 auto;background:var(--paper);
+  padding:clamp(22px,4vw,60px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.2);
+  position:relative;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(120,100,70,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(circle at 80% 10%,rgba(191,59,28,.04),transparent 45%);
+}
+a{color:inherit;text-decoration:none}
+
+/* ---- folio bar ---- */
+.folio{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-2);
+  border-bottom:1px solid var(--rule);padding-bottom:10px;flex-wrap:wrap;gap:6px;
+}
+.folio .dot{color:var(--accent)}
+
+/* ---- masthead ---- */
+.masthead{text-align:center;padding:30px 0 16px;border-bottom:3px double var(--rule-strong)}
+.masthead h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(44px,11vw,128px);line-height:.9;letter-spacing:-.02em;
+  font-optical-sizing:auto;
+}
+.masthead .tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:16px;
+}
+.dateline{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;
+}
+
+/* ---- kickers ---- */
+.kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;display:inline-block;
+}
+.section-head{
+  display:flex;align-items:center;gap:16px;margin:46px 0 22px;
+}
+.section-head h2{
+  font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;
+  white-space:nowrap;color:var(--ink);font-weight:700;
+}
+.section-head .line{flex:1;height:1px;background:var(--rule-strong)}
+.section-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+
+/* ---- lead ---- */
+.lead{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
+.lead .kicker{margin-bottom:14px}
+.lead h2{
+  font-family:var(--display);font-weight:800;letter-spacing:-.015em;
+  font-size:clamp(30px,5.4vw,62px);line-height:1.02;margin-bottom:18px;
+}
+.lead h2 a{background-image:linear-gradient(var(--accent),var(--accent));
+  background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.lead h2 a:hover{background-size:100% 2px}
+.lead .dek{font-size:clamp(17px,2.2vw,22px);color:var(--ink-2);
+  font-style:italic;max-width:60ch;margin-bottom:18px}
+.lead .body{columns:2;column-gap:42px;font-size:16px}
+.lead .body p{margin-bottom:12px;break-inside:avoid}
+.lead .body p:first-child::first-letter{
+  font-family:var(--display);font-weight:900;float:left;font-size:74px;
+  line-height:.72;padding:6px 10px 0 0;color:var(--accent)}
+.byline{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:14px}
+.byline a{border-bottom:1px solid var(--accent);color:var(--accent)}
+
+/* ---- grids ---- */
+.frontpage{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.frontpage .story{padding:20px;border-right:1px solid var(--rule)}
+.frontpage .story:last-child{border-right:none}
+.beat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 32px}
+
+.story .kicker{font-size:10px;margin-bottom:9px}
+.story h3{font-family:var(--display);font-weight:700;font-size:21px;
+  line-height:1.12;letter-spacing:-.01em;margin-bottom:8px}
+.story h3 a{background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.story h3 a:hover{background-size:100% 1px}
+.story p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.story .src{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3)}
+.story .src b{color:var(--accent);font-weight:700}
+
+/* a few editorial 2-col beats get a leading wide story */
+.beat-grid.lead-left{grid-template-columns:1.6fr 1fr 1fr}
+
+/* ---- colophon ---- */
+.colophon{margin-top:54px;border-top:3px double var(--rule-strong);padding-top:20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  line-height:1.7}
+.colophon b{color:var(--ink)}
+.sources-list{margin-top:8px;color:var(--ink-2)}
+
+/* ---- entrance animation ---- */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .frontpage{grid-template-columns:repeat(2,1fr)}
+  .frontpage .story:nth-child(2n){border-right:none}
+  .beat-grid,.beat-grid.lead-left{grid-template-columns:1fr 1fr}
+  .lead .body{columns:1}
+}
+@media(max-width:560px){
+  .frontpage,.beat-grid,.beat-grid.lead-left{grid-template-columns:1fr}
+  .frontpage .story{border-right:none;border-bottom:1px solid var(--rule)}
+}
+</style></head><body><main class="page"><div class="folio">
+      <span>Tuesday, November 10, 2026</span>
+      <span>Vol. I <span class="dot">·</span> No. 163</span>
+      <span>200 stories <span class="dot">·</span> 18 sources</span>
+    </div><header class="masthead reveal">
+      <h1>THE BITSTREAM</h1>
+      <div class="tag">An IT &amp; Technology Daily — automatically compiled</div>
+      <div class="dateline">
+        <span>Auto-compiled edition</span><span>Tech wire</span>
+        <span>Tuesday, November 10, 2026</span>
+      </div>
+    </header><section class="lead reveal" style="animation-delay:.05s">
+  <span class="kicker">Lead Story &nbsp;·&nbsp; AI &amp; Machine Learning</span>
+  <h2><a href="https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion" target="_blank" rel="noopener">Anthropic targets $1.4 trillion IPO</a></h2>
+  <div class="body"><p>Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected</p><p>to be between $70.00 and $78.00 per share and according to the Wall Street Journal&#x27;s sources, Anthropic is &quot;aiming for its shares to start trading Thursday or…</p></div>
+  <div class="byline">Filed by <a href="https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion" target="_blank" rel="noopener">The Verge</a>
+     &nbsp;·&nbsp; just now &nbsp;·&nbsp; theverge.com</div>
+</section><section class="reveal">
+          <div class="section-head"><h2>The Front Page</h2><span class="line"></span></div>
+          <div class="frontpage"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/" target="_blank" rel="noopener">Adobe adds more AI to its products and launches an MCP</a></h3>
+  <p>Adobe is taking on Figma with a new prototype builder tool in Firefly.</p>
+  <div class="src"><b>TechCrunch AI</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732" target="_blank" rel="noopener">Chrome zero-day whack-a-mole continues as 2026 tally hits 8</a></h3>
+  <p>Another Chrome memory bug gets squashed, but not before attackers got their hands on it</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.techradar.com/home/home-security/its-loud-we-think-thats-a-feature-this-thing-is-not-gonna-sneak-up-on-you-ring-ceo-jamie-siminoff-on-why-ring-drone-cams-sound-is-intentional" target="_blank" rel="noopener">&#x27;Let&#x27;s take all the intelligence out&#x27;: How Ring finally built its home surveillance drone</a></h3>
+  <p>Amazon is finally ready to ship its Ring Drone Cam, a home surveillance drone — for real.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/networks/2026/11/10/smart-meters-to-cost-the-uk-billions-2g-switch-off-means-replacing-12-13-million/5308728" target="_blank" rel="noopener">Smart meters to cost the UK billions: 2G switch-off means replacing 12-13 million</a></h3>
+  <p>Sunset of legacy cellphone tech means forced upgrade for many millions of smart energy meter users</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+        </section><section class="reveal">
+  <div class="section-head">
+    <h2>AI &amp; Machine Learning</h2><span class="line"></span>
+    <span class="count">04 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/" target="_blank" rel="noopener">Adobe adds more AI to its products and launches an MCP</a></h3>
+  <p>Adobe is taking on Figma with a new prototype builder tool in Firefly.</p>
+  <div class="src"><b>TechCrunch AI</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/" target="_blank" rel="noopener">Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion</a></h3>
+  <p>The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.</p>
+  <div class="src"><b>TechCrunch AI</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/" target="_blank" rel="noopener">Spotify’s AI DJ gets new voices, personalities, and an option for less chatter</a></h3>
+  <p>Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.</p>
+  <div class="src"><b>TechCrunch AI</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/" target="_blank" rel="noopener">After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era</a></h3>
+  <p>Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.</p>
+  <div class="src"><b>TechCrunch AI</b> &nbsp;·&nbsp; just now</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Cybersecurity</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.theregister.com/security/2026/11/10/chrome-zero-day-whack-a-mole-continues-as-2026-tally-hits-8/5308732" target="_blank" rel="noopener">Chrome zero-day whack-a-mole continues as 2026 tally hits 8</a></h3>
+  <p>Another Chrome memory bug gets squashed, but not before attackers got their hands on it</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.darkreading.com/application-security/ai-reverse-engineering-apps" target="_blank" rel="noopener">AI Makes Reverse Engineering Mainstream Software &amp; Malware Far Easier</a></h3>
+  <p>Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising fresh concerns for defenders.</p>
+  <div class="src"><b>Dark Reading</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.theregister.com/cyber-crime/2026/11/10/ransomware-threat-blares-from-vanderbilt-university-computers-during-cyberattack/5308687" target="_blank" rel="noopener">Ransomware threat blares from Vanderbilt University computers during cyberattack</a></h3>
+  <p>BYOD claims extensive data theft as campus Wi-Fi returns, most systems remain restricted, and classes carry on</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/cyber-security/software-engineer-rickrolls-his-prusa-3d-printer-via-remote-code-execution-exploit-one-week-of-testing-with-claude-opus-uncovers-23-prusa-buddy-firmware-defects" target="_blank" rel="noopener">Software engineer Rickrolls his Prusa 3D printer via remote code execution exploit</a></h3>
+  <p>A software engineer demonstrated the ability to Rickroll a 3D printer via remote code execution (RCE). This security flaw has been fixed in the latest Prusa software.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/" target="_blank" rel="noopener">SAP patches ICM2SHELL and PROXYGATE maximum severity flaws</a></h3>
+  <p>SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 2h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Hardware &amp; Chips</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.techradar.com/home/home-security/its-loud-we-think-thats-a-feature-this-thing-is-not-gonna-sneak-up-on-you-ring-ceo-jamie-siminoff-on-why-ring-drone-cams-sound-is-intentional" target="_blank" rel="noopener">&#x27;Let&#x27;s take all the intelligence out&#x27;: How Ring finally built its home surveillance drone</a></h3>
+  <p>Amazon is finally ready to ship its Ring Drone Cam, a home surveillance drone — for real.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-targets-1-million-wafers-a-month-after-2032-planned-700-000-monthly-memory-wafers-could-rival-samsungs-entire-estimated-dram-production-capacity" target="_blank" rel="noopener">Elon Musk’s Terafab targets 1 million wafers a month after 2032</a></h3>
+  <p>Tesla and SpaceX’s Terafab reportedly plans 1 million wafers per month after 2032, with about 700,000 for memory.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/laptops/usd10-programmer-saves-bios-locked-lenovo-thinkpads-from-the-dump-exploit-bypasses-supervisor-passwords-to-save-4th-to-8th-gen-intel-models-from-e-waste" target="_blank" rel="noopener">$10 programmer saves BIOS-locked Lenovo ThinkPads from the dump</a></h3>
+  <p>Many cheap company ThinkPads come with supervisor passwords and often end up as e-waste. Ukrainian YouTuber Hileeq shows how easy it is to bypass the password with a $10 programmer.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/video-games/playstation/upgrade-your-ps5s-storage-for-gta-6s-digital-pre-load-with-these-ssd-storage-options-from-usd174-ultra-fast-drives-slot-into-the-m-2-expansion-slot-to-ready-your-console-for-gtas-huge-212gb-installation" target="_blank" rel="noopener">Upgrade your PS5&#x27;s storage for GTA 6&#x27;s digital pre-load with these SSD storage options from $174</a></h3>
+  <p>With GTA 6&#x27;s digital pre-loads beginning on November 10, you&#x27;ll need enough storage on your PS5 to match. Here are some of the top PS5 SSD options to help you.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/pinterest-intel-profiling/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Pinterest and Intel Take Open-Source Profiling to Internet Scale</a></h3>
+  <p>Pinterest has partnered with Intel to extend gProfiler, an open-source continuous profiler that provides production performance visibility across an internet-scale fleet of infrastructure. By Craig Risi</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 2h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Software &amp; Dev</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/networks/2026/11/10/smart-meters-to-cost-the-uk-billions-2g-switch-off-means-replacing-12-13-million/5308728" target="_blank" rel="noopener">Smart meters to cost the UK billions: 2G switch-off means replacing 12-13 million</a></h3>
+  <p>Sunset of legacy cellphone tech means forced upgrade for many millions of smart energy meter users</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/public-sector/2026/11/10/eus-212m-border-it-project-lands-ibm-and-atos-in-legal-water/5308669" target="_blank" rel="noopener">EU&#x27;s €212M border IT project lands IBM and Atos in legal water</a></h3>
+  <p>After years of missed deadlines, ballooning costs, and a blame game over who was responsible, Brussels has finally called in the lawyers</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 3h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/offbeat/2026/11/10/royal-navy-stands-up-first-autonomous-boat-squadron/5308494" target="_blank" rel="noopener">Royal Navy stands up first autonomous boat squadron</a></h3>
+  <p>Force deploys an operational squadron to gain experience in uncrewed systems as part of its Hybrid Navy vision</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 3h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/saas/2026/11/10/microsoft-teaches-schools-that-free-email-was-just-a-phase/5308371" target="_blank" rel="noopener">Microsoft teaches schools that free email was just a phase</a></h3>
+  <p>Office 365 A1 and Student Use Benefit face retirement, leaving institutions to budget for paid replacements at renewal</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 4h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/effect-4-0-release/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Effect 4.0 Ships: Dependency-Free Rewrite with 5x Smaller Bundles and Long-Term Support</a></h3>
+  <p>Effect 4.0, a TypeScript framework for typed errors and structured concurrency, was released on 30 September 2026 with a rewritten fiber runtime. The team reports a bundle size drop from 35.6 kB to 7.1 kB and about 6.4x higher throughput, though these figures are not independently verified. It also adds long-term…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 7h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Business &amp; Big Tech</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/11/10/auras-newest-e-ink-photo-frame-is-even-better-and-more-affordable-than-its-last/" target="_blank" rel="noopener">Aura’s newest e-ink photo frame is even better and more affordable than its last</a></h3>
+  <p>Aura is unveiling a new product: a 10-inch digital e-ink frame that can blend in seamlessly with printed photos.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/" target="_blank" rel="noopener">Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot</a></h3>
+  <p>Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://arstechnica.com/gadgets/2026/11/review-apples-1999-m6-macbook-pro-feels-stuck-in-the-middle/" target="_blank" rel="noopener">Review: Apple&#x27;s M6 MacBook Pro is good, but it&#x27;s missing all the exciting stuff</a></h3>
+  <p>Per usual, the basic MacBook Pro lags behind the flagships where it counts.</p>
+  <div class="src"><b>Ars Technica</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/transportation/1029837/real-motors-project-ares-electric-motorcycle-first-ride" target="_blank" rel="noopener">Real Motors’ Project Ares is a cyberpunk fantasy made real</a></h3>
+  <p>Electrification has done wonderful things for motorcycle design. By getting rid of the engine and the fuel tank that supports it, designers have the freedom to do whatever they want, and the results have been occasionally brilliant. I&#x27;m a big fan of the vaguely retrofuturistic stylings of the Maeving RM2 and the…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 3h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/" target="_blank" rel="noopener">California’s proposed ‘billionaire tax’ fails to pass</a></h3>
+  <p>California voters rejected Proposition 40, the one-time 5% tax on billionaires, the AP reported Monday. Tech leaders outspent backers roughly 10 to 1 to defeat it, and the founders and economists TechCrunch interviewed before the vote were split on whether it would have driven out wealthy residents or just trimmed…</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 8h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Gadgets &amp; Consumer</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/security/wyndham-confirms-it-exposed-hotel-customer-data-after-expert-finds-flaw-in-app-security" target="_blank" rel="noopener">Wyndham confirms it exposed hotel customer data after expert finds flaw in app security</a></h3>
+  <p>Login tokens were also exposed by Wyndham’s Android app.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2307762/apple-watch-red-dot-meaning-how-to-clear/" target="_blank" rel="noopener">Here&#x27;s what the red dot on your Apple Watch means and how to clear it</a></h3>
+  <p>That red dot on your Apple Watch indicates you have unread notifications. Here&#x27;s how you can clear them and change your notification settings.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.theverge.com/tech/1030282/amazon-ring-robotics-rover-cam-4k-security-business" target="_blank" rel="noopener">Amazon turned its Alexa robot into a Ring security patrol bot</a></h3>
+  <p>As part of a new brand called Ring Robotics - designed to take a more proactive approach to security instead of just monitoring - a new rolling mobile security camera was announced by Amazon, called the Ring Rover Cam. It borrows a lot of the design and functionality from the Astro home robot that Amazon […]</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2311630/amazon-finally-launches-the-250-ring-drone-cam-and-also-the-ring-rover-cam/" target="_blank" rel="noopener">Amazon finally launches the $250 Ring Drone Cam and also the Ring Rover Cam</a></h3>
+  <p>They&#x27;re the first two products from Ring Robotics, the company&#x27;s new autonomous home security devices category.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2311878/spacex-first-attempt-to-catch-both-starship-stages-november-13/" target="_blank" rel="noopener">SpaceX&#x27;s first attempt to catch both Starship stages takes place November 13</a></h3>
+  <p>Starship&#x27;s Flight 15 is scheduled for November 13, pending regulatory approval.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+</section><footer class="colophon">
+      <b>THE BITSTREAM</b> is compiled automatically by an RSS-crawling agent.
+      Every headline links to its original publisher; summaries are condensed from
+      each outlet's own feed. Built 2026-11-10 14:09.
+      <div class="sources-list"><b>Wire sources &nbsp;·&nbsp;</b> AnandTech, Ars Technica, Ars Technica Tech, BleepingComputer, Dark Reading, Engadget, GitHub Blog, InfoQ, Krebs on Security, MIT Tech Review, TechCrunch, TechCrunch AI, TechRadar, The Hacker News, The Register, The Verge, Tom&#x27;s Hardware, VentureBeat AI</div>
+    </footer></main></body></html>
