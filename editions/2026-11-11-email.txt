@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Nov 11, 2026 (215 stories)
+
+Good morning,
+
+Today's IT briefing — 215 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — I asked every TV manufacturer 17 questions about how they spy on you
+Every TV company is spying on you, not just LG. Like other tech companies, they collect lots of information, and while some is necessary for products to work, not all of it is - and could include details you'd prefer to keep private. Many customers are concerned about how TVs and streaming devices might be […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • The Download: preserving minds and weighing open AI risks (MIT Tech Review)
+  • Cyanogen co-founder unveils Kora, a Linux OS that splits AI models across the CPU, GPU, and NPU (Tom's Hardware)
+  • ‘We test what others don't do’: SAP tells us how it is helping TSG Hoffenheim's football journey hit new heights - and why its AI efforts in sport are only getting started (TechRadar)
+
+CYBERSECURITY
+  • N-able releases security hotfixes for zero-day vulnerabilities (BleepingComputer)
+  • eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise (The Hacker News)
+  • Microsoft fixes audio issues caused by September security updates (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Congress could issue subpoena to Nvidia CEO Jensen Huang if he doesn’t respond by today to request for a ‘joint, closed-door briefing’ (Tom's Hardware)
+  • Save 36% on this Hoto cordless rotary 3D printing toolkit for makers, now under $32 (Tom's Hardware)
+  • AMD shares how it can retain 95% of server performance with just half the DRAM, sidestepping memory shortages with MEXT (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Presentation: Uncorking Queueing Bottlenecks with OpenTelemetry (InfoQ)
+  • Linux joins Heathrow's grounded fleet of information screens (The Register)
+  • UK's 'buy British' tech ambitions hit reality as less than £1 in £6 stays at home (The Register)
+
+BUSINESS & BIG TECH
+  • Apple is killing its Support Community forum next week (The Verge)
+  • Ring cameras go mobile as Amazon debuts AI-powered security drone and robot (Ars Technica)
+  • The VR Disney Plus app on Meta Quest now has 3D movies (The Verge)
+
+GADGETS & CONSUMER
+  • Not everyone is loving their new iPhone Duo (The Verge)
+  • Microsoft's Automatic Super Resolution is now officially out for the ROG Xbox Ally X (Engadget)
+  • BYD unveils futuristic EV charging station with robotic arms and solar (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-11 13:25
