@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Nov 12, 2026 (192 stories)
+
+Good morning,
+
+Today's IT briefing — 192 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The pricey new Apple TV 4K is still the best streamer around
+I'm sitting in front of my TV, puppy nuzzled up next to me, with four HomePods spread around my living room - two flanking my TV and one at either end of my couch - connected to the brand new Apple TV 4K. Young Anakin Skywalker hits the throttle and flies through the room. There […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • I tried Google’s AI glasses and Meta’s finally got real competition (The Verge)
+  • Apple TV 4K (2026) review: great device, rough price (TechRadar)
+  • The Jensen Huang Nvidia saga could change how you access and use AI (TechRadar)
+
+CYBERSECURITY
+  • Shipping giant Maersk confirms data breach as hackers demand $5 million ransom (TechRadar)
+  • Hackers exploiting ScreenConnect plugin flaw to spread malware across hundreds of PCs (The Register)
+  • Microsoft: Recent Windows updates cause SQL Server performance issues (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Jensen Huang resigns as Nvidia CEO (TechRadar)
+  • Nvidia’s Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO (TechCrunch)
+  • Nvidia CEO Jensen Huang has resigned (Ars Technica)
+
+SOFTWARE & DEV
+  • Microsoft admits SQL Servers might wobble after October update (The Register)
+  • European tech buyers add digital sovereignty to cyber shopping list (The Register)
+  • Rockstar workers vote on union recognition as GTA VI launch looms (The Register)
+
+BUSINESS & BIG TECH
+  • Apple’s HomeView is my new favorite smart display — but not my daughter’s (The Verge)
+  • Review: Apple's M6 iMac is pricey, but it's still a good choice for a clean desk (Ars Technica)
+  • Ring confirms its camera drone won’t have manual controls after crashing on CBS News (The Verge)
+
+GADGETS & CONSUMER
+  • US data center power demand outpaces supply by 10x (TechRadar)
+  • I reviewed the Apple HomeView, ask me anything (The Verge)
+  • Apple HomeView review: A versatile smart display and Siri-powered home hub (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-11-12 14:30
