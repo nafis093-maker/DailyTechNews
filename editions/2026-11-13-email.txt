@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Nov 13, 2026 (188 stories)
+
+Good morning,
+
+Today's IT briefing — 188 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan
+This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled…  (MIT Tech Review)
+
+AI & MACHINE LEARNING
+  • Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang (Engadget)
+  • Israel’s VCs see opportunity for challengers in Nvidia’s turmoil (TechCrunch AI)
+  • Jensen Huang didn’t show confidence in his successor, report says (TechCrunch AI)
+
+CYBERSECURITY
+  • Quantum Systems drones back in the air after malware scare (The Register)
+  • Attackers in Binance Breach Targeted Known Weakness, Missing Controls (Dark Reading)
+  • Microsoft says November security updates cause printing issues (BleepingComputer)
+
+HARDWARE & CHIPS
+  • ‘Broken and shattered’ Nvidia CEO Jensen Huang surrendered during resignation meeting, report claims (Tom's Hardware)
+  • Surface Laptop Ultra review: The most powerful Surface yet, but it still lags behind Apple (Engadget)
+  • Japanese workers return to fax machines during ongoing Microsoft 365 outage (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Palantir adds three UK police forces to its beat with £10.1M deal (The Register)
+  • BOFH: The best way to stop an idea spreading is a controlled burn (The Register)
+  • Crackdown on UK medical record snooping after staff reported sneaking 300+ times this year (The Register)
+
+BUSINESS & BIG TECH
+  • Microsoft’s latest email outage turned into a full blown global cloud crisis (TechCrunch)
+  • Apple should have made the MacBook logo RGB (The Verge)
+  • Microsoft’s massive Outlook outage continues (The Verge)
+
+GADGETS & CONSUMER
+  • Save 57% on Adobe Creative Cloud Pro this Black Friday (TechRadar)
+  • This fan-favorite VPN is now $2 per month, perfect for torrent users looking for a bargain (TechRadar)
+  • European firms are ditching US cybersecurity firms as report claims 'digital sovereignty is becoming a buying decision' (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-13 13:47
