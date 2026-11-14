@@ -1,0 +1,399 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE BITSTREAM — Saturday, November 14, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4efe3; --paper-2:#ece5d4; --panel:#f9f5ec;
+  --ink:#1b1714; --ink-2:#5a5147; --ink-3:#8a7f70;
+  --accent:#bf3b1c; --accent-2:#16433b;
+  --rule:#d8cdb6; --rule-strong:#1b1714;
+  --backdrop:#26221d;
+  --serif:"Newsreader",Georgia,serif;
+  --display:"Fraunces","Newsreader",Georgia,serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--backdrop);
+  font-family:var(--serif);color:var(--ink);
+  line-height:1.55;padding:28px 16px;
+  background-image:radial-gradient(circle at 20% 0,rgba(255,255,255,.04),transparent 60%);
+}
+.page{
+  max-width:1180px;margin:0 auto;background:var(--paper);
+  padding:clamp(22px,4vw,60px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.2);
+  position:relative;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(120,100,70,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(circle at 80% 10%,rgba(191,59,28,.04),transparent 45%);
+}
+a{color:inherit;text-decoration:none}
+
+/* ---- folio bar ---- */
+.folio{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-2);
+  border-bottom:1px solid var(--rule);padding-bottom:10px;flex-wrap:wrap;gap:6px;
+}
+.folio .dot{color:var(--accent)}
+
+/* ---- masthead ---- */
+.masthead{text-align:center;padding:30px 0 16px;border-bottom:3px double var(--rule-strong)}
+.masthead h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(44px,11vw,128px);line-height:.9;letter-spacing:-.02em;
+  font-optical-sizing:auto;
+}
+.masthead .tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:16px;
+}
+.dateline{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;
+}
+
+/* ---- kickers ---- */
+.kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;display:inline-block;
+}
+.section-head{
+  display:flex;align-items:center;gap:16px;margin:46px 0 22px;
+}
+.section-head h2{
+  font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;
+  white-space:nowrap;color:var(--ink);font-weight:700;
+}
+.section-head .line{flex:1;height:1px;background:var(--rule-strong)}
+.section-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+
+/* ---- lead ---- */
+.lead{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
+.lead .kicker{margin-bottom:14px}
+.lead h2{
+  font-family:var(--display);font-weight:800;letter-spacing:-.015em;
+  font-size:clamp(30px,5.4vw,62px);line-height:1.02;margin-bottom:18px;
+}
+.lead h2 a{background-image:linear-gradient(var(--accent),var(--accent));
+  background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.lead h2 a:hover{background-size:100% 2px}
+.lead .dek{font-size:clamp(17px,2.2vw,22px);color:var(--ink-2);
+  font-style:italic;max-width:60ch;margin-bottom:18px}
+.lead .body{columns:2;column-gap:42px;font-size:16px}
+.lead .body p{margin-bottom:12px;break-inside:avoid}
+.lead .body p:first-child::first-letter{
+  font-family:var(--display);font-weight:900;float:left;font-size:74px;
+  line-height:.72;padding:6px 10px 0 0;color:var(--accent)}
+.byline{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:14px}
+.byline a{border-bottom:1px solid var(--accent);color:var(--accent)}
+
+/* ---- grids ---- */
+.frontpage{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.frontpage .story{padding:20px;border-right:1px solid var(--rule)}
+.frontpage .story:last-child{border-right:none}
+.beat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 32px}
+
+.story .kicker{font-size:10px;margin-bottom:9px}
+.story h3{font-family:var(--display);font-weight:700;font-size:21px;
+  line-height:1.12;letter-spacing:-.01em;margin-bottom:8px}
+.story h3 a{background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.story h3 a:hover{background-size:100% 1px}
+.story p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.story .src{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3)}
+.story .src b{color:var(--accent);font-weight:700}
+
+/* a few editorial 2-col beats get a leading wide story */
+.beat-grid.lead-left{grid-template-columns:1.6fr 1fr 1fr}
+
+/* ---- colophon ---- */
+.colophon{margin-top:54px;border-top:3px double var(--rule-strong);padding-top:20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  line-height:1.7}
+.colophon b{color:var(--ink)}
+.sources-list{margin-top:8px;color:var(--ink-2)}
+
+/* ---- entrance animation ---- */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .frontpage{grid-template-columns:repeat(2,1fr)}
+  .frontpage .story:nth-child(2n){border-right:none}
+  .beat-grid,.beat-grid.lead-left{grid-template-columns:1fr 1fr}
+  .lead .body{columns:1}
+}
+@media(max-width:560px){
+  .frontpage,.beat-grid,.beat-grid.lead-left{grid-template-columns:1fr}
+  .frontpage .story{border-right:none;border-bottom:1px solid var(--rule)}
+}
+</style></head><body><main class="page"><div class="folio">
+      <span>Saturday, November 14, 2026</span>
+      <span>Vol. I <span class="dot">·</span> No. 167</span>
+      <span>125 stories <span class="dot">·</span> 18 sources</span>
+    </div><header class="masthead reveal">
+      <h1>THE BITSTREAM</h1>
+      <div class="tag">An IT &amp; Technology Daily — automatically compiled</div>
+      <div class="dateline">
+        <span>Auto-compiled edition</span><span>Tech wire</span>
+        <span>Saturday, November 14, 2026</span>
+      </div>
+    </header><section class="lead reveal" style="animation-delay:.05s">
+  <span class="kicker">Lead Story &nbsp;·&nbsp; Cybersecurity</span>
+  <h2><a href="https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html" target="_blank" rel="noopener">Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection</a></h2>
+  <div class="body"><p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet</p><p>Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as…</p></div>
+  <div class="byline">Filed by <a href="https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html" target="_blank" rel="noopener">The Hacker News</a>
+     &nbsp;·&nbsp; just now &nbsp;·&nbsp; thehackernews.com</div>
+</section><section class="reveal">
+          <div class="section-head"><h2>The Front Page</h2><span class="line"></span></div>
+          <div class="frontpage"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/ai-platforms-assistants/claude/claude-just-reverse-engineered-a-1994-jeep-cherokee-owner-combines-a-usd3-arduino-with-ai-to-help-vehicle-pass-california-emissions-test" target="_blank" rel="noopener">Someone used Claude and a $3 Arduino to reverse engineer their 1994 Jeep</a></h3>
+  <p>The latest impressive piece of AI work comes from a developer who got Claude to fix an issue with a 32-year-old Jeep Cherokee.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai" target="_blank" rel="noopener">ArcticRAT Cybercrime Gang Profiles Victim Finances With AI</a></h3>
+  <p>The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information.</p>
+  <div class="src"><b>Dark Reading</b> &nbsp;·&nbsp; 16h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/drones/chinas-air-force-builds-drone-that-shoots-painkiller-darts-at-wounded-soldiers-experimental-pla-uav-injects-emergency-meds-from-a-distance-to-keep-medics-out-of-danger-and-buys-time-during-the-golden-hour" target="_blank" rel="noopener">China’s Air Force builds drone that shoots painkiller darts at wounded soldiers</a></h3>
+  <p>The Air Force Medical University of the Chinese People&#x27;s Liberation Army (PLA) built this drone so it could remotely administer pain killers to injured soldiers and make extraction easier.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/saas/2026/11/14/microsofts-school-email-bill-gives-rivals-something-to-smile-about/5309296" target="_blank" rel="noopener">Microsoft&#x27;s school email bill gives rivals something to smile about</a></h3>
+  <p>Collabora and Nextcloud pitch alternatives as education customers weigh the cost of losing free services</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 2h ago</div>
+</article></div>
+        </section><section class="reveal">
+  <div class="section-head">
+    <h2>AI &amp; Machine Learning</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/ai-platforms-assistants/claude/claude-just-reverse-engineered-a-1994-jeep-cherokee-owner-combines-a-usd3-arduino-with-ai-to-help-vehicle-pass-california-emissions-test" target="_blank" rel="noopener">Someone used Claude and a $3 Arduino to reverse engineer their 1994 Jeep</a></h3>
+  <p>The latest impressive piece of AI work comes from a developer who got Claude to fix an issue with a 32-year-old Jeep Cherokee.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/software/linux/nearly-20-years-after-launch-ancient-radeon-hd-2000-and-3000-gpus-finally-get-a-linux-fix-for-corrupted-video-playback-ai-helps-squash-a-decades-old-uvd-bug" target="_blank" rel="noopener">Nearly 20 years after launch, ancient AMD Radeon HD 2000 and 3000 GPUs finally get a Linux fix for corrupted video playback</a></h3>
+  <p>A new kernel contributor used AI to develop a patch for the drivers powering his nearly-20-year-old Radeon GPU.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/gigabyte-unveils-its-nvidia-spark-powered-ai-workstation-ai-top-aero-combines-blackwell-architecture-gpu-and-up-to-128-gb-memory-if-you-can-get-one" target="_blank" rel="noopener">Gigabyte unveils its Nvidia Spark-powered AI workstation — AI TOP AERO combines Blackwell architecture GPU and up to 128 GB memory, if you can get one</a></h3>
+  <p>Three days after its stated launch, the one-liter AI TOP AERO still has no price, no regional configurations and no product page.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 11h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/" target="_blank" rel="noopener">Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price</a></h3>
+  <p>The latest model is lighter and thinner than its predecessor and features an edge-to-edge display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 13h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/" target="_blank" rel="noopener">Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say</a></h3>
+  <p>Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.</p>
+  <div class="src"><b>TechCrunch AI</b> &nbsp;·&nbsp; 14h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Cybersecurity</h2><span class="line"></span>
+    <span class="count">04 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai" target="_blank" rel="noopener">ArcticRAT Cybercrime Gang Profiles Victim Finances With AI</a></h3>
+  <p>The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information.</p>
+  <div class="src"><b>Dark Reading</b> &nbsp;·&nbsp; 16h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/" target="_blank" rel="noopener">Trezor confirms crypto-stealing implants in three wallets, releases fix</a></h3>
+  <p>Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 17h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/" target="_blank" rel="noopener">German military drone operations disrupted by cyberattack</a></h3>
+  <p>German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by &quot;hostile actors.&quot; [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 19h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html" target="_blank" rel="noopener">PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE</a></h3>
+  <p>A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460…</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 19h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Hardware &amp; Chips</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/drones/chinas-air-force-builds-drone-that-shoots-painkiller-darts-at-wounded-soldiers-experimental-pla-uav-injects-emergency-meds-from-a-distance-to-keep-medics-out-of-danger-and-buys-time-during-the-golden-hour" target="_blank" rel="noopener">China’s Air Force builds drone that shoots painkiller darts at wounded soldiers</a></h3>
+  <p>The Air Force Medical University of the Chinese People&#x27;s Liberation Army (PLA) built this drone so it could remotely administer pain killers to injured soldiers and make extraction easier.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/commemorative-plaque-at-dennys-booth-where-nvidia-was-born-has-been-removed-sign-removed-in-wake-of-jensens-scandals-marked-the-booth-that-launched-a-usd1-trillion-company" target="_blank" rel="noopener">Commemorative plaque at Denny’s booth where Nvidia was born has been removed in wake of Jensen Huang scandals</a></h3>
+  <p>The San Jose, California, branch of Denny&#x27;s once featured a plaque commemorating the booth where Jensen Huang and his two other co-founders worked to build Nvidia.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/3d-printing/mechatronics-student-builds-3d-printer-made-from-92-percent-lego-for-less-than-usd180-lego-leadscrews-and-print-bed-can-print-a-decent-benchy-in-1-25-hours" target="_blank" rel="noopener">Mechatronics student builds 3D printer made from 92% LEGO for less than $180</a></h3>
+  <p>A mechatronics engineering student made an open-source 3D printer, 92% of which is LEGO, and can print a decent benchy despite the imprecise LEGO leadscrews.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/pc-components/gpus/nvidia-board-reportedly-approached-arm-ceo-rene-haas-during-replacement-search-jensen-huangs-transgressions-leave-nvidia-scrambling-to-fill-a-massive-void" target="_blank" rel="noopener">Nvidia board reportedly approached Arm CEO Rene Haas during replacement search</a></h3>
+  <p>Nvidia&#x27;s board of directors reportedly approached Rene Haas, chief executive of Arm and a long-time Nvidia veteran, in CEO search.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 15h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.techradar.com/pro/theres-no-faster-laptop-under-usd700-than-this-usd560-core-i9-monster-with-a-cpu-that-rivals-the-m5-in-the-usd1-099-apple-macbook-air" target="_blank" rel="noopener">There&#x27;s no faster laptop under $700 than this $560 Core i9 monster with a CPU that rivals the M5 in the $1,099 Apple MacBook Air</a></h3>
+  <p>Core i9-12900H powered Hasee X5 15.6 laptop is now just $559.99 for Black Friday, $270 off its usual price.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 16h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Software &amp; Dev</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/saas/2026/11/14/microsofts-school-email-bill-gives-rivals-something-to-smile-about/5309296" target="_blank" rel="noopener">Microsoft&#x27;s school email bill gives rivals something to smile about</a></h3>
+  <p>Collabora and Nextcloud pitch alternatives as education customers weigh the cost of losing free services</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/security/2026/11/14/big-tech-takes-a-beating-as-online-safety-experts-accuse-companies-of-doing-bare-minimum/5309302" target="_blank" rel="noopener">Big Tech takes a beating as online safety experts accuse companies of doing bare minimum</a></h3>
+  <p>Accessing banned content is as easy as whipping out a thesaurus, Parliament&#x27;s Communications and Digital Committee hears</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 4h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/nodejs-debounce-throttle/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules</a></h3>
+  <p>Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends the experimental Virtual File System to node:ffi. The additions reduce the need for some userland dependencies. Node.js…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 4h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions</a></h3>
+  <p>Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a header or query parameter. New versions can change defaults, error formats, and IAM checks without…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 5h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Open Source DocumentDB 1.0 Reaches General Availability</a></h3>
+  <p>DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 6h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Business &amp; Big Tech</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/news/1033489/faa-ground-stop" target="_blank" rel="noopener">FAA lifts nationwide ground stop that blocked takeoffs for hours</a></h3>
+  <p>Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET &quot;due to extraordinary circumstances and for reasons of safety.&quot; More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights will resume. It&#x27;s…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 10h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search" target="_blank" rel="noopener">Amazon has a plan to index the world’s online shopping data</a></h3>
+  <p>Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn&#x27;t sell, and make the information available through its own site, according to Reuters. The project, called the &quot;World Product Graph,&quot; is meant to make it less likely that shoppers leave Amazon to do…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 13h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/" target="_blank" rel="noopener">US government grounds all flights across the United States ‘due to extraordinary circumstances’</a></h3>
+  <p>A spokesperson for the FAA told TechCrunch that it issued the ground stop &quot;following communication issues impacting multiple Air Route Traffic Control Centers,&quot; which manage the airspace across the United States.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 15h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/" target="_blank" rel="noopener">This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board</a></h3>
+  <p>Drogue is harvesting heat from the ocean to power data centers on floating vessels. The first prototype should be bobbing around the ocean, crunching bits, in less than two years.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 16h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain" target="_blank" rel="noopener">The smallest version of Camp Snap’s retro digital camcorder fits on your keychain</a></h3>
+  <p>Last week, Camp Snap launched a miniaturized version of its screen-free CS-8 video camera that was half the size of the original with a smaller grip designed to be easier for kids to hold. But it turns out the company wasn&#x27;t done shrinking its hardware. Camp Snap&#x27;s new CS-8 Micro is even smaller than the […]</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 19h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Gadgets &amp; Consumer</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/home/smart-home/thinking-of-buying-the-apple-homeview-know-this-first-its-a-brilliant-smart-home-nerve-center-but-its-not-a-tablet-for-your-kitchen" target="_blank" rel="noopener">Don’t buy the Apple HomeView expecting a tablet — it’s a completely different beast</a></h3>
+  <p>The HomeView is a superb smart home controller, but if you&#x27;re expecting full tablet functionality and an App Store, you&#x27;ll be disappointed.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/" target="_blank" rel="noopener">FAA allows flights to resume after hours-long ground stop across the US</a></h3>
+  <p>The FAA grounded flights for hours on November 13, and the transportation secretary blamed it on old and malfunctioning air traffic control system.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 6h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/computing/cyber-security/faa-grounds-all-us-flights-due-to-telecommunication-outage-officials-say-no-indication-that-this-was-a-nefarious-attack-but-they-cant-rule-out-a-cyberattack-yet" target="_blank" rel="noopener">FAA grounds all US flights due to &#x27;telecommunication outage&#x27; — officials say &#x27; no indication...that this was a nefarious attack,&#x27; but they can&#x27;t rule out a cyberattack yet</a></h3>
+  <p>The FAA called a ground stop on all US flights, which means no planes are taking off, and many are landing. There&#x27;s no indication of a cyberattack, but the telecommunications system between air traffic control and pilots is not functioning at full capacity.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 13h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/security/thousands-of-github-repositories-targeted-in-widespread-attack-4-800-accounts-already-compromised-to-steal-cloud-credentials" target="_blank" rel="noopener">Thousands of GitHub repositories targeted in widespread attack — 4,800 accounts already compromised to steal cloud credentials</a></h3>
+  <p>Aikido researchers found attackers abusing stolen GitHub accounts and automated workflows to steal valuable secrets.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 21h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/vpn/vpn-services/expressvpn-looks-better-black-friday-value-than-nordvpn-get-a-private-ai-burner-email-addresses-and-tracker-blocking-for-the-same-usd2-99-per-month-price" target="_blank" rel="noopener">ExpressVPN looks better Black Friday value than NordVPN – get a private AI, burner email addresses, and tracker blocking for the same $2.99 per month price</a></h3>
+  <p>Same secure connection, more for your money</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 21h ago</div>
+</article></div>
+</section><footer class="colophon">
+      <b>THE BITSTREAM</b> is compiled automatically by an RSS-crawling agent.
+      Every headline links to its original publisher; summaries are condensed from
+      each outlet's own feed. Built 2026-11-14 12:51.
+      <div class="sources-list"><b>Wire sources &nbsp;·&nbsp;</b> AnandTech, Ars Technica, Ars Technica Tech, BleepingComputer, Dark Reading, Engadget, GitHub Blog, InfoQ, Krebs on Security, MIT Tech Review, TechCrunch, TechCrunch AI, TechRadar, The Hacker News, The Register, The Verge, Tom&#x27;s Hardware, VentureBeat AI</div>
+    </footer></main></body></html>

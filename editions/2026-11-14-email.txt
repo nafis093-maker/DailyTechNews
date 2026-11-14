@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Nov 14, 2026 (125 stories)
+
+Good morning,
+
+Today's IT briefing — 125 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • Someone used Claude and a $3 Arduino to reverse engineer their 1994 Jeep (TechRadar)
+  • Nearly 20 years after launch, ancient AMD Radeon HD 2000 and 3000 GPUs finally get a Linux fix for corrupted video playback (Tom's Hardware)
+  • Gigabyte unveils its Nvidia Spark-powered AI workstation — AI TOP AERO combines Blackwell architecture GPU and up to 128 GB memory, if you can get one (TechRadar)
+
+CYBERSECURITY
+  • ArcticRAT Cybercrime Gang Profiles Victim Finances With AI (Dark Reading)
+  • Trezor confirms crypto-stealing implants in three wallets, releases fix (BleepingComputer)
+  • German military drone operations disrupted by cyberattack (BleepingComputer)
+
+HARDWARE & CHIPS
+  • China’s Air Force builds drone that shoots painkiller darts at wounded soldiers (Tom's Hardware)
+  • Commemorative plaque at Denny’s booth where Nvidia was born has been removed in wake of Jensen Huang scandals (Tom's Hardware)
+  • Mechatronics student builds 3D printer made from 92% LEGO for less than $180 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Microsoft's school email bill gives rivals something to smile about (The Register)
+  • Big Tech takes a beating as online safety experts accuse companies of doing bare minimum (The Register)
+  • Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules (InfoQ)
+
+BUSINESS & BIG TECH
+  • FAA lifts nationwide ground stop that blocked takeoffs for hours (The Verge)
+  • Amazon has a plan to index the world’s online shopping data (The Verge)
+  • US government grounds all flights across the United States ‘due to extraordinary circumstances’ (TechCrunch)
+
+GADGETS & CONSUMER
+  • Don’t buy the Apple HomeView expecting a tablet — it’s a completely different beast (TechRadar)
+  • FAA allows flights to resume after hours-long ground stop across the US (Engadget)
+  • FAA grounds all US flights due to 'telecommunication outage' — officials say ' no indication...that this was a nefarious attack,' but they can't rule out a cyberattack yet (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-14 12:51
