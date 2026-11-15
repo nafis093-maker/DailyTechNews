@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Nov 15, 2026 (66 stories)
+
+Good morning,
+
+Today's IT briefing — 66 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident
+The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. "An attacker obtained an access key we had issued to Fireworks," Cursor said in a Friday update. "The key was…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • 'It would make me think twice about applying': Workers are pushing back at companies who insist on AI interviews (TechRadar)
+  • Anthropic Outlines Its AI-Powered Code Review Process for Claude Code (InfoQ)
+  • Small nuclear reactors could soon power the next generation of AI data centers — modular reactors could soon power Dow Texas chemical plant (TechRadar)
+
+CYBERSECURITY
+  • Cursor confirms security breach led to malicious Claude Code extension (BleepingComputer)
+  • US disrupts North Korean campaign behind $400 million crypto theft (BleepingComputer)
+  • Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection (The Hacker News)
+
+HARDWARE & CHIPS
+  • Modified Ender 3 becomes a $450 bioprinter for 3D printing engineered living materials (Tom's Hardware)
+  • An overview of Jensen Huang’s messy days (The Verge)
+  • Dev hacks Coway air purifier to cut it off from the cloud (Tom's Hardware)
+
+SOFTWARE & DEV
+  • LEO gets a birthday bash, 75 years after clocking in (The Register)
+  • Cloudflare Introduces Private Origins for Application Services (InfoQ)
+  • Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls (InfoQ)
+
+BUSINESS & BIG TECH
+  • Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee (TechCrunch)
+  • Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide (TechCrunch)
+  • Work to replace old copper wire led to the FAA’s ground stop (The Verge)
+
+GADGETS & CONSUMER
+  • Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent (The Hacker News)
+  • This Sony patent would add a credit card reader to your PlayStation controller (Engadget)
+  • 11 gadgets under $10 that solve everyday problems (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-11-15 13:19
