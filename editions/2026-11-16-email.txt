@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Nov 16, 2026 (128 stories)
+
+Good morning,
+
+Today's IT briefing — 128 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Audible is trying to make it easier to find audiobooks you’ll actually like
+Audible is introducing an AI-assisted synopsis feature that's designed to help users determine whether they'll enjoy an audiobook before they jump in and start listening to it. The new audio discovery feature combines audiobook samples, AI overviews, and author commentary to give users more information before choosing…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Google Maps can now create trip itineraries for you (The Verge)
+  • The Jensen Huang saga could be the beginning of the end of the AI bubble – or just a boon for competitors (The Register)
+  • The Download: testing tech promises and searching for cognitive immortality (MIT Tech Review)
+
+CYBERSECURITY
+  • Google warns that fully-automated AI attacks are coming soon (BleepingComputer)
+  • Google: AI agent turned a security patch into a working exploit with no human help (The Register)
+  • Microsoft: Windows Server 2016 reaches end of support in 60 days (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Jensen Huang allies build a "war room" to get him back at Nvidia (Ars Technica)
+  • Unlock Tom's Hardware Premium's SuperComputer 2026 coverage for free — sign up for an account to read detailed reports from the show (Tom's Hardware)
+  • Amazon’s Starlink rival sees major setback after 40 satellites destroyed in rocket failure (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Marvell and Penguin Solutions aim to end the RAMpocalypse with photonic memory fabric (The Register)
+  • SpaceX catches Starship on the first try (The Register)
+  • Datacenters' share of UK planning applications nearly triples in three years (The Register)
+
+BUSINESS & BIG TECH
+  • Mazama Energy has a solution for geothermal’s biggest drilling problem (TechCrunch)
+  • After dodging death, battery startup Our Next Energy is now going public (TechCrunch)
+  • Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings (TechCrunch)
+
+GADGETS & CONSUMER
+  • Early Black Friday deals are live at Walmart, Best Buy, and others — I'm finding the best on LG OLED TVs, laptops, Sony headphones, and more (TechRadar)
+  • What is an NFC tag and how does one work? (Engadget)
+  • Microsoft is hiking cloud prices in India — but dropping costs in China and other markets (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-16 14:32
