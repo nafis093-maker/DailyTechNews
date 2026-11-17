@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Nov 17, 2026 (215 stories)
+
+Good morning,
+
+Today's IT briefing — 215 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Instagram’s new tool for creators targets unauthorized reposts and AI-modified videos
+The announcement likely comes in response to creators' concerns over how easily original content can be copied and redistributed across social media platforms, especially considering how generative AI has made it easier to manipulate existing videos.  (TechCrunch)
+
+AI & MACHINE LEARNING
+  • Why general-purpose AI falls short in agriculture (TechRadar)
+  • Voyage Labs raises $12 million for a specialized AI travel assistant (TechCrunch)
+  • Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials (TechCrunch AI)
+
+CYBERSECURITY
+  • Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions (BleepingComputer)
+  • Optimizely hack turns world's biggest websites into malware dispensers (The Register)
+  • 'Not rocket surgery' claims researcher who found six Danfoss fridge controller zero-days in under an hour (The Register)
+
+HARDWARE & CHIPS
+  • Nvidia places chip exports under boardroom supervision after Huang's exit (The Register)
+  • Taipei 101 lit up in support of Jensen Huang (Tom's Hardware)
+  • AMD attacks Nvidia's FP64 emulation at SC26, touts native double-precision on Instinct MI430X — says Ozaki schemes fit less than 10% of HPC workloads and triple memory use and emulated FP64 is a poor fit for many HPC workloads (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Website owners thumb their noses at EU privacy rules, researcher finds (The Register)
+  • Qwik 2.0 RC: Replaces HTML Comment Markers for Faster Reactivity and Out-of-Order Streaming (InfoQ)
+  • Microsoft Releases .NET 11: C# 15 Union Types, Native AOT CLI Host, and CoreCLR by Default in MAUI (InfoQ)
+
+BUSINESS & BIG TECH
+  • Uber and Zipline’s drone delivery service takes off in Texas, with dozens of cities to follow (TechCrunch)
+  • Meta launches Direct, a standalone messaging app for Instagram (TechCrunch)
+  • Upside Foods can now make a million pounds of chicken a year without killing any animals (TechCrunch)
+
+GADGETS & CONSUMER
+  • Half of businesses run workloads in the wrong place — mainly because they can't be bothered to change their ways (TechRadar)
+  • Xiaomi's 18 Pro series can generate vibe-coded apps for its tiny rear display (Engadget)
+  • 5 important Bose headphone settings that need to be manually turned on (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-11-17 15:23
