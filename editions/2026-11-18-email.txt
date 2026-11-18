@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Nov 18, 2026 (203 stories)
+
+Good morning,
+
+Today's IT briefing — 203 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Elon Musk’s SpaceXAI suffers chemical spill at Mississippi AI data center
+5,000 to 6,000 gallons of propylene glycol spilled from a SpaceXAI facility in Southaven, Mississippi, before reaching a nearby drainage ditch. State environmental officials have sought to ease the worries of locals, saying there is no risk to their health.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • AI meets innovation in the stunning Creality K1 Max, now with a $350 discount (TechRadar)
+  • The Downfall of Jensen Huang — a timeline of allegations and scandals that brought down the king of AI infrastructure (Tom's Hardware)
+  • Will Wright’s next game uses AI to map your memories (The Verge)
+
+CYBERSECURITY
+  • British hackers face prison for GTA 6 data breach and crypto thefts (TechCrunch)
+  • Fake GTA 6 PC downloads are spreading malware through dark web scam bundle, NordVPN warns (TechRadar)
+  • Major Brazilian Signature Apps Enable RCE & Fraud (Dark Reading)
+
+HARDWARE & CHIPS
+  • Business as usual, but Huang ain't coming back, says Nvidia (The Register)
+  • Nvidia board faction angling for Jensen Huang return as CEO, report claims (Tom's Hardware)
+  • Nvidia clarifies when it will — and won’t —keep financing neoclouds (TechCrunch AI)
+
+SOFTWARE & DEV
+  • StubHub International warns customer data may have left the venue (The Register)
+  • Windows Server 2028 won't be compatible by default (The Register)
+  • Police arrest 15 over £1.5M 'we'll recover your losses' scam targeting elderly (The Register)
+
+BUSINESS & BIG TECH
+  • Tesla’s $30,000 Cybercab comes with a $299 monthly catch (Ars Technica)
+  • Grand Theft Auto VI: The Ars Technica review (Ars Technica)
+  • China dominates battery graphite, but this startup could break the monopoly (TechCrunch)
+
+GADGETS & CONSUMER
+  • Best Amazon early Black Friday deals — Fire Sticks, AirPods, LEGO, Ring Doorbells and more (TechRadar)
+  • Global OLED monitor shipments doubled year-over-year in Q3 2026 (Tom's Hardware)
+  • Dell 14 Plus vs Dell XPS 13: two of our favourite Dell laptops just got early Black Friday discounts (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-18 14:57
