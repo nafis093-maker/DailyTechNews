@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Nov 19, 2026 (189 stories)
+
+Good morning,
+
+Today's IT briefing — 189 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — The Analogue 3D can now update itself over Wi-Fi
+Analogue has long been good at expanding the features and functionality of its consoles through regular firmware updates, but installing those updates has always required moving files around with a memory card. That's no longer the case with the Analogue 3D, the company's modernized version of the Nintendo 64…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Anthropic’s IPO puts AI’s circular financing boom to the test (TechCrunch AI)
+  • Scammers have met their match with this bizarre AI retirement home (TechRadar)
+  • Pebble Index 01 AI ring review: When a single feature becomes the product (Engadget)
+
+CYBERSECURITY
+  • Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers (BleepingComputer)
+  • Microsoft's official Agent Framework Python package on PyPI hijacked to push login-stealing malware (TechRadar)
+  • Why Holiday Security Can't Wait for Black Friday (Dark Reading)
+
+HARDWARE & CHIPS
+  • Intel continues layoffs with cuts to its IT department, hundreds of employees reportedly affected (Tom's Hardware)
+  • Supermicro sued by shareholders over claims Nvidia executive’s wife knew about illicit China sales (Tom's Hardware)
+  • Developer vibe codes Windows 11 alternative operating system for amd64, arm64, and riscv64 hardware (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Union demands Capita lose Whitehall payroll deal after pensions fiasco (The Register)
+  • Presentation: AI-Assisted Software Delivery: From Code to Production (InfoQ)
+  • Voyager 1 celebrates one light-day with a nice lie-down (The Register)
+
+BUSINESS & BIG TECH
+  • Nimble enters the item-tracking market with eco-friendly luggage tags and keychains (TechCrunch)
+  • Elon Musk says: ‘I’m not MAGA’ (TechCrunch)
+  • Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote (Ars Technica)
+
+GADGETS & CONSUMER
+  • The Blueair Blue Signature is now ridiculously good value — and with its attractive design, quick purifying, and low volume, it’s still the best air purifier I’ve reviewed to date (TechRadar)
+  • Grand Theft Auto VI understands just how important a smartphone is (The Verge)
+  • Black Friday deals 2026 — I've found the 25+ best discounts on laptops, TVs, appliances, headphones, and more from leading retailers (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-19 15:05
