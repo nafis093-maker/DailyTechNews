@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Nov 20, 2026 (196 stories)
+
+Good morning,
+
+Today's IT briefing — 196 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Get 32GB of DDR5 RAM for $111 in this premium AM5 gaming bundle from Newegg — 4-item combo includes 9950X3D, 32GB V-Color DDR5 RAM, Asus ROG Strix X870E-E Gaming motherboard, and 2TB Samsung 990 Pro SSD for only $1,549
+Newegg’s freshest Black Friday combo deal takes $369 off four premium PC components, including the Ryzen 9 9950X3D, 32GB DDR5-6000 RAM, Asus ROG Strix X870E-E motherboard, 2TB Samsung SSD, and a free MSI AIO for just $1,549.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • Ray-Ban Meta (Gen 3) review: Minor upgrades that cost too much (Engadget)
+  • Six AI-powered gadgets that could make your home office smarter (TechCrunch AI)
+  • Phison details SSD with a built-in NPU and 64GB of memory that supports AI frameworks on the drive (Tom's Hardware)
+
+CYBERSECURITY
+  • N-able says recent security breach led to major service outage (BleepingComputer)
+  • Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts (The Hacker News)
+  • Microsoft now automatically installs Windows 11 26H2 on unmanaged devices (BleepingComputer)
+
+HARDWARE & CHIPS
+  • SpaceX lenders don’t want Elon Musk launching their collateral into space (Ars Technica)
+  • ‘Cowboy policing’ — campaigners warn facial recognition firm’s new platform is ‘ripe for wrongful privacy intrusion’ (TechRadar)
+  • Thousands of vulnerable fridges patched against cyberattacks in secret operation (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Uber Cuts Translation Cache Memory by up to 90% While Keeping P99 Latency Below 1 MS (InfoQ)
+  • Microsoft's last non-security preview of 2026 packs a punch (The Register)
+  • Microsoft suggests Registry hack to work around hotpatch woes (The Register)
+
+BUSINESS & BIG TECH
+  • Rocket Report: A weekend of ups and downs; Stoke celebrates engine milestone (Ars Technica)
+  • Why the robots are ditching Uber (The Verge)
+  • The U.S. national cyber director is stepping down (TechCrunch)
+
+GADGETS & CONSUMER
+  • Evercade Nexus review: smooth, vibrant retro gaming on the go (TechRadar)
+  • Walmart's record-low Samsung Galaxy S26 Ultra deal looks great, but I'd avoid it for one key reason (TechRadar)
+  • Walmart’s $130 3:2 monitor packs 18.5% more pixels than standard 4K (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-20 14:46
