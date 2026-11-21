@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sat Nov 21, 2026 (139 stories)
+
+Good morning,
+
+Today's IT briefing — 139 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats
+A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory…  (The Hacker News)
+
+AI & MACHINE LEARNING
+  • How to use Gemini Notebook to turn your research into an interactive site (Engadget)
+  • A Neuralink implant enables a patient to piloting a speedboat in GTA 6 (TechRadar)
+  • Homelabber’s second-gen Optane build uses two RTX 3090s to run 2.8-trillion-parameter Kimi AI model at 3.11 tokens per second (Tom's Hardware)
+
+CYBERSECURITY
+  • GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys (The Hacker News)
+  • Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access (The Hacker News)
+  • Hardware hacker builds open-source portable 3.5-inch floppy Wi-Fi NAS (Tom's Hardware)
+
+HARDWARE & CHIPS
+  • Defense firm’s EMP ‘Dragon’ weapon fries 51 jam-proof drones simultaneously (Tom's Hardware)
+  • MSI Crosshair A16 HX RTX 5070, Ryzen 9-equipped gaming laptop gets $400 discount at Amazon (Tom's Hardware)
+  • “Race realism” isn’t realistic—and it isn’t good science (Ars Technica)
+
+SOFTWARE & DEV
+  • QCon San Francisco 2026: Scaling Tech by Aligning Humans (InfoQ)
+  • How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug (InfoQ)
+  • NASA Mars rover and orbiter suffer glitches (The Register)
+
+BUSINESS & BIG TECH
+  • Harbinger is building the unsexy EVs that keep the economy moving (The Verge)
+  • NASA’s new Moon plan is taking shape, but some big questions remain (Ars Technica)
+  • Army delays detonating "catastrophically hazardous" lead azide amid fear, anger (Ars Technica)
+
+GADGETS & CONSUMER
+  • The pros and cons of using a dumb phone over a smartphone in 2026 (Engadget)
+  • I spent two weeks with Amazon’s Alexa Tablet 12 Pro, and it’s a stellar all-rounder with a gorgeous nanomatte display — but it needs a clearer reason to be (TechRadar)
+  • Engadget review recap: Apple HomeView, Ray-Ban Meta (Gen 3) and more (Engadget)
+
+— THE BITSTREAM, auto-compiled 2026-11-21 14:01
