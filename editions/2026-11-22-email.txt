@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Sun Nov 22, 2026 (95 stories)
+
+Good morning,
+
+Today's IT briefing — 95 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Logitech's accomplished MX Master 3S productivity mouse gets 24% discount
+You can pick up the Logitech MX Master 3S for just $75 at Amazon, just in time for Black Friday. With its signature MagSpeed scrolling, this deal is unmissable for anyone who wants to pick up a mouse perfect for working through large spreadsheets, code, and more.  (Tom's Hardware)
+
+AI & MACHINE LEARNING
+  • AI agents design an entirely new CPU architecture from scratch, startup claims (Tom's Hardware)
+  • 'Listening to the people doing the work matters alongside the numbers': Dropbox head tells us why your business needs to be bold in taking the next steps in its AI journey (TechRadar)
+  • Dev squeezes an AI language model onto a floppy for 486DX and Pentium PC stalwarts (Tom's Hardware)
+
+CYBERSECURITY
+  • Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps (The Hacker News)
+  • 'I leaked secrets': An AI agent confessed to its own data leak — but others got around corporate protections (TechRadar)
+  • Rackspace Spot breach let hackers access customer Kubernetes secrets (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Ukraine revives its grounded fleet of 500+ US-made Puma drones with homegrown anti-jamming tech (Tom's Hardware)
+  • TSMC reportedly pauses shipments to Chinese designers after U.S. export rules flag decade-old 16nm and 14nm nodes (Tom's Hardware)
+  • Moore Threads' next 'Lushan' gaming GPU could pack a record 64GB of VRAM (Tom's Hardware)
+
+SOFTWARE & DEV
+  • PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls (InfoQ)
+  • Passive 'ghost' radar can detect airborne threats without revealing its own position (The Register)
+  • Come for the science, stay for the big iron: Supercomputer admin on why he loves the job (The Register)
+
+BUSINESS & BIG TECH
+  • Your questions about Apple HomeView’s audio, answered (The Verge)
+  • The vibe-coding revolution is coming to all the gadgets (The Verge)
+  • The UN fails to agree on rules regulating ‘killer robots’ (The Verge)
+
+GADGETS & CONSUMER
+  • Does old computer hardware ever become truly useless? (Engadget)
+  • Apple AirPods 5 vs. AirPods Pro 3: What are the key differences? (Engadget)
+  • AirPods Max 2, Technics EAH-A1000, B&W Px8 S2 or Nothing Headphone (a): there's only one set of cans I'd buy for Black Friday (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-22 13:55

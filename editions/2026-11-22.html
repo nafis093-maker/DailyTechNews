@@ -1,0 +1,399 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE BITSTREAM — Sunday, November 22, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4efe3; --paper-2:#ece5d4; --panel:#f9f5ec;
+  --ink:#1b1714; --ink-2:#5a5147; --ink-3:#8a7f70;
+  --accent:#bf3b1c; --accent-2:#16433b;
+  --rule:#d8cdb6; --rule-strong:#1b1714;
+  --backdrop:#26221d;
+  --serif:"Newsreader",Georgia,serif;
+  --display:"Fraunces","Newsreader",Georgia,serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--backdrop);
+  font-family:var(--serif);color:var(--ink);
+  line-height:1.55;padding:28px 16px;
+  background-image:radial-gradient(circle at 20% 0,rgba(255,255,255,.04),transparent 60%);
+}
+.page{
+  max-width:1180px;margin:0 auto;background:var(--paper);
+  padding:clamp(22px,4vw,60px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.2);
+  position:relative;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(120,100,70,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(circle at 80% 10%,rgba(191,59,28,.04),transparent 45%);
+}
+a{color:inherit;text-decoration:none}
+
+/* ---- folio bar ---- */
+.folio{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-2);
+  border-bottom:1px solid var(--rule);padding-bottom:10px;flex-wrap:wrap;gap:6px;
+}
+.folio .dot{color:var(--accent)}
+
+/* ---- masthead ---- */
+.masthead{text-align:center;padding:30px 0 16px;border-bottom:3px double var(--rule-strong)}
+.masthead h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(44px,11vw,128px);line-height:.9;letter-spacing:-.02em;
+  font-optical-sizing:auto;
+}
+.masthead .tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:16px;
+}
+.dateline{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;
+}
+
+/* ---- kickers ---- */
+.kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;display:inline-block;
+}
+.section-head{
+  display:flex;align-items:center;gap:16px;margin:46px 0 22px;
+}
+.section-head h2{
+  font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;
+  white-space:nowrap;color:var(--ink);font-weight:700;
+}
+.section-head .line{flex:1;height:1px;background:var(--rule-strong)}
+.section-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+
+/* ---- lead ---- */
+.lead{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
+.lead .kicker{margin-bottom:14px}
+.lead h2{
+  font-family:var(--display);font-weight:800;letter-spacing:-.015em;
+  font-size:clamp(30px,5.4vw,62px);line-height:1.02;margin-bottom:18px;
+}
+.lead h2 a{background-image:linear-gradient(var(--accent),var(--accent));
+  background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.lead h2 a:hover{background-size:100% 2px}
+.lead .dek{font-size:clamp(17px,2.2vw,22px);color:var(--ink-2);
+  font-style:italic;max-width:60ch;margin-bottom:18px}
+.lead .body{columns:2;column-gap:42px;font-size:16px}
+.lead .body p{margin-bottom:12px;break-inside:avoid}
+.lead .body p:first-child::first-letter{
+  font-family:var(--display);font-weight:900;float:left;font-size:74px;
+  line-height:.72;padding:6px 10px 0 0;color:var(--accent)}
+.byline{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:14px}
+.byline a{border-bottom:1px solid var(--accent);color:var(--accent)}
+
+/* ---- grids ---- */
+.frontpage{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.frontpage .story{padding:20px;border-right:1px solid var(--rule)}
+.frontpage .story:last-child{border-right:none}
+.beat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 32px}
+
+.story .kicker{font-size:10px;margin-bottom:9px}
+.story h3{font-family:var(--display);font-weight:700;font-size:21px;
+  line-height:1.12;letter-spacing:-.01em;margin-bottom:8px}
+.story h3 a{background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.story h3 a:hover{background-size:100% 1px}
+.story p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.story .src{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3)}
+.story .src b{color:var(--accent);font-weight:700}
+
+/* a few editorial 2-col beats get a leading wide story */
+.beat-grid.lead-left{grid-template-columns:1.6fr 1fr 1fr}
+
+/* ---- colophon ---- */
+.colophon{margin-top:54px;border-top:3px double var(--rule-strong);padding-top:20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  line-height:1.7}
+.colophon b{color:var(--ink)}
+.sources-list{margin-top:8px;color:var(--ink-2)}
+
+/* ---- entrance animation ---- */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .frontpage{grid-template-columns:repeat(2,1fr)}
+  .frontpage .story:nth-child(2n){border-right:none}
+  .beat-grid,.beat-grid.lead-left{grid-template-columns:1fr 1fr}
+  .lead .body{columns:1}
+}
+@media(max-width:560px){
+  .frontpage,.beat-grid,.beat-grid.lead-left{grid-template-columns:1fr}
+  .frontpage .story{border-right:none;border-bottom:1px solid var(--rule)}
+}
+</style></head><body><main class="page"><div class="folio">
+      <span>Sunday, November 22, 2026</span>
+      <span>Vol. I <span class="dot">·</span> No. 175</span>
+      <span>95 stories <span class="dot">·</span> 18 sources</span>
+    </div><header class="masthead reveal">
+      <h1>THE BITSTREAM</h1>
+      <div class="tag">An IT &amp; Technology Daily — automatically compiled</div>
+      <div class="dateline">
+        <span>Auto-compiled edition</span><span>Tech wire</span>
+        <span>Sunday, November 22, 2026</span>
+      </div>
+    </header><section class="lead reveal" style="animation-delay:.05s">
+  <span class="kicker">Lead Story &nbsp;·&nbsp; Hardware &amp; Chips</span>
+  <h2><a href="https://www.tomshardware.com/peripherals/mice/logitechs-accomplished-mx-master-3s-productivity-mouse-gets-24-percent-discount-usd75-buys-you-a-tried-and-tested-workhorse-with-killer-features" target="_blank" rel="noopener">Logitech&#x27;s accomplished MX Master 3S productivity mouse gets 24% discount</a></h2>
+  <div class="body"><p>You can pick up the Logitech MX Master 3S for just $75 at Amazon, just in time for Black Friday. With its signature</p><p>MagSpeed scrolling, this deal is unmissable for anyone who wants to pick up a mouse perfect for working through large spreadsheets, code, and more.</p></div>
+  <div class="byline">Filed by <a href="https://www.tomshardware.com/peripherals/mice/logitechs-accomplished-mx-master-3s-productivity-mouse-gets-24-percent-discount-usd75-buys-you-a-tried-and-tested-workhorse-with-killer-features" target="_blank" rel="noopener">Tom&#x27;s Hardware</a>
+     &nbsp;·&nbsp; just now &nbsp;·&nbsp; tomshardware.com</div>
+</section><section class="reveal">
+          <div class="section-head"><h2>The Front Page</h2><span class="line"></span></div>
+          <div class="frontpage"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests" target="_blank" rel="noopener">AI agents design an entirely new CPU architecture from scratch, startup claims</a></h3>
+  <p>Architect Labs says its AI agents designed Frostbite, an interaction-net CPU with 4.59x the performance per watt of an in-order core.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html" target="_blank" rel="noopener">Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps</a></h3>
+  <p>A now-patched flaw in Ghostscript allows a crafted file to escape the program&#x27;s security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling…</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 8h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/drones/ukraine-revives-its-grounded-fleet-of-500-us-made-puma-drones-with-homegrown-anti-jamming-tech-anti-jamming-upgrade-triples-range-to-31-miles" target="_blank" rel="noopener">Ukraine revives its grounded fleet of 500+ US-made Puma drones with homegrown anti-jamming tech</a></h3>
+  <p>The Puma AE reconnaissance drones had been grounded by electromagnetic warfare until they received this upgrade.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls</a></h3>
+  <p>The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+        </section><section class="reveal">
+  <div class="section-head">
+    <h2>AI &amp; Machine Learning</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests" target="_blank" rel="noopener">AI agents design an entirely new CPU architecture from scratch, startup claims</a></h3>
+  <p>Architect Labs says its AI agents designed Frostbite, an interaction-net CPU with 4.59x the performance per watt of an in-order core.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/listening-to-the-people-doing-the-work-matters-alongside-the-numbers-dropbox-head-tells-us-why-your-business-needs-to-be-bold-in-taking-the-next-steps-in-its-ai-journey" target="_blank" rel="noopener">&#x27;Listening to the people doing the work matters alongside the numbers&#x27;: Dropbox head tells us why your business needs to be bold in taking the next steps in its AI journey</a></h3>
+  <p>Dropbox tells us how your business can achieve real outcomes using AI.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/dev-squeezes-an-ai-language-model-onto-a-floppy-for-486dx-and-pentium-pc-stalwarts-tiny-2-1-needs-540kb-of-memory-and-speaks-via-pc-speaker-is-a-question-answering-transformer-with-367k-parameters" target="_blank" rel="noopener">Dev squeezes an AI language model onto a floppy for 486DX and Pentium PC stalwarts</a></h3>
+  <p>An inspired developer has shoehorned a language model onto a floppy disk created especially for 486DX and Pentium PC users running DOS.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Claude Code Has Been Leaking Secrets Through Its &quot;Don&#x27;t Ask Again&quot; Feature</a></h3>
+  <p>Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers&#x27; machines to implement &quot;Don&#x27;t Ask Again&quot;. The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/pro/europes-biggest-ai-challenge-isnt-the-technology-its-organizational-psychology" target="_blank" rel="noopener">Europe&#x27;s biggest AI challenge isn&#x27;t the technology. It&#x27;s organizational psychology</a></h3>
+  <p>Closing Europe’s AI adoption gap requires leaders to build employee trust, confidence and motivation.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 3h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Cybersecurity</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html" target="_blank" rel="noopener">Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps</a></h3>
+  <p>A now-patched flaw in Ghostscript allows a crafted file to escape the program&#x27;s security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling…</p>
+  <div class="src"><b>The Hacker News</b> &nbsp;·&nbsp; 8h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.techradar.com/pro/security/i-leaked-secrets-an-ai-agent-confessed-to-its-own-data-leak-but-others-got-around-corporate-protections" target="_blank" rel="noopener">&#x27;I leaked secrets&#x27;: An AI agent confessed to its own data leak — but others got around corporate protections</a></h3>
+  <p>Two AI incidents exposed corporate security weaknesses after one assistant leaked confidential credentials while another bypassed restrictions through an alternative API connection.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 11h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/" target="_blank" rel="noopener">Rackspace Spot breach let hackers access customer Kubernetes secrets</a></h3>
+  <p>Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 14h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.techradar.com/pro/security/as-gta-vi-arrives-mcafee-warns-of-new-malware-as-a-service-targeting-gamers-and-its-own-customers-alike" target="_blank" rel="noopener">As GTA VI arrives, McAfee warns of new malware-as-a-service targeting gamers and its own customers alike</a></h3>
+  <p>Marsalek handed out free malware to wannabe hackers, then quietly copied everything they stole to its own server.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 19h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/" target="_blank" rel="noopener">Microsoft Entra Connect Health flaw exploited to steal tenant data</a></h3>
+  <p>Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 19h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Hardware &amp; Chips</h2><span class="line"></span>
+    <span class="count">04 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/drones/ukraine-revives-its-grounded-fleet-of-500-us-made-puma-drones-with-homegrown-anti-jamming-tech-anti-jamming-upgrade-triples-range-to-31-miles" target="_blank" rel="noopener">Ukraine revives its grounded fleet of 500+ US-made Puma drones with homegrown anti-jamming tech</a></h3>
+  <p>The Puma AE reconnaissance drones had been grounded by electromagnetic warfare until they received this upgrade.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips" target="_blank" rel="noopener">TSMC reportedly pauses shipments to Chinese designers after U.S. export rules flag decade-old 16nm and 14nm nodes</a></h3>
+  <p>The BIS&#x27;s IFR says that chip fabs can no longer assume a design&#x27;s performance based on the specifications provided by their customer.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/pc-components/gpus/moore-threads-next-lushan-gaming-gpu-could-pack-a-record-64gb-of-vram-doubles-the-rtx-5090s-32gb-lofty-claims-of-15x-gaming-and-50x-ray-tracing-over-mtt-s80" target="_blank" rel="noopener">Moore Threads&#x27; next &#x27;Lushan&#x27; gaming GPU could pack a record 64GB of VRAM</a></h3>
+  <p>Moore Threads teased its Lushan gaming GPU ahead of MDC 2026, with a product manager claiming record VRAM for a consumer graphics card.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/peripherals/gaming-headsets/one-of-the-best-gaming-headsets-plummets-to-just-usd78-at-amazon-in-unmissable-black-friday-deal-razer-blackshark-v2-pro-outshines-its-successor-at-less-than-half-the-price" target="_blank" rel="noopener">One of the best gaming headsets plummets to just $78 at Amazon in unmissable Black Friday deal</a></h3>
+  <p>One of our favorite gaming headsets just got a killer discount in time for the Holiday season. The PS5 version Razer Blackshark V2 Pro, has been discounted to just $78 at Amazon, meaning that you can get one of the best all-around gaming headsets out there for even less.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Software &amp; Dev</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls</a></h3>
+  <p>The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023" target="_blank" rel="noopener">Passive &#x27;ghost&#x27; radar can detect airborne threats without revealing its own position</a></h3>
+  <p>Kit piggybacks off TV and mobile signals and can be neatly stuffed into an SUV</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 4h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/hpc/2026/11/22/come-for-the-science-stay-for-the-big-iron-supercomputer-admin-on-why-he-loves-the-job/5311247" target="_blank" rel="noopener">Come for the science, stay for the big iron: Supercomputer admin on why he loves the job</a></h3>
+  <p>From the dotcom bubble to 200,00 cores of raw power</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 5h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/columnists/2026/11/21/aws-got-hit-by-an-outage-too-heres-why-you-didnt-hear-about-it/5311511" target="_blank" rel="noopener">AWS got hit by an outage too. Here&#x27;s why you didn&#x27;t hear about it</a></h3>
+  <p>If a service falls in the forest and nobody hears it...</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 23h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/grafana-13-3-shared-variables/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Grafana 13.3 Adds Shared Dashboard Variables and Notebooks</a></h3>
+  <p>Grafana 13.3 introduces shared variables across dashboards and adds Notebooks to record investigations. Both features are in public preview and require feature toggles for self-managed installations. By Mark Silvester</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 23h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Business &amp; Big Tech</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay" target="_blank" rel="noopener">Your questions about Apple HomeView’s audio, answered</a></h3>
+  <p>After I published my review of the HomeView, Apple&#x27;s first smart display, y&#x27;all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. Here […]</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera" target="_blank" rel="noopener">The vibe-coding revolution is coming to all the gadgets</a></h3>
+  <p>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers&#x27; inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it&#x27;s not […]</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/tech/1039554/un-regulations-killer-robots" target="_blank" rel="noopener">The UN fails to agree on rules regulating ‘killer robots’</a></h3>
+  <p>One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called &quot;killer robots.&quot; Eventually, representatives left the meetings agreeing to &quot;start discussing options&quot; after a largely fruitless week of negotiations. According to…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 17h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/" target="_blank" rel="noopener">Trump says reported FBI database hack is ‘not good’</a></h3>
+  <p>The FBI is reportedly investigating a hack of the National Crime Information Center.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 19h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/tech/1039543/fbi-usda-hacked" target="_blank" rel="noopener">The FBI and USDA were reportedly hacked</a></h3>
+  <p>Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this time targeting the National Crime Information Center (NCIC), which federal, state, and local law […]</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 20h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Gadgets &amp; Consumer</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2319347/old-computer-hardware-truly-useless/" target="_blank" rel="noopener">Does old computer hardware ever become truly useless?</a></h3>
+  <p>Find out how long old computer hardware usually lasts, what eventually makes it obsolete and when it&#x27;s worth reusing or selling your PC parts.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2319344/apple-airpods-5-vs-airpods-pro-3-differences/" target="_blank" rel="noopener">Apple AirPods 5 vs. AirPods Pro 3: What are the key differences?</a></h3>
+  <p>Apple Airpods Pro 3 have more features than the cheaper Airpods 5. Discover the differences in appearance, charging, battery life and capabilities.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/audio/wireless-headphones/i-tested-four-of-the-best-wireless-noise-canceling-headphones-in-2026-and-theres-only-one-pair-id-buy-on-black-friday" target="_blank" rel="noopener">AirPods Max 2, Technics EAH-A1000, B&amp;W Px8 S2 or Nothing Headphone (a): there&#x27;s only one set of cans I&#x27;d buy for Black Friday</a></h3>
+  <p>With Black Friday&#x27;s incoming discounts, is it worth opting for a mid-range set of cans that may drop to budget money? No; for me, premium is where it&#x27;s at</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.tomshardware.com/monitors/gaming-monitors/msis-magnificent-32-inch-4k-qd-oled-gaming-monitor-tumbles-to-just-usd569-save-usd130-at-b-and-h-photo-with-this-black-friday-mag-321up-deal-the-perfect-gaming-upgrade-for-your-pc" target="_blank" rel="noopener">MSI&#x27;s magnificent 32-inch 4K QD-OLED gaming monitor tumbles to just $569</a></h3>
+  <p>Save $130 on this gorgeous 32-inch QD-OLED gaming monitor from MSI and experience crisp visuals in 4K.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 4h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.engadget.com/2319300/pixel-11-is-it-worth-upgrading-from-9-10/" target="_blank" rel="noopener">Attention Pixel 9 and 10 owners: is it actually worth upgrading to the Pixel 11?</a></h3>
+  <p>New doesn&#x27;t always mean better, especially in this economy. Here&#x27;s what you need to know before deciding if the new Google Pixel 11 is the worth your money.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; 12h ago</div>
+</article></div>
+</section><footer class="colophon">
+      <b>THE BITSTREAM</b> is compiled automatically by an RSS-crawling agent.
+      Every headline links to its original publisher; summaries are condensed from
+      each outlet's own feed. Built 2026-11-22 13:55.
+      <div class="sources-list"><b>Wire sources &nbsp;·&nbsp;</b> AnandTech, Ars Technica, Ars Technica Tech, BleepingComputer, Dark Reading, Engadget, GitHub Blog, InfoQ, Krebs on Security, MIT Tech Review, TechCrunch, TechCrunch AI, TechRadar, The Hacker News, The Register, The Verge, Tom&#x27;s Hardware, VentureBeat AI</div>
+    </footer></main></body></html>
