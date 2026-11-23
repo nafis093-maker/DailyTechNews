@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Mon Nov 23, 2026 (144 stories)
+
+Good morning,
+
+Today's IT briefing — 144 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Uber now lets you book rides that record the drive by default
+Uber is piloting a new feature in the U.S. that offers rides in which drivers have enabled the company’s recording feature, Record My Ride. The option, which uses the front camera of the Uber driver’s phone to record the entire drive, will show up as “Recorded Rides” in the app. The ride-hailing company is starting […]  (TechCrunch)
+
+AI & MACHINE LEARNING
+  • Jensen Huang isn’t out of the woods yet (TechCrunch AI)
+  • CrowdStrike to acquire Zscaler for $44 billion (TechCrunch)
+  • 'Some people get so excited about ‘free’ software that they forget the risks': New report finds rush to develop software faster with AI is creating a costly new problem (TechRadar)
+
+CYBERSECURITY
+  • Nvidia confirms it is investigating possible third-party data breach, says it will 'continue to monitor the situation' (TechRadar)
+  • GlobeTopper loses $2.5 million after hackers steal $70k in gift cards (BleepingComputer)
+  • AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes (Dark Reading)
+
+HARDWARE & CHIPS
+  • AMD's top-performing Ryzen 9850X3D is now the same price as the 9800X3D, an all-time low (Tom's Hardware)
+  • Trump reportedly called into Nvidia board meeting to advocate for Huang’s return (TechCrunch AI)
+  • 3D printer that promises simultaneous printing from all four heads gets $500,000 in crowdfunding (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Bulgaria evicts cyber snoops who lurked inside government networks for 5 years (The Register)
+  • Microsoft mega outage: Report reveals testing gaps and emails that never arrived (The Register)
+  • JEP 545 Moves ZGC Memory Preparation off the Startup Path in JDK 28 (InfoQ)
+
+BUSINESS & BIG TECH
+  • Tech leaders are celebrating Jensen Huang’s return (The Verge)
+  • Blade Runner 2099 is an inventive twist on a cyberpunk classic (The Verge)
+  • ‘You Can See Everything’ has made more than $100M worldwide (TechCrunch)
+
+GADGETS & CONSUMER
+  • Google is finally retiring the Nest app early next year (Engadget)
+  • What is Sound Glow on HomePods, and how do you get it on your Apple speaker? (Engadget)
+  • Black Friday kitchen appliance deals: Ninja, KitchenAid, and Breville (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-23 17:08
