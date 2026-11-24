@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Tue Nov 24, 2026 (219 stories)
+
+Good morning,
+
+Today's IT briefing — 219 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia
+As Jensen Huang returns to his post as Nvidia's CEO with support from the Trump Administration, the Department of Commerce has added Megaspeed to its Entity List, which blocks trade with the company, citing national security risks. As reported earlier by Semafor, Commerce Secretary Howard Lutnick had faced increasing…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming (TechCrunch AI)
+  • Saudi OpenAI eavesdropper who bugged company office had hundreds of private recordings (Tom's Hardware)
+  • Jensen Huang deepfakes are the hot new AI slop (The Verge)
+
+CYBERSECURITY
+  • ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof (BleepingComputer)
+  • European Commission confirms data theft in EU Academy breach (BleepingComputer)
+  • Hackers compromise Check Point Servers in 22 organizations (BleepingComputer)
+
+HARDWARE & CHIPS
+  • Dell XPS 13 hits all-time low $549 for Black Friday (Tom's Hardware)
+  • Commerce Department adds Megaspeed to trade blacklist (Engadget)
+  • Tom's Hardware’s CES 2027 Awards: How to enter your product (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Microsoft brings serverless PostgreSQL into Fabric to bridge transactions and analytics (The Register)
+  • These are the gifts developers will actually want (GitHub Blog)
+  • FCC proposes 'tit-for-tat' restrictions on foreign satellite operators (The Register)
+
+BUSINESS & BIG TECH
+  • Uber and Nuro begin driverless testing of Lucid robotaxis ahead of 2027 launch (TechCrunch)
+  • You can lock in Hulu and Disney Plus for as low as $5 per month for a year (The Verge)
+  • Wyze’s new window feeder records birds from a camera inside your home (The Verge)
+
+GADGETS & CONSUMER
+  • Wireless Android Auto has a phone battery draining problem, but you can fix it (Engadget)
+  • Fitbit Air app hacks the Google tracker to add its biggest missing feature (TechRadar)
+  • DDR5 RAM Black Friday deals: 6 32GB kits under $500 — because sadly that’s where memory prices are right now (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-24 16:52
