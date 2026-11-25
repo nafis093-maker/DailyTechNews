@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Wed Nov 25, 2026 (220 stories)
+
+Good morning,
+
+Today's IT briefing — 220 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Nothing offers a full look at its AI earbuds and charging case
+Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a "Talk"…  (The Verge)
+
+AI & MACHINE LEARNING
+  • Nothing's Ear (note) is a pair of earbuds with built-in AI notetaking (Engadget)
+  • Art of play in the age of AI (GitHub Blog)
+  • New York places five year ban on manufacture and sale of AI toys (TechRadar)
+
+CYBERSECURITY
+  • CISA warns of critical unpatched flaw in Danfoss refrigeration controllers (BleepingComputer)
+  • Rackspace forced to shut down Spot cloud platform following security breach (TechRadar)
+  • Attackers Target .NET Developers With Poisoned Job Assessments (Dark Reading)
+
+HARDWARE & CHIPS
+  • Nvidia is rumored to be cutting GPU supply by up to 30% (TechRadar)
+  • Now is as good a time as any to buy the Mac mini M5 Pro, with £200 off at Amazon this Black Friday (TechRadar)
+  • Best Black Friday Gaming PC Deals 2026 (Tom's Hardware)
+
+SOFTWARE & DEV
+  • NASA's nuclear-powered Mars delivery service takes shape (The Register)
+  • GitHub Ditches CSS-in-JS for CSS Modules, Reports 55% Faster SSR After Three-Year Migration (InfoQ)
+  • Microsoft fixes Office dialog that had nothing to say and wouldn't go away (The Register)
+
+BUSINESS & BIG TECH
+  • Lead azide detonation sends clouds over Iowa as questions of health risks swirl (Ars Technica)
+  • Allstate suffers multi-day tech outage ahead of Thanksgiving (TechCrunch)
+  • A familiar Iranian hacking group has found a new way to cause chaos (Ars Technica)
+
+GADGETS & CONSUMER
+  • CyberGhost has launched an improved Black Friday price — but it's still not the cheap deal I'd choose this Black Friday (TechRadar)
+  • Black Friday Kindle deals: save big on Paperwhite, Colorsoft, Kindle, and more models (TechRadar)
+  • Firefox 161 upgrades its free built-in VPN with custom per-site rules — but only on desktop (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-25 16:40

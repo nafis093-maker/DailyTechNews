@@ -1,0 +1,399 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE BITSTREAM — Wednesday, November 25, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4efe3; --paper-2:#ece5d4; --panel:#f9f5ec;
+  --ink:#1b1714; --ink-2:#5a5147; --ink-3:#8a7f70;
+  --accent:#bf3b1c; --accent-2:#16433b;
+  --rule:#d8cdb6; --rule-strong:#1b1714;
+  --backdrop:#26221d;
+  --serif:"Newsreader",Georgia,serif;
+  --display:"Fraunces","Newsreader",Georgia,serif;
+  --mono:"Space Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--backdrop);
+  font-family:var(--serif);color:var(--ink);
+  line-height:1.55;padding:28px 16px;
+  background-image:radial-gradient(circle at 20% 0,rgba(255,255,255,.04),transparent 60%);
+}
+.page{
+  max-width:1180px;margin:0 auto;background:var(--paper);
+  padding:clamp(22px,4vw,60px);
+  box-shadow:0 30px 80px rgba(0,0,0,.5),0 2px 0 rgba(0,0,0,.2);
+  position:relative;
+  background-image:
+    repeating-linear-gradient(0deg,rgba(120,100,70,.022) 0 1px,transparent 1px 3px),
+    radial-gradient(circle at 80% 10%,rgba(191,59,28,.04),transparent 45%);
+}
+a{color:inherit;text-decoration:none}
+
+/* ---- folio bar ---- */
+.folio{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-2);
+  border-bottom:1px solid var(--rule);padding-bottom:10px;flex-wrap:wrap;gap:6px;
+}
+.folio .dot{color:var(--accent)}
+
+/* ---- masthead ---- */
+.masthead{text-align:center;padding:30px 0 16px;border-bottom:3px double var(--rule-strong)}
+.masthead h1{
+  font-family:var(--display);font-weight:900;
+  font-size:clamp(44px,11vw,128px);line-height:.9;letter-spacing:-.02em;
+  font-optical-sizing:auto;
+}
+.masthead .tag{
+  font-family:var(--mono);font-size:11px;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:16px;
+}
+.dateline{
+  display:flex;justify-content:center;gap:22px;flex-wrap:wrap;
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-2);margin-top:14px;border-top:1px solid var(--rule);padding-top:12px;
+}
+
+/* ---- kickers ---- */
+.kicker{
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;display:inline-block;
+}
+.section-head{
+  display:flex;align-items:center;gap:16px;margin:46px 0 22px;
+}
+.section-head h2{
+  font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;
+  white-space:nowrap;color:var(--ink);font-weight:700;
+}
+.section-head .line{flex:1;height:1px;background:var(--rule-strong)}
+.section-head .count{font-family:var(--mono);font-size:11px;color:var(--ink-3);letter-spacing:.1em}
+
+/* ---- lead ---- */
+.lead{padding:34px 0 8px;border-bottom:1px solid var(--rule)}
+.lead .kicker{margin-bottom:14px}
+.lead h2{
+  font-family:var(--display);font-weight:800;letter-spacing:-.015em;
+  font-size:clamp(30px,5.4vw,62px);line-height:1.02;margin-bottom:18px;
+}
+.lead h2 a{background-image:linear-gradient(var(--accent),var(--accent));
+  background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.lead h2 a:hover{background-size:100% 2px}
+.lead .dek{font-size:clamp(17px,2.2vw,22px);color:var(--ink-2);
+  font-style:italic;max-width:60ch;margin-bottom:18px}
+.lead .body{columns:2;column-gap:42px;font-size:16px}
+.lead .body p{margin-bottom:12px;break-inside:avoid}
+.lead .body p:first-child::first-letter{
+  font-family:var(--display);font-weight:900;float:left;font-size:74px;
+  line-height:.72;padding:6px 10px 0 0;color:var(--accent)}
+.byline{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:14px}
+.byline a{border-bottom:1px solid var(--accent);color:var(--accent)}
+
+/* ---- grids ---- */
+.frontpage{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.frontpage .story{padding:20px;border-right:1px solid var(--rule)}
+.frontpage .story:last-child{border-right:none}
+.beat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 32px}
+
+.story .kicker{font-size:10px;margin-bottom:9px}
+.story h3{font-family:var(--display);font-weight:700;font-size:21px;
+  line-height:1.12;letter-spacing:-.01em;margin-bottom:8px}
+.story h3 a{background-image:linear-gradient(var(--ink),var(--ink));
+  background-size:0% 1px;background-repeat:no-repeat;background-position:0 100%;
+  transition:background-size .3s ease}
+.story h3 a:hover{background-size:100% 1px}
+.story p{font-size:14.5px;color:var(--ink-2);margin-bottom:10px}
+.story .src{font-family:var(--mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3)}
+.story .src b{color:var(--accent);font-weight:700}
+
+/* a few editorial 2-col beats get a leading wide story */
+.beat-grid.lead-left{grid-template-columns:1.6fr 1fr 1fr}
+
+/* ---- colophon ---- */
+.colophon{margin-top:54px;border-top:3px double var(--rule-strong);padding-top:20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:var(--ink-3);
+  line-height:1.7}
+.colophon b{color:var(--ink)}
+.sources-list{margin-top:8px;color:var(--ink-2)}
+
+/* ---- entrance animation ---- */
+.reveal{opacity:0;transform:translateY(14px);animation:rise .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+
+@media(max-width:880px){
+  .frontpage{grid-template-columns:repeat(2,1fr)}
+  .frontpage .story:nth-child(2n){border-right:none}
+  .beat-grid,.beat-grid.lead-left{grid-template-columns:1fr 1fr}
+  .lead .body{columns:1}
+}
+@media(max-width:560px){
+  .frontpage,.beat-grid,.beat-grid.lead-left{grid-template-columns:1fr}
+  .frontpage .story{border-right:none;border-bottom:1px solid var(--rule)}
+}
+</style></head><body><main class="page"><div class="folio">
+      <span>Wednesday, November 25, 2026</span>
+      <span>Vol. I <span class="dot">·</span> No. 178</span>
+      <span>220 stories <span class="dot">·</span> 18 sources</span>
+    </div><header class="masthead reveal">
+      <h1>THE BITSTREAM</h1>
+      <div class="tag">An IT &amp; Technology Daily — automatically compiled</div>
+      <div class="dateline">
+        <span>Auto-compiled edition</span><span>Tech wire</span>
+        <span>Wednesday, November 25, 2026</span>
+      </div>
+    </header><section class="lead reveal" style="animation-delay:.05s">
+  <span class="kicker">Lead Story &nbsp;·&nbsp; AI &amp; Machine Learning</span>
+  <h2><a href="https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal" target="_blank" rel="noopener">Nothing offers a full look at its AI earbuds and charging case</a></h2>
+  <div class="body"><p>Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record</p><p>your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note&#x27;s microphone-equipped case comes with a &quot;Talk&quot;…</p></div>
+  <div class="byline">Filed by <a href="https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal" target="_blank" rel="noopener">The Verge</a>
+     &nbsp;·&nbsp; just now &nbsp;·&nbsp; theverge.com</div>
+</section><section class="reveal">
+          <div class="section-head"><h2>The Front Page</h2><span class="line"></span></div>
+          <div class="frontpage"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.engadget.com/2328122/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/" target="_blank" rel="noopener">Nothing&#x27;s Ear (note) is a pair of earbuds with built-in AI notetaking</a></h3>
+  <p>The company has promised to share more details on December 8.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/" target="_blank" rel="noopener">CISA warns of critical unpatched flaw in Danfoss refrigeration controllers</a></h3>
+  <p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.techradar.com/computing/gpu/rumor-suggests-nvidia-will-cut-gpu-supply-by-20-percent-to-30-percent-over-the-next-few-months-so-if-you-dont-buy-soon-prices-could-get-even-scarier" target="_blank" rel="noopener">Nvidia is rumored to be cutting GPU supply by up to 30%</a></h3>
+  <p>Is buying a GPU this Black Friday a good idea? If you can find a decent deal, it might be.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/science/2026/11/25/nasas-nuclear-powered-mars-delivery-service-takes-shape/5312147" target="_blank" rel="noopener">NASA&#x27;s nuclear-powered Mars delivery service takes shape</a></h3>
+  <p>SR-1 Freedom gets a shorter boom and larger antennas, with roughly two years to finish design, construction, and testing</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+        </section><section class="reveal">
+  <div class="section-head">
+    <h2>AI &amp; Machine Learning</h2><span class="line"></span>
+    <span class="count">04 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.engadget.com/2328122/nothings-ear-note-is-a-pair-of-earbuds-with-built-in-ai-notetaking/" target="_blank" rel="noopener">Nothing&#x27;s Ear (note) is a pair of earbuds with built-in AI notetaking</a></h3>
+  <p>The company has promised to share more details on December 8.</p>
+  <div class="src"><b>Engadget</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/" target="_blank" rel="noopener">Art of play in the age of AI</a></h3>
+  <p>Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here&#x27;s what we can learn through that process as developers.</p>
+  <div class="src"><b>GitHub Blog</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.techradar.com/ai-platforms-assistants/there-are-toys-out-there-that-could-be-harmful-to-your-children-new-york-just-banned-ai-toys-from-being-made-and-sold-for-five-years-with-parents-told-to-play-with-children-in-a-way-that-stretches-their-imagination" target="_blank" rel="noopener">New York places five year ban on manufacture and sale of AI toys</a></h3>
+  <p>Governor Kathy Hochul signed strict legislation targeting AI toys, citing dangerous conversations and minimal guardrails.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">AI</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/" target="_blank" rel="noopener">More Pentests Without More Pentesters: Where AI Safely Helps</a></h3>
+  <p>Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Cybersecurity</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/" target="_blank" rel="noopener">CISA warns of critical unpatched flaw in Danfoss refrigeration controllers</a></h3>
+  <p>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.techradar.com/pro/security/rackspace-forced-to-shut-down-spot-cloud-platform-following-security-breach" target="_blank" rel="noopener">Rackspace forced to shut down Spot cloud platform following security breach</a></h3>
+  <p>Users are paying their respects on Reddit, with some are urging Rackspace to reconsider.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments" target="_blank" rel="noopener">Attackers Target .NET Developers With Poisoned Job Assessments</a></h3>
+  <p>Researchers discovered 13 malicious NuGet packages as part of a fake recruitment campaign that spreads malware and gives attackers access to developers&#x27; machines.</p>
+  <div class="src"><b>Dark Reading</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.darkreading.com/cyber-risk/bot-world-just-living" target="_blank" rel="noopener">It&#x27;s a Bot World. We&#x27;re Just Living in It</a></h3>
+  <p>Bot detection has become a losing game. Security teams need to limit privileged access for humans and their machine counterparts equally.</p>
+  <div class="src"><b>Dark Reading</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Cybersecurity</span>
+  <h3><a href="https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/" target="_blank" rel="noopener">InfraTrust warns of exploited supply chain flaws in network appliances</a></h3>
+  <p>Eclypsium&#x27;s November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves. [...]</p>
+  <div class="src"><b>BleepingComputer</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Hardware &amp; Chips</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.techradar.com/computing/gpu/rumor-suggests-nvidia-will-cut-gpu-supply-by-20-percent-to-30-percent-over-the-next-few-months-so-if-you-dont-buy-soon-prices-could-get-even-scarier" target="_blank" rel="noopener">Nvidia is rumored to be cutting GPU supply by up to 30%</a></h3>
+  <p>Is buying a GPU this Black Friday a good idea? If you can find a decent deal, it might be.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.techradar.com/pro/now-is-as-good-a-time-as-any-to-buy-the-mac-mini-m5-pro-with-gbp200-off-at-amazon-this-black-friday" target="_blank" rel="noopener">Now is as good a time as any to buy the Mac mini M5 Pro, with £200 off at Amazon this Black Friday</a></h3>
+  <p>Save £200 on this high-performance Mac mini with an M5 Pro chip perfect for video editing or software development.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/desktops/gaming-pcs/best-gaming-pc-deals-prebuilts-2026" target="_blank" rel="noopener">Best Black Friday Gaming PC Deals 2026</a></h3>
+  <p>We&#x27;ve gathered the top Black Friday pre-built gaming desktop deals. We&#x27;re constantly updating this list with the best discounts across all retailers.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/pc-components/cpus/7-new-intel-nova-lake-s-core-ultra-4000-series-cpus-detailed-in-new-leak-lineup-includes-5-5ghz-ultra-9-4970k-bfc-ahead-of-the-expected-february-2027-release" target="_blank" rel="noopener">7 new Intel Nova Lake-S Core Ultra 4000-series CPUs detailed in new leak</a></h3>
+  <p>A number of new, unannounced Intel Core Ultra 4000-series chips have been detailed in a Nova Lake document, ahead of what is expected to be an official unveiling of the chips at a next-generation desktop chip event in Berlin, Germany, in February 2027.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Hardware</span>
+  <h3><a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/us-treasury-information-chief-spent-three-days-vibecoding-civilization-game-clone-amidst-treasury-database-hack-ai-agent-studiously-attends-to-personal-project-github-users-raise-tickets-asking-him-to-attend-to-cybersecurity-incident" target="_blank" rel="noopener">US Treasury information chief spent three days vibecoding Civilization game clone amidst Treasury database hack</a></h3>
+  <p>Legatum, a vibecoded browser-based Civilization clone by the US Treasury&#x27;s own CIO is getting constant updates while the Treasury faces a cybersecurity issue.</p>
+  <div class="src"><b>Tom&#x27;s Hardware</b> &nbsp;·&nbsp; 1h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Software &amp; Dev</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/science/2026/11/25/nasas-nuclear-powered-mars-delivery-service-takes-shape/5312147" target="_blank" rel="noopener">NASA&#x27;s nuclear-powered Mars delivery service takes shape</a></h3>
+  <p>SR-1 Freedom gets a shorter boom and larger antennas, with roughly two years to finish design, construction, and testing</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/github-css-migration/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">GitHub Ditches CSS-in-JS for CSS Modules, Reports 55% Faster SSR After Three-Year Migration</a></h3>
+  <p>GitHub migrated github.com from styled-components to CSS Modules over three years, reporting a 55% cut in server-side rendering time and 25% faster component initialisation. Primer components were converted behind feature flags, and about 7,760 sx prop usages were migrated with codemods and Copilot agents. Commenters…</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/software/2026/11/25/microsoft-fixes-office-dialog-that-had-nothing-to-say-and-wouldnt-go-away/5312057" target="_blank" rel="noopener">Microsoft fixes Office dialog that had nothing to say and wouldn&#x27;t go away</a></h3>
+  <p>Update resolves work-blocking popup, but affected users may need an administrator command prompt to install it</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents</a></h3>
+  <p>Vercel&#x27;s experimental Board is a headless message store where people and coding agents claim leased tasks, declare dependencies, and sync threads with Slack, GitHub, and Linear. By Daniel Dominguez</p>
+  <div class="src"><b>InfoQ</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Software</span>
+  <h3><a href="https://www.theregister.com/saas/2026/11/25/microsoft-365-backup-stretches-recovery-window-to-ten-years/5312043" target="_blank" rel="noopener">Microsoft 365 Backup stretches recovery window to ten years</a></h3>
+  <p>Sadly, no time travel back to 2016</p>
+  <div class="src"><b>The Register</b> &nbsp;·&nbsp; 4h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Business &amp; Big Tech</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid lead-left"><article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/" target="_blank" rel="noopener">Lead azide detonation sends clouds over Iowa as questions of health risks swirl</a></h3>
+  <p>Prior modeling estimated the plume would cover hundreds of square miles.</p>
+  <div class="src"><b>Ars Technica</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/" target="_blank" rel="noopener">Allstate suffers multi-day tech outage ahead of Thanksgiving</a></h3>
+  <p>The disruption comes at a particularly bad time for the insurance giant, as millions of Americans prepare to travel for the Thanksgiving holiday weekend.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/" target="_blank" rel="noopener">A familiar Iranian hacking group has found a new way to cause chaos</a></h3>
+  <p>France blames an Iranian cyber unit for sabotaging hundreds of supermarket freezers.</p>
+  <div class="src"><b>Ars Technica</b> &nbsp;·&nbsp; 2h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://www.theverge.com/tech/1041221/tapo-c825-security-indoor-2k-camera-video-calls-tracking-pan-tilt" target="_blank" rel="noopener">Tapo’s new indoor security camera includes a touchscreen for video calls</a></h3>
+  <p>TP-Link&#x27;s Tapo smart home brand announced a new indoor security camera that can help keep an eye on your house while you&#x27;re away or connect you to family and friends while you&#x27;re at home. The C825 upgrades a 2K pan-and-tilt camera with a 4-inch touchscreen, so when it&#x27;s not watching for intruders or misbehaving pets…</p>
+  <div class="src"><b>The Verge</b> &nbsp;·&nbsp; 3h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Business</span>
+  <h3><a href="https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/" target="_blank" rel="noopener">Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty</a></h3>
+  <p>Flipkart&#x27;s product and technology chief Balaji Thiagarajan will lead the company alongside its board until a successor is found.</p>
+  <div class="src"><b>TechCrunch</b> &nbsp;·&nbsp; 3h ago</div>
+</article></div>
+</section>
+<section class="reveal">
+  <div class="section-head">
+    <h2>Gadgets &amp; Consumer</h2><span class="line"></span>
+    <span class="count">05 stories</span>
+  </div>
+  <div class="beat-grid"><article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/vpn/vpn-services/cyberghost-has-launched-an-improved-black-friday-price-but-its-still-not-the-cheap-deal-id-choose-this-black-friday" target="_blank" rel="noopener">CyberGhost has launched an improved Black Friday price — but it&#x27;s still not the cheap deal I&#x27;d choose this Black Friday</a></h3>
+  <p>It&#x27;s now among the cheapest VPNs available, but it still hasn&#x27;t done enough to convince me</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/seasonal-sales/black-friday-kindle-deals-save-big-on-the-amazon-kindle-kindle-paperwhite-kindle-colorsoft-and-kindle-scribe" target="_blank" rel="noopener">Black Friday Kindle deals: save big on Paperwhite, Colorsoft, Kindle, and more models</a></h3>
+  <p>I&#x27;ve found the best Black Friday Kindle deals — save big on the Kindle, Kindle Paperwhite, Kindle Colorsoft, and more.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; just now</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/vpn/vpn-services/firefox-161-upgrades-its-free-built-in-vpn-with-custom-per-site-rules-but-only-on-desktop" target="_blank" rel="noopener">Firefox 161 upgrades its free built-in VPN with custom per-site rules — but only on desktop</a></h3>
+  <p>Firefox 161 lets desktop users automate its free built-in VPN per website, saving constant toggling while adding Android audio and quick-wipe tools.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/pro/work-like-its-1998-aura-displays-retro-inspired-bondi-blue-triple-aero-98-pro-max-laptop-screen-extender-gets-a-16-percent-discount-for-black-friday" target="_blank" rel="noopener">Work like it&#x27;s 1998: Aura Displays&#x27; retro-inspired Bondi Blue Triple Aero ’98 Pro Max laptop screen extender gets a 16% discount for Black Friday</a></h3>
+  <p>Remember the original iMac? Aura Displays&#x27; Triple Aero ’98 Pro Max brings back Bondi Blue with a Black Friday discount.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 1h ago</div>
+</article>
+<article class="story">
+  <span class="kicker">Gadgets</span>
+  <h3><a href="https://www.techradar.com/seasonal-sales/black-friday-phone-deals-35-hand-picked-deals-on-the-galaxy-s26-ultra-iphone-17-pro-pixel-11-pro-and-more" target="_blank" rel="noopener">Black Friday phone deals: 35 hand-picked deals on Apple iPhones, Pixels, Samsung phones, and more</a></h3>
+  <p>I&#x27;ve scoured the web for the best Black Friday phone deals in the US and UK.</p>
+  <div class="src"><b>TechRadar</b> &nbsp;·&nbsp; 2h ago</div>
+</article></div>
+</section><footer class="colophon">
+      <b>THE BITSTREAM</b> is compiled automatically by an RSS-crawling agent.
+      Every headline links to its original publisher; summaries are condensed from
+      each outlet's own feed. Built 2026-11-25 16:40.
+      <div class="sources-list"><b>Wire sources &nbsp;·&nbsp;</b> AnandTech, Ars Technica, Ars Technica Tech, BleepingComputer, Dark Reading, Engadget, GitHub Blog, InfoQ, Krebs on Security, MIT Tech Review, TechCrunch, TechCrunch AI, TechRadar, The Hacker News, The Register, The Verge, Tom&#x27;s Hardware, VentureBeat AI</div>
+    </footer></main></body></html>
