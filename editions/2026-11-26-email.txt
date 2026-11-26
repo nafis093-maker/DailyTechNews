@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Thu Nov 26, 2026 (197 stories)
+
+Good morning,
+
+Today's IT briefing — 197 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday
+Black Friday isn’t just a good time to save on a new TV but also a chance to spend less on what you watch on it. The shopping holiday often brings steep streaming discounts, and this year is no exception, with some streamers offering more than 50 percent off. HBO Max, Apple TV, and Hulu […]  (The Verge)
+
+AI & MACHINE LEARNING
+  • As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue (TechCrunch AI)
+  • Exploring the Indium phosphide supply chain — the material constraint tightening the optical interconnect bottleneck (Tom's Hardware)
+  • Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims (Tom's Hardware)
+
+CYBERSECURITY
+  • Todoist confirms data breach — says 6% of customers’ details were stolen, including email IDs and account info (TechRadar)
+  • Your data is on someone else’s computer (and your recovery plan should never depend on it) (TechRadar)
+  • 'Significant number of customer records' pwned in Flight Centre Travel Group breach (The Register)
+
+HARDWARE & CHIPS
+  • Save 21% on this ultra-fast 2TB SanDisk Optimus GX Pro 8100 SSD, now just 17.5 cents per GB (Tom's Hardware)
+  • 15 tech gadgets that improved my tech life are on sale for less than $50 (Tom's Hardware)
+  • Path of Exile 2's big update is big news for players on multiple platforms and 'especially console' players says game director — 'The performance in 1.0 is better than before because CPU improvements are good for any platform' (TechRadar)
+
+SOFTWARE & DEV
+  • Wyoming uranium operation shuts down after cyberattack (The Register)
+  • Company was religious about backups but sinned by leaving them exposed (The Register)
+  • Stale links on UK public sector websites direct visitors to gambling dens (The Register)
+
+BUSINESS & BIG TECH
+  • GTA VI developers vote against unionization (The Verge)
+  • Samsung’s R95H TV shows what RGB LED is capable of (The Verge)
+  • Waymo conquered city streets — why does it keep stumbling on freeways? (The Verge)
+
+GADGETS & CONSUMER
+  • I've tested over 40 phones this year — here are six I'd recommend buying this Black Friday, and two I'd avoid (TechRadar)
+  • Specs for unofficial GTA 6 port are causing panic for some PC gamers (TechRadar)
+  • I’ve tested dozens of Switch 2 controllers and Joy-Con 2 accessories — here are the ones I’d recommend for every kind of player this Black Friday (TechRadar)
+
+— THE BITSTREAM, auto-compiled 2026-11-26 16:14
