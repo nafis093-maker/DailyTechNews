@@ -1,0 +1,40 @@
+Subject: THE BITSTREAM — IT Daily, Fri Nov 27, 2026 (161 stories)
+
+Good morning,
+
+Today's IT briefing — 161 stories across 6 beats. Full edition (with working links) attached as PDF.
+
+LEAD — Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs
+Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and resource lifecycle automation can help reduce these risks. [...]  (BleepingComputer)
+
+AI & MACHINE LEARNING
+  • Native AI integration needs to be more than an afterthought (TechRadar)
+  • Sovereignty’s 80/20 approach: Why businesses need to find the right balance (TechRadar)
+  • Beijing’s AI ambitions are under threat as models may fall behind by up to nine months versus competitors — Chinese AI labs are under heavy fire from export controls, maturing chip stacks and a distillation crackdown (Tom's Hardware)
+
+CYBERSECURITY
+  • Linux users beware — a 12-year-old bug could let hackers gain access to everything you hold dear (TechRadar)
+  • US Air Force cloud platform reportedly hacked in latest federal breach (BleepingComputer)
+  • 'God Mode' Flaws Could Wreak Border-Control Havoc (Dark Reading)
+
+HARDWARE & CHIPS
+  • This clever $11 external PC power switch lets you boot your rig without reaching under your desk (Tom's Hardware)
+  • Save £140 on this Chromebook — Asus Chromebook Plus CX is the fastest laptop under £300 with an Intel Core 3, 8GB RAM, 256GB SSD and a 4-star review (TechRadar)
+  • The ultimate Black Friday 3D printer gift guide (Tom's Hardware)
+
+SOFTWARE & DEV
+  • Netflix Builds Quasar to Measure the Blast Radius of Library API Changes (InfoQ)
+  • Bill for Birmingham's Oracle debacle reaches £128M (The Register)
+  • Lloyds and Bank of Scotland apps fall over on payday (The Register)
+
+BUSINESS & BIG TECH
+  • Some of our favorite Sony, LG, and TCL TVs are over 50 percent off for Black Friday (The Verge)
+  • The SE 3 is the Apple Watch most people should buy on Black Friday (The Verge)
+  • X finally gets parental controls after 20 years (TechCrunch)
+
+GADGETS & CONSUMER
+  • Black Friday Ring doorbell deals: half-price video doorbells and cameras (TechRadar)
+  • Got a new Fire Stick? These 60-second VPN setups unlock global streaming — and Surfshark, NordVPN, and ExpressVPN deals start at $1.99/Month (TechRadar)
+  • Smartphone shipments face another bleak year before modest 2028 comeback (The Register)
+
+— THE BITSTREAM, auto-compiled 2026-11-27 15:58
